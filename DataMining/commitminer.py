@@ -235,26 +235,28 @@ def traverseCommits(repos):
                                         "unsliced_repositories/{}/{}/{}".format(commit.project_name, commit.hash, name),
                                         "unsliced_repositories/{}/{}/old".format(commit.project_name, commit.hash))
                                     for modified_file in commit.modifications:
-                                        if modified_file.change_type.name == "ADD":
+                                        if not (modified_file.filename.endswith(".js") and not modified_file.filename.endswith(".min.js")):
+                                            pass
+                                        elif modified_file.change_type.name == "ADD":
                                             os.remove("unsliced_repositories/{}/{}/old/{}".format(commit.project_name,
                                                                                                   commit.hash,
                                                                                                   modified_file.new_path))
 
-                                        if modified_file.change_type.name == "DELETE" or modified_file.change_type.name == "MODIFY":
+                                        elif modified_file.change_type.name == "DELETE" or modified_file.change_type.name == "MODIFY":
                                             with open("unsliced_repositories/{}/{}/old/{}".format(commit.project_name,
                                                                                                   commit.hash,
                                                                                                   modified_file.new_path),
                                                       'w') as code:
                                                 code.write(modified_file.source_code_before)
 
-                                        if modified_file.change_type.name == "RENAME":
+                                        elif modified_file.change_type.name == "RENAME":
                                             os.rename("unsliced_repositories/{}/{}/old/{}".format(commit.project_name,
                                                                                                   commit.hash,
                                                                                                   modified_file.new_path),
                                                       "unsliced_repositories/{}/{}/old/{}".format(commit.project_name,
                                                                                                   commit.hash,
                                                                                                   modified_file.old_path))
-                                os.remove("{}.zip".format(commit.hash))
+                                    os.remove("{}.zip".format(commit.hash))
                                 # open("unsliced_repositories/{}/{}".format(commit.project_name, commit.hash), 'w')
                                 # new_path = original_path.rename("unsliced_repositories/{}/{}.zip".format(commit.project_name, commit.hash))
                                 # os.rename("{}.zip".format(commit.hash), "unsliced_repositories/{}/{}.zip".format(commit.project_name, commit.hash))
