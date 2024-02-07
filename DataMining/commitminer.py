@@ -256,6 +256,9 @@ def traverseCommits(repos):
                                                       "unsliced_repositories/{}/{}/old/{}".format(commit.project_name,
                                                                                                   commit.hash,
                                                                                                   modified_file.old_path))
+
+                                    remove_unused_files("unsliced_repositories/{}/{}/old".format(commit.project_name, commit.hash))
+                                    remove_unused_files("unsliced_repositories/{}/{}/new".format(commit.project_name, commit.hash))
                                     os.remove("{}.zip".format(commit.hash))
                                 # open("unsliced_repositories/{}/{}".format(commit.project_name, commit.hash), 'w')
                                 # new_path = original_path.rename("unsliced_repositories/{}/{}.zip".format(commit.project_name, commit.hash))
@@ -285,5 +288,32 @@ def traverseCommits(repos):
                 with open('problems.txt', 'a') as file:
                     file.write(repo.address + ", " + str(e) + '\n')
 
+def remove_unused_files(directory):
+    root_dir = r'[path to directory]'  # Directory to scan/delete
+
+    keep = '.js'  # name of file in directory to not be deleted
+
+    for root, dirs, files in os.walk(root_dir):
+        for name in files:
+            # make sure what you want to keep isn't in the full filename
+            if keep not in root and keep not in name:
+                os.unlink(os.path.join(root, name))
+    delete_empty_folders(directory)
+def delete_empty_folders(root):
+    deleted = set()
+
+    for current_dir, subdirs, files in os.walk(root, topdown=False):
+
+        still_has_subdirs = False
+        for subdir in subdirs:
+            if os.path.join(current_dir, subdir) not in deleted:
+                still_has_subdirs = True
+                break
+
+        if not any(files) and not still_has_subdirs:
+            os.rmdir(current_dir)
+            deleted.add(current_dir)
+
+    return deleted
 if __name__ == "__main__":
     createRepositoriesList()
