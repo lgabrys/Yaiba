@@ -1,3 +1,6 @@
+import shlex
+import subprocess
+
 import understand
 import traceback
 import csv
@@ -28,6 +31,7 @@ def get_patch_from_diff(diff):
 
 class BackwardSlicing(object):
     def __init__(self, db, file, buggy_line_num) -> None:
+        self.parent_type = None
         self.file = file
         self.db = db
         self.buggy_line_num = buggy_line_num
@@ -44,8 +48,8 @@ class BackwardSlicing(object):
 
         for lexeme in file.lexer():
             if lexeme.line_begin() == buggy_line_num:
-                if lexeme.token() == 'Identifier' and lexeme.ent() and lexeme.ent().parent() and lexeme.ent().parent().kindname() in [
-                    'Function', 'Class', 'File']:
+                if (lexeme.token() == 'Identifier' and lexeme.ent() and lexeme.ent().parent() and lexeme.ent()
+                        .parent().kindname() in ['Function', 'Class', 'File']):
                     lines = set()
                     for ref in lexeme.ent().parent().refs():
                         if not self.method_start_line_num:
@@ -96,7 +100,7 @@ class BackwardSlicing(object):
         loop_lines = []
         for i in self.loops.items():
             if i[1].get('line_num_begin') and i[1].get('line_num_end') and line_num:
-                if line_num >= int(i[1]['line_num_begin']) and line_num <= int(i[1]['line_num_end']):
+                if int(i[1]['line_num_begin']) <= line_num <= int(i[1]['line_num_end']):
                     loop_lines.append((i[1]['line_num_begin'], i[1]['line_num_end']))
         return loop_lines
 
@@ -104,7 +108,7 @@ class BackwardSlicing(object):
         scope_lines = []
         for i in self.scope.items():
             if i[1].get('line_num_begin') and i[1].get('line_num_end') and line_num:
-                if line_num >= int(i[1]['line_num_begin']) and line_num <= int(i[1]['line_num_end']):
+                if int(i[1]['line_num_begin']) <= line_num <= int(i[1]['line_num_end']):
                     scope_lines.append((i[1]['line_num_begin'], i[1]['line_num_end'], i[1]['is_variable']))
         return scope_lines
 
@@ -112,7 +116,7 @@ class BackwardSlicing(object):
         cond_lines = []
         for i in self.conds.items():
             if i[1].get('line_num_begin') and i[1].get('line_num_end') and line_num:
-                if line_num >= int(i[1]['line_num_begin']) and line_num <= int(i[1]['line_num_end']):
+                if int(i[1]['line_num_begin']) <= line_num <= int(i[1]['line_num_end']):
                     cond_lines.append((i[1]['line_num_begin'], i[1]['line_num_end']))
                     if 'else' in i[0]:
                         self.else_lines.add(i[1]['line_num_begin'])
@@ -167,8 +171,8 @@ class BackwardSlicing(object):
 
         if type(line_numbers) is set:
             updated_set = set()
-            for l in line_numbers:
-                updated_set = _on_add(l).union(updated_set)
+            for line in line_numbers:
+                updated_set = _on_add(line).union(updated_set)
             return updated_set
         else:
             return _on_add(line_numbers)
@@ -179,9 +183,11 @@ class BackwardSlicing(object):
         updated_lines = lines.copy()
 
         for line_num in lines:
+            print(lines)
             key = str(line_num)
 
-            if self.has_function_call and line_num in self.function_variables:  # for variables that are function calls, get the whole scope of the function
+            # for variables that are function calls, get the whole scope of the function
+            if self.has_function_call and line_num in self.function_variables:
                 if key in self.scope and self.scope[key] is not None:
                     i = line_num
                     while i < self.scope[key].get('line_num_begin'):
@@ -190,35 +196,44 @@ class BackwardSlicing(object):
 
             updated_lines = self.on_add_line(line_num).union(updated_lines)
 
-            if key in self.conds and self.conds[key][
-                'line_num_end']:  # if a line is start of a conditional, add the end of the loop (curly brace)
+            # if a line is start of a conditional, add the end of the loop (curly brace)
+            if key in self.conds and self.conds[key]['line_num_end']:
                 line = self.conds[key]['line_num_end']
                 updated_lines.add(line)
-                if self.conds[key].get(
-                        'column_num_begin') and line not in line_to_col_map:  # this takes care of the column end
+                # this takes care of the column end
+                if self.conds[key].get('column_num_begin') and line not in line_to_col_map:
                     line_to_col_map[line] = {
                         'column_num_begin': self.conds[key]['column_num_begin'],
                         'column_num_end': self.conds[key]['column_num_end']
                     }
-            if key in self.scope and self.scope[key] is not None and 'line_num_end' in self.scope[
-                key]:  # if a line falls within a method scope, add the end of the line to the list
+            # if a line falls within a method scope, add the end of the line to the list
+            if key in self.scope and self.scope[key] is not None and 'line_num_end' in self.scope[key]:
                 line = self.scope[key]['line_num_end']
                 updated_lines.add(line)
-                if self.scope[key].get('column_num_begin') and self.scope[key].get(
-                        'column_num_end') and line not in line_to_col_map:  # this takes care of the column end
+                # this takes care of the column end
+                if (self.scope[key].get('column_num_begin') and self.scope[key].get('column_num_end') and line
+                        not in line_to_col_map):
                     line_to_col_map[line] = {
                         'column_num_begin': self.scope[key]['column_num_begin'],
                         'column_num_end': self.scope[key]['column_num_end']
                     }
                 updated_lines.add(self.scope[key]['line_num_end'])
 
-                # check if the lines fall within an if block, then add the else blocks too
+            # check if the lines fall within an if block, then add the else blocks too
             for i in self.conds:
+                # print(i)
                 block_start = int(i.split('_')[-1]) if i.startswith('else_') else int(i)
-                if int(line_num) >= block_start and int(line_num) <= int(self.conds[i]['line_num_end']):
+                # print(block_start)
+                if block_start == 44:
+                    print('line 44:', block_start, int(line_num), int(self.conds[i]['line_num_end']),
+                          block_start <= int(line_num), block_start <= int(self.conds[i]['line_num_end']),
+                          int(line_num) <= int(self.conds[i]['line_num_end']))
+                if block_start <= int(line_num) <= int(self.conds[i]['line_num_end']):
+                    print(block_start)
                     updated_lines.add(block_start)
                     updated_lines.add(self.conds[i]['line_num_end'])
                     if self.conds[i].get('column_num_end'):
+                        print('column end: ', self.conds[i].get('column_num_end'))
                         if block_start in line_to_col_map:
                             del line_to_col_map[block_start]
                         else:
@@ -240,6 +255,7 @@ class BackwardSlicing(object):
             updated_lines = self.on_add_line(self.method_lines[-1]).union(updated_lines)
 
         # this takes care of object start
+        print(lines)
         start_of_line = None
         for line_num in list(updated_lines.copy()):
             for lexeme in self.file.lexer():
@@ -264,6 +280,7 @@ class BackwardSlicing(object):
         unified_lines = self.on_add_line(lines_with_related_vars.difference(updated_lines)).union(
             lines_with_related_vars)
         final_lines = self.find_conditional_by_else(unified_lines)
+        print(final_lines)
         updated_lines = sorted([i for i in final_lines if i])
 
         for line_num in updated_lines:
@@ -273,6 +290,8 @@ class BackwardSlicing(object):
                     if lexeme.token() not in ['Newline']:
                         if line_num in line_to_col_map:
                             if lexeme.column_end() <= line_to_col_map[line_num]['column_num_end']:
+                                statement += lexeme.text()
+                            elif lexeme.text()[0:2] == "//" and line_num == self.buggy_line_num:
                                 statement += lexeme.text()
                         else:
                             statement += lexeme.text()
@@ -299,8 +318,7 @@ class BackwardSlicing(object):
         line_key = str(line_num)
         if line_key not in self.statement_closure:
             self.statement_closure[line_key] = []
-            while lexeme and lexeme.line_begin() < (self.method_lines[-1] + 1) and lexeme.line_begin() > \
-                    self.method_lines[0]:
+            while lexeme and (self.method_lines[-1] + 1) > lexeme.line_begin() > self.method_lines[0]:
                 if lexeme.text() in ['{', '}', 'if', 'else', 'while', 'try',
                                      'catch'] and lexeme.line_begin() == line_num:
                     del self.statement_closure[line_key]
@@ -558,7 +576,7 @@ class BackwardSlicing(object):
             if lexeme.text() in ['{', ')']:
                 builder.append(lexeme.text())
 
-            if (' '.join(builder) == ') {'):
+            if ' '.join(builder) == ') {':
                 line_stack.add(lexeme.line_begin())
                 break
             lexeme = lexeme.previous()
@@ -571,16 +589,23 @@ class BackwardSlicing(object):
             lexeme = lexeme.previous()
 
     def get_related_var_lines(self, line_stack, analyzed_lines, show_use_by=False):
+        # print('Getting related variables...')
         pointer_line = next(iter(line_stack))
         variables = self.get_variable_entities(pointer_line)
 
         while len(line_stack) > 0:
             for var in variables:
+                # print(var)
                 for reference in var.refs():
+                    # print(reference.line(), reference.kind().longname())
                     current_line = reference.line()
-                    if current_line <= self.buggy_line_num and current_line not in analyzed_lines and reference.kind().longname() in REL_KIND:
+                    if (current_line <= self.buggy_line_num and current_line
+                            not in analyzed_lines and reference.kind().longname() in REL_KIND):
                         line_stack.add(current_line)
-
+                    elif (current_line <= self.buggy_line_num and current_line not in analyzed_lines
+                          and reference.kind().longname() == 'web Javascript Define' and pointer_line == self.buggy_line_num):
+                        line_stack.add(current_line)
+            # print(pointer_line)
             analyzed_lines.add(pointer_line)
             line_stack.remove(pointer_line)
             if len(line_stack) > 0:
@@ -590,20 +615,23 @@ class BackwardSlicing(object):
 
     def run(self, file_obj=None, root_path=None, dual_slice=False, js_file_type=None):
         line_stack = set()
+        # print(len(line_stack))
         analyzed_lines = set()
         variables = self.get_variable_entities(self.buggy_line_num)
-
         for var in variables:
             if var.kindname() == 'Function':
+                # print('Function', var)
                 self.has_function_call = True
-            if var.parent() and (
-                    var.parent().name() == 'constructor' or var.parent().kindname() == 'Function'):  # If its a function within a class, record the parent scope
+            # If it's a function within a class, record the parent scope
+            if var.parent() and (var.parent().name() == 'constructor' or var.parent().kindname() == 'Function'):
+                # print('Constructor', var)
                 lexeme = var.lexer().lexeme(var.ref().line(), var.ref().column())
                 self._record_class_scope(lexeme, line_stack)
                 self._record_method_scope(lexeme, line_stack)
             for reference in var.refs():
                 current_line = reference.line()
-                if current_line < self.buggy_line_num and current_line > self.method_start_line_num and current_line not in analyzed_lines and reference.kind().longname() in REL_KIND:
+                if (self.buggy_line_num >= current_line >= self.method_start_line_num and current_line
+                        not in analyzed_lines and reference.kind().longname() in REL_KIND):
                     line_stack.add(current_line)
 
         analyzed_lines.add(self.buggy_line_num)
@@ -648,6 +676,10 @@ class BackwardSlicing(object):
             print('********* End **********')
             return statements
 
+    def extract_control_flow(self, entity):
+        print('********* Extracting Control Flow')
+        pass
+
 def process_single_file(project_path):
     db = understand.open(project_path)
 
@@ -658,7 +690,7 @@ def process_single_file(project_path):
 
 def test_backward_slice():
     db = understand.open('./test-slice-js/test-slice-js.und')
-    with open('./test-slice-js/file_line_map.json') as f:
+    with (open('./test-slice-js/file_line_map.json') as f):
         file_line_map = json.load(f)
         for item in file_line_map:
             file = db.lookup(item['file'])[0]
@@ -667,9 +699,9 @@ def test_backward_slice():
             actual_statements = ''.join([s.strip() for s in actual_statements])
 
             if item['expected_output']:
-                assert actual_statements == item['expected_output'], 'Failed assertion in {} {}'.format(item['file'],
-                                                                                                        item[
-                                                                                                            'line_num'])
+                assert actual_statements == item['expected_output'], (
+                    'Failed assertion in {} {}\n actual statement: {}\n expected output : {}'
+                ).format(item['file'], item['line_num'], actual_statements, item['expected_output'])
                 print('TEST PASSED for file/line', item['file'], item['line_num'])
             else:
                 print('ACTUAL --- ', actual_statements)
@@ -684,8 +716,7 @@ def process_split_projects(project_path, root_sliced_path, dual_slice):
     subdir = project_path.split('/')[-1]
 
     udb = '{}/{}.und'.format(project_path, subdir)
-    folderpath_db_map = {}
-    folderpath_db_map[udb] = project_path
+    folderpath_db_map = {udb: project_path}
 
     files = []
     csv_file_path = project_path + '/' + '{}_bugs_info.csv'.format(subdir)
@@ -763,6 +794,41 @@ def process_split_projects(project_path, root_sliced_path, dual_slice):
 
     print('********** DONE **********')
 
+def find_file_path(imported):
+    pass
+def slice_project(file, depth):
+    if depth == 0:
+        return ""
+    imports = []
+    with open(file.get('buggy_file_path')) as f:
+        for line in f.readline():
+            split = line.split()
+            if split[0] == 'import':
+                imports.append(split[1])  # List of imports TODO
+    for imported in imports:
+        lookup_result = find_file_path(imported)
+        if lookup_result != "":
+            slice_project(lookup_result, depth-1)
+def resolve_dependencies():
+    files = []
+    csv_file_path = project_path + '/' + '{}_bugs_info.csv'.format(subdir)
+
+    with open(csv_file_path) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+
+        for row in csv_reader:
+            files.append({
+                'buggy_line_num': row[2],
+                'buggy_line': row[3],
+                'fixed_line': row[4],
+                'buggy_file': row[0],
+                'fixed_file': row[1],
+                'buggy_file_path': row[5],
+                'fixed_file_path': row[6]
+            })
+    for file in files:
+        slice_project(file)
+
 if __name__ == '__main__':
     project_type = sys.argv[1] or 'test'  # choices = ['single', 'multiple', 'test']
     dual_slice = False if sys.argv[2] == 'False' else True
@@ -780,5 +846,7 @@ if __name__ == '__main__':
             print('Completed slicing for folder {}'.format(dir))
     elif project_type == 'single':
         process_single_file(project_path[0])
+    elif project_type == 'projects':
+        resolve_dependencies()
     else:
         test_backward_slice()  # For testing slicing stability
