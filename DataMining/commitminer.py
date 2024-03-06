@@ -259,7 +259,7 @@ def traverseCommits(repos):
 
                                     remove_unused_files("unsliced_repositories/{}/{}/old".format(commit.project_name, commit.hash))
                                     remove_unused_files("unsliced_repositories/{}/{}/new".format(commit.project_name, commit.hash))
-                                    os.remove("{}.zip".format(commit.hash))
+                                os.remove("{}.zip".format(commit.hash))
                                 # open("unsliced_repositories/{}/{}".format(commit.project_name, commit.hash), 'w')
                                 # new_path = original_path.rename("unsliced_repositories/{}/{}.zip".format(commit.project_name, commit.hash))
                                 # os.rename("{}.zip".format(commit.hash), "unsliced_repositories/{}/{}.zip".format(commit.project_name, commit.hash))
