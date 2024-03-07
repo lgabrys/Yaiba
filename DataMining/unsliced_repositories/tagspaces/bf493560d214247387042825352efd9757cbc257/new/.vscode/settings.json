@@ -1,0 +1,16 @@
+{
+  "flow.pathToFlow": 'node_modules/.bin/flow',
+  "search.exclude": {
+    ".git": true,
+    "cordova": true,
+    "dll": true,
+    "app/dist": true,
+    "web": true,
+    "node_modules": false
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "app": {
+      "name": "TagSpaces EN",
+      "switchToLocationsTooltip": "Switch to Location",
+      "toggleLeftPanelTooltip": "Toggle Left Panel",
+      "switchLanguageTooltip": "Switch language"      
+    }
+}

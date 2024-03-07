@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <Loading> render Loading 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

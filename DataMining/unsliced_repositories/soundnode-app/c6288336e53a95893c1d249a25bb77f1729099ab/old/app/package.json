@@ -1,0 +1,26 @@
+{
+  "name": "Soundnode-App",
+  "version": "0.5.7",
+  "description": "Soundnode App is the Soundcloud for desktop",
+  "main": "./index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Lancaster",
+  "license": "GNU",
+  "window": {
+    "title": "Soundnode App",
+    "icon": "./soundnode.png",
+    "toolbar": false,
+    "frame": false,
+    "width": 1180,
+    "height": 755,
+    "min_width": 350,
+    "min_height": 710,
+    "resizable": true,
+    "position": "center",
+    "single-instance": true,
+    "node-remote": "localhost",
+    "show": false
+  }
+}

@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <DashBoard> render DashBoard 1`] = `
+<DashbordWrapper>
+  <Private
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "linear-gradient(to right, undefined Infinity%, #fff Infinity%)",
+      }
+    }
+    title="Click to filter private snippets"
+  >
+    <h3>
+      Private
+    </h3>
+    <span>
+      45
+    </span>
+  </Private>
+  <Public
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "linear-gradient(to right, undefined -Infinity%, #fff -Infinity%)",
+      }
+    }
+    title="Click to filter public snippets"
+  >
+    <h3>
+      Public
+    </h3>
+    <span>
+      -45
+    </span>
+  </Public>
+  <Starred
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "linear-gradient(to right, undefined Infinity%, #fff Infinity%)",
+      }
+    }
+    title="Click to filter starred snippets"
+  >
+    <h3>
+      Starred
+    </h3>
+    <span>
+      6
+    </span>
+  </Starred>
+  <Truncated
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "linear-gradient(to right, undefined NaN%, #fff NaN%)",
+      }
+    }
+    title="Click to filter snippets with large files"
+  >
+    <h3>
+      Large
+    </h3>
+    <span />
+  </Truncated>
+  <Untagged
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "linear-gradient(to right, undefined NaN%, #fff NaN%)",
+      }
+    }
+    title="Click to filter snippets with no tags"
+  >
+    <h3>
+      Untagged
+    </h3>
+    <span />
+  </Untagged>
+  <Untitled
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "linear-gradient(to right, undefined NaN%, #fff NaN%)",
+      }
+    }
+    title="Click to filter snippets with no description"
+  >
+    <h3>
+      Untitled
+    </h3>
+    <span>
+      0
+    </span>
+  </Untitled>
+  <Language>
+    <h3>
+      Languages:
+    </h3>
+    <ScrollPad
+      pad="20px"
+      rtl={false}
+    >
+      <div>
+        <WithTheme(Connect(Languagelist)) />
+      </div>
+    </ScrollPad>
+  </Language>
+  <Stars>
+    <HeadingWithSearch>
+      <h3>
+        Starred:
+      </h3>
+      <div>
+        <Icon
+          size="22"
+          type="search"
+        />
+        <StyledInput
+          onChange={[Function]}
+          placeholder="Search starred"
+          type="search"
+        />
+      </div>
+    </HeadingWithSearch>
+    <ScrollPad
+      pad="20px"
+      rtl={false}
+    >
+      <ul />
+    </ScrollPad>
+  </Stars>
+  <Tags>
+    <HeadingWithSearch>
+      <h3>
+        Tags:
+      </h3>
+      <div>
+        <Icon
+          size="22"
+          type="search"
+        />
+        <StyledInput
+          onChange={[Function]}
+          placeholder="Search tags"
+          type="search"
+        />
+      </div>
+    </HeadingWithSearch>
+    <ScrollPad
+      pad="20px"
+      rtl={false}
+    >
+      <div>
+        <WithTheme(Connect(Taglist))
+          searchTags=""
+        />
+      </div>
+    </ScrollPad>
+  </Tags>
+</DashbordWrapper>
+`;

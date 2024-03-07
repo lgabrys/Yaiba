@@ -1,0 +1,3128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <EditorSettings> render EditorSettings 1`] = `
+<EditorSettings
+  changeSettings={[MockFunction]}
+>
+  <div>
+    <H4>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "H4-grEgbN",
+              "isStatic": false,
+              "lastClassName": "heiWZL",
+              "rules": Array [
+                "color:",
+                [Function],
+                ";border-bottom:1px dashed ",
+                [Function],
+                ";padding-bottom:20px;",
+              ],
+            },
+            "displayName": "H4",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "H4-grEgbN",
+            "target": "h4",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <h4
+          className="H4-grEgbN heiWZL"
+        >
+          Editor settings:
+        </h4>
+      </StyledComponent>
+    </H4>
+    <Wrapper>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Wrapper-dyuznp",
+              "isStatic": true,
+              "lastClassName": "ciFETj",
+              "rules": Array [
+                "display:flex;justify-content:space-between;",
+              ],
+            },
+            "displayName": "Wrapper",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Wrapper-dyuznp",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="Wrapper-dyuznp ciFETj"
+        >
+          <Section>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Section-hLnjej",
+                    "isStatic": true,
+                    "lastClassName": "bYTpNg",
+                    "rules": Array [
+                      "width:45%;",
+                    ],
+                  },
+                  "displayName": "Section",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Section-hLnjej",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="Section-hLnjej bYTpNg"
+              >
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Theme:
+                            </span>
+                            <StyledISelect
+                              onChange={[Function]}
+                              value="vs"
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "StyledISelect-ilVKaP",
+                                      "isStatic": true,
+                                      "lastClassName": "jUNncK",
+                                      "rules": Array [
+                                        "width:158px;",
+                                      ],
+                                    },
+                                    "displayName": "StyledISelect",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "StyledISelect-ilVKaP",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                    Symbol(Symbol.hasInstance): [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                onChange={[Function]}
+                                value="vs"
+                              >
+                                <Select
+                                  className="StyledISelect-ilVKaP jUNncK"
+                                  onChange={[Function]}
+                                  value="vs"
+                                >
+                                  <SelectInput
+                                    className="StyledISelect-ilVKaP jUNncK"
+                                    defaultValue="vs"
+                                    onChange={[Function]}
+                                  >
+                                    <StyledComponent
+                                      className="StyledISelect-ilVKaP jUNncK"
+                                      defaultValue="vs"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "SelectInput-cUOTCZ",
+                                            "isStatic": false,
+                                            "lastClassName": "bNutMS",
+                                            "rules": Array [
+                                              "-webkit-appearance:none;border:1px solid ",
+                                              [Function],
+                                              ";line-height:1;outline:0;color:",
+                                              [Function],
+                                              ";padding:5px;border-radius:0;background:linear-gradient(",
+                                              [Function],
+                                              ",",
+                                              [Function],
+                                              ") no-repeat,linear-gradient(-135deg,rgba(255,255,255,0) 50%,white 50%) no-repeat,linear-gradient(-225deg,rgba(255,255,255,0) 50%,white 50%) no-repeat,linear-gradient(",
+                                              [Function],
+                                              ",",
+                                              [Function],
+                                              ") no-repeat;background-color:#fff;background-size:1px 100%,20px 20px,20px 20px,20px 15px;background-position:right 20px center,right bottom,right bottom,right bottom;border:none;border-bottom:1px solid ",
+                                              [Function],
+                                              ";option{background-color:white;}",
+                                            ],
+                                          },
+                                          "displayName": "SelectInput",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "SelectInput-cUOTCZ",
+                                          "target": "select",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      onChange={[Function]}
+                                    >
+                                      <select
+                                        className="StyledISelect-ilVKaP jUNncK SelectInput-cUOTCZ bNutMS"
+                                        defaultValue="vs"
+                                        onChange={[Function]}
+                                      >
+                                        <option
+                                          value="vs"
+                                        >
+                                          vs light
+                                        </option>
+                                        <option
+                                          value="vs-dark"
+                                        >
+                                          vs dark
+                                        </option>
+                                        <option
+                                          value="hc-black"
+                                        >
+                                          hc dark
+                                        </option>
+                                      </select>
+                                    </StyledComponent>
+                                  </SelectInput>
+                                </Select>
+                              </StyledComponent>
+                            </StyledISelect>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Minimap:
+                            </span>
+                            <Checkbox
+                              checked={false}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={false}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={false}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={false}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Code lens:
+                            </span>
+                            <Checkbox
+                              checked={false}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={false}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={false}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={false}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Line Numbers:
+                            </span>
+                            <Checkbox
+                              checked={true}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={true}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={true}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Format On Paste:
+                            </span>
+                            <Checkbox
+                              checked={true}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={true}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={true}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Format On Type:
+                            </span>
+                            <Checkbox
+                              checked={true}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={true}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={true}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Select On Line Numbers:
+                            </span>
+                            <Checkbox
+                              checked={false}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={false}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={false}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={false}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+              </div>
+            </StyledComponent>
+          </Section>
+          <Section>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Section-hLnjej",
+                    "isStatic": true,
+                    "lastClassName": "bYTpNg",
+                    "rules": Array [
+                      "width:45%;",
+                    ],
+                  },
+                  "displayName": "Section",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Section-hLnjej",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="Section-hLnjej bYTpNg"
+              >
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Font Family:
+                            </span>
+                            <StyledInput
+                              onChange={[Function]}
+                              type="text"
+                              value="monospace"
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "StyledInput-hbWqm",
+                                      "isStatic": true,
+                                      "lastClassName": "ciXLeq",
+                                      "rules": Array [
+                                        "padding:0 5px;width:148px;",
+                                      ],
+                                    },
+                                    "displayName": "StyledInput",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "StyledInput-hbWqm",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                    Symbol(Symbol.hasInstance): [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                onChange={[Function]}
+                                type="text"
+                                value="monospace"
+                              >
+                                <Input
+                                  className="StyledInput-hbWqm ciXLeq"
+                                  onChange={[Function]}
+                                  type="text"
+                                  value="monospace"
+                                >
+                                  <StyledInput
+                                    className="StyledInput-hbWqm ciXLeq"
+                                    defaultValue="monospace"
+                                    disabled={false}
+                                    onChange={[Function]}
+                                    title=""
+                                    type="text"
+                                  >
+                                    <StyledComponent
+                                      className="StyledInput-hbWqm ciXLeq"
+                                      defaultValue="monospace"
+                                      disabled={false}
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "StyledInput-kKifnt",
+                                            "isStatic": false,
+                                            "lastClassName": "jgtHRQ",
+                                            "rules": Array [
+                                              "border:none;border-radius:0;height:30px;color:",
+                                              [Function],
+                                              ";border-bottom:1px solid ",
+                                              [Function],
+                                              ";background:",
+                                              [Function],
+                                              ";&:focus{outline:none;}::placeholder{color:",
+                                              [Function],
+                                              ";opacity:1;}",
+                                            ],
+                                          },
+                                          "displayName": "StyledInput",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "StyledInput-kKifnt",
+                                          "target": "input",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      onChange={[Function]}
+                                      title=""
+                                      type="text"
+                                    >
+                                      <input
+                                        className="StyledInput-hbWqm ciXLeq StyledInput-kKifnt jgtHRQ"
+                                        defaultValue="monospace"
+                                        disabled={false}
+                                        onChange={[Function]}
+                                        title=""
+                                        type="text"
+                                      />
+                                    </StyledComponent>
+                                  </StyledInput>
+                                </Input>
+                              </StyledComponent>
+                            </StyledInput>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Font Size:
+                            </span>
+                            <StyledInput
+                              onChange={[Function]}
+                              type="number"
+                              value={12}
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "StyledInput-hbWqm",
+                                      "isStatic": true,
+                                      "lastClassName": "ciXLeq",
+                                      "rules": Array [
+                                        "padding:0 5px;width:148px;",
+                                      ],
+                                    },
+                                    "displayName": "StyledInput",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "StyledInput-hbWqm",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                    Symbol(Symbol.hasInstance): [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                onChange={[Function]}
+                                type="number"
+                                value={12}
+                              >
+                                <Input
+                                  className="StyledInput-hbWqm ciXLeq"
+                                  onChange={[Function]}
+                                  type="number"
+                                  value={12}
+                                >
+                                  <StyledInput
+                                    className="StyledInput-hbWqm ciXLeq"
+                                    defaultValue={12}
+                                    disabled={false}
+                                    onChange={[Function]}
+                                    title=""
+                                    type="number"
+                                  >
+                                    <StyledComponent
+                                      className="StyledInput-hbWqm ciXLeq"
+                                      defaultValue={12}
+                                      disabled={false}
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "StyledInput-kKifnt",
+                                            "isStatic": false,
+                                            "lastClassName": "jgtHRQ",
+                                            "rules": Array [
+                                              "border:none;border-radius:0;height:30px;color:",
+                                              [Function],
+                                              ";border-bottom:1px solid ",
+                                              [Function],
+                                              ";background:",
+                                              [Function],
+                                              ";&:focus{outline:none;}::placeholder{color:",
+                                              [Function],
+                                              ";opacity:1;}",
+                                            ],
+                                          },
+                                          "displayName": "StyledInput",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "StyledInput-kKifnt",
+                                          "target": "input",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      onChange={[Function]}
+                                      title=""
+                                      type="number"
+                                    >
+                                      <input
+                                        className="StyledInput-hbWqm ciXLeq StyledInput-kKifnt jgtHRQ"
+                                        defaultValue={12}
+                                        disabled={false}
+                                        onChange={[Function]}
+                                        title=""
+                                        type="number"
+                                      />
+                                    </StyledComponent>
+                                  </StyledInput>
+                                </Input>
+                              </StyledComponent>
+                            </StyledInput>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Line height:
+                            </span>
+                            <StyledInput
+                              onChange={[Function]}
+                              type="number"
+                              value={21}
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "StyledInput-hbWqm",
+                                      "isStatic": true,
+                                      "lastClassName": "ciXLeq",
+                                      "rules": Array [
+                                        "padding:0 5px;width:148px;",
+                                      ],
+                                    },
+                                    "displayName": "StyledInput",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "StyledInput-hbWqm",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                    Symbol(Symbol.hasInstance): [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                onChange={[Function]}
+                                type="number"
+                                value={21}
+                              >
+                                <Input
+                                  className="StyledInput-hbWqm ciXLeq"
+                                  onChange={[Function]}
+                                  type="number"
+                                  value={21}
+                                >
+                                  <StyledInput
+                                    className="StyledInput-hbWqm ciXLeq"
+                                    defaultValue={21}
+                                    disabled={false}
+                                    onChange={[Function]}
+                                    title=""
+                                    type="number"
+                                  >
+                                    <StyledComponent
+                                      className="StyledInput-hbWqm ciXLeq"
+                                      defaultValue={21}
+                                      disabled={false}
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "StyledInput-kKifnt",
+                                            "isStatic": false,
+                                            "lastClassName": "jgtHRQ",
+                                            "rules": Array [
+                                              "border:none;border-radius:0;height:30px;color:",
+                                              [Function],
+                                              ";border-bottom:1px solid ",
+                                              [Function],
+                                              ";background:",
+                                              [Function],
+                                              ";&:focus{outline:none;}::placeholder{color:",
+                                              [Function],
+                                              ";opacity:1;}",
+                                            ],
+                                          },
+                                          "displayName": "StyledInput",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "StyledInput-kKifnt",
+                                          "target": "input",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      onChange={[Function]}
+                                      title=""
+                                      type="number"
+                                    >
+                                      <input
+                                        className="StyledInput-hbWqm ciXLeq StyledInput-kKifnt jgtHRQ"
+                                        defaultValue={21}
+                                        disabled={false}
+                                        onChange={[Function]}
+                                        title=""
+                                        type="number"
+                                      />
+                                    </StyledComponent>
+                                  </StyledInput>
+                                </Input>
+                              </StyledComponent>
+                            </StyledInput>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Font Ligatures:
+                            </span>
+                            <Checkbox
+                              checked={false}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={false}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={false}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={false}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Cursor Blinking:
+                            </span>
+                            <StyledISelect
+                              onChange={[Function]}
+                              value="blink"
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "StyledISelect-ilVKaP",
+                                      "isStatic": true,
+                                      "lastClassName": "jUNncK",
+                                      "rules": Array [
+                                        "width:158px;",
+                                      ],
+                                    },
+                                    "displayName": "StyledISelect",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "StyledISelect-ilVKaP",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                    Symbol(Symbol.hasInstance): [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                onChange={[Function]}
+                                value="blink"
+                              >
+                                <Select
+                                  className="StyledISelect-ilVKaP jUNncK"
+                                  onChange={[Function]}
+                                  value="blink"
+                                >
+                                  <SelectInput
+                                    className="StyledISelect-ilVKaP jUNncK"
+                                    defaultValue="blink"
+                                    onChange={[Function]}
+                                  >
+                                    <StyledComponent
+                                      className="StyledISelect-ilVKaP jUNncK"
+                                      defaultValue="blink"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "SelectInput-cUOTCZ",
+                                            "isStatic": false,
+                                            "lastClassName": "bNutMS",
+                                            "rules": Array [
+                                              "-webkit-appearance:none;border:1px solid ",
+                                              [Function],
+                                              ";line-height:1;outline:0;color:",
+                                              [Function],
+                                              ";padding:5px;border-radius:0;background:linear-gradient(",
+                                              [Function],
+                                              ",",
+                                              [Function],
+                                              ") no-repeat,linear-gradient(-135deg,rgba(255,255,255,0) 50%,white 50%) no-repeat,linear-gradient(-225deg,rgba(255,255,255,0) 50%,white 50%) no-repeat,linear-gradient(",
+                                              [Function],
+                                              ",",
+                                              [Function],
+                                              ") no-repeat;background-color:#fff;background-size:1px 100%,20px 20px,20px 20px,20px 15px;background-position:right 20px center,right bottom,right bottom,right bottom;border:none;border-bottom:1px solid ",
+                                              [Function],
+                                              ";option{background-color:white;}",
+                                            ],
+                                          },
+                                          "displayName": "SelectInput",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "SelectInput-cUOTCZ",
+                                          "target": "select",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      onChange={[Function]}
+                                    >
+                                      <select
+                                        className="StyledISelect-ilVKaP jUNncK SelectInput-cUOTCZ bNutMS"
+                                        defaultValue="blink"
+                                        onChange={[Function]}
+                                      >
+                                        <option
+                                          value="blink"
+                                        >
+                                          blink
+                                        </option>
+                                        <option
+                                          value="smooth"
+                                        >
+                                          smooth
+                                        </option>
+                                        <option
+                                          value="phase"
+                                        >
+                                          phase
+                                        </option>
+                                        <option
+                                          value="expand"
+                                        >
+                                          expand
+                                        </option>
+                                        <option
+                                          value="solid"
+                                        >
+                                          solid
+                                        </option>
+                                      </select>
+                                    </StyledComponent>
+                                  </SelectInput>
+                                </Select>
+                              </StyledComponent>
+                            </StyledISelect>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              World wrap:
+                            </span>
+                            <StyledISelect
+                              onChange={[Function]}
+                              value="bounded"
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "StyledISelect-ilVKaP",
+                                      "isStatic": true,
+                                      "lastClassName": "jUNncK",
+                                      "rules": Array [
+                                        "width:158px;",
+                                      ],
+                                    },
+                                    "displayName": "StyledISelect",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "StyledISelect-ilVKaP",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                    Symbol(Symbol.hasInstance): [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                onChange={[Function]}
+                                value="bounded"
+                              >
+                                <Select
+                                  className="StyledISelect-ilVKaP jUNncK"
+                                  onChange={[Function]}
+                                  value="bounded"
+                                >
+                                  <SelectInput
+                                    className="StyledISelect-ilVKaP jUNncK"
+                                    defaultValue="bounded"
+                                    onChange={[Function]}
+                                  >
+                                    <StyledComponent
+                                      className="StyledISelect-ilVKaP jUNncK"
+                                      defaultValue="bounded"
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "SelectInput-cUOTCZ",
+                                            "isStatic": false,
+                                            "lastClassName": "bNutMS",
+                                            "rules": Array [
+                                              "-webkit-appearance:none;border:1px solid ",
+                                              [Function],
+                                              ";line-height:1;outline:0;color:",
+                                              [Function],
+                                              ";padding:5px;border-radius:0;background:linear-gradient(",
+                                              [Function],
+                                              ",",
+                                              [Function],
+                                              ") no-repeat,linear-gradient(-135deg,rgba(255,255,255,0) 50%,white 50%) no-repeat,linear-gradient(-225deg,rgba(255,255,255,0) 50%,white 50%) no-repeat,linear-gradient(",
+                                              [Function],
+                                              ",",
+                                              [Function],
+                                              ") no-repeat;background-color:#fff;background-size:1px 100%,20px 20px,20px 20px,20px 15px;background-position:right 20px center,right bottom,right bottom,right bottom;border:none;border-bottom:1px solid ",
+                                              [Function],
+                                              ";option{background-color:white;}",
+                                            ],
+                                          },
+                                          "displayName": "SelectInput",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "SelectInput-cUOTCZ",
+                                          "target": "select",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      onChange={[Function]}
+                                    >
+                                      <select
+                                        className="StyledISelect-ilVKaP jUNncK SelectInput-cUOTCZ bNutMS"
+                                        defaultValue="bounded"
+                                        onChange={[Function]}
+                                      >
+                                        <option
+                                          value="off"
+                                        >
+                                          off
+                                        </option>
+                                        <option
+                                          value="on"
+                                        >
+                                          on
+                                        </option>
+                                        <option
+                                          value="bounded"
+                                        >
+                                          bounded
+                                        </option>
+                                        <option
+                                          value="wordWrapColumn"
+                                        >
+                                          wordWrapColumn
+                                        </option>
+                                      </select>
+                                    </StyledComponent>
+                                  </SelectInput>
+                                </Select>
+                              </StyledComponent>
+                            </StyledISelect>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              World wrap column size:
+                            </span>
+                            <StyledInput
+                              onChange={[Function]}
+                              type="number"
+                              value={80}
+                            >
+                              <StyledComponent
+                                forwardedComponent={
+                                  Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "attrs": Array [],
+                                    "componentStyle": ComponentStyle {
+                                      "componentId": "StyledInput-hbWqm",
+                                      "isStatic": true,
+                                      "lastClassName": "ciXLeq",
+                                      "rules": Array [
+                                        "padding:0 5px;width:148px;",
+                                      ],
+                                    },
+                                    "displayName": "StyledInput",
+                                    "foldedComponentIds": Array [],
+                                    "render": [Function],
+                                    "styledComponentId": "StyledInput-hbWqm",
+                                    "target": [Function],
+                                    "toString": [Function],
+                                    "warnTooManyClasses": [Function],
+                                    "withComponent": [Function],
+                                    Symbol(Symbol.hasInstance): [Function],
+                                  }
+                                }
+                                forwardedRef={null}
+                                onChange={[Function]}
+                                type="number"
+                                value={80}
+                              >
+                                <Input
+                                  className="StyledInput-hbWqm ciXLeq"
+                                  onChange={[Function]}
+                                  type="number"
+                                  value={80}
+                                >
+                                  <StyledInput
+                                    className="StyledInput-hbWqm ciXLeq"
+                                    defaultValue={80}
+                                    disabled={false}
+                                    onChange={[Function]}
+                                    title=""
+                                    type="number"
+                                  >
+                                    <StyledComponent
+                                      className="StyledInput-hbWqm ciXLeq"
+                                      defaultValue={80}
+                                      disabled={false}
+                                      forwardedComponent={
+                                        Object {
+                                          "$$typeof": Symbol(react.forward_ref),
+                                          "attrs": Array [],
+                                          "componentStyle": ComponentStyle {
+                                            "componentId": "StyledInput-kKifnt",
+                                            "isStatic": false,
+                                            "lastClassName": "jgtHRQ",
+                                            "rules": Array [
+                                              "border:none;border-radius:0;height:30px;color:",
+                                              [Function],
+                                              ";border-bottom:1px solid ",
+                                              [Function],
+                                              ";background:",
+                                              [Function],
+                                              ";&:focus{outline:none;}::placeholder{color:",
+                                              [Function],
+                                              ";opacity:1;}",
+                                            ],
+                                          },
+                                          "displayName": "StyledInput",
+                                          "foldedComponentIds": Array [],
+                                          "render": [Function],
+                                          "styledComponentId": "StyledInput-kKifnt",
+                                          "target": "input",
+                                          "toString": [Function],
+                                          "warnTooManyClasses": [Function],
+                                          "withComponent": [Function],
+                                        }
+                                      }
+                                      forwardedRef={null}
+                                      onChange={[Function]}
+                                      title=""
+                                      type="number"
+                                    >
+                                      <input
+                                        className="StyledInput-hbWqm ciXLeq StyledInput-kKifnt jgtHRQ"
+                                        defaultValue={80}
+                                        disabled={false}
+                                        onChange={[Function]}
+                                        title=""
+                                        type="number"
+                                      />
+                                    </StyledComponent>
+                                  </StyledInput>
+                                </Input>
+                              </StyledComponent>
+                            </StyledInput>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+              </div>
+            </StyledComponent>
+          </Section>
+        </div>
+      </StyledComponent>
+    </Wrapper>
+    <H4>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "H4-grEgbN",
+              "isStatic": false,
+              "lastClassName": "heiWZL",
+              "rules": Array [
+                "color:",
+                [Function],
+                ";border-bottom:1px dashed ",
+                [Function],
+                ";padding-bottom:20px;",
+              ],
+            },
+            "displayName": "H4",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "H4-grEgbN",
+            "target": "h4",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <h4
+          className="H4-grEgbN heiWZL"
+        >
+          Preview settings:
+        </h4>
+      </StyledComponent>
+    </H4>
+    <Wrapper>
+      <StyledComponent
+        forwardedComponent={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "Wrapper-dyuznp",
+              "isStatic": true,
+              "lastClassName": "ciFETj",
+              "rules": Array [
+                "display:flex;justify-content:space-between;",
+              ],
+            },
+            "displayName": "Wrapper",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "Wrapper-dyuznp",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+      >
+        <div
+          className="Wrapper-dyuznp ciFETj"
+        >
+          <Section>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Section-hLnjej",
+                    "isStatic": true,
+                    "lastClassName": "bYTpNg",
+                    "rules": Array [
+                      "width:45%;",
+                    ],
+                  },
+                  "displayName": "Section",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Section-hLnjej",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="Section-hLnjej bYTpNg"
+              >
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Preview HTML files:
+                            </span>
+                            <Checkbox
+                              checked={false}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={false}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={false}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={false}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Preview Image files:
+                            </span>
+                            <Checkbox
+                              checked={true}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={true}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={true}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Preview PDF files:
+                            </span>
+                            <Checkbox
+                              checked={true}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={true}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={true}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Preview CSV/TSV files:
+                            </span>
+                            <Checkbox
+                              checked={true}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={true}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={true}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+              </div>
+            </StyledComponent>
+          </Section>
+          <Section>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "Section-hLnjej",
+                    "isStatic": true,
+                    "lastClassName": "bYTpNg",
+                    "rules": Array [
+                      "width:45%;",
+                    ],
+                  },
+                  "displayName": "Section",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "Section-hLnjej",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="Section-hLnjej bYTpNg"
+              >
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Preview GeoJSON:
+                            </span>
+                            <Checkbox
+                              checked={true}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={true}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={true}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Preview Markdown files:
+                            </span>
+                            <Checkbox
+                              checked={true}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={true}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={true}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+                <Field>
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "Field-eieelf",
+                          "isStatic": true,
+                          "lastClassName": "fXkcEo",
+                          "rules": Array [
+                            "height:35px;",
+                          ],
+                        },
+                        "displayName": "Field",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "Field-eieelf",
+                        "target": "div",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                  >
+                    <div
+                      className="Field-eieelf fXkcEo"
+                    >
+                      <Label>
+                        <StyledComponent
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "Label-ghyrbC",
+                                "isStatic": true,
+                                "lastClassName": "kZMEPD",
+                                "rules": Array [
+                                  "display:flex;justify-content:space-between;align-items:baseline;margin-top:10px;",
+                                ],
+                              },
+                              "displayName": "Label",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "Label-ghyrbC",
+                              "target": "div",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                        >
+                          <div
+                            className="Label-ghyrbC kZMEPD"
+                          >
+                            <span>
+                              Preview AsciiDoc files:
+                            </span>
+                            <Checkbox
+                              checked={true}
+                              onChange={[Function]}
+                            >
+                              <Box
+                                defaultChecked={true}
+                                onChange={[Function]}
+                                type="checkbox"
+                              >
+                                <StyledComponent
+                                  defaultChecked={true}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "Box-jLJQJw",
+                                        "isStatic": false,
+                                        "lastClassName": "cusFML",
+                                        "rules": Array [
+                                          "-webkit-font-smoothing:antialiased;text-rendering:optimizeSpeed;width:15px;height:15px;margin-right:1px;display:block;float:left;position:relative;cursor:pointer;-webkit-appearance:none;outline:none;:after{content:\\"\\";vertical-align:middle;text-align:center;line-height:15px;position:absolute;cursor:pointer;height:15px;width:15px;left:0;top:0;font-size:10px;border:1px solid ",
+                                          [Function],
+                                          ";background:#fff;}:checked:after{content:'\\\\2714';color:",
+                                          [Function],
+                                          ";}",
+                                        ],
+                                      },
+                                      "displayName": "Box",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "Box-jLJQJw",
+                                      "target": "input",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                >
+                                  <input
+                                    className="Box-jLJQJw cusFML"
+                                    defaultChecked={true}
+                                    onChange={[Function]}
+                                    type="checkbox"
+                                  />
+                                </StyledComponent>
+                              </Box>
+                            </Checkbox>
+                          </div>
+                        </StyledComponent>
+                      </Label>
+                    </div>
+                  </StyledComponent>
+                </Field>
+              </div>
+            </StyledComponent>
+          </Section>
+        </div>
+      </StyledComponent>
+    </Wrapper>
+  </div>
+</EditorSettings>
+`;

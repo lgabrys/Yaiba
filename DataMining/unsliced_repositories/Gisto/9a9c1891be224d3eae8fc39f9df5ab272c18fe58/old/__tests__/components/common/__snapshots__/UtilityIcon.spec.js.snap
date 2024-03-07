@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <UtilityIcon> render UtilityIcon 1`] = `
+<UtilityIcon
+  className="UtilityIcon"
+  color="red"
+  dropdown={true}
+  onClick={[MockFunction]}
+  size={20}
+  theme={
+    Object {
+      "ligten": [Function],
+      "theme": Object {
+        "baseAppColor": "#3F84A8",
+        "bg": "#ebf2f6",
+        "borderColor": "#ccc",
+        "boxShadow": "#555",
+        "colorDanger": "tomato",
+        "colorSuccess": "cadetblue",
+        "colorWarning": "#e0b01e",
+        "disabledColor": "#ccc",
+        "headerBgLightest": "#cfe0e9",
+        "headerColor": "#fff",
+        "lightBorderColor": "#f2f2f2",
+        "lightText": "#fff",
+        "textColor": "#555",
+      },
+      "tintBackground": [Function],
+      "tintHeaderBgLightest": [Function],
+    }
+  }
+  title="UtilityIcon"
+  type="menu"
+>
+  <Util
+    className="UtilityIcon"
+    color="red"
+    onClick={[Function]}
+    title="UtilityIcon"
+  >
+    <StyledComponent
+      className="UtilityIcon"
+      color="red"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Util-iuPPCj",
+            "isStatic": false,
+            "lastClassName": "lcecbi",
+            "rules": Array [
+              "border-left:1px solid ",
+              [Function],
+              ";height:50px;display:inline-block;text-align:center;line-height:50px;color:",
+              [Function],
+              ";cursor:pointer;position:relative;background:",
+              [Function],
+              ";",
+              [Function],
+              " ",
+              [Function],
+              " &:hover{background:",
+              [Function],
+              ";}div.list{",
+              "position:absolute;background:",
+              [Function],
+              ";right:0;top:51px;border:1px solid ",
+              [Function],
+              ";line-height:21px;list-style-type:none;margin:0;padding:0;box-shadow:0 5px 10px ",
+              [Function],
+              ";z-index:4;overflow:auto;max-height:65vh;color:",
+              [Function],
+              ";cursor:default;",
+              ";padding:10px 20px;}ul{",
+              "position:absolute;background:",
+              [Function],
+              ";right:0;top:51px;border:1px solid ",
+              [Function],
+              ";line-height:21px;list-style-type:none;margin:0;padding:0;box-shadow:0 5px 10px ",
+              [Function],
+              ";z-index:4;overflow:auto;max-height:65vh;color:",
+              [Function],
+              ";cursor:default;",
+              " li{border-bottom:1px dotted ",
+              [Function],
+              ";margin:0;white-space:nowrap;text-align:left;> *{padding:5px 20px;display:block;}&:hover{background:",
+              [Function],
+              ";cursor:pointer;}&:last-child{border:none;}}}",
+            ],
+          },
+          "displayName": "Util",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Util-iuPPCj",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      onClick={[Function]}
+      title="UtilityIcon"
+    >
+      <span
+        className="UtilityIcon Util-iuPPCj lcecbi"
+        color="red"
+        onClick={[Function]}
+        title="UtilityIcon"
+      >
+        <Icon
+          color="red"
+          size={20}
+          type="menu"
+        >
+          <StyledComponent
+            color="red"
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Icon-cFRQJw",
+                  "isStatic": false,
+                  "lastClassName": "czhNSD",
+                  "rules": Array [
+                    "background-color:",
+                    [Function],
+                    ";display:inline-block;vertical-align:middle;width:",
+                    [Function],
+                    "px;height:",
+                    [Function],
+                    "px;mask-image:url('src/icons/",
+                    "ionic",
+                    "/",
+                    [Function],
+                    "');mask-repeat:no-repeat;mask-size:contain;mask-position:center;",
+                    [Function],
+                    " ",
+                    [Function],
+                    " ",
+                    [Function],
+                  ],
+                },
+                "displayName": "Icon",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Icon-cFRQJw",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            size={20}
+            type="menu"
+          >
+            <span
+              className="Icon-cFRQJw czhNSD"
+              color="red"
+              size={20}
+              type="menu"
+            />
+          </StyledComponent>
+        </Icon>
+         
+      </span>
+    </StyledComponent>
+  </Util>
+</UtilityIcon>
+`;

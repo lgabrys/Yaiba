@@ -1,0 +1,72 @@
+{
+  "name": "cheerio",
+  "version": "1.0.0-rc.3",
+  "description": "Tiny, fast, and elegant implementation of core jQuery designed specifically for the server",
+  "author": "Matt Mueller <mattmuelle@gmail.com> (mat.io)",
+  "license": "MIT",
+  "keywords": [
+    "htmlparser",
+    "jquery",
+    "selector",
+    "scraper",
+    "parser",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cheeriojs/cheerio.git"
+  },
+  "main": "./index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "dependencies": {
+    "css-select": "~2.1.0",
+    "dom-serializer": "~1.0.1",
+    "entities": "~2.0.2",
+    "htmlparser2": "^4.1.0",
+    "lodash": "^4.17.11",
+    "parse5": "^6.0.0",
+    "parse5-htmlparser2-tree-adapter": "^6.0.0"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "coveralls": "^3.0.2",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-jsdoc": "^25.0.1",
+    "expect.js": "~0.3.1",
+    "husky": "^4.2.5",
+    "jquery": "^3.0.0",
+    "jsdoc": "https://github.com/cheeriojs/jsdoc.git#exports-mixin",
+    "jsdom": "^16.2.2",
+    "lint-staged": "^10.2.2",
+    "mocha": "^7.1.2",
+    "nyc": "^15.0.1",
+    "prettier": "^2.0.5",
+    "xyz": "~4.0.0"
+  },
+  "scripts": {
+    "test": "npm run test:lint && npm run test:mocha",
+    "test:mocha": "mocha --recursive --reporter dot",
+    "test:lint": "eslint --ignore-pattern docs --ignore-path .gitignore .",
+    "pre-commit": "lint-staged"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "npm run test:lint -- --fix"
+    ],
+    "*.{json,md}": [
+      "prettier --write"
+    ]
+  }
+}

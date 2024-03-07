@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <NewSnippet> render NewSnippet 1`] = `
+<div>
+  <DropZone
+    onAddFile={[Function]}
+  />
+  <ForwardRef>
+    <strong>
+      New 
+      private
+       snippet:
+    </strong>
+     
+  </ForwardRef>
+  <ForwardRef>
+    <ForwardRef
+      onChange={[Function]}
+      placeholder="Description (default untitled)"
+      type="text"
+    />
+  </ForwardRef>
+  <ForwardRef>
+    <ForwardRef
+      checked={false}
+      onChange={[Function]}
+      value={false}
+    />
+     
+    <span>
+      Public snippet  
+      <ExternalLink
+        href="https://help.github.com/articles/about-gists/#types-of-gists"
+      >
+        <ForwardRef
+          color="#3F84A8"
+          size="16"
+          type="info"
+        />
+      </ExternalLink>
+    </span>
+  </ForwardRef>
+  <ForwardRef>
+    <HashRouter>
+      <ForwardRef
+        icon="arrow-left"
+        invert={true}
+      >
+        <ForwardRef
+          to="/"
+        >
+          Back to list
+        </ForwardRef>
+      </ForwardRef>
+    </HashRouter>
+    <ForwardRef
+      icon="add"
+      invert={true}
+      onClick={[Function]}
+    >
+      Add file
+    </ForwardRef>
+    <ForwardRef
+      disabled={true}
+      icon="success"
+      onClick={[Function]}
+    >
+      Save
+    </ForwardRef>
+  </ForwardRef>
+</div>
+`;

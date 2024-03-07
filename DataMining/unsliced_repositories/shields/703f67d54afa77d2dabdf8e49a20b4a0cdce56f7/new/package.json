@@ -1,0 +1,47 @@
+{
+  "name": "gh-badges",
+  "version": "0.2.3",
+  "description": "GitHub badges implemented in SVG.",
+  "keywords": ["GitHub", "badge", "SVG", "image"],
+  "homepage": "http://b.adge.me",
+  "bugs": {
+    "url": "https://github.com/espadrine/gh-badges/issues",
+    "email": "thaddee.tyl@gmail.com"
+  },
+  "license": "CC0",
+  "author": "Thaddée Tyl <thaddee.tyl@gmail.com>",
+  "main": "badge.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/espadrine/gh-badges"
+  },
+  "dependencies": {
+    "dot": "~1.0.2",
+    "svgo": "~0.4.2",
+    "canvas": "~1.1.2",
+    "phantomjs": "~1.9.2-6",
+    "es6-promise": "~0.1.1",
+    "request": "~2.34.0",
+    "redis": "~0.10.1",
+    "camp": "~13.11.9"
+  },
+  "devDependencies": {
+    "ass": "~0.0.4",
+    "should": "~3.0.0",
+    "mocha": "~1.14.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec test.js"
+  },
+  "bin": { "badge": "./gh-badge.js" },
+  "files": [
+    "badge.js",
+    "README.md",
+    "gh-badge.js",
+    "template.svg",
+    "svg-to-img.js",
+    "colorscheme.json",
+    "phantomjs-svg2png.js"
+  ],
+  "engines": { "node": "0.10.x" }
+}

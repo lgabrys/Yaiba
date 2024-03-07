@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <Icon> render Icon 1`] = `
+<Icon
+  color="#ff0000"
+  type="menu"
+>
+  <StyledComponent
+    color="#ff0000"
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Icon-cFRQJw",
+          "isStatic": false,
+          "lastClassName": "ebwCqi",
+          "rules": Array [
+            "background-color:",
+            [Function],
+            ";display:inline-block;vertical-align:middle;width:",
+            [Function],
+            "px;height:",
+            [Function],
+            "px;mask-image:url('src/icons/",
+            "ionic",
+            "/",
+            [Function],
+            "');mask-repeat:no-repeat;mask-size:contain;mask-position:center;",
+            [Function],
+            " ",
+            [Function],
+            " ",
+            [Function],
+          ],
+        },
+        "displayName": "Icon",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "Icon-cFRQJw",
+        "target": "span",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    type="menu"
+  >
+    <span
+      className="Icon-cFRQJw ebwCqi"
+      color="#ff0000"
+      type="menu"
+    >
+      link
+    </span>
+  </StyledComponent>
+</Icon>
+`;

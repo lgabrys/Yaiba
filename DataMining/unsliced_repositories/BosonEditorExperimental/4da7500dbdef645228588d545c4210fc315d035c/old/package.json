@@ -1,0 +1,22 @@
+{
+  "name": "Boson Editor",
+  "main": "editor.html",
+  "single-instance": false,
+  "description": "Experimental editor",
+  "version": "0.1.0",
+  "window": {
+    "title": "Boson Editor",
+    "icon": "assets/boson/media/logo.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 1280,
+    "height": 720,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200,
+    "show": false
+  },
+  "webkit": {
+    "plugin": false
+  }
+}

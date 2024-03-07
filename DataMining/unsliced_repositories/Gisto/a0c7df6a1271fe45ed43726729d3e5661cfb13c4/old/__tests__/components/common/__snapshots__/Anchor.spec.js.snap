@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <Anchor> render Anchor 1`] = `
+<Anchor
+  download="file.zip"
+  href="https://github.com"
+>
+  <styled.a
+    download="file.zip"
+    href="https://github.com"
+  >
+    <StyledComponent
+      download="file.zip"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "kmhQnl",
+            "rules": Array [
+              "
+  cursor: pointer;
+  color: ",
+              [Function],
+              ";
+  text-decoration: none;
+
+  :hover {
+    color: ",
+              [Function],
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "styled.a",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      href="https://github.com"
+    >
+      <a
+        className="sc-bdVaJa kmhQnl"
+        download="file.zip"
+        href="https://github.com"
+      >
+        link
+      </a>
+    </StyledComponent>
+  </styled.a>
+</Anchor>
+`;

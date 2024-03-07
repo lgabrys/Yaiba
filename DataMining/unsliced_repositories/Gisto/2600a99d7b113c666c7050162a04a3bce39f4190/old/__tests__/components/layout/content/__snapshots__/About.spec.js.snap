@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <About> render About 1`] = `
+<About>
+  <Wrapper>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "Wrapper-dyuznp",
+            "isStatic": true,
+            "lastClassName": "izLMrr",
+            "rules": Array [
+              "display:flex;flex-direction:column;align-items:center;color:#555;height:100%;width:50%;transform:translate(50%);justify-content:center;text-align:left;",
+            ],
+          },
+          "displayName": "Wrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "Wrapper-dyuznp",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="Wrapper-dyuznp izLMrr"
+      >
+        <img
+          alt=""
+          src="icon.png"
+          width="80"
+        />
+        <h2>
+          About Gisto
+        </h2>
+        <p>
+          Current version 
+          <strong>
+            v
+            X.X.X
+          </strong>
+        </p>
+        <p>
+          Gisto is a code snippet manager that runs on GitHub Gists and adds additional features such as searching, tagging and sharing gists while including a rich code editor.
+        </p>
+        <p>
+          All your data is stored on GitHub and you can access it from GitHub Gists at any time with changes carrying over to Gisto.
+        </p>
+        <p>
+          <ExternalLink
+            href="https://github.com/Gisto/Gisto/blob/master/CHANGELOG.md"
+          >
+            <Anchor
+              href="#"
+              onClick={[Function]}
+            >
+              <styled.a
+                href="#"
+                onClick={[Function]}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "kmhQnl",
+                        "rules": Array [
+                          "
+  cursor: pointer;
+  color: ",
+                          [Function],
+                          ";
+  text-decoration: none;
+
+  :hover {
+    color: ",
+                          [Function],
+                          ";
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.a",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "a",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  href="#"
+                  onClick={[Function]}
+                >
+                  <a
+                    className="sc-bdVaJa kmhQnl"
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    Change log
+                  </a>
+                </StyledComponent>
+              </styled.a>
+            </Anchor>
+          </ExternalLink>
+           | 
+          <ExternalLink
+            href="https://github.com/Gisto/Gisto"
+          >
+            <Anchor
+              href="#"
+              onClick={[Function]}
+            >
+              <styled.a
+                href="#"
+                onClick={[Function]}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "kmhQnl",
+                        "rules": Array [
+                          "
+  cursor: pointer;
+  color: ",
+                          [Function],
+                          ";
+  text-decoration: none;
+
+  :hover {
+    color: ",
+                          [Function],
+                          ";
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.a",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "a",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  href="#"
+                  onClick={[Function]}
+                >
+                  <a
+                    className="sc-bdVaJa kmhQnl"
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    GitHub
+                  </a>
+                </StyledComponent>
+              </styled.a>
+            </Anchor>
+          </ExternalLink>
+           | 
+          <ExternalLink
+            href="https://gistoapp.com"
+          >
+            <Anchor
+              href="#"
+              onClick={[Function]}
+            >
+              <styled.a
+                href="#"
+                onClick={[Function]}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "kmhQnl",
+                        "rules": Array [
+                          "
+  cursor: pointer;
+  color: ",
+                          [Function],
+                          ";
+  text-decoration: none;
+
+  :hover {
+    color: ",
+                          [Function],
+                          ";
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.a",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "a",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  href="#"
+                  onClick={[Function]}
+                >
+                  <a
+                    className="sc-bdVaJa kmhQnl"
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    Website gistoapp.com
+                  </a>
+                </StyledComponent>
+              </styled.a>
+            </Anchor>
+          </ExternalLink>
+           | 
+          <ExternalLink
+            href="https://github.com/Gisto/Gisto/issues"
+          >
+            <Anchor
+              href="#"
+              onClick={[Function]}
+            >
+              <styled.a
+                href="#"
+                onClick={[Function]}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "kmhQnl",
+                        "rules": Array [
+                          "
+  cursor: pointer;
+  color: ",
+                          [Function],
+                          ";
+  text-decoration: none;
+
+  :hover {
+    color: ",
+                          [Function],
+                          ";
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.a",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "a",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  href="#"
+                  onClick={[Function]}
+                >
+                  <a
+                    className="sc-bdVaJa kmhQnl"
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    Issues
+                  </a>
+                </StyledComponent>
+              </styled.a>
+            </Anchor>
+          </ExternalLink>
+           | 
+          <ExternalLink
+            href="https://twitter.com/gistoapp"
+          >
+            <Anchor
+              href="#"
+              onClick={[Function]}
+            >
+              <styled.a
+                href="#"
+                onClick={[Function]}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "kmhQnl",
+                        "rules": Array [
+                          "
+  cursor: pointer;
+  color: ",
+                          [Function],
+                          ";
+  text-decoration: none;
+
+  :hover {
+    color: ",
+                          [Function],
+                          ";
+  }
+",
+                        ],
+                      },
+                      "displayName": "styled.a",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": "a",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  href="#"
+                  onClick={[Function]}
+                >
+                  <a
+                    className="sc-bdVaJa kmhQnl"
+                    href="#"
+                    onClick={[Function]}
+                  >
+                    Twitter
+                  </a>
+                </StyledComponent>
+              </styled.a>
+            </Anchor>
+          </ExternalLink>
+        </p>
+      </div>
+    </StyledComponent>
+  </Wrapper>
+</About>
+`;

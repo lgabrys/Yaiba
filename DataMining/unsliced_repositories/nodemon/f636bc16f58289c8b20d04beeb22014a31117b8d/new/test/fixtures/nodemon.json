@@ -1,0 +1,7 @@
+{
+  "ignore": ["one", "three"],
+  "watch": ["four"],
+  "env": {
+    "USER": "remysharp"
+  }
+}

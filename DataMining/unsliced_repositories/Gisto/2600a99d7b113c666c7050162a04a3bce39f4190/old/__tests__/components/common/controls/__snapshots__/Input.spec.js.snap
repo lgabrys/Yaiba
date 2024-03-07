@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <Input> render Input 1`] = `
+<Input
+  className="classified"
+  placeholder="I am temporary"
+  type="search"
+  value="typetypetype"
+>
+  <StyledInput
+    className="classified"
+    defaultValue="typetypetype"
+    disabled={false}
+    placeholder="I am temporary"
+    title=""
+    type="search"
+  >
+    <StyledComponent
+      className="classified"
+      defaultValue="typetypetype"
+      disabled={false}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "StyledInput-kKifnt",
+            "isStatic": false,
+            "lastClassName": "fRvIJP",
+            "rules": Array [
+              "border:none;border-radius:0;height:30px;color:",
+              [Function],
+              ";border-bottom:1px solid ",
+              [Function],
+              ";background:",
+              [Function],
+              ";&:focus{outline:none;}::placeholder{color:",
+              [Function],
+              ";opacity:1;}",
+            ],
+          },
+          "displayName": "StyledInput",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "StyledInput-kKifnt",
+          "target": "input",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      placeholder="I am temporary"
+      title=""
+      type="search"
+    >
+      <input
+        className="classified StyledInput-kKifnt fRvIJP"
+        defaultValue="typetypetype"
+        disabled={false}
+        placeholder="I am temporary"
+        title=""
+        type="search"
+      />
+    </StyledComponent>
+  </StyledInput>
+</Input>
+`;

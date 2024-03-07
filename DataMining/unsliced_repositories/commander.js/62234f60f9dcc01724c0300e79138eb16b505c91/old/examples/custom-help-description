@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+// const program = require('commander'); // (normal include)
+const program = require('../'); // include commander in git clone of commander repo
+
+program
+  .helpOption('-c, --HELP', 'custom help message')
+  .option('-s, --sessions', 'add session support')
+  .option('-t, --template <engine>', 'specify template engine (jade|ejs) [jade]', 'jade');
+
+program
+  .command('child')
+  .option('--gender', 'specific gender of child')
+  .action((cmd) => {
+    console.log('Childsubcommand...');
+  });
+
+program.parse(process.argv);

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <SnippetHeader> render SnippetHeader in edit mode 1`] = `
+<SnippetHeaderWrapper>
+  <FileName>
+    <FilenameIcon
+      size={22}
+      type="file"
+    />
+     
+    <Input
+      onChange={[Function]}
+    />
+     
+  </FileName>
+  <WithTheme(UtilityIcon)
+    onClick={[Function]}
+    size={22}
+    type="delete"
+  />
+</SnippetHeaderWrapper>
+`;
+
+exports[`COMPONENTS - <SnippetHeader> render SnippetHeader in view mode 1`] = `
+<SnippetHeaderWrapper>
+  <FileName>
+    <FilenameIcon
+      size={22}
+      type="file"
+    />
+     
+    somefile.js
+     
+  </FileName>
+  <div>
+    <Language>
+      Plain text
+    </Language>
+    <WithTheme(UtilityIcon)
+      dropdown={true}
+      size={22}
+      type="ellipsis"
+    >
+      <ul>
+        <li>
+          <ExternalLink
+            href="https://gist.github.com/user/123123123123#file-somefile.js"
+          >
+            Open on web
+          </ExternalLink>
+        </li>
+        <li>
+          <Anchor
+            onClick={[Function]}
+          >
+            Copy file content to clipboard
+          </Anchor>
+        </li>
+        <li>
+          <Anchor
+            download="somefile.js"
+          >
+            Download
+          </Anchor>
+        </li>
+      </ul>
+    </WithTheme(UtilityIcon)>
+    <WithTheme(UtilityIcon)
+      onClick={[Function]}
+      size={22}
+      type="arrow-down"
+    />
+  </div>
+</SnippetHeaderWrapper>
+`;

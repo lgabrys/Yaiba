@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <Settings> render Settings 1`] = `
+<Wrapper>
+  <h2>
+    Settings
+  </h2>
+  <details>
+    <summary>
+      General
+    </summary>
+    <Connect(BaseSettings) />
+  </details>
+  <details>
+    <summary>
+      Snippets
+    </summary>
+    <Connect(SnippetsSettings) />
+  </details>
+  <details>
+    <summary>
+      Editor
+    </summary>
+    <Connect(EditorSettings) />
+  </details>
+</Wrapper>
+`;

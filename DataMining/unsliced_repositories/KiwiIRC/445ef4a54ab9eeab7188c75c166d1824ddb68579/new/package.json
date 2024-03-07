@@ -1,0 +1,35 @@
+{
+  "name": "kiwiirc",
+  "version": "0.9.4-dev",
+  "description": "A hand-crafted webirc client",
+  "homepage": "https://www.kiwiirc.com/",
+  "license": "AGPL-3.0",
+  "preferGlobal": "true",
+  "bin": {
+    "kiwiirc": "./kiwi"
+  },
+  "man": "./man/kiwiirc.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prawnsalad/KiwiIRC.git"
+  },
+  "dependencies": {
+    "daemonize2": "0.4.2",
+    "engine.io": "^1.5.4",
+    "es6-promise": "^3.0.2",
+    "eventemitter2": "0.4.14",
+    "iconv-lite": "0.4.11",
+    "ipaddr.js": "^1.0.3",
+    "lodash": "^3.10.1",
+    "negotiator": "^0.5.3",
+    "node-static": "^0.7.7",
+    "po2json": "^0.4.1",
+    "socksjs": "^0.5.0",
+    "spdy": "^2.0.5",
+    "uglify-js": "^2.4.24",
+    "winston": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}

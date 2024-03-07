@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <Snippet> render Snippet 1`] = `
+<HashRouter>
+  <ForwardRef
+    activeClassName="selected"
+    className="link"
+    exact={true}
+    onContextMenu={null}
+    to="/snippet/123123123123"
+  >
+    <span>
+      <ForwardRef
+        color="#fff"
+        size={24}
+        type="lock"
+      />
+    </span>
+    <span>
+      <ForwardRef
+        color="#fff"
+        onClick={[Function]}
+        size={16}
+        type="star-full"
+      />
+    </span>
+    <ForwardRef>
+      unnamed
+    </ForwardRef>
+  </ForwardRef>
+</HashRouter>
+`;

@@ -1,0 +1,36 @@
+{
+  "name": "node-inspector",
+  "version": "0.3.0preview1",
+  "publishConfig": { "tag": "preview" },
+  "description": "Web Inspector based nodeJS debugger",
+  "homepage": "http://github.com/dannycoates/node-inspector",
+  "author": "Danny Coates <dannycoates@gmail.com>",
+  "keywords": [
+    "debug",
+    "debugger",
+    "inspector",
+    "profiler"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dannycoates/node-inspector.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "bin": {
+    "node-inspector": "./bin/inspector.js"
+  },
+  "dependencies": {
+    "socket.io": "~0.9.14",
+    "paperboy": "~0.0.5",
+    "async": "~0.2.8"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

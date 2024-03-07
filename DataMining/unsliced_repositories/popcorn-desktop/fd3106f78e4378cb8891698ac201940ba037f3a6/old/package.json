@@ -1,0 +1,44 @@
+{
+  "name": "Popcorn-Time",
+  "main": "app://host/index.html",
+  "version": "0.2.0",
+  "window": {
+    "title": "Popcorn Time",
+    "icon": "images/icon.png",
+    "toolbar": false,
+    "frame": false,
+    "width": 962,
+    "height": 600,
+    "min_width": 962,
+    "min_height": 600,
+    "resizable": true
+  },
+  "dependencies": {
+    "adm-zip" : "git://github.com/gpt-modules/adm-zip.git",
+    "cheerio" : "git://github.com/gpt-modules/cheerio.git",
+    "clivas" : "git://github.com/gpt-modules/clivas.git",
+    "i18n" : "git://github.com/gpt-modules/i18n-node.git",
+    "iconv-lite" : "git://github.com/gpt-modules/iconv-lite.git",
+    "jschardet" : "git://github.com/gpt-modules/jschardet.git",
+    "moviedb" : "git://github.com/gpt-modules/moviedb.git",
+    "network-address" : "git://github.com/gpt-modules/network-address.git",
+    "node-uuid" : "git://github.com/gpt-modules/node-uuid.git",
+    "numeral" : "git://github.com/gpt-modules/numeral-js.git",
+    "peerflix" : "git://github.com/gpt-modules/peerflix.git",
+    "request" : "git://github.com/gpt-modules/request.git",
+    "universal-analytics" : "git://github.com/gpt-modules/universal-analytics.git",
+    "url" : "git://github.com/gpt-modules/url.git",
+    "xmlrpc" : "git://github.com/gpt-modules/node-xmlrpc.git",
+    "socket.io": "git://github.com/gpt-modules/socket.io.git",
+    "express": "git://github.com/gpt-modules/express.git",
+    "ip": "git://github.com/gpt-modules/node-ip.git"
+  },
+  "devDependencies": {
+    "grunt": "git://github.com/gpt-modules/grunt.git",
+    "grunt-node-webkit-builder": "git://github.com/gpt-modules/grunt-node-webkit-builder.git",
+    "grunt-contrib-sass": "git://github.com/gpt-modules/grunt-contrib-sass.git",
+    "grunt-contrib-watch": "git://github.com/gpt-modules/grunt-contrib-watch.git",
+    "grunt-contrib-compass": "git://github.com/gpt-modules/grunt-contrib-compass.git",
+    "grunt-contrib-copy": "git://github.com/gpt-modules/grunt-contrib-copy.git"
+  }
+}

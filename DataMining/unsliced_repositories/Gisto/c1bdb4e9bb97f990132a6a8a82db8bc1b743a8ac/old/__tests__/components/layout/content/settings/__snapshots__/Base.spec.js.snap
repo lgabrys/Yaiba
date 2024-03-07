@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <BaseSettings> render BaseSettings 1`] = `
+<div>
+  <h4>
+    Color settings:
+  </h4>
+  <ForwardRef>
+    <ForwardRef
+      height={55}
+    >
+      <ForwardRef>
+        <span>
+          Base color:
+        </span>
+        <InputColor
+          color="#3F84A8"
+          onChange={[Function]}
+        />
+      </ForwardRef>
+    </ForwardRef>
+    <ForwardRef>
+      <ForwardRef>
+        <span>
+          Show API rate limit on header:
+        </span>
+        <Checkbox
+          checked={true}
+          onChange={[Function]}
+        />
+      </ForwardRef>
+    </ForwardRef>
+  </ForwardRef>
+</div>
+`;

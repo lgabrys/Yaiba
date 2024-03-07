@@ -1,0 +1,78 @@
+{
+  "name": "david-www",
+  "version": "9.3.1",
+  "description": "Watching your Node.js dependencies.",
+  "main": "index.js",
+  "homepage": "https://github.com/alanshaw/david-www",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alanshaw/david-www.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanshaw/david-www/issues"
+  },
+  "keywords": [
+    "dependency",
+    "management",
+    "npm"
+  ],
+  "author": "Alan Shaw",
+  "contributors": [
+    "Oliver Evans",
+    "XhmikosR"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "test": "grunt"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "compression": "^1.4.1",
+    "config": "^1.12.0",
+    "consolidate": "^0.12.1",
+    "couchwatch": "^0.6.0",
+    "cycle": "^1.0.3",
+    "d3": "^3.5.5",
+    "david": "^6.1.5",
+    "dep-diff": "^1.0.1",
+    "express": "^4.12.2",
+    "extract": "^1.0.0",
+    "github": "^0.2.3",
+    "github-url": "^1.1.0",
+    "handlebars": "^3.0.0",
+    "level": "^0.18.0",
+    "level-session": "^0.3.3",
+    "memory-cache": "^0.1.1",
+    "merge": "^1.2.0",
+    "meta-marked": "^0.3.3",
+    "moment": "^2.9.0",
+    "npm": "^2.7.0",
+    "request": "^2.53.0",
+    "rss": "^1.1.1",
+    "semver": "^4.3.3",
+    "serve-favicon": "^2.2.0"
+  },
+  "devDependencies": {
+    "brfs": "^1.4.0",
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.5.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-include-replace": "^3.0.0",
+    "load-grunt-tasks": "^3.1.0",
+    "rewire": "^2.3.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}

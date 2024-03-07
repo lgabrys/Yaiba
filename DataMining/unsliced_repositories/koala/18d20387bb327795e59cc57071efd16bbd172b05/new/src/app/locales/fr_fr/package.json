@@ -1,0 +1,17 @@
+{
+	"languageName": "Français",
+
+	"languageCode": "fr_fr",
+	
+	"version": "1.0.0",
+
+	"translator": {
+		"name": "Bachir Soussi Chiadmi",
+		"email": "bachir@g-u-i.net",
+    	"web": "www.g-u-i.net"
+	}, 
+	
+	"koalaVersion": ">=2.0.0",
+
+	"updatedDate": "2013-08-01"
+}

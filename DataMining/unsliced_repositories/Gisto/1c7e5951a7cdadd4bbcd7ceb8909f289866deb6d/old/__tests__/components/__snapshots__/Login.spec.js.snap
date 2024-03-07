@@ -1,0 +1,730 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <LogIn> render LogIn basic 1`] = `
+<LogIn
+  loading={false}
+  loginBasic={[MockFunction]}
+  loginWithToken={[MockFunction]}
+  twoFactorAuth={false}
+>
+  <LoginWrapper>
+    <div
+      className="LoginWrapper-sc-1s1b8ij-0 NjdAk"
+    >
+      <Logo>
+        <div
+          className="Logo-sc-1s1b8ij-2 bBbBMF"
+        >
+          { Gisto }
+        </div>
+      </Logo>
+      <small>
+        v
+        X.X.X
+      </small>
+      <div>
+        <h4>
+          Sign-in using 
+          Github
+           
+          username and password
+        </h4>
+        <Input
+          onChange={[Function]}
+          placeholder="Email or username"
+          type="text"
+        >
+          <StyledInput
+            disabled={false}
+            onChange={[Function]}
+            placeholder="Email or username"
+            title=""
+            type="text"
+          >
+            <input
+              className="StyledInput-sc-86zjwb-0 djdkls"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Email or username"
+              title=""
+              type="text"
+            />
+          </StyledInput>
+        </Input>
+        <br />
+        <Input
+          onChange={[Function]}
+          placeholder="Password"
+          type="password"
+        >
+          <StyledInput
+            disabled={false}
+            onChange={[Function]}
+            placeholder="Password"
+            title=""
+            type="password"
+          >
+            <input
+              className="StyledInput-sc-86zjwb-0 djdkls"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Password"
+              title=""
+              type="password"
+            />
+          </StyledInput>
+        </Input>
+        <br />
+        <ResetLoginType>
+          <div
+            className="ResetLoginType-sc-1s1b8ij-3 fljXQK"
+          >
+            <Anchor
+              onClick={[Function]}
+            >
+              <Link
+                onClick={[Function]}
+              >
+                <a
+                  className="Link-sc-17j1f2u-0 ljvDuf"
+                  onClick={[Function]}
+                >
+                  Log-in with GitHub
+                </a>
+              </Link>
+            </Anchor>
+            <Anchor
+              onClick={[Function]}
+            >
+              <Link
+                onClick={[Function]}
+              >
+                <a
+                  className="Link-sc-17j1f2u-0 ljvDuf"
+                  onClick={[Function]}
+                >
+                  Cancel
+                </a>
+              </Link>
+            </Anchor>
+          </div>
+        </ResetLoginType>
+        <br />
+        <br />
+        <Button
+          icon="success"
+          onClick={[Function]}
+        >
+          <ButtonComponent
+            onClick={[Function]}
+            title="Log-in"
+          >
+            <button
+              className="ButtonComponent-sc-1hy9a8c-0 fVBHOJ"
+              onClick={[Function]}
+              title="Log-in"
+            >
+              <Icon
+                color="#fff"
+                type="success"
+              >
+                <span
+                  className="Icon-vk4qna-0 PqRDb"
+                  color="#fff"
+                  type="success"
+                />
+              </Icon>
+               
+              Log-in
+            </button>
+          </ButtonComponent>
+        </Button>
+        <br />
+      </div>
+      <p
+        className="options"
+      >
+        <strong>
+          Other options:
+        </strong>
+          sign-in using GitHub  
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              token
+            </a>
+          </Link>
+        </Anchor>
+         | 
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              username and password
+            </a>
+          </Link>
+        </Anchor>
+         | 
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              Use enterprise
+            </a>
+          </Link>
+        </Anchor>
+      </p>
+    </div>
+  </LoginWrapper>
+</LogIn>
+`;
+
+exports[`COMPONENTS - <LogIn> render LogIn enterprise 1`] = `
+<LogIn
+  loading={false}
+  loginBasic={[MockFunction]}
+  loginWithToken={[MockFunction]}
+  twoFactorAuth={false}
+>
+  <LoginWrapper>
+    <div
+      className="LoginWrapper-sc-1s1b8ij-0 NjdAk"
+    >
+      <Logo>
+        <div
+          className="Logo-sc-1s1b8ij-2 bBbBMF"
+        >
+          { Gisto }
+        </div>
+      </Logo>
+      <small>
+        v
+        X.X.X
+      </small>
+      <div>
+        <h4>
+          Setup enterprise endpoints and log-in
+        </h4>
+        <Input
+          onChange={[Function]}
+          placeholder="http://my.enterprise.domain.com"
+          type="text"
+        >
+          <StyledInput
+            disabled={false}
+            onChange={[Function]}
+            placeholder="http://my.enterprise.domain.com"
+            title=""
+            type="text"
+          >
+            <input
+              className="StyledInput-sc-86zjwb-0 djdkls"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="http://my.enterprise.domain.com"
+              title=""
+              type="text"
+            />
+          </StyledInput>
+        </Input>
+      </div>
+      <div>
+        <h4>
+          Sign-in using 
+          your organization
+           
+          username and password
+        </h4>
+        <Input
+          onChange={[Function]}
+          placeholder="Email or username"
+          type="text"
+        >
+          <StyledInput
+            disabled={false}
+            onChange={[Function]}
+            placeholder="Email or username"
+            title=""
+            type="text"
+          >
+            <input
+              className="StyledInput-sc-86zjwb-0 djdkls"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Email or username"
+              title=""
+              type="text"
+            />
+          </StyledInput>
+        </Input>
+        <br />
+        <Input
+          onChange={[Function]}
+          placeholder="Password"
+          type="password"
+        >
+          <StyledInput
+            disabled={false}
+            onChange={[Function]}
+            placeholder="Password"
+            title=""
+            type="password"
+          >
+            <input
+              className="StyledInput-sc-86zjwb-0 djdkls"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="Password"
+              title=""
+              type="password"
+            />
+          </StyledInput>
+        </Input>
+        <br />
+        <ResetLoginType>
+          <div
+            className="ResetLoginType-sc-1s1b8ij-3 fljXQK"
+          >
+            <Anchor
+              onClick={[Function]}
+            >
+              <Link
+                onClick={[Function]}
+              >
+                <a
+                  className="Link-sc-17j1f2u-0 ljvDuf"
+                  onClick={[Function]}
+                >
+                  Log-in with GitHub
+                </a>
+              </Link>
+            </Anchor>
+            <Anchor
+              onClick={[Function]}
+            >
+              <Link
+                onClick={[Function]}
+              >
+                <a
+                  className="Link-sc-17j1f2u-0 ljvDuf"
+                  onClick={[Function]}
+                >
+                  Cancel
+                </a>
+              </Link>
+            </Anchor>
+          </div>
+        </ResetLoginType>
+        <br />
+        <br />
+        <Button
+          icon="success"
+          onClick={[Function]}
+        >
+          <ButtonComponent
+            onClick={[Function]}
+            title="Log-in"
+          >
+            <button
+              className="ButtonComponent-sc-1hy9a8c-0 fVBHOJ"
+              onClick={[Function]}
+              title="Log-in"
+            >
+              <Icon
+                color="#fff"
+                type="success"
+              >
+                <span
+                  className="Icon-vk4qna-0 PqRDb"
+                  color="#fff"
+                  type="success"
+                />
+              </Icon>
+               
+              Log-in
+            </button>
+          </ButtonComponent>
+        </Button>
+        <br />
+      </div>
+      <p
+        className="options"
+      >
+        <strong>
+          Other options:
+        </strong>
+          sign-in using GitHub  
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              token
+            </a>
+          </Link>
+        </Anchor>
+         | 
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              username and password
+            </a>
+          </Link>
+        </Anchor>
+         | 
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              Use enterprise
+            </a>
+          </Link>
+        </Anchor>
+      </p>
+    </div>
+  </LoginWrapper>
+</LogIn>
+`;
+
+exports[`COMPONENTS - <LogIn> render LogIn github oauth2 1`] = `
+<LogIn
+  loading={false}
+  loginBasic={[MockFunction]}
+  loginWithToken={[MockFunction]}
+  twoFactorAuth={false}
+>
+  <LoginWrapper>
+    <div
+      className="LoginWrapper-sc-1s1b8ij-0 NjdAk"
+    >
+      <Logo>
+        <div
+          className="Logo-sc-1s1b8ij-2 bBbBMF"
+        >
+          { Gisto }
+        </div>
+      </Logo>
+      <small>
+        v
+        X.X.X
+      </small>
+      <StyledGithubLoginButton
+        icon="logo-github"
+        onClick={[Function]}
+      >
+        <Button
+          className="StyledGithubLoginButton-sc-1s1b8ij-1 bnAWew"
+          icon="logo-github"
+          onClick={[Function]}
+        >
+          <ButtonComponent
+            className="StyledGithubLoginButton-sc-1s1b8ij-1 bnAWew"
+            onClick={[Function]}
+            title="Log-in with GitHub"
+          >
+            <button
+              className="StyledGithubLoginButton-sc-1s1b8ij-1 bnAWew ButtonComponent-sc-1hy9a8c-0 fVBHOJ"
+              onClick={[Function]}
+              title="Log-in with GitHub"
+            >
+              <Icon
+                color="#fff"
+                type="logo-github"
+              >
+                <span
+                  className="Icon-vk4qna-0 dhVbzf"
+                  color="#fff"
+                  type="logo-github"
+                />
+              </Icon>
+               
+              Log-in with GitHub
+            </button>
+          </ButtonComponent>
+        </Button>
+      </StyledGithubLoginButton>
+      <p
+        className="options"
+      >
+        <strong>
+          Other options:
+        </strong>
+          sign-in using GitHub  
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              token
+            </a>
+          </Link>
+        </Anchor>
+         | 
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              username and password
+            </a>
+          </Link>
+        </Anchor>
+         | 
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              Use enterprise
+            </a>
+          </Link>
+        </Anchor>
+      </p>
+    </div>
+  </LoginWrapper>
+</LogIn>
+`;
+
+exports[`COMPONENTS - <LogIn> render LogIn token 1`] = `
+<LogIn
+  loading={false}
+  loginBasic={[MockFunction]}
+  loginWithToken={[MockFunction]}
+  twoFactorAuth={false}
+>
+  <LoginWrapper>
+    <div
+      className="LoginWrapper-sc-1s1b8ij-0 NjdAk"
+    >
+      <Logo>
+        <div
+          className="Logo-sc-1s1b8ij-2 bBbBMF"
+        >
+          { Gisto }
+        </div>
+      </Logo>
+      <small>
+        v
+        X.X.X
+      </small>
+      <div>
+        <h4>
+          Sign-in using GitHub token
+        </h4>
+        <TokenInput
+          onChange={[Function]}
+          placeholder="GitHub token"
+          type="text"
+        >
+          <Input
+            className="TokenInput-sc-1s1b8ij-4 jryAbL"
+            onChange={[Function]}
+            placeholder="GitHub token"
+            type="text"
+          >
+            <StyledInput
+              className="TokenInput-sc-1s1b8ij-4 jryAbL"
+              disabled={false}
+              onChange={[Function]}
+              placeholder="GitHub token"
+              title=""
+              type="text"
+            >
+              <input
+                className="TokenInput-sc-1s1b8ij-4 jryAbL StyledInput-sc-86zjwb-0 djdkls"
+                disabled={false}
+                onChange={[Function]}
+                placeholder="GitHub token"
+                title=""
+                type="text"
+              />
+            </StyledInput>
+          </Input>
+        </TokenInput>
+        <ExternalLink
+          href="https://github.com/settings/tokens"
+          target="_new"
+        >
+          <Anchor
+            href="#"
+            onClick={[Function]}
+          >
+            <Link
+              href="#"
+              onClick={[Function]}
+            >
+              <a
+                className="Link-sc-17j1f2u-0 ljvDuf"
+                href="#"
+                onClick={[Function]}
+              >
+                <Icon
+                  color="#3F84A8"
+                  size="16"
+                  type="info"
+                >
+                  <span
+                    className="Icon-vk4qna-0 bZuFFG"
+                    color="#3F84A8"
+                    size="16"
+                    type="info"
+                  />
+                </Icon>
+              </a>
+            </Link>
+          </Anchor>
+        </ExternalLink>
+        <br />
+        <Button
+          icon="success"
+          onClick={[Function]}
+        >
+          <ButtonComponent
+            onClick={[Function]}
+            title="Log-in"
+          >
+            <button
+              className="ButtonComponent-sc-1hy9a8c-0 fVBHOJ"
+              onClick={[Function]}
+              title="Log-in"
+            >
+              <Icon
+                color="#fff"
+                type="success"
+              >
+                <span
+                  className="Icon-vk4qna-0 PqRDb"
+                  color="#fff"
+                  type="success"
+                />
+              </Icon>
+               
+              Log-in
+            </button>
+          </ButtonComponent>
+        </Button>
+        <br />
+        <br />
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              Cancel
+            </a>
+          </Link>
+        </Anchor>
+      </div>
+      <p
+        className="options"
+      >
+        <strong>
+          Other options:
+        </strong>
+          sign-in using GitHub  
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              token
+            </a>
+          </Link>
+        </Anchor>
+         | 
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              username and password
+            </a>
+          </Link>
+        </Anchor>
+         | 
+        <Anchor
+          onClick={[Function]}
+        >
+          <Link
+            onClick={[Function]}
+          >
+            <a
+              className="Link-sc-17j1f2u-0 ljvDuf"
+              onClick={[Function]}
+            >
+              Use enterprise
+            </a>
+          </Link>
+        </Anchor>
+      </p>
+    </div>
+  </LoginWrapper>
+</LogIn>
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <SnippetHeader> render SnippetHeader in edit mode 1`] = `
+<ForwardRef>
+  <ForwardRef>
+    <ForwardRef
+      color="#3F84A8"
+      size={22}
+      type="file"
+    />
+     
+    <Input
+      onChange={[Function]}
+    />
+     
+  </ForwardRef>
+  <ForwardRef
+    color="tomato"
+    onClick={[Function]}
+    size={22}
+    type="delete"
+  />
+</ForwardRef>
+`;
+
+exports[`COMPONENTS - <SnippetHeader> render SnippetHeader in view mode 1`] = `
+<ForwardRef>
+  <ForwardRef>
+    <ForwardRef
+      color="#3F84A8"
+      size={22}
+      type="file"
+    />
+     
+    somefile.js
+     
+  </ForwardRef>
+  <div>
+    <ForwardRef>
+      Plain text
+    </ForwardRef>
+    <ForwardRef
+      color="#3F84A8"
+      dropdown={true}
+      size={22}
+      type="ellipsis"
+    >
+      <ul>
+        <li>
+          <ExternalLink
+            href="https://gist.github.com/user/123123123123#file-somefile.js"
+          >
+            Open on web
+          </ExternalLink>
+        </li>
+        <li>
+          <Anchor
+            onClick={[Function]}
+          >
+            Copy file content to clipboard
+          </Anchor>
+        </li>
+        <li>
+          <Anchor
+            download="somefile.js"
+          >
+            Download
+          </Anchor>
+        </li>
+      </ul>
+    </ForwardRef>
+    <ForwardRef
+      color="#3F84A8"
+      onClick={[Function]}
+      size={22}
+      type="arrow-down"
+    />
+  </div>
+</ForwardRef>
+`;

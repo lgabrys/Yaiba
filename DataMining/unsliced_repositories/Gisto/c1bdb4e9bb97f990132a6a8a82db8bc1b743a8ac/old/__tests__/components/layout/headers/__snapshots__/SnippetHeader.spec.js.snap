@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <SnippetHeader> render SnippetHeader 1`] = `
+<ForwardRef>
+  <ForwardRef
+    onBlur={[Function]}
+    onFocus={[Function]}
+    onMouseOut={[Function]}
+    onMouseOver={[Function]}
+  >
+     
+    <ForwardRef />
+     
+  </ForwardRef>
+  <ForwardRef
+    color="#ccc"
+    size={22}
+    title="Snippet is private"
+    type="lock"
+  />
+  <div>
+    <ForwardRef
+      color="#3F84A8"
+      onClick={[Function]}
+      size={22}
+      type="edit"
+    />
+    <ForwardRef
+      color="tomato"
+      onClick={[Function]}
+      size={22}
+      type="delete"
+    />
+    <ForwardRef
+      color="#3F84A8"
+      onClick={[Function]}
+      size={22}
+      text=""
+      type="chat"
+    />
+    <ForwardRef
+      color="#3F84A8"
+      onClick={[Function]}
+      size={22}
+      title="Copy Snippet URL to clipboard"
+      type="copy"
+    />
+    <ForwardRef
+      color="#3F84A8"
+      onClick={[Function]}
+      size={22}
+      type="star-empty"
+    />
+    <ForwardRef
+      color="#3F84A8"
+      dropdown={true}
+      size={22}
+      type="ellipsis"
+    >
+      <ul>
+        <li>
+          <Anchor
+            onClick={[Function]}
+          >
+            Edit
+          </Anchor>
+        </li>
+        <li>
+          <ExternalLink
+            href="https://gist.github.com/undefined/undefined"
+          >
+            Open on web
+          </ExternalLink>
+        </li>
+        <li>
+          <Anchor
+            href="https://gist.github.com/undefined/undefined/download"
+          >
+            Download
+          </Anchor>
+        </li>
+        <li
+          className="color-danger"
+        >
+          <Anchor
+            onClick={[Function]}
+          >
+            Delete
+          </Anchor>
+        </li>
+        <li>
+          <Anchor
+            onClick={[Function]}
+          >
+            Copy snippet ID to clipboard
+          </Anchor>
+        </li>
+        <li>
+          <Anchor
+            onClick={[Function]}
+          >
+            Copy Snippet URL to clipboard
+          </Anchor>
+        </li>
+        <li>
+          <Anchor
+            onClick={[Function]}
+          >
+            Copy HTTPS clone command to clipboard
+          </Anchor>
+        </li>
+        <li>
+          <Anchor
+            onClick={[Function]}
+          >
+            Copy SSH clone command to clipboard
+          </Anchor>
+        </li>
+        <li>
+          <ExternalLink
+            href="x-github-client://openRepo/https://gist.github.com/undefined"
+          >
+            Open in GitHub desktop
+          </ExternalLink>
+        </li>
+        <li>
+          <ExternalLink
+            href="http://plnkr.co/edit/gist:undefined?p=preview"
+          >
+            Open in Plnkr
+          </ExternalLink>
+        </li>
+        <li>
+          <ExternalLink
+            href="http://jsbin.com/gist/undefined"
+          >
+            Open in JSBin
+          </ExternalLink>
+        </li>
+        <li>
+          <ExternalLink
+            href="http://jsfiddle.net/gh/gist/library/pure/undefined/"
+          >
+            Open in jsfiddle
+          </ExternalLink>
+        </li>
+      </ul>
+    </ForwardRef>
+  </div>
+</ForwardRef>
+`;

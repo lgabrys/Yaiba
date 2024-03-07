@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <AppArea> render AppArea 1`] = `
+<UserAreaWrapper>
+  <WithTheme(Updater) />
+  <Link
+    to="/"
+  >
+    <Icon
+      spin={true}
+      type="dashboard"
+    />
+  </Link>
+  <Link
+    to="/about"
+  >
+    <Icon
+      spin={true}
+      type="info"
+    />
+  </Link>
+  <WithTheme(Loading)
+    spinner={false}
+  />
+  <Link
+    to="/settings"
+  >
+    <Icon
+      spin={true}
+      type="cog"
+    />
+  </Link>
+  <Avatar
+    alt="us"
+    height="32"
+    title="us"
+    width="32"
+  />
+  <Link
+    to="/"
+  >
+    <Icon
+      onClick={[Function]}
+      type="logout"
+    />
+  </Link>
+</UserAreaWrapper>
+`;

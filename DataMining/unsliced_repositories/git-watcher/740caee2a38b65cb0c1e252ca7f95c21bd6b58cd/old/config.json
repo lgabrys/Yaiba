@@ -1,0 +1,49 @@
+{
+	"defaultRepository": "",
+	"debugMode": false,
+	"diff": {
+		"contextLines": 3,
+		"ignoreEolWhitespace": false,
+		"highlight": {
+			"enabled": true,
+			"byFileExtension": {
+				".js": true,
+				".php": true
+			}
+		}
+	},
+	"external": {
+		"fileOpener": {
+			"path": "",
+			"args": []
+		},
+		"directoryOpener": {
+			"path": "",
+			"args": []
+		}
+	},
+	"tools": [
+		{
+			"name": "Pull",
+			"cmd": "git",
+			"args": ["pull"]
+		}
+	],
+	"shortcuts": {
+		"repositoryOpen": "ctrl+shift o",
+		"repositoryClose": "ctrl+shift c",
+		"repositorySubmoduleUpdate": "ctrl+shift u",
+		"repositoryExplore": "ctrl+shift e",
+		"repositoryBrowse": "ctrl+shift k",
+		"repositoryRefresh": "F5",
+		"repositoryQuit": "ctrl q",
+		"branchCreate": "ctrl n",
+		"branchCheckout": "ctrl o",
+		"branchDelete": "ctrl d",
+		"commitAmend": "ctrl BackSpace",
+		"commitStageAll": "ctrl t",
+		"commitUnstageAll": "ctrl u",
+		"stashSave": "ctrl s",
+		"stashPop": "ctrl p"
+	}
+}

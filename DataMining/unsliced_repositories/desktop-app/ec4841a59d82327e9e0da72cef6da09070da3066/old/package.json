@@ -1,0 +1,16 @@
+{
+  "name": "Leanote",
+  "description": "Leanote",
+  "version": "0.1",
+  "main": "index.html",
+  "window": {
+    "toolbar": true,
+    "frame": true,
+    "min_width": 400,
+    "min_height": 200,
+    "width":  1100,
+    "height": 600
+    // "transparent": true
+  }
+}
+

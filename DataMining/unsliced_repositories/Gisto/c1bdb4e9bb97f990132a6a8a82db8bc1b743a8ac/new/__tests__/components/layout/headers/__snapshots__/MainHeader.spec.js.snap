@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <MainHeader> render MainHeader 1`] = `
+<ForwardRef>
+  <ForwardRef>
+    <Link
+      replace={false}
+      to="/"
+    >
+      { Gisto }
+       
+    </Link>
+    <HashRouter>
+      <Connect(Button)
+        height="30px"
+        icon="add"
+        outline={true}
+      >
+        <ForwardRef
+          to="/new"
+        >
+          New snippet
+        </ForwardRef>
+      </Connect(Button)>
+    </HashRouter>
+  </ForwardRef>
+  <ForwardRef>
+    <div />
+    <ForwardRef
+      onClick={[Function]}
+      title="Click to reload"
+    >
+      <small>
+        API rate limit:
+      </small>
+      <br />
+      undefined/undefined
+      <br />
+      <small>
+        Reset in 
+        NaN
+         min.
+      </small>
+    </ForwardRef>
+  </ForwardRef>
+  <ForwardRef />
+</ForwardRef>
+`;

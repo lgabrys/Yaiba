@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <Search> render Search 1`] = `
+<SearchWrapper>
+  <Icon
+    size="22"
+    type="search"
+  />
+  <StyledInput
+    onChange={[Function]}
+    placeholder="Search 0 snippets"
+    type="search"
+  />
+  <WithTheme(UtilityIcon)
+    dropdown={true}
+    type="code"
+  >
+    <ScrollPad
+      pad="20px"
+      rtl={false}
+    >
+      <div>
+        <StyledLanguagesWrapper
+          className="list"
+        >
+          <WithTheme(Connect(Languagelist)) />
+        </StyledLanguagesWrapper>
+      </div>
+    </ScrollPad>
+  </WithTheme(UtilityIcon)>
+  <WithTheme(UtilityIcon)
+    dropdown={true}
+    type="tag"
+  >
+    <ScrollPad
+      pad="20px"
+      rtl={false}
+    >
+      <div>
+        <StyledTaglistWrapper
+          className="list"
+        >
+          <WithTheme(Connect(Taglist)) />
+        </StyledTaglistWrapper>
+      </div>
+    </ScrollPad>
+  </WithTheme(UtilityIcon)>
+</SearchWrapper>
+`;

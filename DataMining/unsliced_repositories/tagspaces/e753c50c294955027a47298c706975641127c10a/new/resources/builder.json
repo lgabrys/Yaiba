@@ -1,0 +1,48 @@
+{
+  "appId": "org.tagspaces.desktopapp",
+  "asar": true,
+  "asarUnpack": [
+    "**\\*.{node,dll}",
+    "**/node_modules/sharp/**/*",
+    "**/node_modules/@img/**/*"
+  ],
+  "includeSubNodeModules": true,
+  "files": ["dist/", "node_modules/", "package.json", ".env", "extconfig.js"],
+  "copyright": "Copyright © 2023 TagSpaces UG (haftungsbeschraenkt)",
+  "artifactName": "${name}-${os}-${arch}-${version}.${ext}",
+  "dmg": {
+    "sign": false
+  },
+  "win": {
+    "target": ["nsis", "zip"],
+    "icon": "resources/icon.ico"
+  },
+  "mac": {
+    "target": ["zip", "dmg"],
+    "hardenedRuntime": true,
+    "gatekeeperAssess": false,
+    "entitlements": "assets/entitlements.mac.plist",
+    "entitlementsInherit": "assets/entitlements.mac.plist",
+    "icon": "resources/icon.icns",
+    "notarize": {
+      "teamId": "DLK22E2679"
+    }
+  },
+  "linux": {
+    "target": ["deb", "tar.gz", "appImage"],
+    "category": "Office",
+    "icon": "resources/icon.icns"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "license": "src/renderer/LICENSE.txt",
+    "include": "resources/installer.nsh"
+  },
+  "directories": {
+    "app": "release/app",
+    "buildResources": "assets",
+    "output": "../builds"
+  },
+  "extraResources": ["./assets/**"]
+}

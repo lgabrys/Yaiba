@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <SubHeader> render SubHeader 1`] = `
+<SubHeaderWrapper>
+  <WithTheme(Connect(Search)) />
+  <SnippetHeaderBlock>
+    <HashRouter>
+      <Switch>
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/about"
+        />
+        <Route
+          component={[Function]}
+          exact={true}
+          path="/settings"
+        />
+        <Route
+          component={
+            Object {
+              "$$typeof": Symbol(react.memo),
+              "WrappedComponent": [Function],
+              "compare": null,
+              "displayName": "Connect(SnippetHeader)",
+              "type": [Function],
+            }
+          }
+          path="/snippet/:id"
+        />
+      </Switch>
+    </HashRouter>
+  </SnippetHeaderBlock>
+</SubHeaderWrapper>
+`;

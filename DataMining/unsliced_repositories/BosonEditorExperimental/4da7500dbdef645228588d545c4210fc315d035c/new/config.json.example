@@ -1,0 +1,9 @@
+{
+	"theme": "tomorrow-night-eighties-port",
+	"bosontheme": "dark",
+	"tabSize": 2,
+	"indentWithTabs": true,
+  "fontSize": 18,
+  "lineWrapping": true,
+  "sidebarWidth": 160
+}

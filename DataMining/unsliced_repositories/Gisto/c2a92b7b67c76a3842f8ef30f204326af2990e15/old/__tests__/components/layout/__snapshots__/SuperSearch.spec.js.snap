@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`COMPONENTS - <SuperSearch> render SuperSearch 1`] = `
+<SuperSearch
+  filterLanguage=""
+  filterSnippets={[MockFunction]}
+  filterTags={Array []}
+  filterText="test"
+  snippets={Object {}}
+  toggleSuperSesrch={[MockFunction]}
+>
+  <SuperSearchWrapper>
+    <div
+      className="SuperSearchWrapper-sc-1mnove5-0 bAwZkz"
+    >
+      <SearchWrapper>
+        <div
+          className="SearchWrapper-sc-1mnove5-1 ijKtSQ"
+        >
+          <SearchBar>
+            <div
+              className="SearchBar-sc-1mnove5-2 dllRVk"
+            >
+              <StyledLookingGlass
+                color="#3F84A8"
+                size={32}
+                type="search"
+              >
+                <Icon
+                  className="StyledLookingGlass-sc-1mnove5-3 kqOEtv"
+                  color="#3F84A8"
+                  size={32}
+                  type="search"
+                >
+                  <span
+                    className="StyledLookingGlass-sc-1mnove5-3 kqOEtv Icon-vk4qna-0 jNFXhg"
+                    color="#3F84A8"
+                    size={32}
+                    type="search"
+                  />
+                </Icon>
+              </StyledLookingGlass>
+              <StyledInput
+                autoFocus={true}
+                className="mousetrap"
+                onChange={[Function]}
+                placeholder="Search"
+                type="search"
+              >
+                <Input
+                  autoFocus={true}
+                  className="mousetrap StyledInput-sc-1mnove5-8 bxYJks"
+                  onChange={[Function]}
+                  placeholder="Search"
+                  type="search"
+                >
+                  <StyledInput
+                    autoFocus={true}
+                    className="mousetrap StyledInput-sc-1mnove5-8 bxYJks"
+                    disabled={false}
+                    onChange={[Function]}
+                    placeholder="Search"
+                    title=""
+                    type="search"
+                  >
+                    <input
+                      autoFocus={true}
+                      className="mousetrap StyledInput-sc-1mnove5-8 bxYJks StyledInput-sc-86zjwb-0 djdkls"
+                      disabled={false}
+                      onChange={[Function]}
+                      placeholder="Search"
+                      title=""
+                      type="search"
+                    />
+                  </StyledInput>
+                </Input>
+              </StyledInput>
+            </div>
+          </SearchBar>
+          <SnippetResults>
+            <div
+              className="SnippetResults-sc-1mnove5-4 eUdsVx"
+            />
+          </SnippetResults>
+        </div>
+      </SearchWrapper>
+    </div>
+  </SuperSearchWrapper>
+</SuperSearch>
+`;
