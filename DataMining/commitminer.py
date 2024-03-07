@@ -96,7 +96,8 @@ def createRepositoriesList():
             repo_owner = row[0]
             repo_address = row[1] + "/"
             repos.append(repo(repo_owner, repo_address))
-    traverseCommits(repos)
+    print(repos[0].address, repos[1].address)
+    traverseCommits(repos[0:100]) #TODO
 
 def add_headers(writer):
     header = [
@@ -289,7 +290,7 @@ def traverseCommits(repos):
                     file.write(repo.address + ", " + str(e) + '\n')
 
 def remove_unused_files(directory):
-    root_dir = r'[path to directory]'  # Directory to scan/delete
+    root_dir = directory  # Directory to scan/delete
 
     keep = '.js'  # name of file in directory to not be deleted
 
