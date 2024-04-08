@@ -118,8 +118,8 @@ def add_headers(writer):
     writer.writerow(header)
 
 def traverseCommits(repos):
-    with open('commits.csv', 'w', encoding='UTF8', newline='') as f:
-        writer = csv.writer(f)
+    with open('commits.csv', 'w', encoding='UTF8', newline='') as csvFile:
+        writer = csv.writer(csvFile)
         add_headers(writer)
         for repo in repos:
             repo_address = "https://github.com/" + repo.owner + "/" + repo.address
@@ -215,6 +215,10 @@ def traverseCommits(repos):
                                 newProjectcommand = "wget {}archive/{}.zip".format(repo_address, commit.hash)
                                 subprocess.run(shlex.split(newProjectcommand))
                                 # original_path = pathlib.Path("{}.zip".format(commit.hash))
+                                if not os.path.exists("unsliced_repositories"):
+                                    os.mkdir("unsliced_repositories")
+                                if not os.path.exists("unsliced_repositories"):
+                                    os.mkdir("unsliced_repositories")
                                 if not os.path.exists("unsliced_repositories/{}".format(commit.project_name)):
                                     os.mkdir("unsliced_repositories/{}".format(commit.project_name))
                                 if not os.path.exists("unsliced_repositories/{}".format(commit.project_name)):
@@ -274,12 +278,12 @@ def traverseCommits(repos):
                                         if exc.errno != errno.EEXIST:
                                             raise
                                 if m.source_code.strip() != '' and m.source_code_before.strip() != '':
-                                    f = open(newFile, "w+")
-                                    f.write(m.source_code)
-                                    f.close()
-                                    f = open(oldFile, "w+")
-                                    f.write(m.source_code_before)
-                                    f.close()
+                                    csvFile = open(newFile, "w+")
+                                    csvFile.write(m.source_code)
+                                    csvFile.close()
+                                    csvFile = open(oldFile, "w+")
+                                    csvFile.write(m.source_code_before)
+                                    csvFile.close()
                                     writer.writerow(data)
                 # print(i, repos[i].address)
             except Exception as e:

@@ -1,5 +1,7 @@
 import shlex
+import shutil
 import subprocess
+import time
 
 import understand
 import traceback
@@ -183,7 +185,7 @@ class BackwardSlicing(object):
         updated_lines = lines.copy()
 
         for line_num in lines:
-            print(lines)
+            # print(lines)
             key = str(line_num)
 
             # for variables that are function calls, get the whole scope of the function
@@ -224,12 +226,12 @@ class BackwardSlicing(object):
                 # print(i)
                 block_start = int(i.split('_')[-1]) if i.startswith('else_') else int(i)
                 # print(block_start)
-                if block_start == 44:
-                    print('line 44:', block_start, int(line_num), int(self.conds[i]['line_num_end']),
-                          block_start <= int(line_num), block_start <= int(self.conds[i]['line_num_end']),
-                          int(line_num) <= int(self.conds[i]['line_num_end']))
+                # if block_start == 44:
+                #     print('line 44:', block_start, int(line_num), int(self.conds[i]['line_num_end']),
+                #           block_start <= int(line_num), block_start <= int(self.conds[i]['line_num_end']),
+                #           int(line_num) <= int(self.conds[i]['line_num_end']))
                 if block_start <= int(line_num) <= int(self.conds[i]['line_num_end']):
-                    print(block_start)
+                    # print(block_start)
                     updated_lines.add(block_start)
                     updated_lines.add(self.conds[i]['line_num_end'])
                     if self.conds[i].get('column_num_end'):
@@ -255,7 +257,7 @@ class BackwardSlicing(object):
             updated_lines = self.on_add_line(self.method_lines[-1]).union(updated_lines)
 
         # this takes care of object start
-        print(lines)
+        # print(lines)
         start_of_line = None
         for line_num in list(updated_lines.copy()):
             for lexeme in self.file.lexer():
@@ -280,7 +282,7 @@ class BackwardSlicing(object):
         unified_lines = self.on_add_line(lines_with_related_vars.difference(updated_lines)).union(
             lines_with_related_vars)
         final_lines = self.find_conditional_by_else(unified_lines)
-        print(final_lines)
+        # print(final_lines)
         updated_lines = sorted([i for i in final_lines if i])
 
         for line_num in updated_lines:
@@ -615,9 +617,9 @@ class BackwardSlicing(object):
 
     def run(self, file_obj=None, root_path=None, dual_slice=False, js_file_type=None):
         line_stack = set()
-        # print(len(line_stack))
         analyzed_lines = set()
         variables = self.get_variable_entities(self.buggy_line_num)
+        # print(variables)
         for var in variables:
             if var.kindname() == 'Function':
                 # print('Function', var)
@@ -716,6 +718,7 @@ def process_split_projects(project_path, root_sliced_path, dual_slice):
     subdir = project_path.split('/')[-1]
 
     udb = '{}/{}.und'.format(project_path, subdir)
+    # udb = '/home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/ExperienceRoom/exp.und'
     folderpath_db_map = {udb: project_path}
 
     files = []
@@ -794,40 +797,199 @@ def process_split_projects(project_path, root_sliced_path, dual_slice):
 
     print('********** DONE **********')
 
-def find_file_path(imported):
-    pass
-def slice_project(file, depth):
-    if depth == 0:
-        return ""
+def find_line(function, file, isfile, path):
+    # print('Find line for:', function, file, isfile, path)
+    if isfile:
+        path = '/'.join(path.split('/')[:-1])
+    files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
+    for file in files:
+        with open(os.path.join(path, file)) as imported_file:
+            # print("File analyzed: ", file)
+            lines = [line.rstrip() for line in imported_file]
+            for i in range(len(lines)):
+                # print('Line', i, '/', len(lines), ': looking for', function, 'in', lines[i])
+                line_split = (lines[i].replace('(', ' (')).strip(';').split(' ')
+                # print(line_split)
+                if line_split.count('export') > 0 and line_split.count(function) > 0:
+                    # print(i+1, lines[i], os.path.join(path, file), file)
+                    return i+1, lines[i], os.path.join(path, file), file
+    return 0, '', '', ''
+
+def slice_file(file, project_path, statements=[]):
+    # print(file, project_path, statements)
+    relative_path = project_path + '/ExperienceRoom/'
+    buggy_file_name = file.get('filename')[:-3] + '_buggy.js'
+    # print(buggy_file_name)
+    fixed_file_name = file.get('filename')[:-3] + '_fixed.js'
+    shutil.copy(file.get('buggy_file_path'), relative_path)
+    # shutil.move(relative_path + file.get('filename'), relative_path + buggy_file_name)
+    added = 0
+    with open(relative_path + buggy_file_name, 'w') as buggy_file:
+        with open(relative_path + file.get('filename'), 'r') as old_file:
+            for statement in statements:
+                print(statement)
+                added += len(statement)
+                for line in statement:
+                    buggy_file.write(line)
+            for line in old_file.readlines():
+                buggy_file.write(line)
+    os.remove(relative_path + file.get('filename'))
+    # shutil.copy(file.get('fixed_file_path'), relative_path)
+    # shutil.move(relative_path + file.get('filename'), relative_path + fixed_file_name)
+    command = "und create -languages Web add {} analyze -all {}exp.und".format(relative_path, relative_path)
+    subprocess.run(shlex.split(command))
+    db = understand.open(relative_path + 'exp.und')
+    folderpath_db_map = {relative_path + 'exp.und': relative_path}
+    if os.path.exists(folderpath_db_map[relative_path + 'exp.und'] + buggy_file_name): #and os.path.exists(folderpath_db_map[relative_path + 'exp.und'] + fixed_file_name)):
+        print('Processing buggy file -----', buggy_file_name, int(file.get('buggy_line_num')) + added)
+        try:
+            db_file = db.lookup(buggy_file_name, 'File')
+            if db_file:
+                fixed_file_slice = BackwardSlicing(db, db_file[0], int(int(file.get('buggy_line_num')) + added))
+                print('Doing backward slice on fixed file {}......'.format(buggy_file_name))
+                try:
+                    statements = fixed_file_slice.run(root_path=relative_path, js_file_type='fixed_file')
+                    db.close()
+                    shutil.rmtree(relative_path)
+                    os.mkdir(relative_path)
+                    return statements
+                except Exception as err:
+                    db.close()
+                    print('Error in file', buggy_file_name, err)
+                    traceback.print_exc()
+            else:
+                print('db_file not found', db_file, db.ents())
+                raise FileNotFoundError
+        except SystemError as err:
+            db.close()
+            print(err)
+            return ''
+    else:
+        db.close()
+        raise FileNotFoundError
+
+
+def slice_project(project_path, file, depth):
+    # print(depth)
+    if depth == 1:
+        return slice_file(file, project_path)
     imports = []
-    with open(file.get('buggy_file_path')) as f:
-        for line in f.readline():
-            split = line.split()
-            if split[0] == 'import':
-                imports.append(split[1])  # List of imports TODO
-    for imported in imports:
-        lookup_result = find_file_path(imported)
-        if lookup_result != "":
-            slice_project(lookup_result, depth-1)
-def resolve_dependencies():
+    split_path = file.get('buggy_file_path').split('/')[8:]
+    # file_path = '/'.join(split_path)
+    full_path = project_path + '/' + '/'.join(split_path[:-1])
+    # print(full_path)
+    try:
+        # with open(project_path + "/{}/{}/old/{}".format(file.get('project_name'), file.get('commit_hash'),
+        #                                                 file_path)) as f:
+        with open(file.get('buggy_file_path')) as f:
+            for line in f.read().split('\n'):
+                split = line.split(' ')
+                if split.count('import') > 0 or split.count('require') > 0:  # TODO Verify condition
+                    if split[0] == 'import':
+                        # print(' '.join(split))
+                        i = 1
+                        functions = []
+                        while split[i] != 'from':
+                            functions.append(split[i].removeprefix("{").removesuffix("}"))
+                            i += 1
+                        target = split[i + 1].removeprefix("'").removesuffix("';")
+                        target_split = target.split('/')
+                        if len(target_split) == 1:
+                            # print("Target_split: ", target_split)
+                            for function in functions:
+                                imports.append(
+                                    (function, target_split[0],
+                                     not os.path.isdir('{}/{}'.format(full_path, target_split[0])),
+                                     '{}/{}'.format(full_path, target_split[0])))
+                        else:
+                            i = 0
+                            # print(' '.join(split))
+                            path = full_path
+                            if target_split[0] == '.':
+                                for function in functions:
+                                    imports.append((function, target_split[1] + '.js', not os.path.isdir(path + '/' + target_split[1] + '.js'), path + '/' + target_split[1] + '.js'))
+                            else:
+                                while target_split[i] == '..':
+                                    path = os.path.split(path)[0]
+                                    # print(path)
+                                    i += 1
+                                for function in functions:
+                                    imports.append((function, target_split[-1], not os.path.isdir(path), path))
+                    else:
+                        print(split)
+                    # imports.append(split[1])  # List of imports TODO慶應義塾大学院
+        statements = []
+        for imported in imports:
+            # print("Imports !")
+            num, line, file_path, filename = find_line(imported[0], imported[1], imported[2], imported[3])
+            # print("Got line")
+            if num != 0:
+                new_file = {
+                    'project_name': file.get('project_name'),
+                    'repoUrl': file.get('repo_url'),
+                    'commit_hash': file.get('commit_hash'),
+                    'filename': filename,
+                    'buggy_file_path': file_path,
+                    'buggy_line_num': num,
+                    'buggy_line': line,
+                }
+                # print('File created', new_file)
+                statement = slice_project(project_path, new_file, depth - 1)
+                # print('Got statement')
+                statements.append(statement)
+        # print('slice_file')
+        # statements.append(['// Hello World\n'])
+        return slice_file(file, project_path, statements=statements)
+    except Exception as err:
+        print(err)
+
+def get_path_from_url(project_path, project_name, commit_hash, url, new):
+    split = url.split('/')
+    path = project_path + "/{}/{}/{}/{}".format(project_name, commit_hash, new, '/'.join(split[7:]))
+    return path
+def resolve_dependencies(project_path):
     files = []
-    csv_file_path = project_path + '/' + '{}_bugs_info.csv'.format(subdir)
+    path_split = project_path.split('/')
+    path_split = path_split[0:-1]
+    csv_path = '/'.join(path_split)
+    csv_file_path = csv_path + '/commits.csv'
 
     with open(csv_file_path) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
 
         for row in csv_reader:
-            files.append({
-                'buggy_line_num': row[2],
-                'buggy_line': row[3],
-                'fixed_line': row[4],
-                'buggy_file': row[0],
-                'fixed_file': row[1],
-                'buggy_file_path': row[5],
-                'fixed_file_path': row[6]
-            })
+            if row[0] != 'Project name':
+                files.append({
+                    'project_name': row[0],
+                    'repoUrl': row[1],
+                    'commit_hash': row[3],
+                    'filename': row[6],
+                    'buggy_file_path': get_path_from_url(project_path, row[0], row[3], row[7], 'old'),
+                    'fixed_file_path': get_path_from_url(project_path, row[0], row[3], row[8], 'new'),
+                    'buggy_line_num': int(row[10]),
+                    'buggy_line': row[11],
+                    'fixed_line': row[12]
+                })
+    # files = files[32:33]
+    i = 1
     for file in files:
-        slice_project(file)
+        # print("_____________________________________________________________\n\n\n{}/{}/{}, "
+        # "{}\n\n\n_____________________________________________________________".format(file.get(
+        # 'project_name'), file.get('commit_hash'), file.get('filename'), file.get('buggy_line_num')))
+        print(i)
+        slice = slice_project(project_path, file, 2)
+        print("I'm okay !")
+        sliced_path = os.path.join(os.path.split(project_path)[0], 'sliced_repositories')
+        with open(sliced_path + '/' + file.get('project_name') + file.get('commit_hash') + 'line' + str(file.get(
+                'buggy_line_num')) + file.get('filename'), 'w') as sliced_file:
+            if slice == 'No lines':
+                sliced_file.write(slice+ '\n')
+            else:
+                for line in slice:
+                    sliced_file.write(line + '\n')
+        i += 1
+        time.sleep(60)
+        print("I'm okay !")
 
 if __name__ == '__main__':
     project_type = sys.argv[1] or 'test'  # choices = ['single', 'multiple', 'test']
@@ -847,6 +1009,15 @@ if __name__ == '__main__':
     elif project_type == 'single':
         process_single_file(project_path[0])
     elif project_type == 'projects':
-        resolve_dependencies()
+        # print(project_path)
+        if os.path.exists(project_path[0] + '/ExperienceRoom'):
+            shutil.rmtree(project_path[0] + '/ExperienceRoom')
+            print(os.path.split(project_path[0]))
+        if os.path.exists(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories')):
+            shutil.rmtree(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories'))
+        os.mkdir(project_path[0] + '/ExperienceRoom')
+        os.mkdir(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories'))
+        resolve_dependencies(project_path[0])
+        shutil.rmtree(project_path[0] + '/ExperienceRoom')
     else:
         test_backward_slice()  # For testing slicing stability
