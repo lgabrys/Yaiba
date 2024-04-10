@@ -1,0 +1,24 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/1fe84b1a436da1edbc93ae7497972c08a2ff06bb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/1fe84b1a436da1edbc93ae7497972c08a2ff06bb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/1fe84b1a436da1edbc93ae7497972c08a2ff06bb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/1fe84b1a436da1edbc93ae7497972c08a2ff06bb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/5e5d03c2a5b5984205f076b404fb15664190f9e7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/5e5d03c2a5b5984205f076b404fb15664190f9e7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/5e5d03c2a5b5984205f076b404fb15664190f9e7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/5e5d03c2a5b5984205f076b404fb15664190f9e7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/6d08357dba187aa5da8056a30ba8a24faa2c4f99/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/6d08357dba187aa5da8056a30ba8a24faa2c4f99/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/6d08357dba187aa5da8056a30ba8a24faa2c4f99/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/6d08357dba187aa5da8056a30ba8a24faa2c4f99/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/7a371e2db6228ad0a6c1764d481dd4717cd6033a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/7a371e2db6228ad0a6c1764d481dd4717cd6033a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/7a371e2db6228ad0a6c1764d481dd4717cd6033a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/github-reader/7a371e2db6228ad0a6c1764d481dd4717cd6033a/new 
+analyze -all

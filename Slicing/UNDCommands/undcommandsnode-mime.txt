@@ -1,0 +1,24 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/4131fe7aec960705518196f2098b9aabcb6e3b16/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/4131fe7aec960705518196f2098b9aabcb6e3b16/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/4131fe7aec960705518196f2098b9aabcb6e3b16/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/4131fe7aec960705518196f2098b9aabcb6e3b16/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/9144f8fa3861e5ec4dc01333a6c83533c45b5e7c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/9144f8fa3861e5ec4dc01333a6c83533c45b5e7c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/9144f8fa3861e5ec4dc01333a6c83533c45b5e7c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/9144f8fa3861e5ec4dc01333a6c83533c45b5e7c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/2e00b5c94a549926b3618d22a33d7c16c3359b74/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/2e00b5c94a549926b3618d22a33d7c16c3359b74/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/2e00b5c94a549926b3618d22a33d7c16c3359b74/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/2e00b5c94a549926b3618d22a33d7c16c3359b74/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/9e5913c1e172b5ab112a3b1e8a123c94b97a7177/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/9e5913c1e172b5ab112a3b1e8a123c94b97a7177/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/9e5913c1e172b5ab112a3b1e8a123c94b97a7177/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-mime/9e5913c1e172b5ab112a3b1e8a123c94b97a7177/new 
+analyze -all

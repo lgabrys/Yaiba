@@ -1,0 +1,12 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-autoprefixer/ab49120838d6ecd755138ef0123cc2384253e580/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-autoprefixer/ab49120838d6ecd755138ef0123cc2384253e580/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-autoprefixer/ab49120838d6ecd755138ef0123cc2384253e580/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-autoprefixer/ab49120838d6ecd755138ef0123cc2384253e580/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-autoprefixer/cd022c87d953222feabcd1e50d1cc6e3b07d4292/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-autoprefixer/cd022c87d953222feabcd1e50d1cc6e3b07d4292/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-autoprefixer/cd022c87d953222feabcd1e50d1cc6e3b07d4292/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-autoprefixer/cd022c87d953222feabcd1e50d1cc6e3b07d4292/new 
+analyze -all

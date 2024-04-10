@@ -1,0 +1,24 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/fde198e541fbfa859e08f82e8c805d3a4e6bb5c9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/fde198e541fbfa859e08f82e8c805d3a4e6bb5c9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/fde198e541fbfa859e08f82e8c805d3a4e6bb5c9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/fde198e541fbfa859e08f82e8c805d3a4e6bb5c9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/67d488fc7d0a50998d28ddb3f49ed202f194ac28/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/67d488fc7d0a50998d28ddb3f49ed202f194ac28/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/67d488fc7d0a50998d28ddb3f49ed202f194ac28/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/67d488fc7d0a50998d28ddb3f49ed202f194ac28/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/4b5c748e1b9fb9f95593c1a660967fdc25394b14/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/4b5c748e1b9fb9f95593c1a660967fdc25394b14/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/4b5c748e1b9fb9f95593c1a660967fdc25394b14/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/4b5c748e1b9fb9f95593c1a660967fdc25394b14/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/586614fe03ee934f7b314bd5ce9b615b9e6c4b69/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/586614fe03ee934f7b314bd5ce9b615b9e6c4b69/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/586614fe03ee934f7b314bd5ce9b615b9e6c4b69/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/devkit-core/586614fe03ee934f7b314bd5ce9b615b9e6c4b69/new 
+analyze -all

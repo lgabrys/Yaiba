@@ -1,0 +1,288 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/168c5c9acc0ccf6baf3f7d7963be52af911a3e83/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/168c5c9acc0ccf6baf3f7d7963be52af911a3e83/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/168c5c9acc0ccf6baf3f7d7963be52af911a3e83/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/168c5c9acc0ccf6baf3f7d7963be52af911a3e83/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e9da74c36ace5f290f0353211747d728e99ec666/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e9da74c36ace5f290f0353211747d728e99ec666/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e9da74c36ace5f290f0353211747d728e99ec666/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e9da74c36ace5f290f0353211747d728e99ec666/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e52b184c805ba8450add749d2378d1389a6c4413/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e52b184c805ba8450add749d2378d1389a6c4413/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e52b184c805ba8450add749d2378d1389a6c4413/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e52b184c805ba8450add749d2378d1389a6c4413/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4f954937b49369ef48fbb88cc2c43d2fa5f2140b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4f954937b49369ef48fbb88cc2c43d2fa5f2140b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4f954937b49369ef48fbb88cc2c43d2fa5f2140b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4f954937b49369ef48fbb88cc2c43d2fa5f2140b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/6876d7b52b2254898fb745df4787616c2f9935ba/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/6876d7b52b2254898fb745df4787616c2f9935ba/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/6876d7b52b2254898fb745df4787616c2f9935ba/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/6876d7b52b2254898fb745df4787616c2f9935ba/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/48c828d413088b93539b3812ce409a2612ffba5f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/48c828d413088b93539b3812ce409a2612ffba5f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/48c828d413088b93539b3812ce409a2612ffba5f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/48c828d413088b93539b3812ce409a2612ffba5f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/288c916393db4235fb18f321c56bd375907bd1d1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/288c916393db4235fb18f321c56bd375907bd1d1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/288c916393db4235fb18f321c56bd375907bd1d1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/288c916393db4235fb18f321c56bd375907bd1d1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/8c51f601d8a377aa97571c6a40644b930c84fb19/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/8c51f601d8a377aa97571c6a40644b930c84fb19/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/8c51f601d8a377aa97571c6a40644b930c84fb19/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/8c51f601d8a377aa97571c6a40644b930c84fb19/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/b60781ebbe443436b549a8b54434da83356755aa/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/b60781ebbe443436b549a8b54434da83356755aa/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/b60781ebbe443436b549a8b54434da83356755aa/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/b60781ebbe443436b549a8b54434da83356755aa/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/df25fa2b93e1ea134cfca8bd1c46934ad4f2a7a3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/df25fa2b93e1ea134cfca8bd1c46934ad4f2a7a3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/df25fa2b93e1ea134cfca8bd1c46934ad4f2a7a3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/df25fa2b93e1ea134cfca8bd1c46934ad4f2a7a3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e3e47a0516bc4cd650d8a1c6fc16414c7f698c12/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e3e47a0516bc4cd650d8a1c6fc16414c7f698c12/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e3e47a0516bc4cd650d8a1c6fc16414c7f698c12/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e3e47a0516bc4cd650d8a1c6fc16414c7f698c12/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/ddd8bd54d0a3f3c532357026ec68d96c4144703b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/ddd8bd54d0a3f3c532357026ec68d96c4144703b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/ddd8bd54d0a3f3c532357026ec68d96c4144703b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/ddd8bd54d0a3f3c532357026ec68d96c4144703b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0bb0164a7014a61cb891b4181b94f39e2e334a5d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0bb0164a7014a61cb891b4181b94f39e2e334a5d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0bb0164a7014a61cb891b4181b94f39e2e334a5d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0bb0164a7014a61cb891b4181b94f39e2e334a5d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a584db39359312058cb639c7bde024f87e6155ce/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a584db39359312058cb639c7bde024f87e6155ce/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a584db39359312058cb639c7bde024f87e6155ce/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a584db39359312058cb639c7bde024f87e6155ce/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4b0782dac21403fb6a7fc1e137d468831b6fe3ae/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4b0782dac21403fb6a7fc1e137d468831b6fe3ae/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4b0782dac21403fb6a7fc1e137d468831b6fe3ae/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4b0782dac21403fb6a7fc1e137d468831b6fe3ae/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/16cf13f539c0383be39b79909d39defa8d677616/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/16cf13f539c0383be39b79909d39defa8d677616/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/16cf13f539c0383be39b79909d39defa8d677616/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/16cf13f539c0383be39b79909d39defa8d677616/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/1823d8cdbf04800c3dd62cb14c0786ec9fd76ea0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/1823d8cdbf04800c3dd62cb14c0786ec9fd76ea0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/1823d8cdbf04800c3dd62cb14c0786ec9fd76ea0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/1823d8cdbf04800c3dd62cb14c0786ec9fd76ea0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a0fc098b12ca442473841527476175e10decb373/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a0fc098b12ca442473841527476175e10decb373/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a0fc098b12ca442473841527476175e10decb373/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a0fc098b12ca442473841527476175e10decb373/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0f78d942229f632b7e295ceb8dbe371c679c4892/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0f78d942229f632b7e295ceb8dbe371c679c4892/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0f78d942229f632b7e295ceb8dbe371c679c4892/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0f78d942229f632b7e295ceb8dbe371c679c4892/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4c24b7f195a913a332fc30895f236ab2cafe0d86/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4c24b7f195a913a332fc30895f236ab2cafe0d86/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4c24b7f195a913a332fc30895f236ab2cafe0d86/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4c24b7f195a913a332fc30895f236ab2cafe0d86/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/422c0a0bcf11a555a21052c67f10ecc8d24ee600/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/422c0a0bcf11a555a21052c67f10ecc8d24ee600/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/422c0a0bcf11a555a21052c67f10ecc8d24ee600/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/422c0a0bcf11a555a21052c67f10ecc8d24ee600/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/c2d0d518300115ac796d5bdaec1d678c7f32e3b3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/c2d0d518300115ac796d5bdaec1d678c7f32e3b3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/c2d0d518300115ac796d5bdaec1d678c7f32e3b3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/c2d0d518300115ac796d5bdaec1d678c7f32e3b3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e84a7b66238f962bbe7241977339c221cf9ba550/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e84a7b66238f962bbe7241977339c221cf9ba550/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e84a7b66238f962bbe7241977339c221cf9ba550/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/e84a7b66238f962bbe7241977339c221cf9ba550/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/80d343939facdab4eb4aa315cb061c75a3f77549/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/80d343939facdab4eb4aa315cb061c75a3f77549/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/80d343939facdab4eb4aa315cb061c75a3f77549/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/80d343939facdab4eb4aa315cb061c75a3f77549/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/9e2a20350682f5a310fa85c5105b5af45f509827/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/9e2a20350682f5a310fa85c5105b5af45f509827/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/9e2a20350682f5a310fa85c5105b5af45f509827/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/9e2a20350682f5a310fa85c5105b5af45f509827/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0b1a2067ece59fd10a5d6fc014352a1e85e116df/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0b1a2067ece59fd10a5d6fc014352a1e85e116df/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0b1a2067ece59fd10a5d6fc014352a1e85e116df/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/0b1a2067ece59fd10a5d6fc014352a1e85e116df/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a6d01acd60d69dacac6bbb742b607f3bf84d972a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a6d01acd60d69dacac6bbb742b607f3bf84d972a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a6d01acd60d69dacac6bbb742b607f3bf84d972a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a6d01acd60d69dacac6bbb742b607f3bf84d972a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/ed27e8574aefc02e0d321f6767fa8911588f061f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/ed27e8574aefc02e0d321f6767fa8911588f061f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/ed27e8574aefc02e0d321f6767fa8911588f061f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/ed27e8574aefc02e0d321f6767fa8911588f061f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/bb322678724aee76ab4f06d2816d7382a38dde65/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/bb322678724aee76ab4f06d2816d7382a38dde65/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/bb322678724aee76ab4f06d2816d7382a38dde65/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/bb322678724aee76ab4f06d2816d7382a38dde65/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/5d361a9b6e1abc8443b91020dcce847f4abb889c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/5d361a9b6e1abc8443b91020dcce847f4abb889c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/5d361a9b6e1abc8443b91020dcce847f4abb889c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/5d361a9b6e1abc8443b91020dcce847f4abb889c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a333d9a852c1d6364e742f0082c2958e71e849b6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a333d9a852c1d6364e742f0082c2958e71e849b6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a333d9a852c1d6364e742f0082c2958e71e849b6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/a333d9a852c1d6364e742f0082c2958e71e849b6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/bd06c4091e9e248e6fed6278e0699e5cfdc7de24/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/bd06c4091e9e248e6fed6278e0699e5cfdc7de24/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/bd06c4091e9e248e6fed6278e0699e5cfdc7de24/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/bd06c4091e9e248e6fed6278e0699e5cfdc7de24/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/89345d55cf2bcfaf46b9a53868b33f98a4da2e42/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/89345d55cf2bcfaf46b9a53868b33f98a4da2e42/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/89345d55cf2bcfaf46b9a53868b33f98a4da2e42/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/89345d55cf2bcfaf46b9a53868b33f98a4da2e42/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/23e1b1407233fa90931b3f7a24ec9397c6b9f9ca/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/23e1b1407233fa90931b3f7a24ec9397c6b9f9ca/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/23e1b1407233fa90931b3f7a24ec9397c6b9f9ca/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/23e1b1407233fa90931b3f7a24ec9397c6b9f9ca/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/af941f4c98a24ba9efd7743fdde531903208cda7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/af941f4c98a24ba9efd7743fdde531903208cda7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/af941f4c98a24ba9efd7743fdde531903208cda7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/af941f4c98a24ba9efd7743fdde531903208cda7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/b59ad61df7386f848be63f461d3339ea3b393ede/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/b59ad61df7386f848be63f461d3339ea3b393ede/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/b59ad61df7386f848be63f461d3339ea3b393ede/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/b59ad61df7386f848be63f461d3339ea3b393ede/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/39cec7ffdd60e2cb4f19590b59bbf2b1e2f59dbf/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/39cec7ffdd60e2cb4f19590b59bbf2b1e2f59dbf/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/39cec7ffdd60e2cb4f19590b59bbf2b1e2f59dbf/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/39cec7ffdd60e2cb4f19590b59bbf2b1e2f59dbf/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/6465648947d812d39777f4c8a286b54412359bba/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/6465648947d812d39777f4c8a286b54412359bba/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/6465648947d812d39777f4c8a286b54412359bba/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/6465648947d812d39777f4c8a286b54412359bba/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/227ca0a3219394a72c9856a6104fcd88af464540/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/227ca0a3219394a72c9856a6104fcd88af464540/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/227ca0a3219394a72c9856a6104fcd88af464540/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/227ca0a3219394a72c9856a6104fcd88af464540/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/7f5528299af0d6edaeeb5c68a3ef5a0848c130ad/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/7f5528299af0d6edaeeb5c68a3ef5a0848c130ad/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/7f5528299af0d6edaeeb5c68a3ef5a0848c130ad/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/7f5528299af0d6edaeeb5c68a3ef5a0848c130ad/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/8aaa8e57c7efb5b8b1d2c09636738e3ef0b46ed9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/8aaa8e57c7efb5b8b1d2c09636738e3ef0b46ed9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/8aaa8e57c7efb5b8b1d2c09636738e3ef0b46ed9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/8aaa8e57c7efb5b8b1d2c09636738e3ef0b46ed9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4a76329f562be6d472cb1b5adcc7d55e006aebbc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4a76329f562be6d472cb1b5adcc7d55e006aebbc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4a76329f562be6d472cb1b5adcc7d55e006aebbc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/4a76329f562be6d472cb1b5adcc7d55e006aebbc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/d60456bd1ebe7c8e5a585654f404f78452cb387e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/d60456bd1ebe7c8e5a585654f404f78452cb387e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/d60456bd1ebe7c8e5a585654f404f78452cb387e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/d60456bd1ebe7c8e5a585654f404f78452cb387e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/d6cc51c08bd8c82258574e36e48e3303e71e6aef/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/d6cc51c08bd8c82258574e36e48e3303e71e6aef/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/d6cc51c08bd8c82258574e36e48e3303e71e6aef/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/d6cc51c08bd8c82258574e36e48e3303e71e6aef/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/1310c95bc5c23302a50539e2d5ed55941328917d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/1310c95bc5c23302a50539e2d5ed55941328917d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/1310c95bc5c23302a50539e2d5ed55941328917d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/1310c95bc5c23302a50539e2d5ed55941328917d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/391a956fbf66be7f82a9528d455d91fa22a66863/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/391a956fbf66be7f82a9528d455d91fa22a66863/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/391a956fbf66be7f82a9528d455d91fa22a66863/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/391a956fbf66be7f82a9528d455d91fa22a66863/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/c97c4f00e2595726c4c2286f7481f6de7c351365/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/c97c4f00e2595726c4c2286f7481f6de7c351365/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/c97c4f00e2595726c4c2286f7481f6de7c351365/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/c97c4f00e2595726c4c2286f7481f6de7c351365/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/785ea22c6258d8ec36beebae008b4e1b2df63fe4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/785ea22c6258d8ec36beebae008b4e1b2df63fe4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/785ea22c6258d8ec36beebae008b4e1b2df63fe4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/winston/785ea22c6258d8ec36beebae008b4e1b2df63fe4/new 
+analyze -all

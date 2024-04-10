@@ -1,0 +1,12 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-uglify/82abf51ca227447f693101da8c57974854371f8a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-uglify/82abf51ca227447f693101da8c57974854371f8a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-uglify/82abf51ca227447f693101da8c57974854371f8a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-uglify/82abf51ca227447f693101da8c57974854371f8a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-uglify/61e28ce0b1822d9b1ff5ebd6539038a27f6e3781/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-uglify/61e28ce0b1822d9b1ff5ebd6539038a27f6e3781/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-uglify/61e28ce0b1822d9b1ff5ebd6539038a27f6e3781/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-uglify/61e28ce0b1822d9b1ff5ebd6539038a27f6e3781/new 
+analyze -all

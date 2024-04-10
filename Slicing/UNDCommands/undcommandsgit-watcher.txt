@@ -1,0 +1,42 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/08665596a068951bfa32b3749787ac8b6de48e30/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/08665596a068951bfa32b3749787ac8b6de48e30/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/08665596a068951bfa32b3749787ac8b6de48e30/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/08665596a068951bfa32b3749787ac8b6de48e30/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/740caee2a38b65cb0c1e252ca7f95c21bd6b58cd/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/740caee2a38b65cb0c1e252ca7f95c21bd6b58cd/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/740caee2a38b65cb0c1e252ca7f95c21bd6b58cd/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/740caee2a38b65cb0c1e252ca7f95c21bd6b58cd/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/9c704cd4f88f7e116609003340fea53be31c2fa1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/9c704cd4f88f7e116609003340fea53be31c2fa1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/9c704cd4f88f7e116609003340fea53be31c2fa1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/9c704cd4f88f7e116609003340fea53be31c2fa1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/b8dc44b3537c0da15a6207d4729d616bc73a3a96/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/b8dc44b3537c0da15a6207d4729d616bc73a3a96/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/b8dc44b3537c0da15a6207d4729d616bc73a3a96/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/b8dc44b3537c0da15a6207d4729d616bc73a3a96/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/681ddedb822a8ab37de02f0806f0fe8b07451ed5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/681ddedb822a8ab37de02f0806f0fe8b07451ed5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/681ddedb822a8ab37de02f0806f0fe8b07451ed5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/681ddedb822a8ab37de02f0806f0fe8b07451ed5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/5d3791ffb570bccadb3753f967e494fac1fd3c46/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/5d3791ffb570bccadb3753f967e494fac1fd3c46/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/5d3791ffb570bccadb3753f967e494fac1fd3c46/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/5d3791ffb570bccadb3753f967e494fac1fd3c46/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/0a6b3c69b17523b0cacc98d077f46bca3e91ca2a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/0a6b3c69b17523b0cacc98d077f46bca3e91ca2a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/0a6b3c69b17523b0cacc98d077f46bca3e91ca2a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/git-watcher/0a6b3c69b17523b0cacc98d077f46bca3e91ca2a/new 
+analyze -all

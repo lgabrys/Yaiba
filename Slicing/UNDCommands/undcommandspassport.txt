@@ -1,0 +1,12 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/passport/3a2addab3a7ecb70a38ae607633faae977ca14f1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/passport/3a2addab3a7ecb70a38ae607633faae977ca14f1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/passport/3a2addab3a7ecb70a38ae607633faae977ca14f1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/passport/3a2addab3a7ecb70a38ae607633faae977ca14f1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/passport/6e37662f5f4931c9189d4f31eb3f2a8a76f66a83/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/passport/6e37662f5f4931c9189d4f31eb3f2a8a76f66a83/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/passport/6e37662f5f4931c9189d4f31eb3f2a8a76f66a83/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/passport/6e37662f5f4931c9189d4f31eb3f2a8a76f66a83/new 
+analyze -all

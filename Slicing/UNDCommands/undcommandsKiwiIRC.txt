@@ -1,0 +1,312 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/1dd6bebc9d46af89c86f388a4786e7f88b96354d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/1dd6bebc9d46af89c86f388a4786e7f88b96354d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/1dd6bebc9d46af89c86f388a4786e7f88b96354d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/1dd6bebc9d46af89c86f388a4786e7f88b96354d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3010bd6cdd40967e83ab8be2f83d2b7c667b593e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3010bd6cdd40967e83ab8be2f83d2b7c667b593e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3010bd6cdd40967e83ab8be2f83d2b7c667b593e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3010bd6cdd40967e83ab8be2f83d2b7c667b593e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/44197e59f58b85dd9461360ce2bb8c8172f5415a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/44197e59f58b85dd9461360ce2bb8c8172f5415a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/44197e59f58b85dd9461360ce2bb8c8172f5415a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/44197e59f58b85dd9461360ce2bb8c8172f5415a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b575fa08650d71a9b5ed960c6391a281e6ac4bf6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b575fa08650d71a9b5ed960c6391a281e6ac4bf6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b575fa08650d71a9b5ed960c6391a281e6ac4bf6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b575fa08650d71a9b5ed960c6391a281e6ac4bf6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7829cee7e52939e714217375b8620533d3f74f33/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7829cee7e52939e714217375b8620533d3f74f33/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7829cee7e52939e714217375b8620533d3f74f33/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7829cee7e52939e714217375b8620533d3f74f33/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/c37f372b90ed824b9e01340fbb00895e43746ab9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/c37f372b90ed824b9e01340fbb00895e43746ab9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/c37f372b90ed824b9e01340fbb00895e43746ab9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/c37f372b90ed824b9e01340fbb00895e43746ab9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/0ea112f0b46b91d0e02ded63257588fc2d8c47f9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/0ea112f0b46b91d0e02ded63257588fc2d8c47f9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/0ea112f0b46b91d0e02ded63257588fc2d8c47f9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/0ea112f0b46b91d0e02ded63257588fc2d8c47f9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/2bb0a45b1c90fa47954b5d06efa5b47d31f962ae/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/2bb0a45b1c90fa47954b5d06efa5b47d31f962ae/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/2bb0a45b1c90fa47954b5d06efa5b47d31f962ae/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/2bb0a45b1c90fa47954b5d06efa5b47d31f962ae/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b09157de7df850222786c5f8ea7950c46408b143/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b09157de7df850222786c5f8ea7950c46408b143/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b09157de7df850222786c5f8ea7950c46408b143/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b09157de7df850222786c5f8ea7950c46408b143/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/1662b6ced9c5daeab1ad928d538b8999e35166f2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/1662b6ced9c5daeab1ad928d538b8999e35166f2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/1662b6ced9c5daeab1ad928d538b8999e35166f2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/1662b6ced9c5daeab1ad928d538b8999e35166f2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/5301ab325c964ff216f2499d51ccc3337d9b6aa7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/5301ab325c964ff216f2499d51ccc3337d9b6aa7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/5301ab325c964ff216f2499d51ccc3337d9b6aa7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/5301ab325c964ff216f2499d51ccc3337d9b6aa7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d17d2abe6e4a5ac293100a341a997e01585efdbd/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d17d2abe6e4a5ac293100a341a997e01585efdbd/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d17d2abe6e4a5ac293100a341a997e01585efdbd/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d17d2abe6e4a5ac293100a341a997e01585efdbd/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/bed14c9c1b93f3ae4a3c309e0c795dff39ac8e0d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/bed14c9c1b93f3ae4a3c309e0c795dff39ac8e0d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/bed14c9c1b93f3ae4a3c309e0c795dff39ac8e0d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/bed14c9c1b93f3ae4a3c309e0c795dff39ac8e0d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/21b87f6215034a591fb874776811d900683dfb89/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/21b87f6215034a591fb874776811d900683dfb89/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/21b87f6215034a591fb874776811d900683dfb89/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/21b87f6215034a591fb874776811d900683dfb89/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/309c83561b3cbae5ddc6011d5e1e54aac38dbd35/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/309c83561b3cbae5ddc6011d5e1e54aac38dbd35/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/309c83561b3cbae5ddc6011d5e1e54aac38dbd35/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/309c83561b3cbae5ddc6011d5e1e54aac38dbd35/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d63a5832eafb6f8e226a5e595432173ac6ab8028/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d63a5832eafb6f8e226a5e595432173ac6ab8028/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d63a5832eafb6f8e226a5e595432173ac6ab8028/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d63a5832eafb6f8e226a5e595432173ac6ab8028/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/75d92a3703e65c7ff652a345947016f1186f524e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/75d92a3703e65c7ff652a345947016f1186f524e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/75d92a3703e65c7ff652a345947016f1186f524e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/75d92a3703e65c7ff652a345947016f1186f524e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/4f19a296c1238dad36a2903d05e5be7f2f2640c1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/4f19a296c1238dad36a2903d05e5be7f2f2640c1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/4f19a296c1238dad36a2903d05e5be7f2f2640c1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/4f19a296c1238dad36a2903d05e5be7f2f2640c1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6ca73220940c51035d6e1114b4e2b136a271e4b0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6ca73220940c51035d6e1114b4e2b136a271e4b0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6ca73220940c51035d6e1114b4e2b136a271e4b0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6ca73220940c51035d6e1114b4e2b136a271e4b0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/e36914986306dc97095769cffb89492bac5fbbd8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/e36914986306dc97095769cffb89492bac5fbbd8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/e36914986306dc97095769cffb89492bac5fbbd8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/e36914986306dc97095769cffb89492bac5fbbd8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/a61a7bc86ba471694c2b07c515ab64eeaa3588bb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/a61a7bc86ba471694c2b07c515ab64eeaa3588bb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/a61a7bc86ba471694c2b07c515ab64eeaa3588bb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/a61a7bc86ba471694c2b07c515ab64eeaa3588bb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/156cf4e8b46cdd7b50fbbee56d8e9820806bb29f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/156cf4e8b46cdd7b50fbbee56d8e9820806bb29f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/156cf4e8b46cdd7b50fbbee56d8e9820806bb29f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/156cf4e8b46cdd7b50fbbee56d8e9820806bb29f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/02a9f7e886999da17ebcadd0c94ffc5b6c6ed3b5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/02a9f7e886999da17ebcadd0c94ffc5b6c6ed3b5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/02a9f7e886999da17ebcadd0c94ffc5b6c6ed3b5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/02a9f7e886999da17ebcadd0c94ffc5b6c6ed3b5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/0cfbecfc51cf8509c0e897b960dcaa26baaab4dc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/0cfbecfc51cf8509c0e897b960dcaa26baaab4dc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/0cfbecfc51cf8509c0e897b960dcaa26baaab4dc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/0cfbecfc51cf8509c0e897b960dcaa26baaab4dc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3811864327a314e51d701c18cd8b3fdbdd5a5f45/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3811864327a314e51d701c18cd8b3fdbdd5a5f45/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3811864327a314e51d701c18cd8b3fdbdd5a5f45/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3811864327a314e51d701c18cd8b3fdbdd5a5f45/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/8c5113954de1bde45048e98252331716cd42a79e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/8c5113954de1bde45048e98252331716cd42a79e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/8c5113954de1bde45048e98252331716cd42a79e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/8c5113954de1bde45048e98252331716cd42a79e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6cd5ba87eec861cc1b58cfb235c4d50812cf162d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6cd5ba87eec861cc1b58cfb235c4d50812cf162d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6cd5ba87eec861cc1b58cfb235c4d50812cf162d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6cd5ba87eec861cc1b58cfb235c4d50812cf162d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/528cebc633a7345dcfc0f1ddff3d512e234eaf17/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/528cebc633a7345dcfc0f1ddff3d512e234eaf17/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/528cebc633a7345dcfc0f1ddff3d512e234eaf17/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/528cebc633a7345dcfc0f1ddff3d512e234eaf17/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b70909a6fff01b0f2a4a4b21c274b44b1bbaa016/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b70909a6fff01b0f2a4a4b21c274b44b1bbaa016/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b70909a6fff01b0f2a4a4b21c274b44b1bbaa016/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b70909a6fff01b0f2a4a4b21c274b44b1bbaa016/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/207a777912b6b097cb1026aef53181185633f49e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/207a777912b6b097cb1026aef53181185633f49e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/207a777912b6b097cb1026aef53181185633f49e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/207a777912b6b097cb1026aef53181185633f49e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b91949aaa16b6121d696ed40f8e891cb063a1f10/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b91949aaa16b6121d696ed40f8e891cb063a1f10/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b91949aaa16b6121d696ed40f8e891cb063a1f10/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/b91949aaa16b6121d696ed40f8e891cb063a1f10/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/03bf49a46f9df7800100229247cff31025b5f189/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/03bf49a46f9df7800100229247cff31025b5f189/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/03bf49a46f9df7800100229247cff31025b5f189/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/03bf49a46f9df7800100229247cff31025b5f189/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/199527b671f91c6888464353a88d52e79ba5bb20/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/199527b671f91c6888464353a88d52e79ba5bb20/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/199527b671f91c6888464353a88d52e79ba5bb20/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/199527b671f91c6888464353a88d52e79ba5bb20/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6a61bfc841c5e2a1c1742a04c6d2c6e4766038d8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6a61bfc841c5e2a1c1742a04c6d2c6e4766038d8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6a61bfc841c5e2a1c1742a04c6d2c6e4766038d8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/6a61bfc841c5e2a1c1742a04c6d2c6e4766038d8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/277b3040268e414a1a49b8dc8b085b85f2cba479/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/277b3040268e414a1a49b8dc8b085b85f2cba479/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/277b3040268e414a1a49b8dc8b085b85f2cba479/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/277b3040268e414a1a49b8dc8b085b85f2cba479/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/15fefff775548643bdad2af3b34e7235c9975351/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/15fefff775548643bdad2af3b34e7235c9975351/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/15fefff775548643bdad2af3b34e7235c9975351/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/15fefff775548643bdad2af3b34e7235c9975351/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/2cb3c82ef8e8f3e2c9f4c62f2470f6a9bd4b8321/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/2cb3c82ef8e8f3e2c9f4c62f2470f6a9bd4b8321/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/2cb3c82ef8e8f3e2c9f4c62f2470f6a9bd4b8321/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/2cb3c82ef8e8f3e2c9f4c62f2470f6a9bd4b8321/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/11177392108843cd52c8e4fbfccdf8994539b7bf/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/11177392108843cd52c8e4fbfccdf8994539b7bf/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/11177392108843cd52c8e4fbfccdf8994539b7bf/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/11177392108843cd52c8e4fbfccdf8994539b7bf/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/445ef4a54ab9eeab7188c75c166d1824ddb68579/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/445ef4a54ab9eeab7188c75c166d1824ddb68579/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/445ef4a54ab9eeab7188c75c166d1824ddb68579/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/445ef4a54ab9eeab7188c75c166d1824ddb68579/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/a5ba2101b5f2cabd552696883ef23e2b060ec97f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/a5ba2101b5f2cabd552696883ef23e2b060ec97f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/a5ba2101b5f2cabd552696883ef23e2b060ec97f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/a5ba2101b5f2cabd552696883ef23e2b060ec97f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/ceca5991d91e4206e41c809643411964cb554773/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/ceca5991d91e4206e41c809643411964cb554773/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/ceca5991d91e4206e41c809643411964cb554773/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/ceca5991d91e4206e41c809643411964cb554773/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7a6ef4aa3d3589c86dec6404aed97c6bb8d202e2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7a6ef4aa3d3589c86dec6404aed97c6bb8d202e2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7a6ef4aa3d3589c86dec6404aed97c6bb8d202e2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7a6ef4aa3d3589c86dec6404aed97c6bb8d202e2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d8b0ca686ec45cb3e2b02f7051af3aef0b639428/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d8b0ca686ec45cb3e2b02f7051af3aef0b639428/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d8b0ca686ec45cb3e2b02f7051af3aef0b639428/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d8b0ca686ec45cb3e2b02f7051af3aef0b639428/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/8c906998d0cb1eef055099fc79ba8d800913d7fb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/8c906998d0cb1eef055099fc79ba8d800913d7fb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/8c906998d0cb1eef055099fc79ba8d800913d7fb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/8c906998d0cb1eef055099fc79ba8d800913d7fb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7d969e05be26c1010a49d1daa460fdaad423ff29/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7d969e05be26c1010a49d1daa460fdaad423ff29/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7d969e05be26c1010a49d1daa460fdaad423ff29/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/7d969e05be26c1010a49d1daa460fdaad423ff29/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3dd5ff0a0cd17aace5795cb00b968139f35d7905/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3dd5ff0a0cd17aace5795cb00b968139f35d7905/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3dd5ff0a0cd17aace5795cb00b968139f35d7905/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/3dd5ff0a0cd17aace5795cb00b968139f35d7905/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d812c960859a4d61a1c941880bdbc7a3ccbf7f69/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d812c960859a4d61a1c941880bdbc7a3ccbf7f69/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d812c960859a4d61a1c941880bdbc7a3ccbf7f69/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/d812c960859a4d61a1c941880bdbc7a3ccbf7f69/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/33a443595f7da67f44a71e9ca798d7dcb0fe378b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/33a443595f7da67f44a71e9ca798d7dcb0fe378b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/33a443595f7da67f44a71e9ca798d7dcb0fe378b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/33a443595f7da67f44a71e9ca798d7dcb0fe378b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/aa22caa919e30a198724f5c2b5f206605fc1c8ee/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/aa22caa919e30a198724f5c2b5f206605fc1c8ee/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/aa22caa919e30a198724f5c2b5f206605fc1c8ee/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/aa22caa919e30a198724f5c2b5f206605fc1c8ee/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/634434c0635624fe5555508e34ffc0445526389f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/634434c0635624fe5555508e34ffc0445526389f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/634434c0635624fe5555508e34ffc0445526389f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/634434c0635624fe5555508e34ffc0445526389f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/aefdbb0986a7542fb8d5f680c8b6d5990de9769a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/aefdbb0986a7542fb8d5f680c8b6d5990de9769a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/aefdbb0986a7542fb8d5f680c8b6d5990de9769a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/aefdbb0986a7542fb8d5f680c8b6d5990de9769a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/9e8814a3299a9a6071aa10b5931cbd5fda810ff9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/9e8814a3299a9a6071aa10b5931cbd5fda810ff9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/9e8814a3299a9a6071aa10b5931cbd5fda810ff9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/KiwiIRC/9e8814a3299a9a6071aa10b5931cbd5fda810ff9/new 
+analyze -all

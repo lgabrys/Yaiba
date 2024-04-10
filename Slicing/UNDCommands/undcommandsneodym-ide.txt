@@ -1,0 +1,12 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/neodym-ide/e4f1a3e0f857016a082ebaf1584a4899f9cef774/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/neodym-ide/e4f1a3e0f857016a082ebaf1584a4899f9cef774/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/neodym-ide/e4f1a3e0f857016a082ebaf1584a4899f9cef774/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/neodym-ide/e4f1a3e0f857016a082ebaf1584a4899f9cef774/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/neodym-ide/01d5b647b157d9c60e1ded6ff4046336f02be156/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/neodym-ide/01d5b647b157d9c60e1ded6ff4046336f02be156/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/neodym-ide/01d5b647b157d9c60e1ded6ff4046336f02be156/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/neodym-ide/01d5b647b157d9c60e1ded6ff4046336f02be156/new 
+analyze -all

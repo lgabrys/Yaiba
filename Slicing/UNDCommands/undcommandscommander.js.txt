@@ -1,0 +1,132 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/10b673f5fc01b2805a425c2766dff1aa9b5d8e28/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/10b673f5fc01b2805a425c2766dff1aa9b5d8e28/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/10b673f5fc01b2805a425c2766dff1aa9b5d8e28/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/10b673f5fc01b2805a425c2766dff1aa9b5d8e28/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/9e8f3b2ddde31e7ab02112178773eab90ade6ee8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/9e8f3b2ddde31e7ab02112178773eab90ade6ee8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/9e8f3b2ddde31e7ab02112178773eab90ade6ee8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/9e8f3b2ddde31e7ab02112178773eab90ade6ee8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/68a427658ce11de1118d2b5b2ceb95133d1fce99/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/68a427658ce11de1118d2b5b2ceb95133d1fce99/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/68a427658ce11de1118d2b5b2ceb95133d1fce99/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/68a427658ce11de1118d2b5b2ceb95133d1fce99/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/dab6ba8d19cae3a7f2402253c80ea09d9c9ee5ff/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/dab6ba8d19cae3a7f2402253c80ea09d9c9ee5ff/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/dab6ba8d19cae3a7f2402253c80ea09d9c9ee5ff/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/dab6ba8d19cae3a7f2402253c80ea09d9c9ee5ff/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/b1948053fdd08dcc21884631ea3989c54b8c724f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/b1948053fdd08dcc21884631ea3989c54b8c724f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/b1948053fdd08dcc21884631ea3989c54b8c724f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/b1948053fdd08dcc21884631ea3989c54b8c724f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/dcddf698c5463795401ad3d6382f5ec5ec060478/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/dcddf698c5463795401ad3d6382f5ec5ec060478/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/dcddf698c5463795401ad3d6382f5ec5ec060478/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/dcddf698c5463795401ad3d6382f5ec5ec060478/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/808745f4049f7621ada984eb20732635fc8146c5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/808745f4049f7621ada984eb20732635fc8146c5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/808745f4049f7621ada984eb20732635fc8146c5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/808745f4049f7621ada984eb20732635fc8146c5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f902f6da9c9f31197e92cfd6244138b539dad245/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f902f6da9c9f31197e92cfd6244138b539dad245/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f902f6da9c9f31197e92cfd6244138b539dad245/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f902f6da9c9f31197e92cfd6244138b539dad245/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f3431d1571a7c55d0606b2ddb85310a454df1a2d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f3431d1571a7c55d0606b2ddb85310a454df1a2d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f3431d1571a7c55d0606b2ddb85310a454df1a2d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f3431d1571a7c55d0606b2ddb85310a454df1a2d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/96c6c2511344d164446a2f18f2acdbd45f3985af/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/96c6c2511344d164446a2f18f2acdbd45f3985af/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/96c6c2511344d164446a2f18f2acdbd45f3985af/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/96c6c2511344d164446a2f18f2acdbd45f3985af/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f99d6fa52a5608a7681faab50d367d7ae830e690/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f99d6fa52a5608a7681faab50d367d7ae830e690/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f99d6fa52a5608a7681faab50d367d7ae830e690/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f99d6fa52a5608a7681faab50d367d7ae830e690/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f4a8bf24bdfd92dee2a829afb9fc6ab64266733c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f4a8bf24bdfd92dee2a829afb9fc6ab64266733c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f4a8bf24bdfd92dee2a829afb9fc6ab64266733c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/f4a8bf24bdfd92dee2a829afb9fc6ab64266733c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/38d8225ea5aeca06daa006d23ec6a691b680bd62/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/38d8225ea5aeca06daa006d23ec6a691b680bd62/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/38d8225ea5aeca06daa006d23ec6a691b680bd62/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/38d8225ea5aeca06daa006d23ec6a691b680bd62/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/62234f60f9dcc01724c0300e79138eb16b505c91/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/62234f60f9dcc01724c0300e79138eb16b505c91/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/62234f60f9dcc01724c0300e79138eb16b505c91/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/62234f60f9dcc01724c0300e79138eb16b505c91/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/eb850dda89639195e1b34c568cc9825285e084b7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/eb850dda89639195e1b34c568cc9825285e084b7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/eb850dda89639195e1b34c568cc9825285e084b7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/eb850dda89639195e1b34c568cc9825285e084b7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/bcda184fd2835819a420980ce64e6fc083b24bef/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/bcda184fd2835819a420980ce64e6fc083b24bef/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/bcda184fd2835819a420980ce64e6fc083b24bef/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/bcda184fd2835819a420980ce64e6fc083b24bef/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/8d3c7b5e826c5e9cc258d5db4c33449c1591d447/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/8d3c7b5e826c5e9cc258d5db4c33449c1591d447/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/8d3c7b5e826c5e9cc258d5db4c33449c1591d447/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/8d3c7b5e826c5e9cc258d5db4c33449c1591d447/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/7def9f11e947e73a28eabde89181fb379a33d1c8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/7def9f11e947e73a28eabde89181fb379a33d1c8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/7def9f11e947e73a28eabde89181fb379a33d1c8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/7def9f11e947e73a28eabde89181fb379a33d1c8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/4c294c174b89c00d5442b21e020258a4128a45b1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/4c294c174b89c00d5442b21e020258a4128a45b1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/4c294c174b89c00d5442b21e020258a4128a45b1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/4c294c174b89c00d5442b21e020258a4128a45b1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/aa72d844fd1ee5453b7d9fe56f21adc78595303f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/aa72d844fd1ee5453b7d9fe56f21adc78595303f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/aa72d844fd1ee5453b7d9fe56f21adc78595303f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/aa72d844fd1ee5453b7d9fe56f21adc78595303f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/14fb529183d9c46ae5b8611ac70bdcb2b62e54f0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/14fb529183d9c46ae5b8611ac70bdcb2b62e54f0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/14fb529183d9c46ae5b8611ac70bdcb2b62e54f0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/14fb529183d9c46ae5b8611ac70bdcb2b62e54f0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/b286da9c5ae889df1ae00ca0c607695d00f89ad2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/b286da9c5ae889df1ae00ca0c607695d00f89ad2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/b286da9c5ae889df1ae00ca0c607695d00f89ad2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/commander.js/b286da9c5ae889df1ae00ca0c607695d00f89ad2/new 
+analyze -all

@@ -1,0 +1,1368 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2c025f23db6efb6d1442208d81c2080d40c44f10/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2c025f23db6efb6d1442208d81c2080d40c44f10/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2c025f23db6efb6d1442208d81c2080d40c44f10/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2c025f23db6efb6d1442208d81c2080d40c44f10/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/32ae994f88d4afa9bf4f7cccc8605ece56fdd887/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/32ae994f88d4afa9bf4f7cccc8605ece56fdd887/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/32ae994f88d4afa9bf4f7cccc8605ece56fdd887/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/32ae994f88d4afa9bf4f7cccc8605ece56fdd887/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b9053c7a25ff1ad86345e0196437671609756afa/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b9053c7a25ff1ad86345e0196437671609756afa/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b9053c7a25ff1ad86345e0196437671609756afa/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b9053c7a25ff1ad86345e0196437671609756afa/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ef5f7fc25e93833396540cf7479685b241bd1b8f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ef5f7fc25e93833396540cf7479685b241bd1b8f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ef5f7fc25e93833396540cf7479685b241bd1b8f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ef5f7fc25e93833396540cf7479685b241bd1b8f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/87119e44a08118bf302a4da6ae71e74f8bea4f89/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/87119e44a08118bf302a4da6ae71e74f8bea4f89/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/87119e44a08118bf302a4da6ae71e74f8bea4f89/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/87119e44a08118bf302a4da6ae71e74f8bea4f89/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4b5993ff15bc99bcb897611974529cbc92543211/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4b5993ff15bc99bcb897611974529cbc92543211/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4b5993ff15bc99bcb897611974529cbc92543211/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4b5993ff15bc99bcb897611974529cbc92543211/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/44e494f16f5ce7fc1272e6ca6ae227f77623c2f9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/44e494f16f5ce7fc1272e6ca6ae227f77623c2f9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/44e494f16f5ce7fc1272e6ca6ae227f77623c2f9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/44e494f16f5ce7fc1272e6ca6ae227f77623c2f9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5344b7dab897fe266db9524a99529d6b64e9386e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5344b7dab897fe266db9524a99529d6b64e9386e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5344b7dab897fe266db9524a99529d6b64e9386e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5344b7dab897fe266db9524a99529d6b64e9386e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/95090dbf24dbda120924eb3cd003f80e0128f52a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/95090dbf24dbda120924eb3cd003f80e0128f52a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/95090dbf24dbda120924eb3cd003f80e0128f52a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/95090dbf24dbda120924eb3cd003f80e0128f52a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/80da21dab467e9214d5908fca0a54d1242b3c443/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/80da21dab467e9214d5908fca0a54d1242b3c443/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/80da21dab467e9214d5908fca0a54d1242b3c443/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/80da21dab467e9214d5908fca0a54d1242b3c443/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/182a47bfb1d49a99a561253edc05e70a6dc5b8e8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/182a47bfb1d49a99a561253edc05e70a6dc5b8e8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/182a47bfb1d49a99a561253edc05e70a6dc5b8e8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/182a47bfb1d49a99a561253edc05e70a6dc5b8e8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e3a3db73ae4c2c90ad304e1e6b7d019053ca3dc3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e3a3db73ae4c2c90ad304e1e6b7d019053ca3dc3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e3a3db73ae4c2c90ad304e1e6b7d019053ca3dc3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e3a3db73ae4c2c90ad304e1e6b7d019053ca3dc3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1940fb682c7f29d3d82913d0b58d542d034c2556/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1940fb682c7f29d3d82913d0b58d542d034c2556/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1940fb682c7f29d3d82913d0b58d542d034c2556/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1940fb682c7f29d3d82913d0b58d542d034c2556/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fb049d3a81b744a5facf1f032b8b2815c410f178/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fb049d3a81b744a5facf1f032b8b2815c410f178/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fb049d3a81b744a5facf1f032b8b2815c410f178/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fb049d3a81b744a5facf1f032b8b2815c410f178/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8f35a363d90e6521e916a8d70f3302d4adc51ae6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8f35a363d90e6521e916a8d70f3302d4adc51ae6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8f35a363d90e6521e916a8d70f3302d4adc51ae6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8f35a363d90e6521e916a8d70f3302d4adc51ae6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e8db526f513ba324535fff040d651d4faacd89ae/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e8db526f513ba324535fff040d651d4faacd89ae/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e8db526f513ba324535fff040d651d4faacd89ae/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e8db526f513ba324535fff040d651d4faacd89ae/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a6bb66931bfdd04d6ce05b640d89a8deff7ca3de/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a6bb66931bfdd04d6ce05b640d89a8deff7ca3de/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a6bb66931bfdd04d6ce05b640d89a8deff7ca3de/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a6bb66931bfdd04d6ce05b640d89a8deff7ca3de/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ace8aaa0f4ad6ecae77e760473353f07b384880e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ace8aaa0f4ad6ecae77e760473353f07b384880e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ace8aaa0f4ad6ecae77e760473353f07b384880e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ace8aaa0f4ad6ecae77e760473353f07b384880e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7f342cb3e3abd3e39b18e62a2e9d6b8020d82773/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7f342cb3e3abd3e39b18e62a2e9d6b8020d82773/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7f342cb3e3abd3e39b18e62a2e9d6b8020d82773/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7f342cb3e3abd3e39b18e62a2e9d6b8020d82773/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/07f64d4050cd28cf2a837d30ce2938fa9628ff57/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/07f64d4050cd28cf2a837d30ce2938fa9628ff57/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/07f64d4050cd28cf2a837d30ce2938fa9628ff57/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/07f64d4050cd28cf2a837d30ce2938fa9628ff57/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b1e05fd48afd9aceaa00cc621a8f6ac22c097398/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b1e05fd48afd9aceaa00cc621a8f6ac22c097398/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b1e05fd48afd9aceaa00cc621a8f6ac22c097398/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b1e05fd48afd9aceaa00cc621a8f6ac22c097398/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/08623aa6a700f62e6b096917d31b0b7a2705d281/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/08623aa6a700f62e6b096917d31b0b7a2705d281/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/08623aa6a700f62e6b096917d31b0b7a2705d281/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/08623aa6a700f62e6b096917d31b0b7a2705d281/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ad3a331ca3ebb27724e56b30caff5e9dd1af7675/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ad3a331ca3ebb27724e56b30caff5e9dd1af7675/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ad3a331ca3ebb27724e56b30caff5e9dd1af7675/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ad3a331ca3ebb27724e56b30caff5e9dd1af7675/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb08fed120ad1d2dcd41a2ae03cec3d3b2885c7b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb08fed120ad1d2dcd41a2ae03cec3d3b2885c7b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb08fed120ad1d2dcd41a2ae03cec3d3b2885c7b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb08fed120ad1d2dcd41a2ae03cec3d3b2885c7b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fc6ebd04a59024dfd3b40b43825a007c62bac2b3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fc6ebd04a59024dfd3b40b43825a007c62bac2b3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fc6ebd04a59024dfd3b40b43825a007c62bac2b3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fc6ebd04a59024dfd3b40b43825a007c62bac2b3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/931723737204d0a042604f8051ca3af8aa08a1c7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/931723737204d0a042604f8051ca3af8aa08a1c7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/931723737204d0a042604f8051ca3af8aa08a1c7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/931723737204d0a042604f8051ca3af8aa08a1c7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/311c074622e0aabbd79b0d701c19f21b8b093b77/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/311c074622e0aabbd79b0d701c19f21b8b093b77/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/311c074622e0aabbd79b0d701c19f21b8b093b77/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/311c074622e0aabbd79b0d701c19f21b8b093b77/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb22f0101eba4649e0cafb3e62f7601f9c37d0b7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb22f0101eba4649e0cafb3e62f7601f9c37d0b7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb22f0101eba4649e0cafb3e62f7601f9c37d0b7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb22f0101eba4649e0cafb3e62f7601f9c37d0b7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/77f7ae5ba2449c38751c444263106603edb587ef/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/77f7ae5ba2449c38751c444263106603edb587ef/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/77f7ae5ba2449c38751c444263106603edb587ef/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/77f7ae5ba2449c38751c444263106603edb587ef/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/13cdc167a24fc49f5275b17810525f6879986304/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/13cdc167a24fc49f5275b17810525f6879986304/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/13cdc167a24fc49f5275b17810525f6879986304/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/13cdc167a24fc49f5275b17810525f6879986304/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e821787095d856448940ab93a7a03febb7e644de/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e821787095d856448940ab93a7a03febb7e644de/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e821787095d856448940ab93a7a03febb7e644de/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e821787095d856448940ab93a7a03febb7e644de/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da8d1545710add4cbe43901b41f56a1446a5eeb5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da8d1545710add4cbe43901b41f56a1446a5eeb5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da8d1545710add4cbe43901b41f56a1446a5eeb5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da8d1545710add4cbe43901b41f56a1446a5eeb5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7691bebea525e96cb74d52e0bb8f294cf778c966/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7691bebea525e96cb74d52e0bb8f294cf778c966/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7691bebea525e96cb74d52e0bb8f294cf778c966/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7691bebea525e96cb74d52e0bb8f294cf778c966/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6d7ab63a6600c65958f4788dee6da5b2ea43476c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6d7ab63a6600c65958f4788dee6da5b2ea43476c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6d7ab63a6600c65958f4788dee6da5b2ea43476c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6d7ab63a6600c65958f4788dee6da5b2ea43476c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a5a1f36879073bd4b33a48b7f7baad197381472/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a5a1f36879073bd4b33a48b7f7baad197381472/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a5a1f36879073bd4b33a48b7f7baad197381472/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a5a1f36879073bd4b33a48b7f7baad197381472/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e04ef562435547e286019fdee46dd0b89b9822df/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e04ef562435547e286019fdee46dd0b89b9822df/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e04ef562435547e286019fdee46dd0b89b9822df/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e04ef562435547e286019fdee46dd0b89b9822df/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2b4093ba8342b79bac3f9f89428817231728bb01/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2b4093ba8342b79bac3f9f89428817231728bb01/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2b4093ba8342b79bac3f9f89428817231728bb01/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2b4093ba8342b79bac3f9f89428817231728bb01/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/09f77c7d4d37350102c36b270b553f45e706d0c8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/09f77c7d4d37350102c36b270b553f45e706d0c8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/09f77c7d4d37350102c36b270b553f45e706d0c8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/09f77c7d4d37350102c36b270b553f45e706d0c8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8ff9a3c8fb89ac40fea0dd1cd249e8b94a690c2e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8ff9a3c8fb89ac40fea0dd1cd249e8b94a690c2e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8ff9a3c8fb89ac40fea0dd1cd249e8b94a690c2e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8ff9a3c8fb89ac40fea0dd1cd249e8b94a690c2e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f87e7be12c7857ec0fc772a9ea4db6d24b5e3551/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f87e7be12c7857ec0fc772a9ea4db6d24b5e3551/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f87e7be12c7857ec0fc772a9ea4db6d24b5e3551/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f87e7be12c7857ec0fc772a9ea4db6d24b5e3551/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/324587f76980114e030c59165a60bd285ca05be0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/324587f76980114e030c59165a60bd285ca05be0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/324587f76980114e030c59165a60bd285ca05be0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/324587f76980114e030c59165a60bd285ca05be0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9c306406f14087ad0a62141bf7bb9e12afcc1a75/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9c306406f14087ad0a62141bf7bb9e12afcc1a75/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9c306406f14087ad0a62141bf7bb9e12afcc1a75/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9c306406f14087ad0a62141bf7bb9e12afcc1a75/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d074aa6e27de77bc60e69b933f90725931c8d5df/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d074aa6e27de77bc60e69b933f90725931c8d5df/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d074aa6e27de77bc60e69b933f90725931c8d5df/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d074aa6e27de77bc60e69b933f90725931c8d5df/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f8ca4626efb15dc986785c89c51cbb3061e5f32/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f8ca4626efb15dc986785c89c51cbb3061e5f32/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f8ca4626efb15dc986785c89c51cbb3061e5f32/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f8ca4626efb15dc986785c89c51cbb3061e5f32/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/395a17ccda95362b1a7a5bd9ac0e6cda7f0946a8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/395a17ccda95362b1a7a5bd9ac0e6cda7f0946a8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/395a17ccda95362b1a7a5bd9ac0e6cda7f0946a8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/395a17ccda95362b1a7a5bd9ac0e6cda7f0946a8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8ea1ced389776400cf507cebc48c89f1865c27aa/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8ea1ced389776400cf507cebc48c89f1865c27aa/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8ea1ced389776400cf507cebc48c89f1865c27aa/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8ea1ced389776400cf507cebc48c89f1865c27aa/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ec443e422c220619fe671166e467d3d8838b0cab/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ec443e422c220619fe671166e467d3d8838b0cab/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ec443e422c220619fe671166e467d3d8838b0cab/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ec443e422c220619fe671166e467d3d8838b0cab/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8af2f5fbcf91279db86f71e9a889d69b262370c5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8af2f5fbcf91279db86f71e9a889d69b262370c5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8af2f5fbcf91279db86f71e9a889d69b262370c5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8af2f5fbcf91279db86f71e9a889d69b262370c5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1529ab965a4a434e6024977a53f8460f6a474086/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1529ab965a4a434e6024977a53f8460f6a474086/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1529ab965a4a434e6024977a53f8460f6a474086/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1529ab965a4a434e6024977a53f8460f6a474086/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ee9ceb79ca61c8adb9bbf7e82459ab0bbe3aaced/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ee9ceb79ca61c8adb9bbf7e82459ab0bbe3aaced/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ee9ceb79ca61c8adb9bbf7e82459ab0bbe3aaced/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ee9ceb79ca61c8adb9bbf7e82459ab0bbe3aaced/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a84beafd1bbdb61ea5fc3662e349f6c960f1ba66/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a84beafd1bbdb61ea5fc3662e349f6c960f1ba66/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a84beafd1bbdb61ea5fc3662e349f6c960f1ba66/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a84beafd1bbdb61ea5fc3662e349f6c960f1ba66/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2f3930d1b92746be6a3b3e1d371b0ae25e56777e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2f3930d1b92746be6a3b3e1d371b0ae25e56777e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2f3930d1b92746be6a3b3e1d371b0ae25e56777e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2f3930d1b92746be6a3b3e1d371b0ae25e56777e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d6152e6a76908223cace651898e12a3b3c9a445d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d6152e6a76908223cace651898e12a3b3c9a445d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d6152e6a76908223cace651898e12a3b3c9a445d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d6152e6a76908223cace651898e12a3b3c9a445d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c97ad98f92282bfa52f7d89dd5703021df6bec29/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c97ad98f92282bfa52f7d89dd5703021df6bec29/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c97ad98f92282bfa52f7d89dd5703021df6bec29/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c97ad98f92282bfa52f7d89dd5703021df6bec29/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/950609f5788d4e5ed1480b45045f9c73179d3301/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/950609f5788d4e5ed1480b45045f9c73179d3301/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/950609f5788d4e5ed1480b45045f9c73179d3301/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/950609f5788d4e5ed1480b45045f9c73179d3301/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b512726cf39066919483d2add87905f677db1832/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b512726cf39066919483d2add87905f677db1832/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b512726cf39066919483d2add87905f677db1832/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b512726cf39066919483d2add87905f677db1832/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f2af0934021a83b781f207432d10380cc4c5f396/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f2af0934021a83b781f207432d10380cc4c5f396/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f2af0934021a83b781f207432d10380cc4c5f396/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f2af0934021a83b781f207432d10380cc4c5f396/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/543dd7d3d750e83b00e50bbf74fa786a7c1d243e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/543dd7d3d750e83b00e50bbf74fa786a7c1d243e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/543dd7d3d750e83b00e50bbf74fa786a7c1d243e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/543dd7d3d750e83b00e50bbf74fa786a7c1d243e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9e8ba27dcdfd39d01b8aa0bbf92fd03a44844acc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9e8ba27dcdfd39d01b8aa0bbf92fd03a44844acc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9e8ba27dcdfd39d01b8aa0bbf92fd03a44844acc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9e8ba27dcdfd39d01b8aa0bbf92fd03a44844acc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/78e3936cd489b6a764027f35c27e8438c1bee132/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/78e3936cd489b6a764027f35c27e8438c1bee132/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/78e3936cd489b6a764027f35c27e8438c1bee132/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/78e3936cd489b6a764027f35c27e8438c1bee132/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/48b3fe99524e1e85edd30f0a326c2f1136e150e4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/48b3fe99524e1e85edd30f0a326c2f1136e150e4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/48b3fe99524e1e85edd30f0a326c2f1136e150e4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/48b3fe99524e1e85edd30f0a326c2f1136e150e4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3596b4fedaf3f5c5451efd9ea100ebc0743c9b5d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3596b4fedaf3f5c5451efd9ea100ebc0743c9b5d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3596b4fedaf3f5c5451efd9ea100ebc0743c9b5d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3596b4fedaf3f5c5451efd9ea100ebc0743c9b5d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5411360829a59fb9b38e5ac360620124a53a31be/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5411360829a59fb9b38e5ac360620124a53a31be/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5411360829a59fb9b38e5ac360620124a53a31be/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5411360829a59fb9b38e5ac360620124a53a31be/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9a9543013c9d56cfc9593893fb9bfdff2aaa0307/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9a9543013c9d56cfc9593893fb9bfdff2aaa0307/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9a9543013c9d56cfc9593893fb9bfdff2aaa0307/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9a9543013c9d56cfc9593893fb9bfdff2aaa0307/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4bbeb09f7c12bfb3d12ac5264bbdf033ee0b66dc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4bbeb09f7c12bfb3d12ac5264bbdf033ee0b66dc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4bbeb09f7c12bfb3d12ac5264bbdf033ee0b66dc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4bbeb09f7c12bfb3d12ac5264bbdf033ee0b66dc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da82fa59a723b22ad5d8dec42cd2ca0d070f2359/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da82fa59a723b22ad5d8dec42cd2ca0d070f2359/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da82fa59a723b22ad5d8dec42cd2ca0d070f2359/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da82fa59a723b22ad5d8dec42cd2ca0d070f2359/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/025f3e9596e336ed4367d8621c920a236d6e4c17/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/025f3e9596e336ed4367d8621c920a236d6e4c17/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/025f3e9596e336ed4367d8621c920a236d6e4c17/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/025f3e9596e336ed4367d8621c920a236d6e4c17/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac51d4c5a079dccbc9a6cf69d06f757432c69694/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac51d4c5a079dccbc9a6cf69d06f757432c69694/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac51d4c5a079dccbc9a6cf69d06f757432c69694/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac51d4c5a079dccbc9a6cf69d06f757432c69694/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b3ef5e514dd0cefeba926401d2538907a8712b99/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b3ef5e514dd0cefeba926401d2538907a8712b99/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b3ef5e514dd0cefeba926401d2538907a8712b99/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b3ef5e514dd0cefeba926401d2538907a8712b99/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d4c25c571bfac8e9bf91b2b894837d61370b0c35/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d4c25c571bfac8e9bf91b2b894837d61370b0c35/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d4c25c571bfac8e9bf91b2b894837d61370b0c35/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d4c25c571bfac8e9bf91b2b894837d61370b0c35/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fa14a9cfcd8d766887654b8b6da727489077033a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fa14a9cfcd8d766887654b8b6da727489077033a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fa14a9cfcd8d766887654b8b6da727489077033a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fa14a9cfcd8d766887654b8b6da727489077033a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b14d3df3d26ca1de94cc617f1104391f750fd570/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b14d3df3d26ca1de94cc617f1104391f750fd570/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b14d3df3d26ca1de94cc617f1104391f750fd570/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b14d3df3d26ca1de94cc617f1104391f750fd570/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9cdc1ef6c2a9684c0ae769ac4ce21c9d593378bb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9cdc1ef6c2a9684c0ae769ac4ce21c9d593378bb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9cdc1ef6c2a9684c0ae769ac4ce21c9d593378bb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9cdc1ef6c2a9684c0ae769ac4ce21c9d593378bb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fdcc6d3a9c74f55b21ceb59953ee90369d3e5e13/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fdcc6d3a9c74f55b21ceb59953ee90369d3e5e13/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fdcc6d3a9c74f55b21ceb59953ee90369d3e5e13/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/fdcc6d3a9c74f55b21ceb59953ee90369d3e5e13/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/905b6011784ca60d41919ac1a499962b7c1d4b02/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/905b6011784ca60d41919ac1a499962b7c1d4b02/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/905b6011784ca60d41919ac1a499962b7c1d4b02/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/905b6011784ca60d41919ac1a499962b7c1d4b02/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7eb52d2837c9d77a389457ae84bfddd28f86cf27/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7eb52d2837c9d77a389457ae84bfddd28f86cf27/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7eb52d2837c9d77a389457ae84bfddd28f86cf27/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7eb52d2837c9d77a389457ae84bfddd28f86cf27/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f86f615d836049fbae03271b59a67b8a9ca90ef7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f86f615d836049fbae03271b59a67b8a9ca90ef7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f86f615d836049fbae03271b59a67b8a9ca90ef7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f86f615d836049fbae03271b59a67b8a9ca90ef7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1d0127de2134f2086e1de51d47782118470397ed/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1d0127de2134f2086e1de51d47782118470397ed/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1d0127de2134f2086e1de51d47782118470397ed/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1d0127de2134f2086e1de51d47782118470397ed/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/077512d1515d9fbd4e19bce79be75a09df8d5619/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/077512d1515d9fbd4e19bce79be75a09df8d5619/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/077512d1515d9fbd4e19bce79be75a09df8d5619/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/077512d1515d9fbd4e19bce79be75a09df8d5619/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/30bf06876878495637dfef2f6e31824649abd34b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/30bf06876878495637dfef2f6e31824649abd34b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/30bf06876878495637dfef2f6e31824649abd34b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/30bf06876878495637dfef2f6e31824649abd34b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/746f5f6c62c113ce89981f70ec5de8c8b78016da/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/746f5f6c62c113ce89981f70ec5de8c8b78016da/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/746f5f6c62c113ce89981f70ec5de8c8b78016da/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/746f5f6c62c113ce89981f70ec5de8c8b78016da/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/83a42716c37eb644c490454d7f2119b1fe8158b1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/83a42716c37eb644c490454d7f2119b1fe8158b1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/83a42716c37eb644c490454d7f2119b1fe8158b1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/83a42716c37eb644c490454d7f2119b1fe8158b1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/79c60032a55b518e07acb45237e527b4fe61c8e6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/79c60032a55b518e07acb45237e527b4fe61c8e6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/79c60032a55b518e07acb45237e527b4fe61c8e6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/79c60032a55b518e07acb45237e527b4fe61c8e6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a841d45bc3acaa10b2b8ca3922227403928bcc6f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a841d45bc3acaa10b2b8ca3922227403928bcc6f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a841d45bc3acaa10b2b8ca3922227403928bcc6f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a841d45bc3acaa10b2b8ca3922227403928bcc6f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3ca902258c24209699f0b5bd5b9654252e492272/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3ca902258c24209699f0b5bd5b9654252e492272/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3ca902258c24209699f0b5bd5b9654252e492272/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3ca902258c24209699f0b5bd5b9654252e492272/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/98f330658f5cd0dfb3004815d05f123f4110c2e0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/98f330658f5cd0dfb3004815d05f123f4110c2e0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/98f330658f5cd0dfb3004815d05f123f4110c2e0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/98f330658f5cd0dfb3004815d05f123f4110c2e0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2e0dc970037b3a22fb367ab77c5fe506317ee40b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2e0dc970037b3a22fb367ab77c5fe506317ee40b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2e0dc970037b3a22fb367ab77c5fe506317ee40b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2e0dc970037b3a22fb367ab77c5fe506317ee40b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c624b437394e0ba909a6cd9c3c4066bdd0240a30/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c624b437394e0ba909a6cd9c3c4066bdd0240a30/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c624b437394e0ba909a6cd9c3c4066bdd0240a30/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c624b437394e0ba909a6cd9c3c4066bdd0240a30/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6d4c0fa6fabd7c5c75be419ed166b326f3da6bf3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6d4c0fa6fabd7c5c75be419ed166b326f3da6bf3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6d4c0fa6fabd7c5c75be419ed166b326f3da6bf3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6d4c0fa6fabd7c5c75be419ed166b326f3da6bf3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bfd0ac7f4bd8d5062b480c904c302a56946d7c2a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bfd0ac7f4bd8d5062b480c904c302a56946d7c2a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bfd0ac7f4bd8d5062b480c904c302a56946d7c2a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bfd0ac7f4bd8d5062b480c904c302a56946d7c2a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/335b72df03fb6593d4bac8ddcde7d1b128eb3c4e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/335b72df03fb6593d4bac8ddcde7d1b128eb3c4e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/335b72df03fb6593d4bac8ddcde7d1b128eb3c4e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/335b72df03fb6593d4bac8ddcde7d1b128eb3c4e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da68ec6e190e8969741606b2b2a3eb2d327061ba/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da68ec6e190e8969741606b2b2a3eb2d327061ba/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da68ec6e190e8969741606b2b2a3eb2d327061ba/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/da68ec6e190e8969741606b2b2a3eb2d327061ba/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f0120e90b6eae20e46eb38e815654f16d8a5d896/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f0120e90b6eae20e46eb38e815654f16d8a5d896/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f0120e90b6eae20e46eb38e815654f16d8a5d896/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f0120e90b6eae20e46eb38e815654f16d8a5d896/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5e2cd07d6f6866b1ddae51a4c9b280d2cd527973/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5e2cd07d6f6866b1ddae51a4c9b280d2cd527973/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5e2cd07d6f6866b1ddae51a4c9b280d2cd527973/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5e2cd07d6f6866b1ddae51a4c9b280d2cd527973/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a00040dd93083548aa065c5ae8942e3c2600cbbe/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a00040dd93083548aa065c5ae8942e3c2600cbbe/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a00040dd93083548aa065c5ae8942e3c2600cbbe/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a00040dd93083548aa065c5ae8942e3c2600cbbe/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/964d5b9aa47bad28bc200de90f3acd6d899b2733/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/964d5b9aa47bad28bc200de90f3acd6d899b2733/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/964d5b9aa47bad28bc200de90f3acd6d899b2733/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/964d5b9aa47bad28bc200de90f3acd6d899b2733/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c44b6399c30b043f9bf687ce9b44458abc211d80/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c44b6399c30b043f9bf687ce9b44458abc211d80/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c44b6399c30b043f9bf687ce9b44458abc211d80/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c44b6399c30b043f9bf687ce9b44458abc211d80/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f97da96608744e9f20c3994d8d1e66d6b6949a1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f97da96608744e9f20c3994d8d1e66d6b6949a1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f97da96608744e9f20c3994d8d1e66d6b6949a1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f97da96608744e9f20c3994d8d1e66d6b6949a1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5e6307974fa2b1e7972ab8c58b636eaed47a54fb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5e6307974fa2b1e7972ab8c58b636eaed47a54fb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5e6307974fa2b1e7972ab8c58b636eaed47a54fb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5e6307974fa2b1e7972ab8c58b636eaed47a54fb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c8d60d698310aa263c4f6684b18680af07e07c87/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c8d60d698310aa263c4f6684b18680af07e07c87/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c8d60d698310aa263c4f6684b18680af07e07c87/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c8d60d698310aa263c4f6684b18680af07e07c87/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d7971ba0e439eb042fd880762bc7fa77ce1f3e73/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d7971ba0e439eb042fd880762bc7fa77ce1f3e73/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d7971ba0e439eb042fd880762bc7fa77ce1f3e73/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d7971ba0e439eb042fd880762bc7fa77ce1f3e73/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5c02d65ddb8d315d53a4356c038b461ddb1cb029/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5c02d65ddb8d315d53a4356c038b461ddb1cb029/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5c02d65ddb8d315d53a4356c038b461ddb1cb029/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5c02d65ddb8d315d53a4356c038b461ddb1cb029/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/607f87c5cde7f4f66a43e5986ca692e7f7861f57/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/607f87c5cde7f4f66a43e5986ca692e7f7861f57/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/607f87c5cde7f4f66a43e5986ca692e7f7861f57/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/607f87c5cde7f4f66a43e5986ca692e7f7861f57/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9d3b1efd86d659c6519cc74b7f8b232e07e0675e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9d3b1efd86d659c6519cc74b7f8b232e07e0675e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9d3b1efd86d659c6519cc74b7f8b232e07e0675e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9d3b1efd86d659c6519cc74b7f8b232e07e0675e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a53ab9937835f795c4714e981d10249e7829d2d4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a53ab9937835f795c4714e981d10249e7829d2d4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a53ab9937835f795c4714e981d10249e7829d2d4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a53ab9937835f795c4714e981d10249e7829d2d4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3d71e97dd100fe150db3a5585d744e109bfa53ac/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3d71e97dd100fe150db3a5585d744e109bfa53ac/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3d71e97dd100fe150db3a5585d744e109bfa53ac/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3d71e97dd100fe150db3a5585d744e109bfa53ac/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f4c2ea37bf9231b6f76804e74ee157be916280de/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f4c2ea37bf9231b6f76804e74ee157be916280de/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f4c2ea37bf9231b6f76804e74ee157be916280de/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f4c2ea37bf9231b6f76804e74ee157be916280de/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e8a2c0b5bf18659a3e1285b6038ea755a290220d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e8a2c0b5bf18659a3e1285b6038ea755a290220d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e8a2c0b5bf18659a3e1285b6038ea755a290220d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e8a2c0b5bf18659a3e1285b6038ea755a290220d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b2bc2e1173152c48096c032eb16921bfcbfae33e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b2bc2e1173152c48096c032eb16921bfcbfae33e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b2bc2e1173152c48096c032eb16921bfcbfae33e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b2bc2e1173152c48096c032eb16921bfcbfae33e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9e626281716c0f11ed6b289d6a48c7b681a99a1e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9e626281716c0f11ed6b289d6a48c7b681a99a1e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9e626281716c0f11ed6b289d6a48c7b681a99a1e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9e626281716c0f11ed6b289d6a48c7b681a99a1e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/afdaeba37d2d7541529addaefe85ed09515863af/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/afdaeba37d2d7541529addaefe85ed09515863af/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/afdaeba37d2d7541529addaefe85ed09515863af/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/afdaeba37d2d7541529addaefe85ed09515863af/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7db2ada880773d72ab585498454d26bcfbee4588/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7db2ada880773d72ab585498454d26bcfbee4588/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7db2ada880773d72ab585498454d26bcfbee4588/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7db2ada880773d72ab585498454d26bcfbee4588/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9d34f8428bc4a5fb7d26ac953f585b2622d63171/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9d34f8428bc4a5fb7d26ac953f585b2622d63171/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9d34f8428bc4a5fb7d26ac953f585b2622d63171/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9d34f8428bc4a5fb7d26ac953f585b2622d63171/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5ffc17d4aa36c40a4d5ebe558edbc734b45ca1dc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5ffc17d4aa36c40a4d5ebe558edbc734b45ca1dc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5ffc17d4aa36c40a4d5ebe558edbc734b45ca1dc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5ffc17d4aa36c40a4d5ebe558edbc734b45ca1dc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/053cb27fe33ef6fed6c2d109f6602a2434fac3f1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/053cb27fe33ef6fed6c2d109f6602a2434fac3f1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/053cb27fe33ef6fed6c2d109f6602a2434fac3f1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/053cb27fe33ef6fed6c2d109f6602a2434fac3f1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bab416465f77ab76ad76f21be59481ccae6a342a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bab416465f77ab76ad76f21be59481ccae6a342a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bab416465f77ab76ad76f21be59481ccae6a342a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bab416465f77ab76ad76f21be59481ccae6a342a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/739fa266f80802f75838cc4053e615b27abcf361/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/739fa266f80802f75838cc4053e615b27abcf361/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/739fa266f80802f75838cc4053e615b27abcf361/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/739fa266f80802f75838cc4053e615b27abcf361/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c55dd5ed74888d533cf8402c6ba3612916ba2885/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c55dd5ed74888d533cf8402c6ba3612916ba2885/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c55dd5ed74888d533cf8402c6ba3612916ba2885/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c55dd5ed74888d533cf8402c6ba3612916ba2885/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c525a2b1907fdef36acffdeea4cf02ae476d8399/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c525a2b1907fdef36acffdeea4cf02ae476d8399/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c525a2b1907fdef36acffdeea4cf02ae476d8399/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c525a2b1907fdef36acffdeea4cf02ae476d8399/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8926a2f327f9954e856161169a92a4190f0318e4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8926a2f327f9954e856161169a92a4190f0318e4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8926a2f327f9954e856161169a92a4190f0318e4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8926a2f327f9954e856161169a92a4190f0318e4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7840746bd95c965409ba7e6dbbd291a88ed64f83/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7840746bd95c965409ba7e6dbbd291a88ed64f83/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7840746bd95c965409ba7e6dbbd291a88ed64f83/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7840746bd95c965409ba7e6dbbd291a88ed64f83/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb7fa252703c052f81e2ab491d84ba352648e4c9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb7fa252703c052f81e2ab491d84ba352648e4c9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb7fa252703c052f81e2ab491d84ba352648e4c9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb7fa252703c052f81e2ab491d84ba352648e4c9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5a5200d657f2eb6c37026509afd683fe4f4fc84f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5a5200d657f2eb6c37026509afd683fe4f4fc84f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5a5200d657f2eb6c37026509afd683fe4f4fc84f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5a5200d657f2eb6c37026509afd683fe4f4fc84f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/540220b91bb02d50d04422dc782a5fe1905dd27a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/540220b91bb02d50d04422dc782a5fe1905dd27a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/540220b91bb02d50d04422dc782a5fe1905dd27a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/540220b91bb02d50d04422dc782a5fe1905dd27a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7a51c17ff0005ca3725c8afefe2f4086f4316ee2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7a51c17ff0005ca3725c8afefe2f4086f4316ee2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7a51c17ff0005ca3725c8afefe2f4086f4316ee2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7a51c17ff0005ca3725c8afefe2f4086f4316ee2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c4c9c6d37de8074bba3e433621bc70f88d7631ae/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c4c9c6d37de8074bba3e433621bc70f88d7631ae/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c4c9c6d37de8074bba3e433621bc70f88d7631ae/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c4c9c6d37de8074bba3e433621bc70f88d7631ae/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f833937fea193e466a33e2f03f21d0b909a407d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f833937fea193e466a33e2f03f21d0b909a407d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f833937fea193e466a33e2f03f21d0b909a407d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f833937fea193e466a33e2f03f21d0b909a407d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d83c6490abeb6821c939b06ce4b56781cd0f1145/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d83c6490abeb6821c939b06ce4b56781cd0f1145/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d83c6490abeb6821c939b06ce4b56781cd0f1145/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d83c6490abeb6821c939b06ce4b56781cd0f1145/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/60c0bc1e6b1db1a7288c7924231b28a0e9f35cff/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/60c0bc1e6b1db1a7288c7924231b28a0e9f35cff/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/60c0bc1e6b1db1a7288c7924231b28a0e9f35cff/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/60c0bc1e6b1db1a7288c7924231b28a0e9f35cff/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/24bb2888328a4fb01b7cfb49695b0f84e7120aeb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/24bb2888328a4fb01b7cfb49695b0f84e7120aeb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/24bb2888328a4fb01b7cfb49695b0f84e7120aeb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/24bb2888328a4fb01b7cfb49695b0f84e7120aeb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/83fb8b4ca1e877c9ca7b3b07712ddec1c6f3a43d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/83fb8b4ca1e877c9ca7b3b07712ddec1c6f3a43d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/83fb8b4ca1e877c9ca7b3b07712ddec1c6f3a43d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/83fb8b4ca1e877c9ca7b3b07712ddec1c6f3a43d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3493a182b2c94e4011b2b12d61376273b985d29a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3493a182b2c94e4011b2b12d61376273b985d29a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3493a182b2c94e4011b2b12d61376273b985d29a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3493a182b2c94e4011b2b12d61376273b985d29a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bb0a762d12d2ecd058b9d7b57f16b4c289378d9c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bb0a762d12d2ecd058b9d7b57f16b4c289378d9c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bb0a762d12d2ecd058b9d7b57f16b4c289378d9c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/bb0a762d12d2ecd058b9d7b57f16b4c289378d9c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a1c9b34cea8bf740c70d5457ef9e3bd37778607/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a1c9b34cea8bf740c70d5457ef9e3bd37778607/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a1c9b34cea8bf740c70d5457ef9e3bd37778607/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a1c9b34cea8bf740c70d5457ef9e3bd37778607/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c5df8355ba00fdf5ffa81192e0d88cf0dca90061/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c5df8355ba00fdf5ffa81192e0d88cf0dca90061/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c5df8355ba00fdf5ffa81192e0d88cf0dca90061/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c5df8355ba00fdf5ffa81192e0d88cf0dca90061/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f345175bc2aef3cb9d3ceb6ec241cf191dd70eb7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f345175bc2aef3cb9d3ceb6ec241cf191dd70eb7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f345175bc2aef3cb9d3ceb6ec241cf191dd70eb7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f345175bc2aef3cb9d3ceb6ec241cf191dd70eb7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/983e69128b0e6da78d71ad9b77d798f31a10ca44/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/983e69128b0e6da78d71ad9b77d798f31a10ca44/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/983e69128b0e6da78d71ad9b77d798f31a10ca44/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/983e69128b0e6da78d71ad9b77d798f31a10ca44/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5561d3e7f3252837ac3b85401f2403937860da46/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5561d3e7f3252837ac3b85401f2403937860da46/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5561d3e7f3252837ac3b85401f2403937860da46/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/5561d3e7f3252837ac3b85401f2403937860da46/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0daa199fa85e60b78b04b82a91acdb230cb42229/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0daa199fa85e60b78b04b82a91acdb230cb42229/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0daa199fa85e60b78b04b82a91acdb230cb42229/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0daa199fa85e60b78b04b82a91acdb230cb42229/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f5ceff6e4b94a032078b0730f91662ee62758eb4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f5ceff6e4b94a032078b0730f91662ee62758eb4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f5ceff6e4b94a032078b0730f91662ee62758eb4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f5ceff6e4b94a032078b0730f91662ee62758eb4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/df3bb8028a7cd8a69a3c76090d12f808ca7abc3b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/df3bb8028a7cd8a69a3c76090d12f808ca7abc3b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/df3bb8028a7cd8a69a3c76090d12f808ca7abc3b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/df3bb8028a7cd8a69a3c76090d12f808ca7abc3b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d7c1dc6c0578b55eefc3bc94556146dce6e1a8cb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d7c1dc6c0578b55eefc3bc94556146dce6e1a8cb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d7c1dc6c0578b55eefc3bc94556146dce6e1a8cb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d7c1dc6c0578b55eefc3bc94556146dce6e1a8cb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/58dff9ada3adf21dbe7d8d205e76cfbd48b8619a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/58dff9ada3adf21dbe7d8d205e76cfbd48b8619a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/58dff9ada3adf21dbe7d8d205e76cfbd48b8619a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/58dff9ada3adf21dbe7d8d205e76cfbd48b8619a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/05e15b1c0c04f673524e0946b5e1b6a60110ada1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/05e15b1c0c04f673524e0946b5e1b6a60110ada1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/05e15b1c0c04f673524e0946b5e1b6a60110ada1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/05e15b1c0c04f673524e0946b5e1b6a60110ada1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a65de89b97731cd83a077303dd0511ba7ff7151/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a65de89b97731cd83a077303dd0511ba7ff7151/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a65de89b97731cd83a077303dd0511ba7ff7151/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0a65de89b97731cd83a077303dd0511ba7ff7151/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d9d67317b1283886b24fec9a4c6607bf729a5e59/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d9d67317b1283886b24fec9a4c6607bf729a5e59/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d9d67317b1283886b24fec9a4c6607bf729a5e59/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d9d67317b1283886b24fec9a4c6607bf729a5e59/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a5b209470c2a61c3c735523fc82bd1ce45a51ec1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a5b209470c2a61c3c735523fc82bd1ce45a51ec1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a5b209470c2a61c3c735523fc82bd1ce45a51ec1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a5b209470c2a61c3c735523fc82bd1ce45a51ec1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c2334baa4813bdde21d5a652de0c9da3733d06b6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c2334baa4813bdde21d5a652de0c9da3733d06b6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c2334baa4813bdde21d5a652de0c9da3733d06b6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c2334baa4813bdde21d5a652de0c9da3733d06b6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/cd671221c59feead948b13b024695dc04015fde6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/cd671221c59feead948b13b024695dc04015fde6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/cd671221c59feead948b13b024695dc04015fde6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/cd671221c59feead948b13b024695dc04015fde6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b55a2fd53113d70900c7cd96ad8cfdcc235629c2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b55a2fd53113d70900c7cd96ad8cfdcc235629c2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b55a2fd53113d70900c7cd96ad8cfdcc235629c2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b55a2fd53113d70900c7cd96ad8cfdcc235629c2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8d28052182a4cd1261a4f24a15a1c694079ef930/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8d28052182a4cd1261a4f24a15a1c694079ef930/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8d28052182a4cd1261a4f24a15a1c694079ef930/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8d28052182a4cd1261a4f24a15a1c694079ef930/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/acc2d7d8455ed7302a78948b3c8678990dc1765a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/acc2d7d8455ed7302a78948b3c8678990dc1765a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/acc2d7d8455ed7302a78948b3c8678990dc1765a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/acc2d7d8455ed7302a78948b3c8678990dc1765a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac2caf10889516d9350f1ef8ad402cdea80a7deb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac2caf10889516d9350f1ef8ad402cdea80a7deb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac2caf10889516d9350f1ef8ad402cdea80a7deb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac2caf10889516d9350f1ef8ad402cdea80a7deb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2d8af8947e3bf2daa51bdc199c504122563375d1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2d8af8947e3bf2daa51bdc199c504122563375d1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2d8af8947e3bf2daa51bdc199c504122563375d1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2d8af8947e3bf2daa51bdc199c504122563375d1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aebafad41eab48f43ed649ce8c77e8f1528b50da/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aebafad41eab48f43ed649ce8c77e8f1528b50da/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aebafad41eab48f43ed649ce8c77e8f1528b50da/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aebafad41eab48f43ed649ce8c77e8f1528b50da/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/07accd2fbb78ddbdb427774b3b5287a16fa95b5f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/07accd2fbb78ddbdb427774b3b5287a16fa95b5f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/07accd2fbb78ddbdb427774b3b5287a16fa95b5f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/07accd2fbb78ddbdb427774b3b5287a16fa95b5f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9f23185f2bb0d23d5dd2e2334c589e97132a37a8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9f23185f2bb0d23d5dd2e2334c589e97132a37a8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9f23185f2bb0d23d5dd2e2334c589e97132a37a8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9f23185f2bb0d23d5dd2e2334c589e97132a37a8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0eb4577a82437a82bd88bfeef4ecc761cc66c861/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0eb4577a82437a82bd88bfeef4ecc761cc66c861/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0eb4577a82437a82bd88bfeef4ecc761cc66c861/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0eb4577a82437a82bd88bfeef4ecc761cc66c861/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/43498769f09e682af27999e138ab2d42cea5ef6e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/43498769f09e682af27999e138ab2d42cea5ef6e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/43498769f09e682af27999e138ab2d42cea5ef6e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/43498769f09e682af27999e138ab2d42cea5ef6e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/90ec46824063450d88e04235df276a89e7025b77/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/90ec46824063450d88e04235df276a89e7025b77/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/90ec46824063450d88e04235df276a89e7025b77/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/90ec46824063450d88e04235df276a89e7025b77/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/15b608f74c5111083ab361e419652e38719884dd/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/15b608f74c5111083ab361e419652e38719884dd/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/15b608f74c5111083ab361e419652e38719884dd/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/15b608f74c5111083ab361e419652e38719884dd/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9c0feb69e5cdd3d491c6b0600fc964a41a774710/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9c0feb69e5cdd3d491c6b0600fc964a41a774710/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9c0feb69e5cdd3d491c6b0600fc964a41a774710/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9c0feb69e5cdd3d491c6b0600fc964a41a774710/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2352909c3d9ea9b2f53768a7522decb275e81288/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2352909c3d9ea9b2f53768a7522decb275e81288/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2352909c3d9ea9b2f53768a7522decb275e81288/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2352909c3d9ea9b2f53768a7522decb275e81288/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d2a45ba441ed6975021b3524215c01a011dfb46a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d2a45ba441ed6975021b3524215c01a011dfb46a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d2a45ba441ed6975021b3524215c01a011dfb46a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d2a45ba441ed6975021b3524215c01a011dfb46a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/88985a46ed771f312f799853740ec2ba4f87ea03/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/88985a46ed771f312f799853740ec2ba4f87ea03/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/88985a46ed771f312f799853740ec2ba4f87ea03/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/88985a46ed771f312f799853740ec2ba4f87ea03/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/257ddc3bdb37efdb48fc23371f5f523e2044afd8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/257ddc3bdb37efdb48fc23371f5f523e2044afd8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/257ddc3bdb37efdb48fc23371f5f523e2044afd8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/257ddc3bdb37efdb48fc23371f5f523e2044afd8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/89a35f9fcd3587ee52417458326e2ae398708008/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/89a35f9fcd3587ee52417458326e2ae398708008/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/89a35f9fcd3587ee52417458326e2ae398708008/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/89a35f9fcd3587ee52417458326e2ae398708008/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/dc33facfcb7899c0422cb14b08dddfcf06b1c949/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/dc33facfcb7899c0422cb14b08dddfcf06b1c949/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/dc33facfcb7899c0422cb14b08dddfcf06b1c949/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/dc33facfcb7899c0422cb14b08dddfcf06b1c949/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ab5c7e6863f0a898798cf3b2fd87a52a89ed018d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ab5c7e6863f0a898798cf3b2fd87a52a89ed018d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ab5c7e6863f0a898798cf3b2fd87a52a89ed018d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ab5c7e6863f0a898798cf3b2fd87a52a89ed018d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ca49f6f41a4b515b60a4b5784ae650b1b6cf0322/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ca49f6f41a4b515b60a4b5784ae650b1b6cf0322/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ca49f6f41a4b515b60a4b5784ae650b1b6cf0322/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ca49f6f41a4b515b60a4b5784ae650b1b6cf0322/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aa82027a1721ee7233e92ab1b9f9ced43a8f17cf/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aa82027a1721ee7233e92ab1b9f9ced43a8f17cf/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aa82027a1721ee7233e92ab1b9f9ced43a8f17cf/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aa82027a1721ee7233e92ab1b9f9ced43a8f17cf/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/39d8880f2cd17c9b96bf73a3bcd7c27a89cf919e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/39d8880f2cd17c9b96bf73a3bcd7c27a89cf919e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/39d8880f2cd17c9b96bf73a3bcd7c27a89cf919e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/39d8880f2cd17c9b96bf73a3bcd7c27a89cf919e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aa37b196989edc13988ab225e4a7c954565e39eb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aa37b196989edc13988ab225e4a7c954565e39eb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aa37b196989edc13988ab225e4a7c954565e39eb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/aa37b196989edc13988ab225e4a7c954565e39eb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8bc03dc6c47e987815e062abf86508582d7e5de7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8bc03dc6c47e987815e062abf86508582d7e5de7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8bc03dc6c47e987815e062abf86508582d7e5de7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8bc03dc6c47e987815e062abf86508582d7e5de7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ecfd881ac6f4f62b5e8a15664fccc86271c0d003/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ecfd881ac6f4f62b5e8a15664fccc86271c0d003/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ecfd881ac6f4f62b5e8a15664fccc86271c0d003/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ecfd881ac6f4f62b5e8a15664fccc86271c0d003/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d2d716483aa69927541a0a29f3c1ee3c7bba30b4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d2d716483aa69927541a0a29f3c1ee3c7bba30b4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d2d716483aa69927541a0a29f3c1ee3c7bba30b4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d2d716483aa69927541a0a29f3c1ee3c7bba30b4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4c4dc2137cc256bb1e7a3827b4c96c95be42782e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4c4dc2137cc256bb1e7a3827b4c96c95be42782e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4c4dc2137cc256bb1e7a3827b4c96c95be42782e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4c4dc2137cc256bb1e7a3827b4c96c95be42782e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a7698f88455b3bfc40b6543c812e6a795f00cd99/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a7698f88455b3bfc40b6543c812e6a795f00cd99/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a7698f88455b3bfc40b6543c812e6a795f00cd99/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a7698f88455b3bfc40b6543c812e6a795f00cd99/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b49e142a26094ccb0a6e9f597e7363ba02280eb4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b49e142a26094ccb0a6e9f597e7363ba02280eb4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b49e142a26094ccb0a6e9f597e7363ba02280eb4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b49e142a26094ccb0a6e9f597e7363ba02280eb4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0e234a25c52bcfc873fc1ac287995be08a6756aa/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0e234a25c52bcfc873fc1ac287995be08a6756aa/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0e234a25c52bcfc873fc1ac287995be08a6756aa/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/0e234a25c52bcfc873fc1ac287995be08a6756aa/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/104d385ba9a9a24715e8cbe47d76ab71e8532799/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/104d385ba9a9a24715e8cbe47d76ab71e8532799/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/104d385ba9a9a24715e8cbe47d76ab71e8532799/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/104d385ba9a9a24715e8cbe47d76ab71e8532799/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6fcabbde08cdac7890fedcc29b0342208998a871/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6fcabbde08cdac7890fedcc29b0342208998a871/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6fcabbde08cdac7890fedcc29b0342208998a871/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6fcabbde08cdac7890fedcc29b0342208998a871/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/21fc8f4630bccdb8b0a33747c2de8fd377e83138/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/21fc8f4630bccdb8b0a33747c2de8fd377e83138/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/21fc8f4630bccdb8b0a33747c2de8fd377e83138/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/21fc8f4630bccdb8b0a33747c2de8fd377e83138/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d09f0adae3605b8bf5d90a934037f71ae0c27780/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d09f0adae3605b8bf5d90a934037f71ae0c27780/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d09f0adae3605b8bf5d90a934037f71ae0c27780/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d09f0adae3605b8bf5d90a934037f71ae0c27780/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ed7c82fa5eeffba48513f017ec8115e88b9638ac/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ed7c82fa5eeffba48513f017ec8115e88b9638ac/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ed7c82fa5eeffba48513f017ec8115e88b9638ac/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ed7c82fa5eeffba48513f017ec8115e88b9638ac/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac403018135b0ba700ef6223970c1bbc2a518107/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac403018135b0ba700ef6223970c1bbc2a518107/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac403018135b0ba700ef6223970c1bbc2a518107/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac403018135b0ba700ef6223970c1bbc2a518107/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/22a038e6a23d1c1e8c5068b73f8af059521a6f2d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/22a038e6a23d1c1e8c5068b73f8af059521a6f2d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/22a038e6a23d1c1e8c5068b73f8af059521a6f2d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/22a038e6a23d1c1e8c5068b73f8af059521a6f2d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/089ac908b794bf1bc06d004bcb32d3d65f19ce64/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/089ac908b794bf1bc06d004bcb32d3d65f19ce64/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/089ac908b794bf1bc06d004bcb32d3d65f19ce64/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/089ac908b794bf1bc06d004bcb32d3d65f19ce64/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/001f6f971913d28d9c77a5ff6602ae06d3780ccf/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/001f6f971913d28d9c77a5ff6602ae06d3780ccf/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/001f6f971913d28d9c77a5ff6602ae06d3780ccf/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/001f6f971913d28d9c77a5ff6602ae06d3780ccf/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a887cde9f295a9ac89c8f09417db5901b655dfba/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a887cde9f295a9ac89c8f09417db5901b655dfba/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a887cde9f295a9ac89c8f09417db5901b655dfba/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a887cde9f295a9ac89c8f09417db5901b655dfba/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7e575e9d7f40876373f073213126b729553c4d89/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7e575e9d7f40876373f073213126b729553c4d89/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7e575e9d7f40876373f073213126b729553c4d89/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7e575e9d7f40876373f073213126b729553c4d89/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/58d997a3d68ea419147f80c066cbc8b23152f112/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/58d997a3d68ea419147f80c066cbc8b23152f112/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/58d997a3d68ea419147f80c066cbc8b23152f112/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/58d997a3d68ea419147f80c066cbc8b23152f112/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f886b3fb2bad77ca7158057b48add16050ceca2a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f886b3fb2bad77ca7158057b48add16050ceca2a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f886b3fb2bad77ca7158057b48add16050ceca2a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f886b3fb2bad77ca7158057b48add16050ceca2a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9a6faf365bdd481be733bafb8c580bc76f4b353e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9a6faf365bdd481be733bafb8c580bc76f4b353e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9a6faf365bdd481be733bafb8c580bc76f4b353e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/9a6faf365bdd481be733bafb8c580bc76f4b353e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/818738beec9f49f864407c68fa26cc022c88815f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/818738beec9f49f864407c68fa26cc022c88815f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/818738beec9f49f864407c68fa26cc022c88815f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/818738beec9f49f864407c68fa26cc022c88815f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/95618793a4b85775a8958e239cb4f192822dc1f1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/95618793a4b85775a8958e239cb4f192822dc1f1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/95618793a4b85775a8958e239cb4f192822dc1f1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/95618793a4b85775a8958e239cb4f192822dc1f1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/33f3b0c1d9654e137b54802afbfb6d8e70c8cbd6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/33f3b0c1d9654e137b54802afbfb6d8e70c8cbd6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/33f3b0c1d9654e137b54802afbfb6d8e70c8cbd6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/33f3b0c1d9654e137b54802afbfb6d8e70c8cbd6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6f3e35bb3f04303e6b7cc74cfc25bfee3c792a98/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6f3e35bb3f04303e6b7cc74cfc25bfee3c792a98/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6f3e35bb3f04303e6b7cc74cfc25bfee3c792a98/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/6f3e35bb3f04303e6b7cc74cfc25bfee3c792a98/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e23a10f7f96cda932c605988d2d99bb5225d18a5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e23a10f7f96cda932c605988d2d99bb5225d18a5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e23a10f7f96cda932c605988d2d99bb5225d18a5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/e23a10f7f96cda932c605988d2d99bb5225d18a5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1e831df1f6a39ccc043384f04863aea58dbd7d9c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1e831df1f6a39ccc043384f04863aea58dbd7d9c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1e831df1f6a39ccc043384f04863aea58dbd7d9c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/1e831df1f6a39ccc043384f04863aea58dbd7d9c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d97672613d28632a038fa14eb35d8c19c748320d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d97672613d28632a038fa14eb35d8c19c748320d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d97672613d28632a038fa14eb35d8c19c748320d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d97672613d28632a038fa14eb35d8c19c748320d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d90777b724689af625c36ed6d557b024775ee95a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d90777b724689af625c36ed6d557b024775ee95a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d90777b724689af625c36ed6d557b024775ee95a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d90777b724689af625c36ed6d557b024775ee95a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c8b0f685ee62fe4920b2b4bdaa0d6c17c8a4e18f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c8b0f685ee62fe4920b2b4bdaa0d6c17c8a4e18f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c8b0f685ee62fe4920b2b4bdaa0d6c17c8a4e18f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c8b0f685ee62fe4920b2b4bdaa0d6c17c8a4e18f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/139fad0c0577218cdf48a554249002534940b8e1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/139fad0c0577218cdf48a554249002534940b8e1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/139fad0c0577218cdf48a554249002534940b8e1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/139fad0c0577218cdf48a554249002534940b8e1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3016a78d85025e435c55565e645835986db8c98f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3016a78d85025e435c55565e645835986db8c98f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3016a78d85025e435c55565e645835986db8c98f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/3016a78d85025e435c55565e645835986db8c98f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a31c27c7cf0c1543305c7710b139201850132e15/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a31c27c7cf0c1543305c7710b139201850132e15/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a31c27c7cf0c1543305c7710b139201850132e15/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/a31c27c7cf0c1543305c7710b139201850132e15/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d0bb1476397d2cf6f240267aa003fe6edc445683/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d0bb1476397d2cf6f240267aa003fe6edc445683/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d0bb1476397d2cf6f240267aa003fe6edc445683/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d0bb1476397d2cf6f240267aa003fe6edc445683/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f1b3e9df1e4d009a653ae26f1ba51809f3364c95/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f1b3e9df1e4d009a653ae26f1ba51809f3364c95/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f1b3e9df1e4d009a653ae26f1ba51809f3364c95/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/f1b3e9df1e4d009a653ae26f1ba51809f3364c95/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2021c2fa3e616da497f8fc305010c9c1dd1a67de/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2021c2fa3e616da497f8fc305010c9c1dd1a67de/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2021c2fa3e616da497f8fc305010c9c1dd1a67de/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/2021c2fa3e616da497f8fc305010c9c1dd1a67de/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7880568d157fcd1c15c0f392e4646e01de363afd/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7880568d157fcd1c15c0f392e4646e01de363afd/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7880568d157fcd1c15c0f392e4646e01de363afd/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7880568d157fcd1c15c0f392e4646e01de363afd/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/74a2f53683e2b8788eadc10762583491e3dbc7ea/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/74a2f53683e2b8788eadc10762583491e3dbc7ea/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/74a2f53683e2b8788eadc10762583491e3dbc7ea/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/74a2f53683e2b8788eadc10762583491e3dbc7ea/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/276b9a31cda2a2ef93e7af4e966baae91a434361/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/276b9a31cda2a2ef93e7af4e966baae91a434361/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/276b9a31cda2a2ef93e7af4e966baae91a434361/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/276b9a31cda2a2ef93e7af4e966baae91a434361/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac9a168fba726d9ab437478c81626f098997d116/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac9a168fba726d9ab437478c81626f098997d116/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac9a168fba726d9ab437478c81626f098997d116/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/ac9a168fba726d9ab437478c81626f098997d116/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7cf72b8d66ea3a504648f42a2142728d520f3141/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7cf72b8d66ea3a504648f42a2142728d520f3141/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7cf72b8d66ea3a504648f42a2142728d520f3141/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/7cf72b8d66ea3a504648f42a2142728d520f3141/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c2f6fd5fded46624da3851e3accc3b5165e6d588/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c2f6fd5fded46624da3851e3accc3b5165e6d588/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c2f6fd5fded46624da3851e3accc3b5165e6d588/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c2f6fd5fded46624da3851e3accc3b5165e6d588/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d3d1d11926de43fc1ec74ae3a4d24a884d80d91f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d3d1d11926de43fc1ec74ae3a4d24a884d80d91f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d3d1d11926de43fc1ec74ae3a4d24a884d80d91f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/d3d1d11926de43fc1ec74ae3a4d24a884d80d91f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/16cd5d57a5cf7f5750104df0e5af246708fd493f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/16cd5d57a5cf7f5750104df0e5af246708fd493f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/16cd5d57a5cf7f5750104df0e5af246708fd493f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/16cd5d57a5cf7f5750104df0e5af246708fd493f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f555e2232459eaa4551ddf4e3f7535a416f1ddd/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f555e2232459eaa4551ddf4e3f7535a416f1ddd/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f555e2232459eaa4551ddf4e3f7535a416f1ddd/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4f555e2232459eaa4551ddf4e3f7535a416f1ddd/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/14778e049b12e131fc05ddacff9cda56dfede77d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/14778e049b12e131fc05ddacff9cda56dfede77d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/14778e049b12e131fc05ddacff9cda56dfede77d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/14778e049b12e131fc05ddacff9cda56dfede77d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c967f0b0fefd7db03922769f1d2aaf2ae1394ddc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c967f0b0fefd7db03922769f1d2aaf2ae1394ddc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c967f0b0fefd7db03922769f1d2aaf2ae1394ddc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/c967f0b0fefd7db03922769f1d2aaf2ae1394ddc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4d6771b9b1d89f0b49625795a92267d6e59dd064/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4d6771b9b1d89f0b49625795a92267d6e59dd064/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4d6771b9b1d89f0b49625795a92267d6e59dd064/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/4d6771b9b1d89f0b49625795a92267d6e59dd064/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/307b88d6ccecf3de4150450ac651594db1b8ba56/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/307b88d6ccecf3de4150450ac651594db1b8ba56/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/307b88d6ccecf3de4150450ac651594db1b8ba56/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/307b88d6ccecf3de4150450ac651594db1b8ba56/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b57bae4b9e528ec7aeea7fd5768295a559cb5e5d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b57bae4b9e528ec7aeea7fd5768295a559cb5e5d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b57bae4b9e528ec7aeea7fd5768295a559cb5e5d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b57bae4b9e528ec7aeea7fd5768295a559cb5e5d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8b3259e0c29b33978c2e025be31e826045d6f6b8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8b3259e0c29b33978c2e025be31e826045d6f6b8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8b3259e0c29b33978c2e025be31e826045d6f6b8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/8b3259e0c29b33978c2e025be31e826045d6f6b8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb93d923574d4059bfabe812e2b1c95f2b347b35/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb93d923574d4059bfabe812e2b1c95f2b347b35/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb93d923574d4059bfabe812e2b1c95f2b347b35/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/eb93d923574d4059bfabe812e2b1c95f2b347b35/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/edb4e3bd52e1623425927a7d63963ba3b87a3ec2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/edb4e3bd52e1623425927a7d63963ba3b87a3ec2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/edb4e3bd52e1623425927a7d63963ba3b87a3ec2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/edb4e3bd52e1623425927a7d63963ba3b87a3ec2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b35dfc2599ad84b21d278ca2c330e46b5e58c956/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b35dfc2599ad84b21d278ca2c330e46b5e58c956/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b35dfc2599ad84b21d278ca2c330e46b5e58c956/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/b35dfc2599ad84b21d278ca2c330e46b5e58c956/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/27aa85f84bc634430d76f54b9acedbb0b5c3ea57/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/27aa85f84bc634430d76f54b9acedbb0b5c3ea57/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/27aa85f84bc634430d76f54b9acedbb0b5c3ea57/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/UglifyJS2/27aa85f84bc634430d76f54b9acedbb0b5c3ea57/new 
+analyze -all

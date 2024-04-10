@@ -1,0 +1,24 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/fe06263fc22dba357696a516f0199971699caaf5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/fe06263fc22dba357696a516f0199971699caaf5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/fe06263fc22dba357696a516f0199971699caaf5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/fe06263fc22dba357696a516f0199971699caaf5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/c98bb3089860379e510d1e8baa0aa81d47d5bd3d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/c98bb3089860379e510d1e8baa0aa81d47d5bd3d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/c98bb3089860379e510d1e8baa0aa81d47d5bd3d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/c98bb3089860379e510d1e8baa0aa81d47d5bd3d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/a28bc740532a8055c6f74b68ca8bdab79a99aab0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/a28bc740532a8055c6f74b68ca8bdab79a99aab0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/a28bc740532a8055c6f74b68ca8bdab79a99aab0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/a28bc740532a8055c6f74b68ca8bdab79a99aab0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/f14bb15e779b65af2cf8b65dbfde01618cbff2b4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/f14bb15e779b65af2cf8b65dbfde01618cbff2b4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/f14bb15e779b65af2cf8b65dbfde01618cbff2b4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/gulp-concat/f14bb15e779b65af2cf8b65dbfde01618cbff2b4/new 
+analyze -all

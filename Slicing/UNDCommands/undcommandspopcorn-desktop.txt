@@ -1,0 +1,972 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cb27af79f6f7d5920c846f3f2c5489ecb7b6b315/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cb27af79f6f7d5920c846f3f2c5489ecb7b6b315/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cb27af79f6f7d5920c846f3f2c5489ecb7b6b315/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cb27af79f6f7d5920c846f3f2c5489ecb7b6b315/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d2271fff8441ca1797bb26781135034d1a8efa74/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d2271fff8441ca1797bb26781135034d1a8efa74/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d2271fff8441ca1797bb26781135034d1a8efa74/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d2271fff8441ca1797bb26781135034d1a8efa74/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2aaf2cb458a11be75eb7654557a07a8b19ef2d54/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2aaf2cb458a11be75eb7654557a07a8b19ef2d54/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2aaf2cb458a11be75eb7654557a07a8b19ef2d54/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2aaf2cb458a11be75eb7654557a07a8b19ef2d54/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/fd3106f78e4378cb8891698ac201940ba037f3a6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/fd3106f78e4378cb8891698ac201940ba037f3a6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/fd3106f78e4378cb8891698ac201940ba037f3a6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/fd3106f78e4378cb8891698ac201940ba037f3a6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5f84806e7150bba419975dc7c906012875e10528/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5f84806e7150bba419975dc7c906012875e10528/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5f84806e7150bba419975dc7c906012875e10528/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5f84806e7150bba419975dc7c906012875e10528/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/db3c76e4dbc31cabb9d01df879d0bd9bd5a970a5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/db3c76e4dbc31cabb9d01df879d0bd9bd5a970a5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/db3c76e4dbc31cabb9d01df879d0bd9bd5a970a5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/db3c76e4dbc31cabb9d01df879d0bd9bd5a970a5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c3d255ccf4ae7750f517afb1f07428450928af28/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c3d255ccf4ae7750f517afb1f07428450928af28/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c3d255ccf4ae7750f517afb1f07428450928af28/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c3d255ccf4ae7750f517afb1f07428450928af28/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9f802b38c26c9e919c4225e3db1df74e3a33234/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9f802b38c26c9e919c4225e3db1df74e3a33234/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9f802b38c26c9e919c4225e3db1df74e3a33234/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9f802b38c26c9e919c4225e3db1df74e3a33234/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/835578b258710d5b29a7b62271b0be770490559f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/835578b258710d5b29a7b62271b0be770490559f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/835578b258710d5b29a7b62271b0be770490559f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/835578b258710d5b29a7b62271b0be770490559f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0bf1db65d4ebb22df32e1d1a9be876ace910f0bb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0bf1db65d4ebb22df32e1d1a9be876ace910f0bb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0bf1db65d4ebb22df32e1d1a9be876ace910f0bb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0bf1db65d4ebb22df32e1d1a9be876ace910f0bb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5bfb5b5c02ad85c76c65867b01fbf1474380168d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5bfb5b5c02ad85c76c65867b01fbf1474380168d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5bfb5b5c02ad85c76c65867b01fbf1474380168d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5bfb5b5c02ad85c76c65867b01fbf1474380168d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eee673a12460c31441479735f372a4788d043546/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eee673a12460c31441479735f372a4788d043546/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eee673a12460c31441479735f372a4788d043546/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eee673a12460c31441479735f372a4788d043546/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9e0026fc663f85efc83ed455652f56ca297dbad/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9e0026fc663f85efc83ed455652f56ca297dbad/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9e0026fc663f85efc83ed455652f56ca297dbad/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9e0026fc663f85efc83ed455652f56ca297dbad/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/251934dcde63829e759eb036334b9c459ec6fc09/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/251934dcde63829e759eb036334b9c459ec6fc09/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/251934dcde63829e759eb036334b9c459ec6fc09/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/251934dcde63829e759eb036334b9c459ec6fc09/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/832ca8435085ce9c0513968051ae2acd5bf1321b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/832ca8435085ce9c0513968051ae2acd5bf1321b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/832ca8435085ce9c0513968051ae2acd5bf1321b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/832ca8435085ce9c0513968051ae2acd5bf1321b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e174c5f42ed3d8b90be756065cd2eae0f9b70c61/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e174c5f42ed3d8b90be756065cd2eae0f9b70c61/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e174c5f42ed3d8b90be756065cd2eae0f9b70c61/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e174c5f42ed3d8b90be756065cd2eae0f9b70c61/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a5967dbe99324613c56fa9dfff3932c1f4702e7e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a5967dbe99324613c56fa9dfff3932c1f4702e7e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a5967dbe99324613c56fa9dfff3932c1f4702e7e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a5967dbe99324613c56fa9dfff3932c1f4702e7e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6e8e00db0c0204681e1b5eaf050d38fc031f3186/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6e8e00db0c0204681e1b5eaf050d38fc031f3186/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6e8e00db0c0204681e1b5eaf050d38fc031f3186/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6e8e00db0c0204681e1b5eaf050d38fc031f3186/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/132bc0785bbab3263e3cddbf3024e10d351a2565/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/132bc0785bbab3263e3cddbf3024e10d351a2565/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/132bc0785bbab3263e3cddbf3024e10d351a2565/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/132bc0785bbab3263e3cddbf3024e10d351a2565/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/290c3a09d2d851a34a072380ab9b3ffcfd6cf30e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/290c3a09d2d851a34a072380ab9b3ffcfd6cf30e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/290c3a09d2d851a34a072380ab9b3ffcfd6cf30e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/290c3a09d2d851a34a072380ab9b3ffcfd6cf30e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eb92ccc87f7a46ab33bc421cdb6661ad9e397481/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eb92ccc87f7a46ab33bc421cdb6661ad9e397481/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eb92ccc87f7a46ab33bc421cdb6661ad9e397481/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eb92ccc87f7a46ab33bc421cdb6661ad9e397481/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/be310b60e47c88774f244d1534cd50db12fe301b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/be310b60e47c88774f244d1534cd50db12fe301b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/be310b60e47c88774f244d1534cd50db12fe301b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/be310b60e47c88774f244d1534cd50db12fe301b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6f037cf472cfaf188041ad2c52b7157c5fbbccb8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6f037cf472cfaf188041ad2c52b7157c5fbbccb8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6f037cf472cfaf188041ad2c52b7157c5fbbccb8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6f037cf472cfaf188041ad2c52b7157c5fbbccb8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1fc9a97dd64d15e1b4b1322017d50ddcc93a6828/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1fc9a97dd64d15e1b4b1322017d50ddcc93a6828/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1fc9a97dd64d15e1b4b1322017d50ddcc93a6828/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1fc9a97dd64d15e1b4b1322017d50ddcc93a6828/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/541139c3cda2c7dace5f394d289efa59170ea10f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/541139c3cda2c7dace5f394d289efa59170ea10f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/541139c3cda2c7dace5f394d289efa59170ea10f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/541139c3cda2c7dace5f394d289efa59170ea10f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c881843f3ad4e6f82ed390618204fb543661101d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c881843f3ad4e6f82ed390618204fb543661101d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c881843f3ad4e6f82ed390618204fb543661101d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c881843f3ad4e6f82ed390618204fb543661101d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bfd23f6771b6b7f3f26ea342785e7336996f6727/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bfd23f6771b6b7f3f26ea342785e7336996f6727/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bfd23f6771b6b7f3f26ea342785e7336996f6727/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bfd23f6771b6b7f3f26ea342785e7336996f6727/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/741686afe7e5fde5d5645108804bd85af40929ea/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/741686afe7e5fde5d5645108804bd85af40929ea/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/741686afe7e5fde5d5645108804bd85af40929ea/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/741686afe7e5fde5d5645108804bd85af40929ea/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c5586fa2b7edeeaa84b44381ecb3a9f5fe3a619e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c5586fa2b7edeeaa84b44381ecb3a9f5fe3a619e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c5586fa2b7edeeaa84b44381ecb3a9f5fe3a619e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c5586fa2b7edeeaa84b44381ecb3a9f5fe3a619e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4639b579dff45ff9da811c51861ea545096d0713/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4639b579dff45ff9da811c51861ea545096d0713/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4639b579dff45ff9da811c51861ea545096d0713/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4639b579dff45ff9da811c51861ea545096d0713/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a8d3f18b932a92fd612f5df0a45e6111d9cf683e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a8d3f18b932a92fd612f5df0a45e6111d9cf683e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a8d3f18b932a92fd612f5df0a45e6111d9cf683e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a8d3f18b932a92fd612f5df0a45e6111d9cf683e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/747c091d675d052bef4fc4007bdad8e1684f143e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/747c091d675d052bef4fc4007bdad8e1684f143e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/747c091d675d052bef4fc4007bdad8e1684f143e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/747c091d675d052bef4fc4007bdad8e1684f143e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0f35b8d05097c947795db4b6a7fd9597eac52abb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0f35b8d05097c947795db4b6a7fd9597eac52abb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0f35b8d05097c947795db4b6a7fd9597eac52abb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0f35b8d05097c947795db4b6a7fd9597eac52abb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a3c4e723f809bf457602ce331d666935e2b794fb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a3c4e723f809bf457602ce331d666935e2b794fb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a3c4e723f809bf457602ce331d666935e2b794fb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a3c4e723f809bf457602ce331d666935e2b794fb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e6f07c8af7921e24003a5c1dfb8a5c8a58452473/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e6f07c8af7921e24003a5c1dfb8a5c8a58452473/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e6f07c8af7921e24003a5c1dfb8a5c8a58452473/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e6f07c8af7921e24003a5c1dfb8a5c8a58452473/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/22f76770e094ea49583cf3b3752d21d189c3ed5c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/22f76770e094ea49583cf3b3752d21d189c3ed5c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/22f76770e094ea49583cf3b3752d21d189c3ed5c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/22f76770e094ea49583cf3b3752d21d189c3ed5c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6aaf1eb5aaaad8344586c7701822997dc6ee1bb0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6aaf1eb5aaaad8344586c7701822997dc6ee1bb0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6aaf1eb5aaaad8344586c7701822997dc6ee1bb0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6aaf1eb5aaaad8344586c7701822997dc6ee1bb0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0f40f59592ea59955e61b253a31ccb735fb8aa04/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0f40f59592ea59955e61b253a31ccb735fb8aa04/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0f40f59592ea59955e61b253a31ccb735fb8aa04/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0f40f59592ea59955e61b253a31ccb735fb8aa04/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a60d1c83c9a7e773204749431034ae62ea8382e5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a60d1c83c9a7e773204749431034ae62ea8382e5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a60d1c83c9a7e773204749431034ae62ea8382e5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a60d1c83c9a7e773204749431034ae62ea8382e5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/35f3c7d1fd9d047b6fd283709cf19eefb85a69fb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/35f3c7d1fd9d047b6fd283709cf19eefb85a69fb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/35f3c7d1fd9d047b6fd283709cf19eefb85a69fb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/35f3c7d1fd9d047b6fd283709cf19eefb85a69fb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/80d60281a0a1f1c672104f8c92a66ebec71a2356/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/80d60281a0a1f1c672104f8c92a66ebec71a2356/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/80d60281a0a1f1c672104f8c92a66ebec71a2356/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/80d60281a0a1f1c672104f8c92a66ebec71a2356/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/db1ade1a67c2e965602231edfdfa5d7761027c6b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/db1ade1a67c2e965602231edfdfa5d7761027c6b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/db1ade1a67c2e965602231edfdfa5d7761027c6b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/db1ade1a67c2e965602231edfdfa5d7761027c6b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6751a63575b6ca7b10a81b8f74a234e7d4ee01ce/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6751a63575b6ca7b10a81b8f74a234e7d4ee01ce/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6751a63575b6ca7b10a81b8f74a234e7d4ee01ce/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6751a63575b6ca7b10a81b8f74a234e7d4ee01ce/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/17c7191ee36f7189d91d9329b428832022acb2cb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/17c7191ee36f7189d91d9329b428832022acb2cb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/17c7191ee36f7189d91d9329b428832022acb2cb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/17c7191ee36f7189d91d9329b428832022acb2cb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/33374d54a0758c910770789350931ea84268c538/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/33374d54a0758c910770789350931ea84268c538/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/33374d54a0758c910770789350931ea84268c538/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/33374d54a0758c910770789350931ea84268c538/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/091a578659be1285c684960ec4fa9d0fb5ddb74a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/091a578659be1285c684960ec4fa9d0fb5ddb74a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/091a578659be1285c684960ec4fa9d0fb5ddb74a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/091a578659be1285c684960ec4fa9d0fb5ddb74a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/89366c08f186e34874f0e5f7ec8abe23e75b6215/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/89366c08f186e34874f0e5f7ec8abe23e75b6215/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/89366c08f186e34874f0e5f7ec8abe23e75b6215/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/89366c08f186e34874f0e5f7ec8abe23e75b6215/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cb290cc275fe0304890f7f31386208197b6267c2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cb290cc275fe0304890f7f31386208197b6267c2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cb290cc275fe0304890f7f31386208197b6267c2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cb290cc275fe0304890f7f31386208197b6267c2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e72b543da8b6522dcb46e5e2785609ccb48fb305/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e72b543da8b6522dcb46e5e2785609ccb48fb305/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e72b543da8b6522dcb46e5e2785609ccb48fb305/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e72b543da8b6522dcb46e5e2785609ccb48fb305/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/30ffcdcdc49509bf96a039d9d36efd758bb11b4c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/30ffcdcdc49509bf96a039d9d36efd758bb11b4c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/30ffcdcdc49509bf96a039d9d36efd758bb11b4c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/30ffcdcdc49509bf96a039d9d36efd758bb11b4c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c30e4dd1b60e13bda7d38a43ccc4f170260bfa03/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c30e4dd1b60e13bda7d38a43ccc4f170260bfa03/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c30e4dd1b60e13bda7d38a43ccc4f170260bfa03/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c30e4dd1b60e13bda7d38a43ccc4f170260bfa03/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9b6bf71efaa80c489153d9d70542827558cd665b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9b6bf71efaa80c489153d9d70542827558cd665b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9b6bf71efaa80c489153d9d70542827558cd665b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9b6bf71efaa80c489153d9d70542827558cd665b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7276be84565dd0392700d71d223fa2a583f28ef1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7276be84565dd0392700d71d223fa2a583f28ef1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7276be84565dd0392700d71d223fa2a583f28ef1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7276be84565dd0392700d71d223fa2a583f28ef1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d28ddc1b5fd6cd0847542ed01447c4ae1dbc9866/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d28ddc1b5fd6cd0847542ed01447c4ae1dbc9866/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d28ddc1b5fd6cd0847542ed01447c4ae1dbc9866/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d28ddc1b5fd6cd0847542ed01447c4ae1dbc9866/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/80d59af923b951133441eef16487a292f0c8ddd3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/80d59af923b951133441eef16487a292f0c8ddd3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/80d59af923b951133441eef16487a292f0c8ddd3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/80d59af923b951133441eef16487a292f0c8ddd3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/96fea5abfcf9685ac196750b14a575b51ad9dc6e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/96fea5abfcf9685ac196750b14a575b51ad9dc6e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/96fea5abfcf9685ac196750b14a575b51ad9dc6e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/96fea5abfcf9685ac196750b14a575b51ad9dc6e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a50d54c0d3e33d0a564f67e3d55abee887103f8e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a50d54c0d3e33d0a564f67e3d55abee887103f8e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a50d54c0d3e33d0a564f67e3d55abee887103f8e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a50d54c0d3e33d0a564f67e3d55abee887103f8e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0b5940693712535cbbe3538724b85edf9805095d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0b5940693712535cbbe3538724b85edf9805095d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0b5940693712535cbbe3538724b85edf9805095d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0b5940693712535cbbe3538724b85edf9805095d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/47dd217a6fb8c72f785bbc5f45f393332cf9528e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/47dd217a6fb8c72f785bbc5f45f393332cf9528e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/47dd217a6fb8c72f785bbc5f45f393332cf9528e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/47dd217a6fb8c72f785bbc5f45f393332cf9528e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2b614107daa566a7f50684f407a63b84218194a0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2b614107daa566a7f50684f407a63b84218194a0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2b614107daa566a7f50684f407a63b84218194a0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2b614107daa566a7f50684f407a63b84218194a0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18cce789208215cab44216b7ca023ac84a977f77/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18cce789208215cab44216b7ca023ac84a977f77/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18cce789208215cab44216b7ca023ac84a977f77/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18cce789208215cab44216b7ca023ac84a977f77/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/85d007761ae64909b1e29302800a7158397f1d66/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/85d007761ae64909b1e29302800a7158397f1d66/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/85d007761ae64909b1e29302800a7158397f1d66/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/85d007761ae64909b1e29302800a7158397f1d66/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/863d9cd2b73b45425148715048b745d90113f147/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/863d9cd2b73b45425148715048b745d90113f147/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/863d9cd2b73b45425148715048b745d90113f147/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/863d9cd2b73b45425148715048b745d90113f147/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f47bdcaaa3768440fa641abe117d3306c60922ce/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f47bdcaaa3768440fa641abe117d3306c60922ce/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f47bdcaaa3768440fa641abe117d3306c60922ce/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f47bdcaaa3768440fa641abe117d3306c60922ce/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5e8dfe3b517b26c465ac27f76663ed7c4d6bc8e6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5e8dfe3b517b26c465ac27f76663ed7c4d6bc8e6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5e8dfe3b517b26c465ac27f76663ed7c4d6bc8e6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5e8dfe3b517b26c465ac27f76663ed7c4d6bc8e6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5a9c45be19784792685508f1d026c0040c0b340a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5a9c45be19784792685508f1d026c0040c0b340a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5a9c45be19784792685508f1d026c0040c0b340a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5a9c45be19784792685508f1d026c0040c0b340a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bcbe26f2f93461b854891207bf9ed86ecdf182e2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bcbe26f2f93461b854891207bf9ed86ecdf182e2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bcbe26f2f93461b854891207bf9ed86ecdf182e2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bcbe26f2f93461b854891207bf9ed86ecdf182e2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/027980f29d3e085703c57eac1cc040cfaa69ee86/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/027980f29d3e085703c57eac1cc040cfaa69ee86/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/027980f29d3e085703c57eac1cc040cfaa69ee86/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/027980f29d3e085703c57eac1cc040cfaa69ee86/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/557389a50a7b7a2fe95e37ce0b64ae410a81cc1b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/557389a50a7b7a2fe95e37ce0b64ae410a81cc1b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/557389a50a7b7a2fe95e37ce0b64ae410a81cc1b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/557389a50a7b7a2fe95e37ce0b64ae410a81cc1b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/06a78f8a1dcc2b75564ac7056bd576621d1672e9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/06a78f8a1dcc2b75564ac7056bd576621d1672e9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/06a78f8a1dcc2b75564ac7056bd576621d1672e9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/06a78f8a1dcc2b75564ac7056bd576621d1672e9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6d012048c84faa6e241cfac100b0cef1c1372833/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6d012048c84faa6e241cfac100b0cef1c1372833/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6d012048c84faa6e241cfac100b0cef1c1372833/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6d012048c84faa6e241cfac100b0cef1c1372833/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/156d9fe37cd721f50a2c37ec7031d8ae6b846d6a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/156d9fe37cd721f50a2c37ec7031d8ae6b846d6a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/156d9fe37cd721f50a2c37ec7031d8ae6b846d6a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/156d9fe37cd721f50a2c37ec7031d8ae6b846d6a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/34a96b3bad7f5c5141e448852e2d51eb031ec39f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/34a96b3bad7f5c5141e448852e2d51eb031ec39f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/34a96b3bad7f5c5141e448852e2d51eb031ec39f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/34a96b3bad7f5c5141e448852e2d51eb031ec39f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a616f3b28b8eeeef360a65ddbc37f7f19ab4ae9d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a616f3b28b8eeeef360a65ddbc37f7f19ab4ae9d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a616f3b28b8eeeef360a65ddbc37f7f19ab4ae9d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a616f3b28b8eeeef360a65ddbc37f7f19ab4ae9d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9372adf885739c320474813d4f9299d6f7dfd3a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9372adf885739c320474813d4f9299d6f7dfd3a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9372adf885739c320474813d4f9299d6f7dfd3a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d9372adf885739c320474813d4f9299d6f7dfd3a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f0278d8fec38258351251f5181fc50ed9c804474/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f0278d8fec38258351251f5181fc50ed9c804474/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f0278d8fec38258351251f5181fc50ed9c804474/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f0278d8fec38258351251f5181fc50ed9c804474/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/90257d62234c7907612f45b6743bd5b869ef33ac/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/90257d62234c7907612f45b6743bd5b869ef33ac/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/90257d62234c7907612f45b6743bd5b869ef33ac/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/90257d62234c7907612f45b6743bd5b869ef33ac/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3026809e01043d88f90f632ac208fbc65ac9813e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3026809e01043d88f90f632ac208fbc65ac9813e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3026809e01043d88f90f632ac208fbc65ac9813e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3026809e01043d88f90f632ac208fbc65ac9813e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6311a754937fad7794b1b9ee4634c62bb27e5455/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6311a754937fad7794b1b9ee4634c62bb27e5455/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6311a754937fad7794b1b9ee4634c62bb27e5455/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6311a754937fad7794b1b9ee4634c62bb27e5455/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1d3b316162b4b214e58c141ff22772d0ac70467b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1d3b316162b4b214e58c141ff22772d0ac70467b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1d3b316162b4b214e58c141ff22772d0ac70467b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1d3b316162b4b214e58c141ff22772d0ac70467b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3a0fb82840791647e04376e489d9884f97bca091/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3a0fb82840791647e04376e489d9884f97bca091/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3a0fb82840791647e04376e489d9884f97bca091/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3a0fb82840791647e04376e489d9884f97bca091/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/871c10066b46575be6d9cf3610a1e0071d9ec879/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/871c10066b46575be6d9cf3610a1e0071d9ec879/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/871c10066b46575be6d9cf3610a1e0071d9ec879/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/871c10066b46575be6d9cf3610a1e0071d9ec879/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ac024e6b44a3c5c64962858a3c11504541abec98/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ac024e6b44a3c5c64962858a3c11504541abec98/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ac024e6b44a3c5c64962858a3c11504541abec98/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ac024e6b44a3c5c64962858a3c11504541abec98/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0324496a5fae33267ab567fbac02298fd3a1f416/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0324496a5fae33267ab567fbac02298fd3a1f416/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0324496a5fae33267ab567fbac02298fd3a1f416/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0324496a5fae33267ab567fbac02298fd3a1f416/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ec31e4121bb56fe8d5c5b9f6fc7fe27861ce2ed7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ec31e4121bb56fe8d5c5b9f6fc7fe27861ce2ed7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ec31e4121bb56fe8d5c5b9f6fc7fe27861ce2ed7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ec31e4121bb56fe8d5c5b9f6fc7fe27861ce2ed7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/045e33f6eaaf7acc496abdf5bb07042517cd686f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/045e33f6eaaf7acc496abdf5bb07042517cd686f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/045e33f6eaaf7acc496abdf5bb07042517cd686f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/045e33f6eaaf7acc496abdf5bb07042517cd686f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/70cf13478976d418a3f38e1febb4ef8d86d872e4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/70cf13478976d418a3f38e1febb4ef8d86d872e4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/70cf13478976d418a3f38e1febb4ef8d86d872e4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/70cf13478976d418a3f38e1febb4ef8d86d872e4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19c3ddb1bc88797ec47e40fc6bd3f4eba742c93e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19c3ddb1bc88797ec47e40fc6bd3f4eba742c93e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19c3ddb1bc88797ec47e40fc6bd3f4eba742c93e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19c3ddb1bc88797ec47e40fc6bd3f4eba742c93e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e6998421d26c71e187e84c60d8451b6a60caac5c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e6998421d26c71e187e84c60d8451b6a60caac5c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e6998421d26c71e187e84c60d8451b6a60caac5c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e6998421d26c71e187e84c60d8451b6a60caac5c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7dbe9f117887de8d0aa3c2ab55c87350e42a7ad3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7dbe9f117887de8d0aa3c2ab55c87350e42a7ad3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7dbe9f117887de8d0aa3c2ab55c87350e42a7ad3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7dbe9f117887de8d0aa3c2ab55c87350e42a7ad3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1a3ee45ce0f9efc4a1da565d568c7c04213cc871/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1a3ee45ce0f9efc4a1da565d568c7c04213cc871/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1a3ee45ce0f9efc4a1da565d568c7c04213cc871/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1a3ee45ce0f9efc4a1da565d568c7c04213cc871/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b78ab1a4c928a5326d773af36d26232160fe7e95/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b78ab1a4c928a5326d773af36d26232160fe7e95/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b78ab1a4c928a5326d773af36d26232160fe7e95/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b78ab1a4c928a5326d773af36d26232160fe7e95/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b81378eeae95cc884a8a138582ad202adff3249b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b81378eeae95cc884a8a138582ad202adff3249b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b81378eeae95cc884a8a138582ad202adff3249b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b81378eeae95cc884a8a138582ad202adff3249b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19ddcb095a2a2a740a8b8b4db43491a5fe149406/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19ddcb095a2a2a740a8b8b4db43491a5fe149406/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19ddcb095a2a2a740a8b8b4db43491a5fe149406/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19ddcb095a2a2a740a8b8b4db43491a5fe149406/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e4710eac67870f9e43a2e281b78eed0c53eff0f9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e4710eac67870f9e43a2e281b78eed0c53eff0f9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e4710eac67870f9e43a2e281b78eed0c53eff0f9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e4710eac67870f9e43a2e281b78eed0c53eff0f9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a936172226f11caa576438b658f18d6c868ce528/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a936172226f11caa576438b658f18d6c868ce528/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a936172226f11caa576438b658f18d6c868ce528/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a936172226f11caa576438b658f18d6c868ce528/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/68e1ebd53a4249f7e3a2a87c35ea9253fbfad088/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/68e1ebd53a4249f7e3a2a87c35ea9253fbfad088/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/68e1ebd53a4249f7e3a2a87c35ea9253fbfad088/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/68e1ebd53a4249f7e3a2a87c35ea9253fbfad088/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5c9cd060e9214f702d2f2fc388313ab83676ca1b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5c9cd060e9214f702d2f2fc388313ab83676ca1b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5c9cd060e9214f702d2f2fc388313ab83676ca1b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5c9cd060e9214f702d2f2fc388313ab83676ca1b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/422333d631642f32f8ff9791b49d9072b9279766/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/422333d631642f32f8ff9791b49d9072b9279766/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/422333d631642f32f8ff9791b49d9072b9279766/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/422333d631642f32f8ff9791b49d9072b9279766/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/82cebffe448a91f4ba73ae1648f11c64b60d0cac/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/82cebffe448a91f4ba73ae1648f11c64b60d0cac/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/82cebffe448a91f4ba73ae1648f11c64b60d0cac/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/82cebffe448a91f4ba73ae1648f11c64b60d0cac/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1566221f585a8f5fa9e5218c0c105bd1a3e31ff7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1566221f585a8f5fa9e5218c0c105bd1a3e31ff7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1566221f585a8f5fa9e5218c0c105bd1a3e31ff7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1566221f585a8f5fa9e5218c0c105bd1a3e31ff7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0785f6b67745d6b277fe68980a8078520ae04130/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0785f6b67745d6b277fe68980a8078520ae04130/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0785f6b67745d6b277fe68980a8078520ae04130/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0785f6b67745d6b277fe68980a8078520ae04130/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19ca40f6aa1c0dc933edbf4d5af3fd921ace02c8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19ca40f6aa1c0dc933edbf4d5af3fd921ace02c8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19ca40f6aa1c0dc933edbf4d5af3fd921ace02c8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19ca40f6aa1c0dc933edbf4d5af3fd921ace02c8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18c5f6adb1f9726049549d7ac9afeb3320284d2c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18c5f6adb1f9726049549d7ac9afeb3320284d2c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18c5f6adb1f9726049549d7ac9afeb3320284d2c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18c5f6adb1f9726049549d7ac9afeb3320284d2c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ee20fbb8fe22b372e701b4627f797f909c955cf0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ee20fbb8fe22b372e701b4627f797f909c955cf0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ee20fbb8fe22b372e701b4627f797f909c955cf0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ee20fbb8fe22b372e701b4627f797f909c955cf0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8a72559f2d4c12d7cfadfe8e47bef471d16642d5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8a72559f2d4c12d7cfadfe8e47bef471d16642d5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8a72559f2d4c12d7cfadfe8e47bef471d16642d5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8a72559f2d4c12d7cfadfe8e47bef471d16642d5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9a1033a362b771881b1eaf6eeacdd08526781c0c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9a1033a362b771881b1eaf6eeacdd08526781c0c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9a1033a362b771881b1eaf6eeacdd08526781c0c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9a1033a362b771881b1eaf6eeacdd08526781c0c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c2aa3bcfeb7f80278384c0441bc8837e9a46c395/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c2aa3bcfeb7f80278384c0441bc8837e9a46c395/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c2aa3bcfeb7f80278384c0441bc8837e9a46c395/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/c2aa3bcfeb7f80278384c0441bc8837e9a46c395/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ff966b67febce1e2f25168099310749486f101b5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ff966b67febce1e2f25168099310749486f101b5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ff966b67febce1e2f25168099310749486f101b5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/ff966b67febce1e2f25168099310749486f101b5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/542301529d003000785a705a7885d333ef486f62/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/542301529d003000785a705a7885d333ef486f62/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/542301529d003000785a705a7885d333ef486f62/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/542301529d003000785a705a7885d333ef486f62/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a124163b2ddf15bb5fc6184488e54b07bef80adc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a124163b2ddf15bb5fc6184488e54b07bef80adc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a124163b2ddf15bb5fc6184488e54b07bef80adc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/a124163b2ddf15bb5fc6184488e54b07bef80adc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4e8e14b25088aa8c2b608847273dc7b7f9c0ec94/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4e8e14b25088aa8c2b608847273dc7b7f9c0ec94/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4e8e14b25088aa8c2b608847273dc7b7f9c0ec94/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4e8e14b25088aa8c2b608847273dc7b7f9c0ec94/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/36d15d2962cf0ff823201bd9672101a371e90e8f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/36d15d2962cf0ff823201bd9672101a371e90e8f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/36d15d2962cf0ff823201bd9672101a371e90e8f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/36d15d2962cf0ff823201bd9672101a371e90e8f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5e3f64b91565ad9981083ef480aff6693300229a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5e3f64b91565ad9981083ef480aff6693300229a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5e3f64b91565ad9981083ef480aff6693300229a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5e3f64b91565ad9981083ef480aff6693300229a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f41652fb98a352d9feef58a893f354c785a65a53/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f41652fb98a352d9feef58a893f354c785a65a53/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f41652fb98a352d9feef58a893f354c785a65a53/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f41652fb98a352d9feef58a893f354c785a65a53/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19be54108db1cdf9081781f274150ef9342db27c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19be54108db1cdf9081781f274150ef9342db27c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19be54108db1cdf9081781f274150ef9342db27c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/19be54108db1cdf9081781f274150ef9342db27c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7e4d9523d50c2beab093813f83840033a67e19a9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7e4d9523d50c2beab093813f83840033a67e19a9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7e4d9523d50c2beab093813f83840033a67e19a9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7e4d9523d50c2beab093813f83840033a67e19a9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/82ebb30ae8377e3469f4abb338a792750bb8ca1c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/82ebb30ae8377e3469f4abb338a792750bb8ca1c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/82ebb30ae8377e3469f4abb338a792750bb8ca1c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/82ebb30ae8377e3469f4abb338a792750bb8ca1c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b29dfc9791f96bd0b7d3e9083e6f974fd4ba453c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b29dfc9791f96bd0b7d3e9083e6f974fd4ba453c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b29dfc9791f96bd0b7d3e9083e6f974fd4ba453c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b29dfc9791f96bd0b7d3e9083e6f974fd4ba453c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7a8699efad8fa39349633daa468081caa5cd89e2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7a8699efad8fa39349633daa468081caa5cd89e2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7a8699efad8fa39349633daa468081caa5cd89e2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/7a8699efad8fa39349633daa468081caa5cd89e2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3753680d7fd2bdadb363ff4b531a7577c5a282c4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3753680d7fd2bdadb363ff4b531a7577c5a282c4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3753680d7fd2bdadb363ff4b531a7577c5a282c4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/3753680d7fd2bdadb363ff4b531a7577c5a282c4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4bff691bd5dd0628ad6d6ce435d5d455b7c548f8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4bff691bd5dd0628ad6d6ce435d5d455b7c548f8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4bff691bd5dd0628ad6d6ce435d5d455b7c548f8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4bff691bd5dd0628ad6d6ce435d5d455b7c548f8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2510e7390754c5abbc32ee9f2260c680af5581f0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2510e7390754c5abbc32ee9f2260c680af5581f0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2510e7390754c5abbc32ee9f2260c680af5581f0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2510e7390754c5abbc32ee9f2260c680af5581f0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f7755c23b64d073de361dd93c26c439e0bca89c5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f7755c23b64d073de361dd93c26c439e0bca89c5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f7755c23b64d073de361dd93c26c439e0bca89c5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f7755c23b64d073de361dd93c26c439e0bca89c5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0ee7c363037e9eb00fcf872e186488f6e590715c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0ee7c363037e9eb00fcf872e186488f6e590715c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0ee7c363037e9eb00fcf872e186488f6e590715c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/0ee7c363037e9eb00fcf872e186488f6e590715c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/69375736ea22c44a599a5449eb7ebb56d36854e2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/69375736ea22c44a599a5449eb7ebb56d36854e2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/69375736ea22c44a599a5449eb7ebb56d36854e2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/69375736ea22c44a599a5449eb7ebb56d36854e2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b3a4e12ab081b9cd80ce1037233497d60a077316/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b3a4e12ab081b9cd80ce1037233497d60a077316/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b3a4e12ab081b9cd80ce1037233497d60a077316/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b3a4e12ab081b9cd80ce1037233497d60a077316/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/71f5cee809e80fccb6d376e9664f634ef94fcece/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/71f5cee809e80fccb6d376e9664f634ef94fcece/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/71f5cee809e80fccb6d376e9664f634ef94fcece/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/71f5cee809e80fccb6d376e9664f634ef94fcece/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f08a0ca6fb4868f36ad680e69f6e6afe9f50e069/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f08a0ca6fb4868f36ad680e69f6e6afe9f50e069/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f08a0ca6fb4868f36ad680e69f6e6afe9f50e069/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f08a0ca6fb4868f36ad680e69f6e6afe9f50e069/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8bb6257999a6be82a8e0d2334751d55341ee9925/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8bb6257999a6be82a8e0d2334751d55341ee9925/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8bb6257999a6be82a8e0d2334751d55341ee9925/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8bb6257999a6be82a8e0d2334751d55341ee9925/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/37c714fdfd4c5ebf84c5dd06b8815dbf854575d6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/37c714fdfd4c5ebf84c5dd06b8815dbf854575d6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/37c714fdfd4c5ebf84c5dd06b8815dbf854575d6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/37c714fdfd4c5ebf84c5dd06b8815dbf854575d6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18b7eff512be9d6fa7260839afbef1c648ae9f8e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18b7eff512be9d6fa7260839afbef1c648ae9f8e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18b7eff512be9d6fa7260839afbef1c648ae9f8e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/18b7eff512be9d6fa7260839afbef1c648ae9f8e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/56f60c9c34c9265575423bf26a2d0af74878de53/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/56f60c9c34c9265575423bf26a2d0af74878de53/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/56f60c9c34c9265575423bf26a2d0af74878de53/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/56f60c9c34c9265575423bf26a2d0af74878de53/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9861772f83033456a71a94397c81c8a1f2521b09/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9861772f83033456a71a94397c81c8a1f2521b09/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9861772f83033456a71a94397c81c8a1f2521b09/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9861772f83033456a71a94397c81c8a1f2521b09/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6521a81334f4977a469e6bbccbfc590bad2d0d38/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6521a81334f4977a469e6bbccbfc590bad2d0d38/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6521a81334f4977a469e6bbccbfc590bad2d0d38/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/6521a81334f4977a469e6bbccbfc590bad2d0d38/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cbc41e8d535d8654267e03e09f9461d512b4e5c9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cbc41e8d535d8654267e03e09f9461d512b4e5c9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cbc41e8d535d8654267e03e09f9461d512b4e5c9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/cbc41e8d535d8654267e03e09f9461d512b4e5c9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9d31b7c703482675733397280882cc4cd16cf836/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9d31b7c703482675733397280882cc4cd16cf836/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9d31b7c703482675733397280882cc4cd16cf836/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/9d31b7c703482675733397280882cc4cd16cf836/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/76a8df76e7fdd6152dedd4ff98016f69d530ac17/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/76a8df76e7fdd6152dedd4ff98016f69d530ac17/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/76a8df76e7fdd6152dedd4ff98016f69d530ac17/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/76a8df76e7fdd6152dedd4ff98016f69d530ac17/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/97b815768b51ea889c1f63edfa5e0267e7040d89/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/97b815768b51ea889c1f63edfa5e0267e7040d89/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/97b815768b51ea889c1f63edfa5e0267e7040d89/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/97b815768b51ea889c1f63edfa5e0267e7040d89/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1d2365536d25f20e5aea42c74cb6a24ad50b5549/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1d2365536d25f20e5aea42c74cb6a24ad50b5549/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1d2365536d25f20e5aea42c74cb6a24ad50b5549/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/1d2365536d25f20e5aea42c74cb6a24ad50b5549/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/60bd52d3225278ab556038c214fe404021ddd217/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/60bd52d3225278ab556038c214fe404021ddd217/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/60bd52d3225278ab556038c214fe404021ddd217/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/60bd52d3225278ab556038c214fe404021ddd217/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8c470a089ff3302fb29fe3f09e7c9cdfdcc91477/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8c470a089ff3302fb29fe3f09e7c9cdfdcc91477/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8c470a089ff3302fb29fe3f09e7c9cdfdcc91477/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8c470a089ff3302fb29fe3f09e7c9cdfdcc91477/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bfd65a511d3e7d979062ab44886259ab698e5e49/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bfd65a511d3e7d979062ab44886259ab698e5e49/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bfd65a511d3e7d979062ab44886259ab698e5e49/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/bfd65a511d3e7d979062ab44886259ab698e5e49/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5f11f35541e6d9a491d7ccc18b7910e6bb29a584/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5f11f35541e6d9a491d7ccc18b7910e6bb29a584/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5f11f35541e6d9a491d7ccc18b7910e6bb29a584/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/5f11f35541e6d9a491d7ccc18b7910e6bb29a584/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/16a959264bfd07b9367acdf2450fbae897f6c83c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/16a959264bfd07b9367acdf2450fbae897f6c83c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/16a959264bfd07b9367acdf2450fbae897f6c83c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/16a959264bfd07b9367acdf2450fbae897f6c83c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eaad39a5682476a019695ce8a7c822f33017a6e6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eaad39a5682476a019695ce8a7c822f33017a6e6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eaad39a5682476a019695ce8a7c822f33017a6e6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/eaad39a5682476a019695ce8a7c822f33017a6e6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f97660ef8ff7c90742a2338439ffd99033d4307c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f97660ef8ff7c90742a2338439ffd99033d4307c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f97660ef8ff7c90742a2338439ffd99033d4307c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f97660ef8ff7c90742a2338439ffd99033d4307c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f2efbf5a36258070d997ad1a059ccb98e2f15657/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f2efbf5a36258070d997ad1a059ccb98e2f15657/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f2efbf5a36258070d997ad1a059ccb98e2f15657/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f2efbf5a36258070d997ad1a059ccb98e2f15657/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8fc94c47cd76ff69115d221c27ddfe25ff1738ef/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8fc94c47cd76ff69115d221c27ddfe25ff1738ef/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8fc94c47cd76ff69115d221c27ddfe25ff1738ef/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8fc94c47cd76ff69115d221c27ddfe25ff1738ef/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e767448e5e18ae671c406cdfc055af53170f38eb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e767448e5e18ae671c406cdfc055af53170f38eb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e767448e5e18ae671c406cdfc055af53170f38eb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/e767448e5e18ae671c406cdfc055af53170f38eb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2a25adda46853a0cd1125e1001db3bf8b636c022/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2a25adda46853a0cd1125e1001db3bf8b636c022/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2a25adda46853a0cd1125e1001db3bf8b636c022/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/2a25adda46853a0cd1125e1001db3bf8b636c022/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d8a7a0dc773aeafb24fabd9174993e6b3e2aec85/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d8a7a0dc773aeafb24fabd9174993e6b3e2aec85/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d8a7a0dc773aeafb24fabd9174993e6b3e2aec85/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/d8a7a0dc773aeafb24fabd9174993e6b3e2aec85/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/dcda2092be652c274387f1751335d7e2ce2c1deb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/dcda2092be652c274387f1751335d7e2ce2c1deb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/dcda2092be652c274387f1751335d7e2ce2c1deb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/dcda2092be652c274387f1751335d7e2ce2c1deb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8623a9b7b10fd7c0f4b733ee4af2847011c97330/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8623a9b7b10fd7c0f4b733ee4af2847011c97330/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8623a9b7b10fd7c0f4b733ee4af2847011c97330/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/8623a9b7b10fd7c0f4b733ee4af2847011c97330/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/45191545d1687bf35f51544e4c95b4649be0d077/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/45191545d1687bf35f51544e4c95b4649be0d077/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/45191545d1687bf35f51544e4c95b4649be0d077/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/45191545d1687bf35f51544e4c95b4649be0d077/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/69c896b9725ee9da573de4e9e0cd71e2ecc356ae/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/69c896b9725ee9da573de4e9e0cd71e2ecc356ae/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/69c896b9725ee9da573de4e9e0cd71e2ecc356ae/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/69c896b9725ee9da573de4e9e0cd71e2ecc356ae/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f94162488df6a21dda84960305f18b162087ee66/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f94162488df6a21dda84960305f18b162087ee66/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f94162488df6a21dda84960305f18b162087ee66/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f94162488df6a21dda84960305f18b162087ee66/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/479129125766d3b92ff15c4b274ec0f379dd6f4e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/479129125766d3b92ff15c4b274ec0f379dd6f4e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/479129125766d3b92ff15c4b274ec0f379dd6f4e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/479129125766d3b92ff15c4b274ec0f379dd6f4e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f444801b35b546404d4ccf08dc7c25ba79a97c29/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f444801b35b546404d4ccf08dc7c25ba79a97c29/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f444801b35b546404d4ccf08dc7c25ba79a97c29/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f444801b35b546404d4ccf08dc7c25ba79a97c29/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4b7e53d4b2e30dc4e7b107df6004ee5fdbd038f5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4b7e53d4b2e30dc4e7b107df6004ee5fdbd038f5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4b7e53d4b2e30dc4e7b107df6004ee5fdbd038f5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/4b7e53d4b2e30dc4e7b107df6004ee5fdbd038f5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b20073444f0d442d9c2cd1c09de23740dd091b8b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b20073444f0d442d9c2cd1c09de23740dd091b8b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b20073444f0d442d9c2cd1c09de23740dd091b8b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/b20073444f0d442d9c2cd1c09de23740dd091b8b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f280137e6be13c8d65316aa062a8770bacf2d493/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f280137e6be13c8d65316aa062a8770bacf2d493/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f280137e6be13c8d65316aa062a8770bacf2d493/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/popcorn-desktop/f280137e6be13c8d65316aa062a8770bacf2d493/new 
+analyze -all

@@ -1,0 +1,12 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/BosonEditorExperimental/4da7500dbdef645228588d545c4210fc315d035c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/BosonEditorExperimental/4da7500dbdef645228588d545c4210fc315d035c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/BosonEditorExperimental/4da7500dbdef645228588d545c4210fc315d035c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/BosonEditorExperimental/4da7500dbdef645228588d545c4210fc315d035c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/BosonEditorExperimental/b73fddbef472405087b15d5a18217f95e9932ee2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/BosonEditorExperimental/b73fddbef472405087b15d5a18217f95e9932ee2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/BosonEditorExperimental/b73fddbef472405087b15d5a18217f95e9932ee2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/BosonEditorExperimental/b73fddbef472405087b15d5a18217f95e9932ee2/new 
+analyze -all

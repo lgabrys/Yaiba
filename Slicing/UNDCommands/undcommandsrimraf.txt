@@ -1,0 +1,30 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/a803e319b6a928910907f3c584191896b2889f7b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/a803e319b6a928910907f3c584191896b2889f7b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/a803e319b6a928910907f3c584191896b2889f7b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/a803e319b6a928910907f3c584191896b2889f7b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/1b612ed9370b5a3d0de9bb0ba1a32ea1dc8edba1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/1b612ed9370b5a3d0de9bb0ba1a32ea1dc8edba1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/1b612ed9370b5a3d0de9bb0ba1a32ea1dc8edba1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/1b612ed9370b5a3d0de9bb0ba1a32ea1dc8edba1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/d1d5495dc2eae81ddaded55d5a4a6923ba86cdd8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/d1d5495dc2eae81ddaded55d5a4a6923ba86cdd8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/d1d5495dc2eae81ddaded55d5a4a6923ba86cdd8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/d1d5495dc2eae81ddaded55d5a4a6923ba86cdd8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/012ecbba814a74c3201ef63c54f6abcefa671be4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/012ecbba814a74c3201ef63c54f6abcefa671be4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/012ecbba814a74c3201ef63c54f6abcefa671be4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/012ecbba814a74c3201ef63c54f6abcefa671be4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/0e67795897c27681bfc8672f46fa692836240696/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/0e67795897c27681bfc8672f46fa692836240696/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/0e67795897c27681bfc8672f46fa692836240696/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/rimraf/0e67795897c27681bfc8672f46fa692836240696/new 
+analyze -all

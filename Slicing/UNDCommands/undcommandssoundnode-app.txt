@@ -1,0 +1,120 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/10f9d07639bb16c244444bd9b8680fd79ccbfb58/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/10f9d07639bb16c244444bd9b8680fd79ccbfb58/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/10f9d07639bb16c244444bd9b8680fd79ccbfb58/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/10f9d07639bb16c244444bd9b8680fd79ccbfb58/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/74adeb9291ea7f35b1339206bf52d5bab75fa422/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/74adeb9291ea7f35b1339206bf52d5bab75fa422/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/74adeb9291ea7f35b1339206bf52d5bab75fa422/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/74adeb9291ea7f35b1339206bf52d5bab75fa422/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/6123fc3c970df341adb46bea60572a157dd3e253/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/6123fc3c970df341adb46bea60572a157dd3e253/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/6123fc3c970df341adb46bea60572a157dd3e253/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/6123fc3c970df341adb46bea60572a157dd3e253/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/9484e64d00a21899c388ac59ec32a2b8b73b4bb9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/9484e64d00a21899c388ac59ec32a2b8b73b4bb9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/9484e64d00a21899c388ac59ec32a2b8b73b4bb9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/9484e64d00a21899c388ac59ec32a2b8b73b4bb9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/dd1176fea0eab896903b1be1737b1e3c9fc68458/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/dd1176fea0eab896903b1be1737b1e3c9fc68458/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/dd1176fea0eab896903b1be1737b1e3c9fc68458/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/dd1176fea0eab896903b1be1737b1e3c9fc68458/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/0e282c57906a6671ad7347a85e7e702a140f9f22/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/0e282c57906a6671ad7347a85e7e702a140f9f22/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/0e282c57906a6671ad7347a85e7e702a140f9f22/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/0e282c57906a6671ad7347a85e7e702a140f9f22/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/5215fe10ac63e0abe5ac1644bca876d0af374759/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/5215fe10ac63e0abe5ac1644bca876d0af374759/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/5215fe10ac63e0abe5ac1644bca876d0af374759/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/5215fe10ac63e0abe5ac1644bca876d0af374759/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/7e5b4ccd3d6a0129800b25c928d24207be656f44/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/7e5b4ccd3d6a0129800b25c928d24207be656f44/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/7e5b4ccd3d6a0129800b25c928d24207be656f44/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/7e5b4ccd3d6a0129800b25c928d24207be656f44/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/b026f7225df9f87b348e30bf732d1b6a8ea7db8b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/b026f7225df9f87b348e30bf732d1b6a8ea7db8b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/b026f7225df9f87b348e30bf732d1b6a8ea7db8b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/b026f7225df9f87b348e30bf732d1b6a8ea7db8b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/cf0ae2ed1964010b2ecb1a8141fdf797e2b1ace0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/cf0ae2ed1964010b2ecb1a8141fdf797e2b1ace0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/cf0ae2ed1964010b2ecb1a8141fdf797e2b1ace0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/cf0ae2ed1964010b2ecb1a8141fdf797e2b1ace0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/c6288336e53a95893c1d249a25bb77f1729099ab/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/c6288336e53a95893c1d249a25bb77f1729099ab/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/c6288336e53a95893c1d249a25bb77f1729099ab/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/c6288336e53a95893c1d249a25bb77f1729099ab/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/6b9e02b3f6e36e39fc178a0da041afe125a4376b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/6b9e02b3f6e36e39fc178a0da041afe125a4376b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/6b9e02b3f6e36e39fc178a0da041afe125a4376b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/6b9e02b3f6e36e39fc178a0da041afe125a4376b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/94ccbf96e4c84aae47b6a464784b4e4c4b29b8e0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/94ccbf96e4c84aae47b6a464784b4e4c4b29b8e0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/94ccbf96e4c84aae47b6a464784b4e4c4b29b8e0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/94ccbf96e4c84aae47b6a464784b4e4c4b29b8e0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/bfcfb14ce75354dcc7d41a81699fc0e4684e2d76/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/bfcfb14ce75354dcc7d41a81699fc0e4684e2d76/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/bfcfb14ce75354dcc7d41a81699fc0e4684e2d76/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/bfcfb14ce75354dcc7d41a81699fc0e4684e2d76/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/67a36eb7f2f206bfbd54a67c9ab9b35679e57395/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/67a36eb7f2f206bfbd54a67c9ab9b35679e57395/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/67a36eb7f2f206bfbd54a67c9ab9b35679e57395/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/67a36eb7f2f206bfbd54a67c9ab9b35679e57395/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/06c2cdf89f935f03d1b22b6a474ffc186e75b86e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/06c2cdf89f935f03d1b22b6a474ffc186e75b86e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/06c2cdf89f935f03d1b22b6a474ffc186e75b86e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/06c2cdf89f935f03d1b22b6a474ffc186e75b86e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/b99edb31f5c3d455b2ea7cea87ccef09bbd77c35/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/b99edb31f5c3d455b2ea7cea87ccef09bbd77c35/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/b99edb31f5c3d455b2ea7cea87ccef09bbd77c35/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/b99edb31f5c3d455b2ea7cea87ccef09bbd77c35/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/487e4ef1483b032c7da76e25ca7417bcf7593f16/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/487e4ef1483b032c7da76e25ca7417bcf7593f16/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/487e4ef1483b032c7da76e25ca7417bcf7593f16/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/487e4ef1483b032c7da76e25ca7417bcf7593f16/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/3335a8028cdfecb2a6ef73fa1f55be356eeed49a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/3335a8028cdfecb2a6ef73fa1f55be356eeed49a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/3335a8028cdfecb2a6ef73fa1f55be356eeed49a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/3335a8028cdfecb2a6ef73fa1f55be356eeed49a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/73c0e8ef43ef0936dcf52d047315cc6f22a03291/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/73c0e8ef43ef0936dcf52d047315cc6f22a03291/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/73c0e8ef43ef0936dcf52d047315cc6f22a03291/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/soundnode-app/73c0e8ef43ef0936dcf52d047315cc6f22a03291/new 
+analyze -all

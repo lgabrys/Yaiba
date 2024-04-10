@@ -1,0 +1,30 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/79743973743fa90c95945b4adab3dabcfc3cf989/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/79743973743fa90c95945b4adab3dabcfc3cf989/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/79743973743fa90c95945b4adab3dabcfc3cf989/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/79743973743fa90c95945b4adab3dabcfc3cf989/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/cc85697e90165a620d943c4f6c7b81e560ddbbfa/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/cc85697e90165a620d943c4f6c7b81e560ddbbfa/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/cc85697e90165a620d943c4f6c7b81e560ddbbfa/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/cc85697e90165a620d943c4f6c7b81e560ddbbfa/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/cc2095a923ea28de3e22336e7f1c65367cace7e1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/cc2095a923ea28de3e22336e7f1c65367cace7e1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/cc2095a923ea28de3e22336e7f1c65367cace7e1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/cc2095a923ea28de3e22336e7f1c65367cace7e1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/29a27f19c9e043652c61957f1afdc2faeea5431a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/29a27f19c9e043652c61957f1afdc2faeea5431a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/29a27f19c9e043652c61957f1afdc2faeea5431a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/29a27f19c9e043652c61957f1afdc2faeea5431a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/06a5182e6b1e51eb6723531b36d4ec173ec41268/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/06a5182e6b1e51eb6723531b36d4ec173ec41268/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/06a5182e6b1e51eb6723531b36d4ec173ec41268/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/body-parser/06a5182e6b1e51eb6723531b36d4ec173ec41268/new 
+analyze -all

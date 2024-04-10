@@ -1,0 +1,54 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/e09c8ce5fb6dfae01d5116909aefaa1847920487/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/e09c8ce5fb6dfae01d5116909aefaa1847920487/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/e09c8ce5fb6dfae01d5116909aefaa1847920487/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/e09c8ce5fb6dfae01d5116909aefaa1847920487/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/8964dfdb78300147172a7ea67ab7f1fec851dd5c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/8964dfdb78300147172a7ea67ab7f1fec851dd5c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/8964dfdb78300147172a7ea67ab7f1fec851dd5c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/8964dfdb78300147172a7ea67ab7f1fec851dd5c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/c7107d395b1af02245e312e2ac601a1ac522ac83/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/c7107d395b1af02245e312e2ac601a1ac522ac83/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/c7107d395b1af02245e312e2ac601a1ac522ac83/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/c7107d395b1af02245e312e2ac601a1ac522ac83/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/22a3e0ad1d9d200bbf5662152de52a4d73da5415/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/22a3e0ad1d9d200bbf5662152de52a4d73da5415/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/22a3e0ad1d9d200bbf5662152de52a4d73da5415/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/22a3e0ad1d9d200bbf5662152de52a4d73da5415/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/18d20387bb327795e59cc57071efd16bbd172b05/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/18d20387bb327795e59cc57071efd16bbd172b05/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/18d20387bb327795e59cc57071efd16bbd172b05/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/18d20387bb327795e59cc57071efd16bbd172b05/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/def0dba8f84924a04ef3063250c331bc8e0e252a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/def0dba8f84924a04ef3063250c331bc8e0e252a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/def0dba8f84924a04ef3063250c331bc8e0e252a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/def0dba8f84924a04ef3063250c331bc8e0e252a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/9b430d1787e03d98066a77c905fa2f3dbb697942/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/9b430d1787e03d98066a77c905fa2f3dbb697942/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/9b430d1787e03d98066a77c905fa2f3dbb697942/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/9b430d1787e03d98066a77c905fa2f3dbb697942/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/befb6c084b75f7a349eb45b66b50d5f5327362ad/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/befb6c084b75f7a349eb45b66b50d5f5327362ad/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/befb6c084b75f7a349eb45b66b50d5f5327362ad/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/befb6c084b75f7a349eb45b66b50d5f5327362ad/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/556ec5b8bff5c3a5beeb3403db0253a9654e1aa1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/556ec5b8bff5c3a5beeb3403db0253a9654e1aa1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/556ec5b8bff5c3a5beeb3403db0253a9654e1aa1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/koala/556ec5b8bff5c3a5beeb3403db0253a9654e1aa1/new 
+analyze -all

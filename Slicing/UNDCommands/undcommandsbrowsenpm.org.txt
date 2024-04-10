@@ -1,0 +1,12 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/browsenpm.org/627c0a9d7dc4740ae8eb19d2f70d1bbc16d02196/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/browsenpm.org/627c0a9d7dc4740ae8eb19d2f70d1bbc16d02196/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/browsenpm.org/627c0a9d7dc4740ae8eb19d2f70d1bbc16d02196/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/browsenpm.org/627c0a9d7dc4740ae8eb19d2f70d1bbc16d02196/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/browsenpm.org/b48f209bf83a8467f66ae0e5790d172553664920/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/browsenpm.org/b48f209bf83a8467f66ae0e5790d172553664920/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/browsenpm.org/b48f209bf83a8467f66ae0e5790d172553664920/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/browsenpm.org/b48f209bf83a8467f66ae0e5790d172553664920/new 
+analyze -all

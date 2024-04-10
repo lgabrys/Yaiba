@@ -1,0 +1,216 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/0464dd8b870e5b2cf04b934d8e79ae5e928a1c6f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/0464dd8b870e5b2cf04b934d8e79ae5e928a1c6f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/0464dd8b870e5b2cf04b934d8e79ae5e928a1c6f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/0464dd8b870e5b2cf04b934d8e79ae5e928a1c6f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/1e2b3240f11b1a7fa3f0bc9009f18a5d7b59bae1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/1e2b3240f11b1a7fa3f0bc9009f18a5d7b59bae1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/1e2b3240f11b1a7fa3f0bc9009f18a5d7b59bae1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/1e2b3240f11b1a7fa3f0bc9009f18a5d7b59bae1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/bd664ca1fc27e6aa1a1df84767ede9b992f75d10/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/bd664ca1fc27e6aa1a1df84767ede9b992f75d10/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/bd664ca1fc27e6aa1a1df84767ede9b992f75d10/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/bd664ca1fc27e6aa1a1df84767ede9b992f75d10/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/21b54b591dfc829f39d68ede62a69c1937effb47/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/21b54b591dfc829f39d68ede62a69c1937effb47/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/21b54b591dfc829f39d68ede62a69c1937effb47/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/21b54b591dfc829f39d68ede62a69c1937effb47/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/21de2c55d0459db0564de91fed20fd33c9647e19/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/21de2c55d0459db0564de91fed20fd33c9647e19/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/21de2c55d0459db0564de91fed20fd33c9647e19/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/21de2c55d0459db0564de91fed20fd33c9647e19/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/826b9f85fe7f2a20ecbaf991258a7a31cb755a89/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/826b9f85fe7f2a20ecbaf991258a7a31cb755a89/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/826b9f85fe7f2a20ecbaf991258a7a31cb755a89/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/826b9f85fe7f2a20ecbaf991258a7a31cb755a89/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/5fee4d77169ad9597f55b3bdcbb8d34a6ee4b716/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/5fee4d77169ad9597f55b3bdcbb8d34a6ee4b716/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/5fee4d77169ad9597f55b3bdcbb8d34a6ee4b716/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/5fee4d77169ad9597f55b3bdcbb8d34a6ee4b716/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/ec26640059e1eb61cb54f4b4d54515f14e3b4c79/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/ec26640059e1eb61cb54f4b4d54515f14e3b4c79/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/ec26640059e1eb61cb54f4b4d54515f14e3b4c79/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/ec26640059e1eb61cb54f4b4d54515f14e3b4c79/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/15e39cfcb0857fff1a66df478743b9c2909a9998/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/15e39cfcb0857fff1a66df478743b9c2909a9998/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/15e39cfcb0857fff1a66df478743b9c2909a9998/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/15e39cfcb0857fff1a66df478743b9c2909a9998/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/e720e4a71f14b102345365b472b720d2512a69f3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/e720e4a71f14b102345365b472b720d2512a69f3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/e720e4a71f14b102345365b472b720d2512a69f3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/e720e4a71f14b102345365b472b720d2512a69f3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/c15981848f8e852966300e061cf5f177d09a394b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/c15981848f8e852966300e061cf5f177d09a394b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/c15981848f8e852966300e061cf5f177d09a394b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/c15981848f8e852966300e061cf5f177d09a394b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4cac33fcd4580edd8316afc0885627146f89d734/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4cac33fcd4580edd8316afc0885627146f89d734/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4cac33fcd4580edd8316afc0885627146f89d734/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4cac33fcd4580edd8316afc0885627146f89d734/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/bbf661b06b91687409e1b63d2e00527f6818fdef/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/bbf661b06b91687409e1b63d2e00527f6818fdef/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/bbf661b06b91687409e1b63d2e00527f6818fdef/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/bbf661b06b91687409e1b63d2e00527f6818fdef/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/35f64ff4e73c0211113c277bd0f5b4221ce34107/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/35f64ff4e73c0211113c277bd0f5b4221ce34107/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/35f64ff4e73c0211113c277bd0f5b4221ce34107/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/35f64ff4e73c0211113c277bd0f5b4221ce34107/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/ff4bbaf0069d125e87995faee205a7447b92b150/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/ff4bbaf0069d125e87995faee205a7447b92b150/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/ff4bbaf0069d125e87995faee205a7447b92b150/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/ff4bbaf0069d125e87995faee205a7447b92b150/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9ea8fd64ed3bff326a3e542a0c3b36d551dad73d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9ea8fd64ed3bff326a3e542a0c3b36d551dad73d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9ea8fd64ed3bff326a3e542a0c3b36d551dad73d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9ea8fd64ed3bff326a3e542a0c3b36d551dad73d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/05fd38140c6c79cf29a7bf83c7151ef3bd55702e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/05fd38140c6c79cf29a7bf83c7151ef3bd55702e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/05fd38140c6c79cf29a7bf83c7151ef3bd55702e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/05fd38140c6c79cf29a7bf83c7151ef3bd55702e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/035e43091461d96b3ade1134e08e31a0eb632dd1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/035e43091461d96b3ade1134e08e31a0eb632dd1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/035e43091461d96b3ade1134e08e31a0eb632dd1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/035e43091461d96b3ade1134e08e31a0eb632dd1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/5b997760e09a41d8e4d582b0eced30a256eee308/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/5b997760e09a41d8e4d582b0eced30a256eee308/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/5b997760e09a41d8e4d582b0eced30a256eee308/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/5b997760e09a41d8e4d582b0eced30a256eee308/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9bbaa746f639585dc805bf025c1d9f8e35d7d944/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9bbaa746f639585dc805bf025c1d9f8e35d7d944/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9bbaa746f639585dc805bf025c1d9f8e35d7d944/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9bbaa746f639585dc805bf025c1d9f8e35d7d944/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/91da1a68b540a3fef17b359da424fe049130d3ed/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/91da1a68b540a3fef17b359da424fe049130d3ed/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/91da1a68b540a3fef17b359da424fe049130d3ed/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/91da1a68b540a3fef17b359da424fe049130d3ed/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/843582a532c5794577164e6767b3e5ffa9098232/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/843582a532c5794577164e6767b3e5ffa9098232/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/843582a532c5794577164e6767b3e5ffa9098232/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/843582a532c5794577164e6767b3e5ffa9098232/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4d5b9b03676e4f0cebfe8f2834f2d2b14f64d1dc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4d5b9b03676e4f0cebfe8f2834f2d2b14f64d1dc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4d5b9b03676e4f0cebfe8f2834f2d2b14f64d1dc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4d5b9b03676e4f0cebfe8f2834f2d2b14f64d1dc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/0d54e6da1ba7a48b9e37af9564349fe273f4958e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/0d54e6da1ba7a48b9e37af9564349fe273f4958e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/0d54e6da1ba7a48b9e37af9564349fe273f4958e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/0d54e6da1ba7a48b9e37af9564349fe273f4958e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/c88456737c66aa3f84fa5f5162ed1d3d96ccb035/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/c88456737c66aa3f84fa5f5162ed1d3d96ccb035/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/c88456737c66aa3f84fa5f5162ed1d3d96ccb035/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/c88456737c66aa3f84fa5f5162ed1d3d96ccb035/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4664579a5663158ea98c7ecedccb4f68a583c6c7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4664579a5663158ea98c7ecedccb4f68a583c6c7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4664579a5663158ea98c7ecedccb4f68a583c6c7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/4664579a5663158ea98c7ecedccb4f68a583c6c7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/629c862a0d3ad58e928542d1008bcbb05510ee9a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/629c862a0d3ad58e928542d1008bcbb05510ee9a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/629c862a0d3ad58e928542d1008bcbb05510ee9a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/629c862a0d3ad58e928542d1008bcbb05510ee9a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9b90025d55f7b8b8c387624715bd50a90d31fe8b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9b90025d55f7b8b8c387624715bd50a90d31fe8b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9b90025d55f7b8b8c387624715bd50a90d31fe8b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/9b90025d55f7b8b8c387624715bd50a90d31fe8b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/b55f9e466f5aee4109810bfb6e2ad1413ca5ac14/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/b55f9e466f5aee4109810bfb6e2ad1413ca5ac14/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/b55f9e466f5aee4109810bfb6e2ad1413ca5ac14/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/b55f9e466f5aee4109810bfb6e2ad1413ca5ac14/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/63c1312653eb8d0eee04295ea454883bb06451d0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/63c1312653eb8d0eee04295ea454883bb06451d0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/63c1312653eb8d0eee04295ea454883bb06451d0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/63c1312653eb8d0eee04295ea454883bb06451d0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/f84d35129e75198c72e43c0c7690730695dc9412/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/f84d35129e75198c72e43c0c7690730695dc9412/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/f84d35129e75198c72e43c0c7690730695dc9412/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/f84d35129e75198c72e43c0c7690730695dc9412/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/2e75c2a4e38a83d89a32cb5edb74edacd0118042/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/2e75c2a4e38a83d89a32cb5edb74edacd0118042/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/2e75c2a4e38a83d89a32cb5edb74edacd0118042/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/2e75c2a4e38a83d89a32cb5edb74edacd0118042/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/43592d6fa47f7396216196a524a4bcbef976598c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/43592d6fa47f7396216196a524a4bcbef976598c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/43592d6fa47f7396216196a524a4bcbef976598c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/43592d6fa47f7396216196a524a4bcbef976598c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/2b7500d707a7ca8411953aca10556b7f5180658b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/2b7500d707a7ca8411953aca10556b7f5180658b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/2b7500d707a7ca8411953aca10556b7f5180658b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/2b7500d707a7ca8411953aca10556b7f5180658b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/89f6ce2c798f5897ae235fb594134c8fc5ece00b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/89f6ce2c798f5897ae235fb594134c8fc5ece00b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/89f6ce2c798f5897ae235fb594134c8fc5ece00b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/89f6ce2c798f5897ae235fb594134c8fc5ece00b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/b3010d7ee7585c996c3d2ee176e45d376f9daae9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/b3010d7ee7585c996c3d2ee176e45d376f9daae9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/b3010d7ee7585c996c3d2ee176e45d376f9daae9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/cheerio/b3010d7ee7585c996c3d2ee176e45d376f9daae9/new 
+analyze -all

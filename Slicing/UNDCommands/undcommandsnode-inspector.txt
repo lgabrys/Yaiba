@@ -1,0 +1,180 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/127955f6005c8cbd1c872d01e69149d54b9863ad/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/127955f6005c8cbd1c872d01e69149d54b9863ad/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/127955f6005c8cbd1c872d01e69149d54b9863ad/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/127955f6005c8cbd1c872d01e69149d54b9863ad/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/bc1834a8120d92bce8972f729ab5b170222b47fc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/bc1834a8120d92bce8972f729ab5b170222b47fc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/bc1834a8120d92bce8972f729ab5b170222b47fc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/bc1834a8120d92bce8972f729ab5b170222b47fc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/dc45824ee742c2226da3cca994a49c2e0308f7c1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/dc45824ee742c2226da3cca994a49c2e0308f7c1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/dc45824ee742c2226da3cca994a49c2e0308f7c1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/dc45824ee742c2226da3cca994a49c2e0308f7c1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/f49b9ad870a9cc45314f49348934b98cf8c5be40/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/f49b9ad870a9cc45314f49348934b98cf8c5be40/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/f49b9ad870a9cc45314f49348934b98cf8c5be40/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/f49b9ad870a9cc45314f49348934b98cf8c5be40/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/82a8f8eafc1fe4b021faaf6f94efe05653d36382/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/82a8f8eafc1fe4b021faaf6f94efe05653d36382/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/82a8f8eafc1fe4b021faaf6f94efe05653d36382/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/82a8f8eafc1fe4b021faaf6f94efe05653d36382/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/2e5309f75099753740c4567e17fd79ee27885d71/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/2e5309f75099753740c4567e17fd79ee27885d71/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/2e5309f75099753740c4567e17fd79ee27885d71/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/2e5309f75099753740c4567e17fd79ee27885d71/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/0faa1356d66fe25027ff12a9e5c7da0fd8ed9276/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/0faa1356d66fe25027ff12a9e5c7da0fd8ed9276/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/0faa1356d66fe25027ff12a9e5c7da0fd8ed9276/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/0faa1356d66fe25027ff12a9e5c7da0fd8ed9276/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/8bbbc0c6abafe21b70e02b8d3fb8062115db8cce/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/8bbbc0c6abafe21b70e02b8d3fb8062115db8cce/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/8bbbc0c6abafe21b70e02b8d3fb8062115db8cce/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/8bbbc0c6abafe21b70e02b8d3fb8062115db8cce/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/9024ff78a044fa397378ffd997e4d68fee951a99/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/9024ff78a044fa397378ffd997e4d68fee951a99/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/9024ff78a044fa397378ffd997e4d68fee951a99/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/9024ff78a044fa397378ffd997e4d68fee951a99/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/01cb658ce253bfbc4bedd8e72dc1ffe9c13ffa05/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/01cb658ce253bfbc4bedd8e72dc1ffe9c13ffa05/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/01cb658ce253bfbc4bedd8e72dc1ffe9c13ffa05/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/01cb658ce253bfbc4bedd8e72dc1ffe9c13ffa05/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/528d441be39b29b7282dcc3df6abac2488028f6e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/528d441be39b29b7282dcc3df6abac2488028f6e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/528d441be39b29b7282dcc3df6abac2488028f6e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/528d441be39b29b7282dcc3df6abac2488028f6e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/28560d8b0e6c571d8578a78544769c5118f1c3c5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/28560d8b0e6c571d8578a78544769c5118f1c3c5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/28560d8b0e6c571d8578a78544769c5118f1c3c5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/28560d8b0e6c571d8578a78544769c5118f1c3c5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/c05c203676b1d41702a79381cd9ded64473bc6ac/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/c05c203676b1d41702a79381cd9ded64473bc6ac/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/c05c203676b1d41702a79381cd9ded64473bc6ac/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/c05c203676b1d41702a79381cd9ded64473bc6ac/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/41600fc54b6f351782cd6724ec7fca4c4763ff96/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/41600fc54b6f351782cd6724ec7fca4c4763ff96/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/41600fc54b6f351782cd6724ec7fca4c4763ff96/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/41600fc54b6f351782cd6724ec7fca4c4763ff96/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/792e9f06f967869c27c561d3d8a90ee6726fb744/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/792e9f06f967869c27c561d3d8a90ee6726fb744/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/792e9f06f967869c27c561d3d8a90ee6726fb744/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/792e9f06f967869c27c561d3d8a90ee6726fb744/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/4cd16d4adf31deaa8ff8552cc0cf2d9d5e988218/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/4cd16d4adf31deaa8ff8552cc0cf2d9d5e988218/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/4cd16d4adf31deaa8ff8552cc0cf2d9d5e988218/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/4cd16d4adf31deaa8ff8552cc0cf2d9d5e988218/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/92c35ed9fd7e4abdc3a0a8dd818b63d40a9f85e4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/92c35ed9fd7e4abdc3a0a8dd818b63d40a9f85e4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/92c35ed9fd7e4abdc3a0a8dd818b63d40a9f85e4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/92c35ed9fd7e4abdc3a0a8dd818b63d40a9f85e4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/c7f5efcf3170689217c36b1faa0b9daa99be2b46/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/c7f5efcf3170689217c36b1faa0b9daa99be2b46/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/c7f5efcf3170689217c36b1faa0b9daa99be2b46/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/c7f5efcf3170689217c36b1faa0b9daa99be2b46/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/a701d7743d442c39d239bd91d7d7c4ec5e623857/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/a701d7743d442c39d239bd91d7d7c4ec5e623857/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/a701d7743d442c39d239bd91d7d7c4ec5e623857/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/a701d7743d442c39d239bd91d7d7c4ec5e623857/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/39fe73b620738381efbb9db3239e6eba074de1cc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/39fe73b620738381efbb9db3239e6eba074de1cc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/39fe73b620738381efbb9db3239e6eba074de1cc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/39fe73b620738381efbb9db3239e6eba074de1cc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/9ef874b70c1e75876cc321bb1c5e2ef47649784d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/9ef874b70c1e75876cc321bb1c5e2ef47649784d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/9ef874b70c1e75876cc321bb1c5e2ef47649784d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/9ef874b70c1e75876cc321bb1c5e2ef47649784d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/fcec9e528a8ce4fc8ca3884a9610c428b53b25ab/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/fcec9e528a8ce4fc8ca3884a9610c428b53b25ab/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/fcec9e528a8ce4fc8ca3884a9610c428b53b25ab/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/fcec9e528a8ce4fc8ca3884a9610c428b53b25ab/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/cc5ed4f056c027ff76d4d32937cf3104680c2649/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/cc5ed4f056c027ff76d4d32937cf3104680c2649/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/cc5ed4f056c027ff76d4d32937cf3104680c2649/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/cc5ed4f056c027ff76d4d32937cf3104680c2649/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/fcd311acb744557de7d80c1e7c4ae5d994c0a5a6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/fcd311acb744557de7d80c1e7c4ae5d994c0a5a6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/fcd311acb744557de7d80c1e7c4ae5d994c0a5a6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/fcd311acb744557de7d80c1e7c4ae5d994c0a5a6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/b7fd43e1b0ce2ff68b8a9e13a059eee32389f1ca/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/b7fd43e1b0ce2ff68b8a9e13a059eee32389f1ca/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/b7fd43e1b0ce2ff68b8a9e13a059eee32389f1ca/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/b7fd43e1b0ce2ff68b8a9e13a059eee32389f1ca/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/25cba3770010a18aa9a8e37d472527a826333248/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/25cba3770010a18aa9a8e37d472527a826333248/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/25cba3770010a18aa9a8e37d472527a826333248/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/25cba3770010a18aa9a8e37d472527a826333248/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/ac5d13b8bcfe7f2a7f28a520d1942ef87eca9b03/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/ac5d13b8bcfe7f2a7f28a520d1942ef87eca9b03/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/ac5d13b8bcfe7f2a7f28a520d1942ef87eca9b03/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/ac5d13b8bcfe7f2a7f28a520d1942ef87eca9b03/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/ed2dcb76c7235516ee0b688c2174a6aac8985614/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/ed2dcb76c7235516ee0b688c2174a6aac8985614/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/ed2dcb76c7235516ee0b688c2174a6aac8985614/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/ed2dcb76c7235516ee0b688c2174a6aac8985614/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/77b5d8b832b975726b8367f7c9417c7032aba559/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/77b5d8b832b975726b8367f7c9417c7032aba559/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/77b5d8b832b975726b8367f7c9417c7032aba559/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/77b5d8b832b975726b8367f7c9417c7032aba559/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/07b09c6870d53a382c91351553d311a8f4e59cce/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/07b09c6870d53a382c91351553d311a8f4e59cce/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/07b09c6870d53a382c91351553d311a8f4e59cce/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-inspector/07b09c6870d53a382c91351553d311a8f4e59cce/new 
+analyze -all

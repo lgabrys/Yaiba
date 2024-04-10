@@ -1,0 +1,270 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/aefa4b9027da217966e270e83de503f14836d95d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/aefa4b9027da217966e270e83de503f14836d95d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/aefa4b9027da217966e270e83de503f14836d95d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/aefa4b9027da217966e270e83de503f14836d95d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/67b7b24343f1bd994728658f5e34b4bedb472e55/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/67b7b24343f1bd994728658f5e34b4bedb472e55/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/67b7b24343f1bd994728658f5e34b4bedb472e55/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/67b7b24343f1bd994728658f5e34b4bedb472e55/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/159d66aec427729cd7f339d02ef3ecd7a625d997/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/159d66aec427729cd7f339d02ef3ecd7a625d997/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/159d66aec427729cd7f339d02ef3ecd7a625d997/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/159d66aec427729cd7f339d02ef3ecd7a625d997/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e4e8173510eef69f2b04e03c05dde66499688014/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e4e8173510eef69f2b04e03c05dde66499688014/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e4e8173510eef69f2b04e03c05dde66499688014/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e4e8173510eef69f2b04e03c05dde66499688014/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/744b7436d999832c795b1f8e625619180decc0a6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/744b7436d999832c795b1f8e625619180decc0a6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/744b7436d999832c795b1f8e625619180decc0a6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/744b7436d999832c795b1f8e625619180decc0a6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/8203884b0473df0b7733f353e75434dfde7ea303/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/8203884b0473df0b7733f353e75434dfde7ea303/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/8203884b0473df0b7733f353e75434dfde7ea303/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/8203884b0473df0b7733f353e75434dfde7ea303/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/cb5332e91494dd0153cd6328602a04eb54987c12/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/cb5332e91494dd0153cd6328602a04eb54987c12/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/cb5332e91494dd0153cd6328602a04eb54987c12/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/cb5332e91494dd0153cd6328602a04eb54987c12/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9c5820627a104dfc08e2880a31ce6969f2d49d0f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9c5820627a104dfc08e2880a31ce6969f2d49d0f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9c5820627a104dfc08e2880a31ce6969f2d49d0f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9c5820627a104dfc08e2880a31ce6969f2d49d0f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/94716b9fb0746bfd95853274a6e2062d0caf9862/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/94716b9fb0746bfd95853274a6e2062d0caf9862/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/94716b9fb0746bfd95853274a6e2062d0caf9862/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/94716b9fb0746bfd95853274a6e2062d0caf9862/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/4ecc36741e9abdb3e8890650a2e532378ac28552/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/4ecc36741e9abdb3e8890650a2e532378ac28552/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/4ecc36741e9abdb3e8890650a2e532378ac28552/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/4ecc36741e9abdb3e8890650a2e532378ac28552/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e25ec29ce0d2c24031eeca6b7f43eeaca150d990/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e25ec29ce0d2c24031eeca6b7f43eeaca150d990/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e25ec29ce0d2c24031eeca6b7f43eeaca150d990/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e25ec29ce0d2c24031eeca6b7f43eeaca150d990/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f538720d5c7aef88d25393b4a78e26899977af81/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f538720d5c7aef88d25393b4a78e26899977af81/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f538720d5c7aef88d25393b4a78e26899977af81/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f538720d5c7aef88d25393b4a78e26899977af81/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d337a0890523bd01bb344d0fbdbc49f108fc9834/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d337a0890523bd01bb344d0fbdbc49f108fc9834/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d337a0890523bd01bb344d0fbdbc49f108fc9834/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d337a0890523bd01bb344d0fbdbc49f108fc9834/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/afb22b2ac6c2220ffa8fcf225c5030616651427a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/afb22b2ac6c2220ffa8fcf225c5030616651427a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/afb22b2ac6c2220ffa8fcf225c5030616651427a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/afb22b2ac6c2220ffa8fcf225c5030616651427a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/4a9811f38c7f316beddc53a1436f8c4375314304/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/4a9811f38c7f316beddc53a1436f8c4375314304/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/4a9811f38c7f316beddc53a1436f8c4375314304/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/4a9811f38c7f316beddc53a1436f8c4375314304/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d072bcdf81e5dc92dcb838d04f94cecb7c4c2310/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d072bcdf81e5dc92dcb838d04f94cecb7c4c2310/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d072bcdf81e5dc92dcb838d04f94cecb7c4c2310/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d072bcdf81e5dc92dcb838d04f94cecb7c4c2310/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b6d605a1137666443c00d82c9e60d575e400a162/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b6d605a1137666443c00d82c9e60d575e400a162/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b6d605a1137666443c00d82c9e60d575e400a162/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b6d605a1137666443c00d82c9e60d575e400a162/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/79a93fb549ff8e864d3e6646a4848642563c7282/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/79a93fb549ff8e864d3e6646a4848642563c7282/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/79a93fb549ff8e864d3e6646a4848642563c7282/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/79a93fb549ff8e864d3e6646a4848642563c7282/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9539730849208042dea63d21c2d2edaa9f6de993/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9539730849208042dea63d21c2d2edaa9f6de993/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9539730849208042dea63d21c2d2edaa9f6de993/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9539730849208042dea63d21c2d2edaa9f6de993/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/7cdcaa7fcf20cb277be15b700d5fa714e20911bd/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/7cdcaa7fcf20cb277be15b700d5fa714e20911bd/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/7cdcaa7fcf20cb277be15b700d5fa714e20911bd/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/7cdcaa7fcf20cb277be15b700d5fa714e20911bd/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/42cf52672a06b140a6ce5de6471ee14181486794/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/42cf52672a06b140a6ce5de6471ee14181486794/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/42cf52672a06b140a6ce5de6471ee14181486794/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/42cf52672a06b140a6ce5de6471ee14181486794/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/8cfb696fb031ddc7d781c75fa15fd1120ad8c126/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/8cfb696fb031ddc7d781c75fa15fd1120ad8c126/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/8cfb696fb031ddc7d781c75fa15fd1120ad8c126/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/8cfb696fb031ddc7d781c75fa15fd1120ad8c126/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/c86c7161e4bcf98c3afdf8940bd908e4b5ac584d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/c86c7161e4bcf98c3afdf8940bd908e4b5ac584d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/c86c7161e4bcf98c3afdf8940bd908e4b5ac584d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/c86c7161e4bcf98c3afdf8940bd908e4b5ac584d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b5d1831e57d9ba4b9ab062e02dc5b1eb5a4a7251/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b5d1831e57d9ba4b9ab062e02dc5b1eb5a4a7251/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b5d1831e57d9ba4b9ab062e02dc5b1eb5a4a7251/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b5d1831e57d9ba4b9ab062e02dc5b1eb5a4a7251/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d9a50abef5986ec1f89ac9c459ed1bf49d153543/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d9a50abef5986ec1f89ac9c459ed1bf49d153543/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d9a50abef5986ec1f89ac9c459ed1bf49d153543/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d9a50abef5986ec1f89ac9c459ed1bf49d153543/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b533618c10b1b2d086937188689bf8b62c130805/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b533618c10b1b2d086937188689bf8b62c130805/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b533618c10b1b2d086937188689bf8b62c130805/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b533618c10b1b2d086937188689bf8b62c130805/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e6ac4c6a18a38a28de1da2a5a895b324993278c7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e6ac4c6a18a38a28de1da2a5a895b324993278c7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e6ac4c6a18a38a28de1da2a5a895b324993278c7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/e6ac4c6a18a38a28de1da2a5a895b324993278c7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/db621d2208f1a69c8b9f13eda03e9de9b60c6d32/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/db621d2208f1a69c8b9f13eda03e9de9b60c6d32/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/db621d2208f1a69c8b9f13eda03e9de9b60c6d32/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/db621d2208f1a69c8b9f13eda03e9de9b60c6d32/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/08fc85ed45f481f2cc976f09815b0583b213d80a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/08fc85ed45f481f2cc976f09815b0583b213d80a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/08fc85ed45f481f2cc976f09815b0583b213d80a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/08fc85ed45f481f2cc976f09815b0583b213d80a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d03de18deb63dcca2c5681cfe922cdd3095e351d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d03de18deb63dcca2c5681cfe922cdd3095e351d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d03de18deb63dcca2c5681cfe922cdd3095e351d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/d03de18deb63dcca2c5681cfe922cdd3095e351d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/ad6a6afbeaa2334ec70de347159a85281d68f03b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/ad6a6afbeaa2334ec70de347159a85281d68f03b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/ad6a6afbeaa2334ec70de347159a85281d68f03b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/ad6a6afbeaa2334ec70de347159a85281d68f03b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/3be85c6d871e8e347fcb12c7517a8bf68895f7ba/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/3be85c6d871e8e347fcb12c7517a8bf68895f7ba/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/3be85c6d871e8e347fcb12c7517a8bf68895f7ba/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/3be85c6d871e8e347fcb12c7517a8bf68895f7ba/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/a49c4ee4c35d4b4c6f52412450b83c7fac53565c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/a49c4ee4c35d4b4c6f52412450b83c7fac53565c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/a49c4ee4c35d4b4c6f52412450b83c7fac53565c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/a49c4ee4c35d4b4c6f52412450b83c7fac53565c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/03543999b95b9644a6448a34ee6e02699a0582a8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/03543999b95b9644a6448a34ee6e02699a0582a8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/03543999b95b9644a6448a34ee6e02699a0582a8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/03543999b95b9644a6448a34ee6e02699a0582a8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f16242bbd85b069e140e92bfe306a4669c8313cd/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f16242bbd85b069e140e92bfe306a4669c8313cd/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f16242bbd85b069e140e92bfe306a4669c8313cd/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f16242bbd85b069e140e92bfe306a4669c8313cd/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/36a7e38b6a7ec399ed4fa84152e1d3a30211b498/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/36a7e38b6a7ec399ed4fa84152e1d3a30211b498/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/36a7e38b6a7ec399ed4fa84152e1d3a30211b498/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/36a7e38b6a7ec399ed4fa84152e1d3a30211b498/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b7d62f545ef1592c60db0bae84aec875f326966a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b7d62f545ef1592c60db0bae84aec875f326966a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b7d62f545ef1592c60db0bae84aec875f326966a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/b7d62f545ef1592c60db0bae84aec875f326966a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/0797213d7a564c5d847b53555b762fcd9ba2abab/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/0797213d7a564c5d847b53555b762fcd9ba2abab/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/0797213d7a564c5d847b53555b762fcd9ba2abab/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/0797213d7a564c5d847b53555b762fcd9ba2abab/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f6b92f4c7449d16d062e29307a02102d7f1393f3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f6b92f4c7449d16d062e29307a02102d7f1393f3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f6b92f4c7449d16d062e29307a02102d7f1393f3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f6b92f4c7449d16d062e29307a02102d7f1393f3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/ffcc857ea67658d4891da0d6ee76f7277222a724/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/ffcc857ea67658d4891da0d6ee76f7277222a724/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/ffcc857ea67658d4891da0d6ee76f7277222a724/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/ffcc857ea67658d4891da0d6ee76f7277222a724/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/cd191dc354d2eda1edfba271c6918369b9bc6667/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/cd191dc354d2eda1edfba271c6918369b9bc6667/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/cd191dc354d2eda1edfba271c6918369b9bc6667/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/cd191dc354d2eda1edfba271c6918369b9bc6667/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9dd830f0495be3c32422a401e800e5ad9fe2b4c6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9dd830f0495be3c32422a401e800e5ad9fe2b4c6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9dd830f0495be3c32422a401e800e5ad9fe2b4c6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9dd830f0495be3c32422a401e800e5ad9fe2b4c6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/dfe40a1cfce9eb597c12b840ff539423175e9efb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/dfe40a1cfce9eb597c12b840ff539423175e9efb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/dfe40a1cfce9eb597c12b840ff539423175e9efb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/dfe40a1cfce9eb597c12b840ff539423175e9efb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f5ff8fb0a3dd9bcd7cc44d5c50680c53c1b6cfc9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f5ff8fb0a3dd9bcd7cc44d5c50680c53c1b6cfc9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f5ff8fb0a3dd9bcd7cc44d5c50680c53c1b6cfc9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/f5ff8fb0a3dd9bcd7cc44d5c50680c53c1b6cfc9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/403d8eafb1b2e8b7976975e03f2932fcd5c972cb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/403d8eafb1b2e8b7976975e03f2932fcd5c972cb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/403d8eafb1b2e8b7976975e03f2932fcd5c972cb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/403d8eafb1b2e8b7976975e03f2932fcd5c972cb/new 
+analyze -all

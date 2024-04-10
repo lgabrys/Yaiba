@@ -1,0 +1,18 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/855e342c9e26ab3d7232506cc42c240b7d800bf1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/855e342c9e26ab3d7232506cc42c240b7d800bf1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/855e342c9e26ab3d7232506cc42c240b7d800bf1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/855e342c9e26ab3d7232506cc42c240b7d800bf1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/5d2d242f656103ac38086d6b26433a09f1c38c75/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/5d2d242f656103ac38086d6b26433a09f1c38c75/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/5d2d242f656103ac38086d6b26433a09f1c38c75/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/5d2d242f656103ac38086d6b26433a09f1c38c75/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/936cf564bed804b6c804baca7d10257391a040f0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/936cf564bed804b6c804baca7d10257391a040f0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/936cf564bed804b6c804baca7d10257391a040f0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/colors.js/936cf564bed804b6c804baca7d10257391a040f0/new 
+analyze -all

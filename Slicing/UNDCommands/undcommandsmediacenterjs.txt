@@ -1,0 +1,198 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/fadc63ff60884c2d647d23e1e2364035a0b0aea0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/fadc63ff60884c2d647d23e1e2364035a0b0aea0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/fadc63ff60884c2d647d23e1e2364035a0b0aea0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/fadc63ff60884c2d647d23e1e2364035a0b0aea0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/68ac6130eaabda27ef65c20dc7686e1b105569e8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/68ac6130eaabda27ef65c20dc7686e1b105569e8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/68ac6130eaabda27ef65c20dc7686e1b105569e8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/68ac6130eaabda27ef65c20dc7686e1b105569e8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a0137d13ec30c4399bb540089a6297ed111b3194/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a0137d13ec30c4399bb540089a6297ed111b3194/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a0137d13ec30c4399bb540089a6297ed111b3194/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a0137d13ec30c4399bb540089a6297ed111b3194/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/dcf89ab559daa9abd23f974ad16ec950fa37aeea/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/dcf89ab559daa9abd23f974ad16ec950fa37aeea/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/dcf89ab559daa9abd23f974ad16ec950fa37aeea/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/dcf89ab559daa9abd23f974ad16ec950fa37aeea/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/de6db6ce7d2413a63c0e0835b41b7aceba567548/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/de6db6ce7d2413a63c0e0835b41b7aceba567548/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/de6db6ce7d2413a63c0e0835b41b7aceba567548/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/de6db6ce7d2413a63c0e0835b41b7aceba567548/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/c2725c810846a7a58e743b0eeaa4ac5d054efbc0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/c2725c810846a7a58e743b0eeaa4ac5d054efbc0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/c2725c810846a7a58e743b0eeaa4ac5d054efbc0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/c2725c810846a7a58e743b0eeaa4ac5d054efbc0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/9b2713785a40403945ad979dfe4e12ccb1be3807/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/9b2713785a40403945ad979dfe4e12ccb1be3807/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/9b2713785a40403945ad979dfe4e12ccb1be3807/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/9b2713785a40403945ad979dfe4e12ccb1be3807/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e5cb8c168f50b5ea67461d279e371496d46af211/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e5cb8c168f50b5ea67461d279e371496d46af211/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e5cb8c168f50b5ea67461d279e371496d46af211/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e5cb8c168f50b5ea67461d279e371496d46af211/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a984b2fbc141435cfb8b9ea6d43c9b55f08319ca/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a984b2fbc141435cfb8b9ea6d43c9b55f08319ca/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a984b2fbc141435cfb8b9ea6d43c9b55f08319ca/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a984b2fbc141435cfb8b9ea6d43c9b55f08319ca/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/70180cb9fa68f1084e4526ddf3c87db534f262ad/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/70180cb9fa68f1084e4526ddf3c87db534f262ad/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/70180cb9fa68f1084e4526ddf3c87db534f262ad/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/70180cb9fa68f1084e4526ddf3c87db534f262ad/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/85a5705f5cad13fc9ae6766781a35edcec21b00b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/85a5705f5cad13fc9ae6766781a35edcec21b00b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/85a5705f5cad13fc9ae6766781a35edcec21b00b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/85a5705f5cad13fc9ae6766781a35edcec21b00b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/aed6451eab51e0dc2d41ba0cc814d61de2a7e944/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/aed6451eab51e0dc2d41ba0cc814d61de2a7e944/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/aed6451eab51e0dc2d41ba0cc814d61de2a7e944/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/aed6451eab51e0dc2d41ba0cc814d61de2a7e944/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e4cf72e0d238c7dac3e6c7948f2175b1468bf137/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e4cf72e0d238c7dac3e6c7948f2175b1468bf137/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e4cf72e0d238c7dac3e6c7948f2175b1468bf137/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e4cf72e0d238c7dac3e6c7948f2175b1468bf137/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/514264a087b0e538a5cc44dece3052df74d0fe87/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/514264a087b0e538a5cc44dece3052df74d0fe87/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/514264a087b0e538a5cc44dece3052df74d0fe87/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/514264a087b0e538a5cc44dece3052df74d0fe87/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/5a4ab304cc5c50b037fa8a17bb23985a989465ae/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/5a4ab304cc5c50b037fa8a17bb23985a989465ae/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/5a4ab304cc5c50b037fa8a17bb23985a989465ae/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/5a4ab304cc5c50b037fa8a17bb23985a989465ae/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/85ecfdb58580223ec05ff6ca586d2d12dfd1cd2d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/85ecfdb58580223ec05ff6ca586d2d12dfd1cd2d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/85ecfdb58580223ec05ff6ca586d2d12dfd1cd2d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/85ecfdb58580223ec05ff6ca586d2d12dfd1cd2d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e67e39b585b24b53aacd19ba22c88e4f3c729170/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e67e39b585b24b53aacd19ba22c88e4f3c729170/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e67e39b585b24b53aacd19ba22c88e4f3c729170/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/e67e39b585b24b53aacd19ba22c88e4f3c729170/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/54b395053266f637d795a60e8c5c2339662ac973/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/54b395053266f637d795a60e8c5c2339662ac973/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/54b395053266f637d795a60e8c5c2339662ac973/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/54b395053266f637d795a60e8c5c2339662ac973/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/62ba76e668b6d600b947a2cefca8b9a2d3fba6bc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/62ba76e668b6d600b947a2cefca8b9a2d3fba6bc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/62ba76e668b6d600b947a2cefca8b9a2d3fba6bc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/62ba76e668b6d600b947a2cefca8b9a2d3fba6bc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/4c5c35a9e12c8b097b87865c057391ea8dc62ee7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/4c5c35a9e12c8b097b87865c057391ea8dc62ee7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/4c5c35a9e12c8b097b87865c057391ea8dc62ee7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/4c5c35a9e12c8b097b87865c057391ea8dc62ee7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/2dd3ef8b4235eed5328b93447be8c3857262df4e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/2dd3ef8b4235eed5328b93447be8c3857262df4e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/2dd3ef8b4235eed5328b93447be8c3857262df4e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/2dd3ef8b4235eed5328b93447be8c3857262df4e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/2b28f55d787ac9eee9993d585b34d4330bd5d6cf/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/2b28f55d787ac9eee9993d585b34d4330bd5d6cf/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/2b28f55d787ac9eee9993d585b34d4330bd5d6cf/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/2b28f55d787ac9eee9993d585b34d4330bd5d6cf/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/4dd94d4b122ca02fd8c1146b57cc7a4614a0b131/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/4dd94d4b122ca02fd8c1146b57cc7a4614a0b131/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/4dd94d4b122ca02fd8c1146b57cc7a4614a0b131/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/4dd94d4b122ca02fd8c1146b57cc7a4614a0b131/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/3c91aa7cf28c53ec8984e3929300951083125d28/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/3c91aa7cf28c53ec8984e3929300951083125d28/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/3c91aa7cf28c53ec8984e3929300951083125d28/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/3c91aa7cf28c53ec8984e3929300951083125d28/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/76cd946f7501fb3833c62eda864e81dfe2702f8c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/76cd946f7501fb3833c62eda864e81dfe2702f8c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/76cd946f7501fb3833c62eda864e81dfe2702f8c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/76cd946f7501fb3833c62eda864e81dfe2702f8c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/f692c1e0ee8577b66448031968f2edaa143c8191/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/f692c1e0ee8577b66448031968f2edaa143c8191/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/f692c1e0ee8577b66448031968f2edaa143c8191/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/f692c1e0ee8577b66448031968f2edaa143c8191/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/72e278b1cecf5551e14ca2335e97f5812882df5b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/72e278b1cecf5551e14ca2335e97f5812882df5b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/72e278b1cecf5551e14ca2335e97f5812882df5b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/72e278b1cecf5551e14ca2335e97f5812882df5b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/b8ca477e05d317e9c7ab994395276c5741e8acaf/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/b8ca477e05d317e9c7ab994395276c5741e8acaf/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/b8ca477e05d317e9c7ab994395276c5741e8acaf/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/b8ca477e05d317e9c7ab994395276c5741e8acaf/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/3f22473e539d1e8e7f4b050ff1756da2d1a1d855/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/3f22473e539d1e8e7f4b050ff1756da2d1a1d855/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/3f22473e539d1e8e7f4b050ff1756da2d1a1d855/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/3f22473e539d1e8e7f4b050ff1756da2d1a1d855/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/c7e5d329285eee37c8991d25d15445d8860c4e61/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/c7e5d329285eee37c8991d25d15445d8860c4e61/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/c7e5d329285eee37c8991d25d15445d8860c4e61/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/c7e5d329285eee37c8991d25d15445d8860c4e61/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/6d28e5566a594bb03ef78ff1b1dd34bebaf59859/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/6d28e5566a594bb03ef78ff1b1dd34bebaf59859/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/6d28e5566a594bb03ef78ff1b1dd34bebaf59859/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/6d28e5566a594bb03ef78ff1b1dd34bebaf59859/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a2aa86f7599e7f5caffe4499d17c86f26f6405a9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a2aa86f7599e7f5caffe4499d17c86f26f6405a9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a2aa86f7599e7f5caffe4499d17c86f26f6405a9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/a2aa86f7599e7f5caffe4499d17c86f26f6405a9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/f65598af17efde842380c9c2b8a9bdf3c0f7617e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/f65598af17efde842380c9c2b8a9bdf3c0f7617e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/f65598af17efde842380c9c2b8a9bdf3c0f7617e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/mediacenterjs/f65598af17efde842380c9c2b8a9bdf3c0f7617e/new 
+analyze -all

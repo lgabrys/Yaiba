@@ -1,0 +1,324 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e22dfb2ac5aafb956a584af288d14fba060b769d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e22dfb2ac5aafb956a584af288d14fba060b769d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e22dfb2ac5aafb956a584af288d14fba060b769d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e22dfb2ac5aafb956a584af288d14fba060b769d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/12c57fc095c88c08fc4b7313c668a67024fb8d1a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/12c57fc095c88c08fc4b7313c668a67024fb8d1a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/12c57fc095c88c08fc4b7313c668a67024fb8d1a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/12c57fc095c88c08fc4b7313c668a67024fb8d1a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/6124a38ea75fc45fd1c8ff6a27d2a706ac023f4a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/6124a38ea75fc45fd1c8ff6a27d2a706ac023f4a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/6124a38ea75fc45fd1c8ff6a27d2a706ac023f4a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/6124a38ea75fc45fd1c8ff6a27d2a706ac023f4a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/66d357c9329f8a624a054e9d7e70a2b14f1806ce/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/66d357c9329f8a624a054e9d7e70a2b14f1806ce/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/66d357c9329f8a624a054e9d7e70a2b14f1806ce/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/66d357c9329f8a624a054e9d7e70a2b14f1806ce/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f710c818554215d2915a74c2dab799b68c0e6e0d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f710c818554215d2915a74c2dab799b68c0e6e0d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f710c818554215d2915a74c2dab799b68c0e6e0d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f710c818554215d2915a74c2dab799b68c0e6e0d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/07699b2377c9b83625ff3a4a63c61edbc077e8c4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/07699b2377c9b83625ff3a4a63c61edbc077e8c4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/07699b2377c9b83625ff3a4a63c61edbc077e8c4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/07699b2377c9b83625ff3a4a63c61edbc077e8c4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/417dd17cafb5141977f70b89de23008bf4993dc1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/417dd17cafb5141977f70b89de23008bf4993dc1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/417dd17cafb5141977f70b89de23008bf4993dc1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/417dd17cafb5141977f70b89de23008bf4993dc1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e29f0f0466ec1dcbde60460e3d4159096ca61a5c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e29f0f0466ec1dcbde60460e3d4159096ca61a5c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e29f0f0466ec1dcbde60460e3d4159096ca61a5c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e29f0f0466ec1dcbde60460e3d4159096ca61a5c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/4e64382b78042e6b14ea80433d1d648e0e0d7453/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/4e64382b78042e6b14ea80433d1d648e0e0d7453/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/4e64382b78042e6b14ea80433d1d648e0e0d7453/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/4e64382b78042e6b14ea80433d1d648e0e0d7453/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/81d4a2a942330501df59f674ee5ab7b4f4a2fd2a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/81d4a2a942330501df59f674ee5ab7b4f4a2fd2a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/81d4a2a942330501df59f674ee5ab7b4f4a2fd2a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/81d4a2a942330501df59f674ee5ab7b4f4a2fd2a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/aafd35a46e49f40d393141d201ac5fc653e981c1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/aafd35a46e49f40d393141d201ac5fc653e981c1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/aafd35a46e49f40d393141d201ac5fc653e981c1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/aafd35a46e49f40d393141d201ac5fc653e981c1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/a5fbf897452d8134f3cb8e1efdd28c7255c74071/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/a5fbf897452d8134f3cb8e1efdd28c7255c74071/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/a5fbf897452d8134f3cb8e1efdd28c7255c74071/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/a5fbf897452d8134f3cb8e1efdd28c7255c74071/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5ccaf52e9e7134df6e319f6d246267efbdfb79c8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5ccaf52e9e7134df6e319f6d246267efbdfb79c8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5ccaf52e9e7134df6e319f6d246267efbdfb79c8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5ccaf52e9e7134df6e319f6d246267efbdfb79c8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f98516e4e8e3a46b0aa1ae71378e517a9dce8e62/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f98516e4e8e3a46b0aa1ae71378e517a9dce8e62/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f98516e4e8e3a46b0aa1ae71378e517a9dce8e62/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f98516e4e8e3a46b0aa1ae71378e517a9dce8e62/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/86f0fb7f658ab44c8333598bda56f354aa658e4e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/86f0fb7f658ab44c8333598bda56f354aa658e4e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/86f0fb7f658ab44c8333598bda56f354aa658e4e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/86f0fb7f658ab44c8333598bda56f354aa658e4e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/8bf650c85f11edd58f3239e820bd8b040588f96f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/8bf650c85f11edd58f3239e820bd8b040588f96f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/8bf650c85f11edd58f3239e820bd8b040588f96f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/8bf650c85f11edd58f3239e820bd8b040588f96f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/7eb81b7e3328cd827ae70b9fd4f4112b3ae3d301/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/7eb81b7e3328cd827ae70b9fd4f4112b3ae3d301/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/7eb81b7e3328cd827ae70b9fd4f4112b3ae3d301/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/7eb81b7e3328cd827ae70b9fd4f4112b3ae3d301/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/ebba56c37f38d965eae84cf7c5e583291ae7b152/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/ebba56c37f38d965eae84cf7c5e583291ae7b152/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/ebba56c37f38d965eae84cf7c5e583291ae7b152/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/ebba56c37f38d965eae84cf7c5e583291ae7b152/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/3cf4a11b56d201b18a604c019b6c6f8cfe8677e2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/3cf4a11b56d201b18a604c019b6c6f8cfe8677e2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/3cf4a11b56d201b18a604c019b6c6f8cfe8677e2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/3cf4a11b56d201b18a604c019b6c6f8cfe8677e2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/2858f97d2a2854ea83a57aa2fa54452d7b04839b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/2858f97d2a2854ea83a57aa2fa54452d7b04839b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/2858f97d2a2854ea83a57aa2fa54452d7b04839b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/2858f97d2a2854ea83a57aa2fa54452d7b04839b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/58d78406f08f01ee7e10cd22a556a200ea803e53/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/58d78406f08f01ee7e10cd22a556a200ea803e53/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/58d78406f08f01ee7e10cd22a556a200ea803e53/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/58d78406f08f01ee7e10cd22a556a200ea803e53/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/8e5cb5c96c58bbca79acdc904730ecdaeb8f060a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/8e5cb5c96c58bbca79acdc904730ecdaeb8f060a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/8e5cb5c96c58bbca79acdc904730ecdaeb8f060a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/8e5cb5c96c58bbca79acdc904730ecdaeb8f060a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/1530dbd2baffa635de8b357bbdc40b93954858f0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/1530dbd2baffa635de8b357bbdc40b93954858f0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/1530dbd2baffa635de8b357bbdc40b93954858f0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/1530dbd2baffa635de8b357bbdc40b93954858f0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f983c03312d7decd7b01f73fdeadafc6a0a24547/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f983c03312d7decd7b01f73fdeadafc6a0a24547/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f983c03312d7decd7b01f73fdeadafc6a0a24547/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f983c03312d7decd7b01f73fdeadafc6a0a24547/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f37bbe6fb831df736897e2157b0542fc9198ce67/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f37bbe6fb831df736897e2157b0542fc9198ce67/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f37bbe6fb831df736897e2157b0542fc9198ce67/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f37bbe6fb831df736897e2157b0542fc9198ce67/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/72468eb4245fb8bdf93da128fe996a8777c6b6f5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/72468eb4245fb8bdf93da128fe996a8777c6b6f5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/72468eb4245fb8bdf93da128fe996a8777c6b6f5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/72468eb4245fb8bdf93da128fe996a8777c6b6f5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/4cefd0cf6f19e38972cac87f19da2d6c7bd4f3bc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/4cefd0cf6f19e38972cac87f19da2d6c7bd4f3bc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/4cefd0cf6f19e38972cac87f19da2d6c7bd4f3bc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/4cefd0cf6f19e38972cac87f19da2d6c7bd4f3bc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cbc9b8a7259268eff44125f74a0b97e7cc6c4a57/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cbc9b8a7259268eff44125f74a0b97e7cc6c4a57/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cbc9b8a7259268eff44125f74a0b97e7cc6c4a57/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cbc9b8a7259268eff44125f74a0b97e7cc6c4a57/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5751946c1669aa285af0a11586c514a57abd5dc2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5751946c1669aa285af0a11586c514a57abd5dc2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5751946c1669aa285af0a11586c514a57abd5dc2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5751946c1669aa285af0a11586c514a57abd5dc2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/9379563deec74c72330888accb0d953e2638ad2d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/9379563deec74c72330888accb0d953e2638ad2d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/9379563deec74c72330888accb0d953e2638ad2d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/9379563deec74c72330888accb0d953e2638ad2d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/d42a7169fb66b4538d971ecd5ce3f02abbb03dd5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/d42a7169fb66b4538d971ecd5ce3f02abbb03dd5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/d42a7169fb66b4538d971ecd5ce3f02abbb03dd5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/d42a7169fb66b4538d971ecd5ce3f02abbb03dd5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/bff65ebe0cc9d60a77bb14994f2a54d49943722c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/bff65ebe0cc9d60a77bb14994f2a54d49943722c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/bff65ebe0cc9d60a77bb14994f2a54d49943722c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/bff65ebe0cc9d60a77bb14994f2a54d49943722c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/31447fff679c6eb4090dc946e171355696f8d250/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/31447fff679c6eb4090dc946e171355696f8d250/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/31447fff679c6eb4090dc946e171355696f8d250/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/31447fff679c6eb4090dc946e171355696f8d250/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/d94b7897b3e3aa2d0376c5d7e34088b70cd89d57/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/d94b7897b3e3aa2d0376c5d7e34088b70cd89d57/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/d94b7897b3e3aa2d0376c5d7e34088b70cd89d57/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/d94b7897b3e3aa2d0376c5d7e34088b70cd89d57/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e578696039b96c55428864bc011985bf63b9385b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e578696039b96c55428864bc011985bf63b9385b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e578696039b96c55428864bc011985bf63b9385b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e578696039b96c55428864bc011985bf63b9385b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/1936f146f1a983c5a9a5872a01c7c94f3cbe11b0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/1936f146f1a983c5a9a5872a01c7c94f3cbe11b0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/1936f146f1a983c5a9a5872a01c7c94f3cbe11b0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/1936f146f1a983c5a9a5872a01c7c94f3cbe11b0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/fa327420790b816f235f81d37e75441f833dadf7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/fa327420790b816f235f81d37e75441f833dadf7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/fa327420790b816f235f81d37e75441f833dadf7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/fa327420790b816f235f81d37e75441f833dadf7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/04cdefbcfff6d1ba28024cf3ac44e6a34051cca0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/04cdefbcfff6d1ba28024cf3ac44e6a34051cca0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/04cdefbcfff6d1ba28024cf3ac44e6a34051cca0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/04cdefbcfff6d1ba28024cf3ac44e6a34051cca0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e8a00b5113d504148be5dcacf6d33b0ef169bbf1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e8a00b5113d504148be5dcacf6d33b0ef169bbf1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e8a00b5113d504148be5dcacf6d33b0ef169bbf1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/e8a00b5113d504148be5dcacf6d33b0ef169bbf1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/00645d8f6b3376770997519465c09a882e273373/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/00645d8f6b3376770997519465c09a882e273373/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/00645d8f6b3376770997519465c09a882e273373/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/00645d8f6b3376770997519465c09a882e273373/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/6cd1268695fb4a4cfab03d6ed217638e440de13b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/6cd1268695fb4a4cfab03d6ed217638e440de13b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/6cd1268695fb4a4cfab03d6ed217638e440de13b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/6cd1268695fb4a4cfab03d6ed217638e440de13b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/355d7657a5e4d43419d97aa3d0ed39b3dfa42c5e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/355d7657a5e4d43419d97aa3d0ed39b3dfa42c5e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/355d7657a5e4d43419d97aa3d0ed39b3dfa42c5e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/355d7657a5e4d43419d97aa3d0ed39b3dfa42c5e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/c72a838029637604f6e2b6e0f9100d9fe14b38d7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/c72a838029637604f6e2b6e0f9100d9fe14b38d7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/c72a838029637604f6e2b6e0f9100d9fe14b38d7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/c72a838029637604f6e2b6e0f9100d9fe14b38d7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/741f32764e3aa1cb0e9fa2f7750dde8a8cd6c43c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/741f32764e3aa1cb0e9fa2f7750dde8a8cd6c43c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/741f32764e3aa1cb0e9fa2f7750dde8a8cd6c43c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/741f32764e3aa1cb0e9fa2f7750dde8a8cd6c43c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5b84fc131eaebbd605ea1cf419bbad7dcf796cd7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5b84fc131eaebbd605ea1cf419bbad7dcf796cd7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5b84fc131eaebbd605ea1cf419bbad7dcf796cd7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/5b84fc131eaebbd605ea1cf419bbad7dcf796cd7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/3f95e65e2c12726a68139a16f5e5db3ee3aa4470/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/3f95e65e2c12726a68139a16f5e5db3ee3aa4470/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/3f95e65e2c12726a68139a16f5e5db3ee3aa4470/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/3f95e65e2c12726a68139a16f5e5db3ee3aa4470/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cd91e0a8370593a3dab47934db4d44bd055e8a72/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cd91e0a8370593a3dab47934db4d44bd055e8a72/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cd91e0a8370593a3dab47934db4d44bd055e8a72/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cd91e0a8370593a3dab47934db4d44bd055e8a72/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/bb07e42e13dee88e10fb25312ef62854bcb4186d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/bb07e42e13dee88e10fb25312ef62854bcb4186d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/bb07e42e13dee88e10fb25312ef62854bcb4186d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/bb07e42e13dee88e10fb25312ef62854bcb4186d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/02864a3ff2bb3572998c38e65429a21d17bdc163/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/02864a3ff2bb3572998c38e65429a21d17bdc163/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/02864a3ff2bb3572998c38e65429a21d17bdc163/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/02864a3ff2bb3572998c38e65429a21d17bdc163/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/c684415a91ddcb2c19221a8f1e3a04dedf7ecf8c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/c684415a91ddcb2c19221a8f1e3a04dedf7ecf8c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/c684415a91ddcb2c19221a8f1e3a04dedf7ecf8c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/c684415a91ddcb2c19221a8f1e3a04dedf7ecf8c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f9faeb05dbe293223055f590fe3a972cdab97e94/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f9faeb05dbe293223055f590fe3a972cdab97e94/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f9faeb05dbe293223055f590fe3a972cdab97e94/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/f9faeb05dbe293223055f590fe3a972cdab97e94/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cef5e7d7e84b75d9c857817c48f507da28236e5d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cef5e7d7e84b75d9c857817c48f507da28236e5d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cef5e7d7e84b75d9c857817c48f507da28236e5d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/cef5e7d7e84b75d9c857817c48f507da28236e5d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/a8be322949ede0c9b6eb0e1c793259976b1e0403/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/a8be322949ede0c9b6eb0e1c793259976b1e0403/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/a8be322949ede0c9b6eb0e1c793259976b1e0403/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/a8be322949ede0c9b6eb0e1c793259976b1e0403/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/2f909ddec47a703ec79582a9e7d01a26f9f5457e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/2f909ddec47a703ec79582a9e7d01a26f9f5457e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/2f909ddec47a703ec79582a9e7d01a26f9f5457e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/strider/2f909ddec47a703ec79582a9e7d01a26f9f5457e/new 
+analyze -all

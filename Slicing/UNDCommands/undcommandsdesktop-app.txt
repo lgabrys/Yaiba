@@ -1,0 +1,42 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/faeb923b2a6669a5105e8135e32a08611d171e57/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/faeb923b2a6669a5105e8135e32a08611d171e57/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/faeb923b2a6669a5105e8135e32a08611d171e57/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/faeb923b2a6669a5105e8135e32a08611d171e57/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/ec4841a59d82327e9e0da72cef6da09070da3066/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/ec4841a59d82327e9e0da72cef6da09070da3066/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/ec4841a59d82327e9e0da72cef6da09070da3066/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/ec4841a59d82327e9e0da72cef6da09070da3066/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/8db84036712de8dd25ad66b44a3c069d2828b17b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/8db84036712de8dd25ad66b44a3c069d2828b17b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/8db84036712de8dd25ad66b44a3c069d2828b17b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/8db84036712de8dd25ad66b44a3c069d2828b17b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/215549e5ea562ca1a41af8a044c446fdc81482ed/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/215549e5ea562ca1a41af8a044c446fdc81482ed/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/215549e5ea562ca1a41af8a044c446fdc81482ed/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/215549e5ea562ca1a41af8a044c446fdc81482ed/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/f7c778b776fea7a7d1c94e0bd73d2d1615e88148/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/f7c778b776fea7a7d1c94e0bd73d2d1615e88148/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/f7c778b776fea7a7d1c94e0bd73d2d1615e88148/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/f7c778b776fea7a7d1c94e0bd73d2d1615e88148/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/5164eb620aac219985a0a659103c49cc146633ea/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/5164eb620aac219985a0a659103c49cc146633ea/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/5164eb620aac219985a0a659103c49cc146633ea/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/5164eb620aac219985a0a659103c49cc146633ea/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/3cd3dad1a5b1acc6c56449e0422cafb2ca124b9b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/3cd3dad1a5b1acc6c56449e0422cafb2ca124b9b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/3cd3dad1a5b1acc6c56449e0422cafb2ca124b9b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/desktop-app/3cd3dad1a5b1acc6c56449e0422cafb2ca124b9b/new 
+analyze -all

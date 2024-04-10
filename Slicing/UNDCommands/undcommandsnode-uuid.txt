@@ -1,0 +1,18 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/499574c84bc660b52c4322a011abfdd3edfd28bf/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/499574c84bc660b52c4322a011abfdd3edfd28bf/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/499574c84bc660b52c4322a011abfdd3edfd28bf/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/499574c84bc660b52c4322a011abfdd3edfd28bf/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/8a6c03f969b3332846159312dc583d1746609eea/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/8a6c03f969b3332846159312dc583d1746609eea/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/8a6c03f969b3332846159312dc583d1746609eea/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/8a6c03f969b3332846159312dc583d1746609eea/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/69a7a93c054b30aa6d2669df5d09cb48aa56fe04/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/69a7a93c054b30aa6d2669df5d09cb48aa56fe04/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/69a7a93c054b30aa6d2669df5d09cb48aa56fe04/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/node-uuid/69a7a93c054b30aa6d2669df5d09cb48aa56fe04/new 
+analyze -all

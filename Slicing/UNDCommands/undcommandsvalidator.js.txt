@@ -1,0 +1,720 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b04cc5216fa0419233861f824823bf791f1f370/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b04cc5216fa0419233861f824823bf791f1f370/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b04cc5216fa0419233861f824823bf791f1f370/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b04cc5216fa0419233861f824823bf791f1f370/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/0014d34004e3f811cc010befa3f0f5b93c6795d2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/0014d34004e3f811cc010befa3f0f5b93c6795d2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/0014d34004e3f811cc010befa3f0f5b93c6795d2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/0014d34004e3f811cc010befa3f0f5b93c6795d2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/7bef722a790b9a7709d7b2fd05afb9ce89f6f415/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/7bef722a790b9a7709d7b2fd05afb9ce89f6f415/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/7bef722a790b9a7709d7b2fd05afb9ce89f6f415/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/7bef722a790b9a7709d7b2fd05afb9ce89f6f415/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/79952c243f21abce70e51bcd5231b355da5b24a3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/79952c243f21abce70e51bcd5231b355da5b24a3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/79952c243f21abce70e51bcd5231b355da5b24a3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/79952c243f21abce70e51bcd5231b355da5b24a3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3912b3b810b2e2e9ef2cf4972080a9e2b60eacf4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3912b3b810b2e2e9ef2cf4972080a9e2b60eacf4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3912b3b810b2e2e9ef2cf4972080a9e2b60eacf4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3912b3b810b2e2e9ef2cf4972080a9e2b60eacf4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1c9efc5a2aed486b102680ebd5ac7250ba7fca07/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1c9efc5a2aed486b102680ebd5ac7250ba7fca07/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1c9efc5a2aed486b102680ebd5ac7250ba7fca07/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1c9efc5a2aed486b102680ebd5ac7250ba7fca07/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/302d2957c924b515cb22f7e87b5e84fee8636d6e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/302d2957c924b515cb22f7e87b5e84fee8636d6e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/302d2957c924b515cb22f7e87b5e84fee8636d6e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/302d2957c924b515cb22f7e87b5e84fee8636d6e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2f551c699c509e744885fe2b228785532c7a7ee9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2f551c699c509e744885fe2b228785532c7a7ee9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2f551c699c509e744885fe2b228785532c7a7ee9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2f551c699c509e744885fe2b228785532c7a7ee9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cca678a2f8d0ed712ad10a86f5b48719c480de4a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cca678a2f8d0ed712ad10a86f5b48719c480de4a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cca678a2f8d0ed712ad10a86f5b48719c480de4a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cca678a2f8d0ed712ad10a86f5b48719c480de4a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c2ff8bf6c007a5acd93e5b08f3fae94e1284a51d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c2ff8bf6c007a5acd93e5b08f3fae94e1284a51d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c2ff8bf6c007a5acd93e5b08f3fae94e1284a51d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c2ff8bf6c007a5acd93e5b08f3fae94e1284a51d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a2026c97552975a1ef300876744e98caf607ec13/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a2026c97552975a1ef300876744e98caf607ec13/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a2026c97552975a1ef300876744e98caf607ec13/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a2026c97552975a1ef300876744e98caf607ec13/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d006e08472cc5981962fa6b098a392a54fc42608/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d006e08472cc5981962fa6b098a392a54fc42608/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d006e08472cc5981962fa6b098a392a54fc42608/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d006e08472cc5981962fa6b098a392a54fc42608/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/394eebf17014c6f1b5ac52e9906fce7e40f16208/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/394eebf17014c6f1b5ac52e9906fce7e40f16208/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/394eebf17014c6f1b5ac52e9906fce7e40f16208/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/394eebf17014c6f1b5ac52e9906fce7e40f16208/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/bedce999d1e820b2b072c5e64d841ea2aa10cb8f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/bedce999d1e820b2b072c5e64d841ea2aa10cb8f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/bedce999d1e820b2b072c5e64d841ea2aa10cb8f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/bedce999d1e820b2b072c5e64d841ea2aa10cb8f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/066869c4d6648c0851f80702b94c95cb3a5b4b99/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/066869c4d6648c0851f80702b94c95cb3a5b4b99/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/066869c4d6648c0851f80702b94c95cb3a5b4b99/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/066869c4d6648c0851f80702b94c95cb3a5b4b99/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/17fbb82657032c3eb1df778e40ebb591bd0831bf/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/17fbb82657032c3eb1df778e40ebb591bd0831bf/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/17fbb82657032c3eb1df778e40ebb591bd0831bf/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/17fbb82657032c3eb1df778e40ebb591bd0831bf/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a51484e525b65af340328f2c4493996541beba9d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a51484e525b65af340328f2c4493996541beba9d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a51484e525b65af340328f2c4493996541beba9d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a51484e525b65af340328f2c4493996541beba9d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9a0bb35b9e3e6fdccb4ad604e241063e8fbb036a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9a0bb35b9e3e6fdccb4ad604e241063e8fbb036a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9a0bb35b9e3e6fdccb4ad604e241063e8fbb036a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9a0bb35b9e3e6fdccb4ad604e241063e8fbb036a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1bf00948fd60367db1645261ca5ce7d6aef097b6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1bf00948fd60367db1645261ca5ce7d6aef097b6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1bf00948fd60367db1645261ca5ce7d6aef097b6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1bf00948fd60367db1645261ca5ce7d6aef097b6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/de1a966b5905f0e2d402ee720c713b6de517551e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/de1a966b5905f0e2d402ee720c713b6de517551e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/de1a966b5905f0e2d402ee720c713b6de517551e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/de1a966b5905f0e2d402ee720c713b6de517551e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/44224d7d2f8fe9f686891fca11f19a412258a7c2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/44224d7d2f8fe9f686891fca11f19a412258a7c2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/44224d7d2f8fe9f686891fca11f19a412258a7c2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/44224d7d2f8fe9f686891fca11f19a412258a7c2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/47f3492976f3a24c52d337db2e0dc59b46ca7e90/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/47f3492976f3a24c52d337db2e0dc59b46ca7e90/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/47f3492976f3a24c52d337db2e0dc59b46ca7e90/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/47f3492976f3a24c52d337db2e0dc59b46ca7e90/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cb0bfdd559c4d9fdb4118cb788ff628129e7639f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cb0bfdd559c4d9fdb4118cb788ff628129e7639f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cb0bfdd559c4d9fdb4118cb788ff628129e7639f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cb0bfdd559c4d9fdb4118cb788ff628129e7639f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e84623b06c7601845d60fdb7af8b4434a40bbc79/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e84623b06c7601845d60fdb7af8b4434a40bbc79/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e84623b06c7601845d60fdb7af8b4434a40bbc79/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e84623b06c7601845d60fdb7af8b4434a40bbc79/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/90555917447e9f406a9dde3a2822661c383a6229/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/90555917447e9f406a9dde3a2822661c383a6229/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/90555917447e9f406a9dde3a2822661c383a6229/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/90555917447e9f406a9dde3a2822661c383a6229/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/8831db31e7d5de03cb9744f811ffd256494f97f6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/8831db31e7d5de03cb9744f811ffd256494f97f6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/8831db31e7d5de03cb9744f811ffd256494f97f6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/8831db31e7d5de03cb9744f811ffd256494f97f6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/7376945b4ce028b65955ae57b8fccbbf3fe58467/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/7376945b4ce028b65955ae57b8fccbbf3fe58467/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/7376945b4ce028b65955ae57b8fccbbf3fe58467/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/7376945b4ce028b65955ae57b8fccbbf3fe58467/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f93bb40a2434d34833b0973ac293b13a1977072f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f93bb40a2434d34833b0973ac293b13a1977072f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f93bb40a2434d34833b0973ac293b13a1977072f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f93bb40a2434d34833b0973ac293b13a1977072f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f9d49fc962816fc194a7f3e15ac1b2704e106bd9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f9d49fc962816fc194a7f3e15ac1b2704e106bd9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f9d49fc962816fc194a7f3e15ac1b2704e106bd9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f9d49fc962816fc194a7f3e15ac1b2704e106bd9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/60dffb94086767eb003d2726be07b848f3cf193b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/60dffb94086767eb003d2726be07b848f3cf193b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/60dffb94086767eb003d2726be07b848f3cf193b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/60dffb94086767eb003d2726be07b848f3cf193b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/fd7a7939a0e5f6d631c85f2a7023333fe29d5579/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/fd7a7939a0e5f6d631c85f2a7023333fe29d5579/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/fd7a7939a0e5f6d631c85f2a7023333fe29d5579/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/fd7a7939a0e5f6d631c85f2a7023333fe29d5579/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/01eeaef8f2b708c2e88a604e1668c77ad6aed990/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/01eeaef8f2b708c2e88a604e1668c77ad6aed990/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/01eeaef8f2b708c2e88a604e1668c77ad6aed990/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/01eeaef8f2b708c2e88a604e1668c77ad6aed990/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/70b028ef776359382728f4696adf7915d7677ccf/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/70b028ef776359382728f4696adf7915d7677ccf/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/70b028ef776359382728f4696adf7915d7677ccf/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/70b028ef776359382728f4696adf7915d7677ccf/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9c6428bd846ab8398d37ad6b1a7217ed2674e94f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9c6428bd846ab8398d37ad6b1a7217ed2674e94f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9c6428bd846ab8398d37ad6b1a7217ed2674e94f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9c6428bd846ab8398d37ad6b1a7217ed2674e94f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c6f21969f89b3bc2f892369d9b154979f4631528/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c6f21969f89b3bc2f892369d9b154979f4631528/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c6f21969f89b3bc2f892369d9b154979f4631528/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c6f21969f89b3bc2f892369d9b154979f4631528/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ee81073d2586e2caa4c491bfb9691e6ce40e2223/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ee81073d2586e2caa4c491bfb9691e6ce40e2223/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ee81073d2586e2caa4c491bfb9691e6ce40e2223/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ee81073d2586e2caa4c491bfb9691e6ce40e2223/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c12af3ce9c2f9fcf5215ed2ee3bc7b664afb1376/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c12af3ce9c2f9fcf5215ed2ee3bc7b664afb1376/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c12af3ce9c2f9fcf5215ed2ee3bc7b664afb1376/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c12af3ce9c2f9fcf5215ed2ee3bc7b664afb1376/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/25e84cf1180e348ab585392102ae6889cfdd66e4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/25e84cf1180e348ab585392102ae6889cfdd66e4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/25e84cf1180e348ab585392102ae6889cfdd66e4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/25e84cf1180e348ab585392102ae6889cfdd66e4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5830e66c93afbea75e322a6986742830bcd5d0f8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5830e66c93afbea75e322a6986742830bcd5d0f8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5830e66c93afbea75e322a6986742830bcd5d0f8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5830e66c93afbea75e322a6986742830bcd5d0f8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/47443d18975cd1c3adb3f29aea845e5857fbfa54/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/47443d18975cd1c3adb3f29aea845e5857fbfa54/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/47443d18975cd1c3adb3f29aea845e5857fbfa54/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/47443d18975cd1c3adb3f29aea845e5857fbfa54/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/54bf8c4418ec33a64994538c3e9aec7dabe56dd5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/54bf8c4418ec33a64994538c3e9aec7dabe56dd5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/54bf8c4418ec33a64994538c3e9aec7dabe56dd5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/54bf8c4418ec33a64994538c3e9aec7dabe56dd5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e4bb8df6af75bc6bd3a5fab3fea875aeaab4ae4b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e4bb8df6af75bc6bd3a5fab3fea875aeaab4ae4b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e4bb8df6af75bc6bd3a5fab3fea875aeaab4ae4b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e4bb8df6af75bc6bd3a5fab3fea875aeaab4ae4b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ebc6c8627c7d49b4eaab5bf2a461e42b80fb09e1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ebc6c8627c7d49b4eaab5bf2a461e42b80fb09e1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ebc6c8627c7d49b4eaab5bf2a461e42b80fb09e1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ebc6c8627c7d49b4eaab5bf2a461e42b80fb09e1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c81df18fc740a4bdfaf0d5203d2c95f01d49fe05/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c81df18fc740a4bdfaf0d5203d2c95f01d49fe05/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c81df18fc740a4bdfaf0d5203d2c95f01d49fe05/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c81df18fc740a4bdfaf0d5203d2c95f01d49fe05/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ba4106fe47bbd207b7cced49594e81f8307d8872/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ba4106fe47bbd207b7cced49594e81f8307d8872/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ba4106fe47bbd207b7cced49594e81f8307d8872/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ba4106fe47bbd207b7cced49594e81f8307d8872/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d88c7b61173b61f7ac176cb3a9386e4dde63158f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d88c7b61173b61f7ac176cb3a9386e4dde63158f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d88c7b61173b61f7ac176cb3a9386e4dde63158f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d88c7b61173b61f7ac176cb3a9386e4dde63158f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b400d9baef990a22114f09e5c72ba46e64dfdb6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b400d9baef990a22114f09e5c72ba46e64dfdb6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b400d9baef990a22114f09e5c72ba46e64dfdb6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b400d9baef990a22114f09e5c72ba46e64dfdb6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c109ace77ada1dc4a5c96ce386db8e9be127350a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c109ace77ada1dc4a5c96ce386db8e9be127350a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c109ace77ada1dc4a5c96ce386db8e9be127350a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c109ace77ada1dc4a5c96ce386db8e9be127350a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d58281a387917dd4adf6c312847085d89a9e8457/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d58281a387917dd4adf6c312847085d89a9e8457/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d58281a387917dd4adf6c312847085d89a9e8457/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d58281a387917dd4adf6c312847085d89a9e8457/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b4a95fd1cd40ceb94a7a38f72da15b9595a39fd/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b4a95fd1cd40ceb94a7a38f72da15b9595a39fd/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b4a95fd1cd40ceb94a7a38f72da15b9595a39fd/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5b4a95fd1cd40ceb94a7a38f72da15b9595a39fd/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/daaf1f7641f76de8c1f89ae5f0aad493b06fad9a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/daaf1f7641f76de8c1f89ae5f0aad493b06fad9a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/daaf1f7641f76de8c1f89ae5f0aad493b06fad9a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/daaf1f7641f76de8c1f89ae5f0aad493b06fad9a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5853b17a0a68dc25da9703f41aae59489360dbf3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5853b17a0a68dc25da9703f41aae59489360dbf3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5853b17a0a68dc25da9703f41aae59489360dbf3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5853b17a0a68dc25da9703f41aae59489360dbf3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d50c8607af7a0b0dbefa2205893f9639ffa85550/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d50c8607af7a0b0dbefa2205893f9639ffa85550/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d50c8607af7a0b0dbefa2205893f9639ffa85550/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d50c8607af7a0b0dbefa2205893f9639ffa85550/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f20826c76023781896836232cd506da87fd8bf6e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f20826c76023781896836232cd506da87fd8bf6e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f20826c76023781896836232cd506da87fd8bf6e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f20826c76023781896836232cd506da87fd8bf6e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d9895f702e8bfe986cde8c63022140baa71286b2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d9895f702e8bfe986cde8c63022140baa71286b2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d9895f702e8bfe986cde8c63022140baa71286b2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d9895f702e8bfe986cde8c63022140baa71286b2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/574301226cf3458df6f6b0bfb12f88f5e0c4cec4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/574301226cf3458df6f6b0bfb12f88f5e0c4cec4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/574301226cf3458df6f6b0bfb12f88f5e0c4cec4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/574301226cf3458df6f6b0bfb12f88f5e0c4cec4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/451d8fe359cbacaa16fbb24bf6137d71f5d4365d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/451d8fe359cbacaa16fbb24bf6137d71f5d4365d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/451d8fe359cbacaa16fbb24bf6137d71f5d4365d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/451d8fe359cbacaa16fbb24bf6137d71f5d4365d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/54170a33e5f2f75903fcd4ea19f0495faec45ab4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/54170a33e5f2f75903fcd4ea19f0495faec45ab4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/54170a33e5f2f75903fcd4ea19f0495faec45ab4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/54170a33e5f2f75903fcd4ea19f0495faec45ab4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e098f327e5645996ef527ed9745f4128d31bd089/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e098f327e5645996ef527ed9745f4128d31bd089/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e098f327e5645996ef527ed9745f4128d31bd089/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e098f327e5645996ef527ed9745f4128d31bd089/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/33b444625282df2134095dfc54ed0b1d8850410a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/33b444625282df2134095dfc54ed0b1d8850410a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/33b444625282df2134095dfc54ed0b1d8850410a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/33b444625282df2134095dfc54ed0b1d8850410a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4a66992a08731ff49f0594907803b261318e5ca5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4a66992a08731ff49f0594907803b261318e5ca5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4a66992a08731ff49f0594907803b261318e5ca5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4a66992a08731ff49f0594907803b261318e5ca5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5ed7db173f7e7619ec7e46269239bf10dda5009e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5ed7db173f7e7619ec7e46269239bf10dda5009e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5ed7db173f7e7619ec7e46269239bf10dda5009e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/5ed7db173f7e7619ec7e46269239bf10dda5009e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/491d9c0eea23f8401b5739803fb8e55c6860b32b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/491d9c0eea23f8401b5739803fb8e55c6860b32b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/491d9c0eea23f8401b5739803fb8e55c6860b32b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/491d9c0eea23f8401b5739803fb8e55c6860b32b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3a2d661d51134231af04a97967207f33c272831f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3a2d661d51134231af04a97967207f33c272831f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3a2d661d51134231af04a97967207f33c272831f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3a2d661d51134231af04a97967207f33c272831f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/63b1e4dc16ad77489745d2b2309431bce16dab60/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/63b1e4dc16ad77489745d2b2309431bce16dab60/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/63b1e4dc16ad77489745d2b2309431bce16dab60/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/63b1e4dc16ad77489745d2b2309431bce16dab60/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e08e79a066641aa11ded770a8345d7c44be1ff1c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e08e79a066641aa11ded770a8345d7c44be1ff1c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e08e79a066641aa11ded770a8345d7c44be1ff1c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e08e79a066641aa11ded770a8345d7c44be1ff1c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d25559b7c8b655e9aec9124c1eaece5410162bc0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d25559b7c8b655e9aec9124c1eaece5410162bc0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d25559b7c8b655e9aec9124c1eaece5410162bc0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d25559b7c8b655e9aec9124c1eaece5410162bc0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a0a2e77f07ac759dd531491fbbc97a25525ae3d3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a0a2e77f07ac759dd531491fbbc97a25525ae3d3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a0a2e77f07ac759dd531491fbbc97a25525ae3d3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a0a2e77f07ac759dd531491fbbc97a25525ae3d3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/eff3b71360c3b5a5c34113e798aa886f85c9bdfe/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/eff3b71360c3b5a5c34113e798aa886f85c9bdfe/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/eff3b71360c3b5a5c34113e798aa886f85c9bdfe/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/eff3b71360c3b5a5c34113e798aa886f85c9bdfe/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/73ce41d8196d9f75ca02b7544a29c472fd93a3ba/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/73ce41d8196d9f75ca02b7544a29c472fd93a3ba/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/73ce41d8196d9f75ca02b7544a29c472fd93a3ba/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/73ce41d8196d9f75ca02b7544a29c472fd93a3ba/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/285f58d0b609652e759a155fe286957dcae7c185/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/285f58d0b609652e759a155fe286957dcae7c185/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/285f58d0b609652e759a155fe286957dcae7c185/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/285f58d0b609652e759a155fe286957dcae7c185/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/49099c19e4ac303c4e11574007907960911b26c2/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/49099c19e4ac303c4e11574007907960911b26c2/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/49099c19e4ac303c4e11574007907960911b26c2/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/49099c19e4ac303c4e11574007907960911b26c2/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f3c00d77790444a31f10c8d2063356028b69cf7a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f3c00d77790444a31f10c8d2063356028b69cf7a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f3c00d77790444a31f10c8d2063356028b69cf7a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f3c00d77790444a31f10c8d2063356028b69cf7a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9c12b4cc765ae6a893d5b4c7a651e30c1a8fc3a7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9c12b4cc765ae6a893d5b4c7a651e30c1a8fc3a7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9c12b4cc765ae6a893d5b4c7a651e30c1a8fc3a7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9c12b4cc765ae6a893d5b4c7a651e30c1a8fc3a7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/418df05e8a096f85adf5041232d1b4183af34355/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/418df05e8a096f85adf5041232d1b4183af34355/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/418df05e8a096f85adf5041232d1b4183af34355/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/418df05e8a096f85adf5041232d1b4183af34355/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d18a8b8caa54f645aab269b01a36faaceb76a802/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d18a8b8caa54f645aab269b01a36faaceb76a802/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d18a8b8caa54f645aab269b01a36faaceb76a802/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d18a8b8caa54f645aab269b01a36faaceb76a802/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a3497bddb7e15a5295f4c23fae007a2b70705907/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a3497bddb7e15a5295f4c23fae007a2b70705907/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a3497bddb7e15a5295f4c23fae007a2b70705907/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a3497bddb7e15a5295f4c23fae007a2b70705907/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b0d49bd8aa91e7be58693cf99731d1b910614bd4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b0d49bd8aa91e7be58693cf99731d1b910614bd4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b0d49bd8aa91e7be58693cf99731d1b910614bd4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b0d49bd8aa91e7be58693cf99731d1b910614bd4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b65ddc5afcfc4a29050763517d6f664a4378cbc6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b65ddc5afcfc4a29050763517d6f664a4378cbc6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b65ddc5afcfc4a29050763517d6f664a4378cbc6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b65ddc5afcfc4a29050763517d6f664a4378cbc6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c605fe6d63bacd6f0ae89890d87f85050d10de5a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c605fe6d63bacd6f0ae89890d87f85050d10de5a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c605fe6d63bacd6f0ae89890d87f85050d10de5a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c605fe6d63bacd6f0ae89890d87f85050d10de5a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9b672c69ee1a485904f6f8d176f2b36f2c7e79c8/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9b672c69ee1a485904f6f8d176f2b36f2c7e79c8/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9b672c69ee1a485904f6f8d176f2b36f2c7e79c8/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/9b672c69ee1a485904f6f8d176f2b36f2c7e79c8/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b5f29d35bd36bf40785d4bfa200ea6b515b9877b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b5f29d35bd36bf40785d4bfa200ea6b515b9877b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b5f29d35bd36bf40785d4bfa200ea6b515b9877b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/b5f29d35bd36bf40785d4bfa200ea6b515b9877b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c4844701c5f8fb54f7998106270f8de734781125/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c4844701c5f8fb54f7998106270f8de734781125/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c4844701c5f8fb54f7998106270f8de734781125/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c4844701c5f8fb54f7998106270f8de734781125/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f67111d61d0205c1339f354a4c753c1e80b6350b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f67111d61d0205c1339f354a4c753c1e80b6350b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f67111d61d0205c1339f354a4c753c1e80b6350b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f67111d61d0205c1339f354a4c753c1e80b6350b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1bb491c9c5b318c3b7be120797b3c2ffec00e975/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1bb491c9c5b318c3b7be120797b3c2ffec00e975/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1bb491c9c5b318c3b7be120797b3c2ffec00e975/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1bb491c9c5b318c3b7be120797b3c2ffec00e975/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2280ff10c4cf8b7c80ea17980a85ec785cd86cf3/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2280ff10c4cf8b7c80ea17980a85ec785cd86cf3/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2280ff10c4cf8b7c80ea17980a85ec785cd86cf3/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2280ff10c4cf8b7c80ea17980a85ec785cd86cf3/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4ec30b773be5dc9a7d42bb0cfd2c9c35d6e4874a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4ec30b773be5dc9a7d42bb0cfd2c9c35d6e4874a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4ec30b773be5dc9a7d42bb0cfd2c9c35d6e4874a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4ec30b773be5dc9a7d42bb0cfd2c9c35d6e4874a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2c711dfa8f0dc9dc7180064a7d2b8ff0d17287cb/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2c711dfa8f0dc9dc7180064a7d2b8ff0d17287cb/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2c711dfa8f0dc9dc7180064a7d2b8ff0d17287cb/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/2c711dfa8f0dc9dc7180064a7d2b8ff0d17287cb/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1325350640fd0fa2724c29b7dd28c2f7bb001761/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1325350640fd0fa2724c29b7dd28c2f7bb001761/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1325350640fd0fa2724c29b7dd28c2f7bb001761/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1325350640fd0fa2724c29b7dd28c2f7bb001761/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f67a57f65ba16f655db8abfb4628a7659739f03f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f67a57f65ba16f655db8abfb4628a7659739f03f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f67a57f65ba16f655db8abfb4628a7659739f03f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/f67a57f65ba16f655db8abfb4628a7659739f03f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1ce76a1a26753eae42f848515734ef9ce4ff57b5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1ce76a1a26753eae42f848515734ef9ce4ff57b5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1ce76a1a26753eae42f848515734ef9ce4ff57b5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1ce76a1a26753eae42f848515734ef9ce4ff57b5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a571b3efc65df309828e0aca34d3835c6515371d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a571b3efc65df309828e0aca34d3835c6515371d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a571b3efc65df309828e0aca34d3835c6515371d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a571b3efc65df309828e0aca34d3835c6515371d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3507d272b09e67e8762397450f8b84378ea64bb1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3507d272b09e67e8762397450f8b84378ea64bb1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3507d272b09e67e8762397450f8b84378ea64bb1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/3507d272b09e67e8762397450f8b84378ea64bb1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d61322ca5e7f38a747e3228d121e78feea6c7df9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d61322ca5e7f38a747e3228d121e78feea6c7df9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d61322ca5e7f38a747e3228d121e78feea6c7df9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d61322ca5e7f38a747e3228d121e78feea6c7df9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cb919714d4904892bcf331017989f1510a94dfb7/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cb919714d4904892bcf331017989f1510a94dfb7/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cb919714d4904892bcf331017989f1510a94dfb7/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cb919714d4904892bcf331017989f1510a94dfb7/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cd92fb3e8e70109e35a564ce633ebe893c444df9/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cd92fb3e8e70109e35a564ce633ebe893c444df9/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cd92fb3e8e70109e35a564ce633ebe893c444df9/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cd92fb3e8e70109e35a564ce633ebe893c444df9/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e36067eae974d7a8bf3f7ae4ed45afb52842f90c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e36067eae974d7a8bf3f7ae4ed45afb52842f90c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e36067eae974d7a8bf3f7ae4ed45afb52842f90c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/e36067eae974d7a8bf3f7ae4ed45afb52842f90c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/659a75855199329bb742bd6528f178cebf394458/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/659a75855199329bb742bd6528f178cebf394458/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/659a75855199329bb742bd6528f178cebf394458/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/659a75855199329bb742bd6528f178cebf394458/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/050a424e1bda06a06b1f5e4a5ca1dd1d9a8ceea4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/050a424e1bda06a06b1f5e4a5ca1dd1d9a8ceea4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/050a424e1bda06a06b1f5e4a5ca1dd1d9a8ceea4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/050a424e1bda06a06b1f5e4a5ca1dd1d9a8ceea4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d8f3a24b048a9faf13d21819c510c281dee0219a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d8f3a24b048a9faf13d21819c510c281dee0219a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d8f3a24b048a9faf13d21819c510c281dee0219a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d8f3a24b048a9faf13d21819c510c281dee0219a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/13c012972b91c3fb6f5960cd02a9705843979fc0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/13c012972b91c3fb6f5960cd02a9705843979fc0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/13c012972b91c3fb6f5960cd02a9705843979fc0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/13c012972b91c3fb6f5960cd02a9705843979fc0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/22d0f407b7ccae8fffe97a8b99717230187c958b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/22d0f407b7ccae8fffe97a8b99717230187c958b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/22d0f407b7ccae8fffe97a8b99717230187c958b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/22d0f407b7ccae8fffe97a8b99717230187c958b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cc787ca61abac4ac393a4838ead737e7c1567b3c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cc787ca61abac4ac393a4838ead737e7c1567b3c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cc787ca61abac4ac393a4838ead737e7c1567b3c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/cc787ca61abac4ac393a4838ead737e7c1567b3c/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4b8eac55008c4c28f96b85baf679ea5e108fa06e/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4b8eac55008c4c28f96b85baf679ea5e108fa06e/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4b8eac55008c4c28f96b85baf679ea5e108fa06e/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/4b8eac55008c4c28f96b85baf679ea5e108fa06e/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d557d44360cc1d3f20c1a334fe5c325042753d61/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d557d44360cc1d3f20c1a334fe5c325042753d61/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d557d44360cc1d3f20c1a334fe5c325042753d61/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/d557d44360cc1d3f20c1a334fe5c325042753d61/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/bf4e4f1223f3e0d47325e80398918f64e9c7ad6d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/bf4e4f1223f3e0d47325e80398918f64e9c7ad6d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/bf4e4f1223f3e0d47325e80398918f64e9c7ad6d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/bf4e4f1223f3e0d47325e80398918f64e9c7ad6d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c698274494ea8ffc5cdb85d491068767751dc846/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c698274494ea8ffc5cdb85d491068767751dc846/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c698274494ea8ffc5cdb85d491068767751dc846/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c698274494ea8ffc5cdb85d491068767751dc846/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/047720e1d32e98947eaff43892bb3b9fb699ca6d/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/047720e1d32e98947eaff43892bb3b9fb699ca6d/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/047720e1d32e98947eaff43892bb3b9fb699ca6d/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/047720e1d32e98947eaff43892bb3b9fb699ca6d/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/6d87bfe20c542969e1c12a1f0c1f8979c3b97ff1/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/6d87bfe20c542969e1c12a1f0c1f8979c3b97ff1/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/6d87bfe20c542969e1c12a1f0c1f8979c3b97ff1/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/6d87bfe20c542969e1c12a1f0c1f8979c3b97ff1/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/6b213cf8692f8680980fe43e1d6f28f483df2a9a/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/6b213cf8692f8680980fe43e1d6f28f483df2a9a/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/6b213cf8692f8680980fe43e1d6f28f483df2a9a/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/6b213cf8692f8680980fe43e1d6f28f483df2a9a/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c3c039ef9135513993e0dc5d3af39af7d0a8c7c0/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c3c039ef9135513993e0dc5d3af39af7d0a8c7c0/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c3c039ef9135513993e0dc5d3af39af7d0a8c7c0/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/c3c039ef9135513993e0dc5d3af39af7d0a8c7c0/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/760015d541c3d261dc78f74c0c9545023f62c1dc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/760015d541c3d261dc78f74c0c9545023f62c1dc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/760015d541c3d261dc78f74c0c9545023f62c1dc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/760015d541c3d261dc78f74c0c9545023f62c1dc/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/04d8b45e061b2e8b1275441640737247779ff290/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/04d8b45e061b2e8b1275441640737247779ff290/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/04d8b45e061b2e8b1275441640737247779ff290/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/04d8b45e061b2e8b1275441640737247779ff290/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/11d1ede526489a5683374aa2572788c72811e2fe/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/11d1ede526489a5683374aa2572788c72811e2fe/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/11d1ede526489a5683374aa2572788c72811e2fe/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/11d1ede526489a5683374aa2572788c72811e2fe/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a08e3f002b94d709c6327ea804a915409dbaccb5/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a08e3f002b94d709c6327ea804a915409dbaccb5/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a08e3f002b94d709c6327ea804a915409dbaccb5/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/a08e3f002b94d709c6327ea804a915409dbaccb5/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/0177658d9ad58dd3d217a8d40d9e287595414643/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/0177658d9ad58dd3d217a8d40d9e287595414643/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/0177658d9ad58dd3d217a8d40d9e287595414643/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/0177658d9ad58dd3d217a8d40d9e287595414643/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/287fd05258c140fd6033c532de1a000a16257d9f/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/287fd05258c140fd6033c532de1a000a16257d9f/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/287fd05258c140fd6033c532de1a000a16257d9f/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/287fd05258c140fd6033c532de1a000a16257d9f/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/eac6c1334bb582fa9ec0418f45e46ba986085624/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/eac6c1334bb582fa9ec0418f45e46ba986085624/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/eac6c1334bb582fa9ec0418f45e46ba986085624/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/eac6c1334bb582fa9ec0418f45e46ba986085624/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ccac8fd0d65cf1e5f773bea85ffafa830cdad3b4/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ccac8fd0d65cf1e5f773bea85ffafa830cdad3b4/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ccac8fd0d65cf1e5f773bea85ffafa830cdad3b4/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/ccac8fd0d65cf1e5f773bea85ffafa830cdad3b4/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1e4011a40e6a80618343be766d99d292e9211b7c/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1e4011a40e6a80618343be766d99d292e9211b7c/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1e4011a40e6a80618343be766d99d292e9211b7c/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/validator.js/1e4011a40e6a80618343be766d99d292e9211b7c/new 
+analyze -all

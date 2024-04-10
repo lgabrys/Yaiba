@@ -1,0 +1,24 @@
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/ee0adab2f2b8f41d1d16653f96fd63c943c88e78/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/ee0adab2f2b8f41d1d16653f96fd63c943c88e78/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/ee0adab2f2b8f41d1d16653f96fd63c943c88e78/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/ee0adab2f2b8f41d1d16653f96fd63c943c88e78/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/1778a8cbbcc7c3f06557ce898dc7487c3a2bb4a6/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/1778a8cbbcc7c3f06557ce898dc7487c3a2bb4a6/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/1778a8cbbcc7c3f06557ce898dc7487c3a2bb4a6/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/1778a8cbbcc7c3f06557ce898dc7487c3a2bb4a6/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/f21a0dfaaf0f06f37f6b56c37098dc2a5ad9ea1b/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/f21a0dfaaf0f06f37f6b56c37098dc2a5ad9ea1b/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/f21a0dfaaf0f06f37f6b56c37098dc2a5ad9ea1b/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/f21a0dfaaf0f06f37f6b56c37098dc2a5ad9ea1b/new 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/97496c570dfae27e599f3a3b80ef512d9a3bcecc/old/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/97496c570dfae27e599f3a3b80ef512d9a3bcecc/old 
+analyze -all
+create -languages Web /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/97496c570dfae27e599f3a3b80ef512d9a3bcecc/new/exp.und 
+add /home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Youpp/97496c570dfae27e599f3a3b80ef512d9a3bcecc/new 
+analyze -all
