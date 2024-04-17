@@ -1,9 +1,0 @@
-{
-  "verbose": "true",
-  "ext": "js",
-  "events": {
-    "start": "echo 'OK'",
-    "crash": "echo 'CRASHED'",
-    "exit": "echo 'STOPPED'"
-  }
-}

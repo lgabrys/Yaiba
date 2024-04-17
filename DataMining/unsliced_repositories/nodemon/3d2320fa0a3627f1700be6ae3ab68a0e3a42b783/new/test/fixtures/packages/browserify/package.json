@@ -1,5 +1,0 @@
-{
-  "scripts": {
-    "start": "browserify -t hbsfy app.js -o bundle.js"
-  }
-}

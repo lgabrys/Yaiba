@@ -1,4 +1,0 @@
-const commander = require('../');
-
-describe('open issues', () => {
-});

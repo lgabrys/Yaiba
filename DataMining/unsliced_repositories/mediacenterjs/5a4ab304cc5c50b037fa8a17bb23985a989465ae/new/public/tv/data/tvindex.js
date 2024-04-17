@@ -1,4 +1,0 @@
-[
-    "american dad",
-    "the simpsons"
-]

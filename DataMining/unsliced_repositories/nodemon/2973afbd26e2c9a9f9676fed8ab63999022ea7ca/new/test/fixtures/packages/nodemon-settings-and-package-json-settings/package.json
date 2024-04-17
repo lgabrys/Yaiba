@@ -1,5 +1,0 @@
-{
-  "nodemonConfig": {
-    "exec": "foo-ignored"
-  }
-}
