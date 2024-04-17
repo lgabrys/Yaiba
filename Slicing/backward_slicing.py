@@ -1,3 +1,5 @@
+from difflib import get_close_matches
+
 REL_KIND = ['web Javascript Definein', 'web Javascript Setby', 'web Javascript Modifyby']
 
 class BackwardSlicing(object):
@@ -617,7 +619,7 @@ class BackwardSlicing(object):
 
                         buggy_file.close()
                         fixed_file.close()
-                        return statements
+                        return statements, analyzed_lines
             else:
                 if self.verbose:
                     print('Writing dual slice to files for file type {}......'.format(js_file_type))
@@ -625,13 +627,13 @@ class BackwardSlicing(object):
                 for s in statements:
                     js_file.write(s + '\n')
                 js_file.close()
-                return statements
+                return statements, analyzed_lines
         else:
             if self.verbose:
                 print('********* Sliced Statements **********')
                 [print(s) for s in statements]
                 print('********* End **********')
-            return statements
+            return statements, analyzed_lines
 
     def extract_control_flow(self, entity):
         if self.verbose:

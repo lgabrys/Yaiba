@@ -12,8 +12,7 @@ import os
 from difflib import get_close_matches, ndiff
 import concurrent.futures
 from backward_slicing import BackwardSlicing
-from utils import get_path_from_url, create_new_und_database, create_und_databases, move_to_ExperienceRoom, find_line, \
-    get_files, check_imports
+from utils import *
 
 csv.field_size_limit(sys.maxsize)
 
@@ -21,13 +20,11 @@ def slice_file(file, project_path, statements=None, dual=False):
     version = 'new' if dual else 'old'
     relative_path = str(os.path.join(project_path, file.get('project_name'), file.get('commit_hash'), version))
     db_path = str(os.path.join(relative_path, 'exp.und'))
-    file_path = file.get('buggy_file_path')[len(relative_path)+1:]
-    print(file_path)
+    file_path = file.get('buggy_file_path')[len(relative_path) + 1:]
     if statements is None:
         statements = []
     db = understand.open(db_path)
     folderpath_db_map = {db_path: relative_path}
-    print(file.get('buggy_file_path'))
     if os.path.exists(os.path.join(folderpath_db_map[db_path], file_path)):
         print('Processing buggy file -----', file.get('filename'), int(file.get('buggy_line_num')))
         try:
@@ -36,9 +33,9 @@ def slice_file(file, project_path, statements=None, dual=False):
                 slicing = BackwardSlicing(db, db_file[0], int(int(file.get('buggy_line_num'))))
                 print('Doing backward slice on fixed file {}......'.format(file.get('filename')))
                 try:
-                    statements = slicing.run(root_path=relative_path, js_file_type='fixed_file')
+                    statements, lines = slicing.run(root_path=relative_path, js_file_type='fixed_file')
                     db.close()
-                    return statements
+                    return statements, lines
                 except Exception as err:
                     db.close()
                     print('Error in file', file.get('filename'), err)
@@ -80,7 +77,7 @@ def slice_project(project_path, file, depth):
                 # el
                 if split.count('import') > 0 or split.count('require') > 0:  # TODO Verify condition
                     if split[0] == 'import':
-                        print(' '.join(split))
+                        # print(' '.join(split))
                         i = 1
                         functions = []
                         while split[i] != 'from' and i < len(split):
@@ -105,7 +102,9 @@ def slice_project(project_path, file, depth):
                                 path = full_path
                                 if target_split[0] == '.':
                                     for function in functions:
-                                        imports.append((function, target_split[1] + '.js', not os.path.isdir(path + '/' + target_split[1] + '.js'), path + '/' + target_split[1] + '.js'))
+                                        imports.append((function, target_split[1] + '.js',
+                                                        not os.path.isdir(path + '/' + target_split[1] + '.js'),
+                                                        path + '/' + target_split[1] + '.js'))
                                 else:
                                     while target_split[i] == '..':
                                         path = os.path.split(path)[0]
@@ -167,7 +166,6 @@ def topdown(project_path):
         time.sleep(2)
         # print("I'm okay !")
 
-
 def test_backward_slice():
     db = understand.open('./test-slice-js/test-slice-js.und')
     with (open('./test-slice-js/file_line_map.json') as f):
@@ -188,16 +186,37 @@ def test_backward_slice():
 
 def bottom_up_slicing(project_path, dual=False):
     files = get_files(project_path)
+    files = files[2:20]
     for file in files:
-        statements = slice_file(file, project_path)
-        if check_imports(statements):
+        statement, _ = slice_file(file, project_path)
+        statements = [statement]
+        if check_imports(statements[0]):
+            # print('Imports !')
             version = 'new' if dual else 'old'
-            relative_path = str(os.path.join(project_path, file.get('project_name'), file.get('commit_hash'), version))
-            db = understand.open(str(os.path.join(relative_path, 'exp.und')))
-            db_file = db.lookup(file.get('filename'), 'File')
-            print(db_file[0].depends())
-
-
+            # relative_path = str(os.path.join(project_path, file.get('project_name'), file.get('commit_hash'), version))
+            # db = understand.open(str(os.path.join(relative_path, 'exp.und')))
+            # db_file = db.lookup(file.get('filename'), 'File')
+            functions, files = get_imports(statements[0])
+            for i in range(len(functions)):
+                funcs = functions[i]
+                path = get_new_path(file.get('buggy_file_path'), files[i])
+                # print(path, file.get('buggy_file_path'), files[i], funcs)
+                fixed_path = get_new_path(file.get('fixed_file_path'), files[i])
+                temp_statements = []
+                current_lines = []
+                for func in funcs:
+                    num, content = find_line(path, func)
+                    if num != -1:
+                        statement, lines = slice_file(
+                            create_file(file.get('project_name'), file.get('repo_url'), file.get('commit_hash'),
+                                        os.path.split(path)[1], path, fixed_path, num, content, content), project_path)
+                        if len(funcs) > 1 and func != funcs[0]:
+                            temp_statements, current_lines = check_duplicate(temp_statements, current_lines, statement,
+                                                                             lines)
+                        else:
+                            temp_statements.append(statement)
+                            current_lines = lines
+                statements.append(temp_statements)
 
 if __name__ == '__main__':
     project_type = sys.argv[1]  # choices = ['single', 'dual', 'test']
@@ -222,7 +241,7 @@ if __name__ == '__main__':
     # elif project_type == 'dual':
     #     process_single_file(project_path[0])
     elif project_type == 'merge':
-        pass #TODO
+        pass  # TODO
     elif project_type == 'createdb':
         create_und_databases(project_path[0])
     elif project_type == 'test':

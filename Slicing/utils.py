@@ -4,6 +4,7 @@ import shlex
 import shutil
 import subprocess
 
+special_chars = [';', '{', '}', '(', ')']
 def get_path_from_url(project_path, project_name, commit_hash, url, new):
     split = url.split('/')
     path = project_path + "/{}/{}/{}/{}".format(project_name, commit_hash, new, '/'.join(split[7:]))
@@ -49,28 +50,21 @@ def create_und_databases(project_path):
         i += 1
     print('{}/{}'.format(i, i))
 
-def find_line(function, file, isfile, path):
-    # print('Find line for:', function, file, isfile, path)
-    if isfile:
-        path = '/'.join(path.split('/')[:-1])
-    files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
-    for file in files:
-        with open(os.path.join(path, file)) as imported_file:
-            # print("File analyzed: ", file)
+def find_line(path, function):
+    try:
+        with open(path) as imported_file:
             lines = [line.rstrip() for line in imported_file]
             for i in range(len(lines)):
-                # print('Line', i, '/', len(lines), ': looking for', function, 'in', lines[i])
                 line_split = (lines[i].replace('(', ' (')).strip(';').split(' ')
-                # print(line_split)
                 if function == '_':
                     if line_split.count('export') > 0 and line_split.count('default') > 0:
-                        return i + 1, lines[i], os.path.join(path, file), file
+                        return i + 1, lines[i]
                 else:
                     if line_split.count('export') > 0 and line_split.count(function) > 0:
-                        # print(i+1, lines[i], os.path.join(path, file), file)
-                        return i + 1, lines[i], os.path.join(path, file), file
-    return 0, '', '', ''
-
+                        return i + 1, lines[i]
+    except FileNotFoundError:
+        print('File not found: {} at {}'.format(function, path))
+        return -1, ''
 def get_files(project_path):
     files = []
     path_split = project_path.split('/')
@@ -98,6 +92,91 @@ def get_files(project_path):
 
 def check_imports(statements):
     for statement in statements:
-        if statement.split().contains('import') or statement.split().contains('require'):
+        if 'import' in statement or 'require' in statement:
             return True
     return False
+
+def get_imports(statements):
+    # print(statements)
+    functions = []
+    files = []
+    file = ' '.join([s.strip() for s in statements]).split(' ')
+    i = 0
+    while i < len(file):
+        # print(file[i])
+        if 'import' in file[i]:  # or 'require' in file[i]:
+            i += 1
+            function = []
+            while i < len(file) and file[i] != 'from':
+                function.append(file[i].strip('{').strip('}'))
+                i += 1
+            i += 1
+            functions.append(function)
+            files.append(file[i].strip(';').strip("'"))
+        i += 1
+    print(functions, files)
+    print(len(functions), len(files))
+    return functions, files
+
+def create_file(project_name, repo_url, commit_hash, filename, buggy_file_path, fixed_file_path, buggy_line_num,
+                buggy_line, fixed_line):
+    file = {
+        'project_name': project_name,
+        'repoUrl': repo_url,
+        'commit_hash': commit_hash,
+        'filename': filename,
+        'buggy_file_path': buggy_file_path,
+        'fixed_file_path': fixed_file_path,
+        'buggy_line_num': buggy_line_num,
+        'buggy_line': buggy_line,
+        'fixed_line': fixed_line
+    }
+    return file
+
+def get_new_path(old_path, filename):
+    new_path = os.path.split(old_path)[0]
+    # print(new_path)
+    split = filename.split('/')
+    # print(split)
+    i = 0
+    if split[i] != '..' or split[i] != '.':
+        print('Error source : {}'.format(filename))
+    while split[i] == '..':
+        new_path = os.path.split(new_path)[0]
+        # print(new_path)
+        i += 1
+    while i < len(split) - 1:
+        new_path = os.path.join(new_path, split[i])
+        i += 1
+    new_path = os.path.join(new_path, split[i] + '.js')
+    return new_path
+
+def check_duplicate(temp_statements, current_lines, statement, lines):
+    i = 0
+    y = 0
+    statements = []
+    final_lines = []
+    while i < len(current_lines) or y < len(lines):
+        if y == len(lines) or i < len(current_lines) and current_lines[i] < lines[y]:
+            statements.append(temp_statements[i])
+            final_lines.append(current_lines[i])
+            i += 1
+        elif i == len(current_lines) or y < len(lines) and current_lines[i] > lines[y]:
+            statements.append(statement[y])
+            final_lines.append(lines[y])
+            y += 1
+        else:
+            statements.append(temp_statements[i])
+            final_lines.append(current_lines[i])
+            i += 1
+            y += 1
+    return statements, final_lines
+
+# print(check_duplicate(['Bonjour', 'Luc', 'et'], [1, 3, 5], ['je m\'appelle', 'Luc', 'Gabrys', 'je', 'suis', 'à Keio'],
+#                       [2, 3, 4, 6, 7, 9]))
+# print(get_new_path(
+#     '/home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9dd830f0495be3c32422a401e800e5ad9fe2b4c6/old/src/scripts/browser/application.js',
+#     '../renderer/app'))
+# with open(
+#         '/home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9dd830f0495be3c32422a401e800e5ad9fe2b4c6/old/src/scripts/browser/application.js') as f:
+#     get_imports(f.readlines())
