@@ -232,7 +232,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                                     current_lines = lines
                         statements.append(temp_statements)
             i += 1
-        with open(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv')) as f:
+        with open(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv'), 'a+') as f:
             f.write("{}, {}, {}\n".format(i, sliced_num, errors))
             f.close()
         filename = file.get('project_name') + '_' + file.get('commit_hash') + '_' + 'line' + str(file.get('buggy_line_num')) + '_' + file.get('filename')[:-3] + '_' + version + '.js'
