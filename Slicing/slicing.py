@@ -219,6 +219,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                                 statement, lines = slice_file(
                                     create_file(file.get('project_name'), file.get('repo_url'), file.get('commit_hash'),
                                                 os.path.split(path)[1], path, fixed_path, num, content, content), project_path)
+                                sliced_num += 1
                                 if len(funcs) > 1 and func != funcs[0]:
                                     temp_statements, current_lines = check_duplicate(temp_statements, current_lines, statement,
                                                                                      lines)
@@ -227,6 +228,9 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                                     current_lines = lines
                         statements.append(temp_statements)
             i += 1
+        with open(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv')) as f:
+            f.write("{}, {}\n".format(i, sliced_num))
+            f.close()
         filename = file.get('project_name') + '_' + file.get('commit_hash') + '_' + 'line' + str(file.get('buggy_line_num')) + '_' + file.get('filename')[:-3] + '_' + version + '.js'
         # print(filename)
         with open(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up') + '/' + filename, 'w') as f:
@@ -244,6 +248,9 @@ if __name__ == '__main__':
         if os.path.exists(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up')):
             shutil.rmtree(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up'))
         os.mkdir(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up'))
+        if os.path.exists(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv')):
+            shutil.rmtree(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv'))
+        os.mkdir(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv'))
         bottom_up_slicing(project_path[0])
 
     elif project_type == 'topdown':
