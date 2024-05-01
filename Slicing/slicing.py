@@ -43,7 +43,7 @@ def slice_file(file, project_path, statements=None, dual=False):
             else:
                 print('db_file not found: ' + file.get('filename'))
                 db.close()
-                return 'No Lines', 0
+                return 'No lines', [-1]
                 # raise FileNotFoundError
         except SystemError as err:
             db.close()
@@ -190,11 +190,13 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
     # files = files[2:20]
     for file in files:
         version = 'new' if dual else 'old'
+        errors = 0
         sliced_num = 0
         statement, _ = slice_file(file, project_path)
         sliced_num += 1
         if statement == 'No lines':
             statement = ['No lines']
+            errors += 1
         statements = [statement]
         i = 0
         while i < depth and i < len(statements):
@@ -219,6 +221,8 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                                 statement, lines = slice_file(
                                     create_file(file.get('project_name'), file.get('repo_url'), file.get('commit_hash'),
                                                 os.path.split(path)[1], path, fixed_path, num, content, content), project_path)
+                                if statement == 'No lines':
+                                    errors += 1
                                 sliced_num += 1
                                 if len(funcs) > 1 and func != funcs[0]:
                                     temp_statements, current_lines = check_duplicate(temp_statements, current_lines, statement,
@@ -229,7 +233,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                         statements.append(temp_statements)
             i += 1
         with open(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv')) as f:
-            f.write("{}, {}\n".format(i, sliced_num))
+            f.write("{}, {}, {}\n".format(i, sliced_num, errors))
             f.close()
         filename = file.get('project_name') + '_' + file.get('commit_hash') + '_' + 'line' + str(file.get('buggy_line_num')) + '_' + file.get('filename')[:-3] + '_' + version + '.js'
         # print(filename)

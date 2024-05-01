@@ -156,6 +156,8 @@ def check_duplicate(temp_statements, current_lines, statement, lines):
     y = 0
     statements = []
     final_lines = []
+    if statement == 'No lines':
+        return temp_statements, current_lines
     while i < len(current_lines) or y < len(lines):
         if y == len(lines) or i < len(current_lines) and current_lines[i] < lines[y]:
             statements.append(temp_statements[i])

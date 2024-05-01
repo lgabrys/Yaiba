@@ -593,7 +593,7 @@ class BackwardSlicing(object):
         analyzed_lines.add(self.buggy_line_num)
 
         if not len(line_stack):
-            return 'No lines'
+            return 'No lines', []
 
         analyzed_lines = self.get_related_var_lines(line_stack, analyzed_lines)
 
