@@ -41,9 +41,10 @@ def slice_file(file, project_path, statements=None, dual=False):
                     print('Error in file', file.get('filename'), err)
                     traceback.print_exc()
             else:
-                print('db_file not found', db_file, db.ents())
+                print('db_file not found: ' + file.get('filename'))
                 db.close()
-                raise FileNotFoundError
+                return 'No Lines', 0
+                # raise FileNotFoundError
         except SystemError as err:
             db.close()
             print(err)
@@ -184,39 +185,56 @@ def test_backward_slice():
             else:
                 print('ACTUAL --- ', actual_statements)
 
-def bottom_up_slicing(project_path, dual=False):
+def bottom_up_slicing(project_path, dual=False, depth=99999):
     files = get_files(project_path)
-    files = files[2:20]
+    # files = files[2:20]
     for file in files:
+        version = 'new' if dual else 'old'
+        sliced_num = 0
         statement, _ = slice_file(file, project_path)
+        sliced_num += 1
+        if statement == 'No lines':
+            statement = ['No lines']
         statements = [statement]
-        if check_imports(statements[0]):
-            # print('Imports !')
-            version = 'new' if dual else 'old'
-            # relative_path = str(os.path.join(project_path, file.get('project_name'), file.get('commit_hash'), version))
-            # db = understand.open(str(os.path.join(relative_path, 'exp.und')))
-            # db_file = db.lookup(file.get('filename'), 'File')
-            functions, files = get_imports(statements[0])
-            for i in range(len(functions)):
-                funcs = functions[i]
-                path = get_new_path(file.get('buggy_file_path'), files[i])
-                # print(path, file.get('buggy_file_path'), files[i], funcs)
-                fixed_path = get_new_path(file.get('fixed_file_path'), files[i])
-                temp_statements = []
-                current_lines = []
-                for func in funcs:
-                    num, content = find_line(path, func)
-                    if num != -1:
-                        statement, lines = slice_file(
-                            create_file(file.get('project_name'), file.get('repo_url'), file.get('commit_hash'),
-                                        os.path.split(path)[1], path, fixed_path, num, content, content), project_path)
-                        if len(funcs) > 1 and func != funcs[0]:
-                            temp_statements, current_lines = check_duplicate(temp_statements, current_lines, statement,
-                                                                             lines)
-                        else:
-                            temp_statements.append(statement)
-                            current_lines = lines
-                statements.append(temp_statements)
+        i = 0
+        while i < depth and i < len(statements):
+            print(i, statements[i])
+            for statement in statements[i]:
+                if check_imports(statement):
+                    # print('Imports !')
+                    # relative_path = str(os.path.join(project_path, file.get('project_name'), file.get('commit_hash'), version))
+                    # db = understand.open(str(os.path.join(relative_path, 'exp.und')))
+                    # db_file = db.lookup(file.get('filename'), 'File')
+                    functions, files = get_imports(statement)
+                    for i in range(len(functions)):
+                        funcs = functions[i]
+                        path = get_new_path(file.get('buggy_file_path'), files[i])
+                        # print(path, file.get('buggy_file_path'), files[i], funcs)
+                        fixed_path = get_new_path(file.get('fixed_file_path'), files[i])
+                        temp_statements = []
+                        current_lines = []
+                        for func in funcs:
+                            num, content = find_line(path, func)
+                            if num != -1:
+                                statement, lines = slice_file(
+                                    create_file(file.get('project_name'), file.get('repo_url'), file.get('commit_hash'),
+                                                os.path.split(path)[1], path, fixed_path, num, content, content), project_path)
+                                if len(funcs) > 1 and func != funcs[0]:
+                                    temp_statements, current_lines = check_duplicate(temp_statements, current_lines, statement,
+                                                                                     lines)
+                                else:
+                                    temp_statements.append(statement)
+                                    current_lines = lines
+                        statements.append(temp_statements)
+            i += 1
+        filename = file.get('project_name') + '_' + file.get('commit_hash') + '_' + 'line' + str(file.get('buggy_line_num')) + '_' + file.get('filename')[:-3] + '_' + version + '.js'
+        # print(filename)
+        with open(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up') + '/' + filename, 'w') as f:
+            for i in range(len(statements)):
+                statement = statements[len(statements) - 1 - i]
+                for line in statement:
+                    f.write(line + '\n')
+            f.close()
 
 if __name__ == '__main__':
     project_type = sys.argv[1]  # choices = ['single', 'dual', 'test']
