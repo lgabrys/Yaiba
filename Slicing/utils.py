@@ -45,8 +45,8 @@ def create_und_databases(project_path):
                     path = os.path.join(project_path, projects, commits, version)
                     f.write('create -languages Web {}/exp.und \nadd {} \nanalyze -all\n'.format(path, path))
         f.close()
-        # command = "und -quiet UNDCommands/undcommands{}.txt".format(projects)
-        # subprocess.run(shlex.split(command))
+        command = "und -quiet UNDCommands/undcommands{}.txt".format(projects)
+        subprocess.run(shlex.split(command))
         i += 1
     print('{}/{}'.format(i, i))
 
