@@ -43,7 +43,7 @@ def slice_file(file, project_path, statements=None, dual=False):
             else:
                 print('db_file not found: ' + file.get('filename'))
                 db.close()
-                return 'No lines', [-1]
+                return 'No lines', []
                 # raise FileNotFoundError
         except SystemError as err:
             db.close()
