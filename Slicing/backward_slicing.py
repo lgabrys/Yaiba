@@ -61,8 +61,10 @@ class BackwardSlicing(object):
 
     def get_variable_entities(self, line_number):
         variables = []
+        endline_number = self.get_endline_number(line_number)
         for lexeme in self.file.lexer():
-            if lexeme.line_begin() == line_number:
+            if lexeme.line_begin() <= line_number and lexeme.line_begin() <= endline_number:
+                # print(lexeme.text())
                 if lexeme.token() == 'Identifier' and lexeme.ent():
                     variables.append(lexeme.ent())
                 if lexeme.ent() and lexeme.ent().kindname() == 'Property':
@@ -576,6 +578,8 @@ class BackwardSlicing(object):
         line_stack = set()
         analyzed_lines = set()
         variables = self.get_variable_entities(self.buggy_line_num)
+        # print(self.buggy_line_num)
+        # print(variables)
         for var in variables:
             if var.kindname() == 'Function':
                 self.has_function_call = True
@@ -639,3 +643,26 @@ class BackwardSlicing(object):
         if self.verbose:
             print('********* Extracting Control Flow')
         pass
+
+    def get_endline_number(self, line_number):
+        open_brackets = 0
+        close_brackets = 0
+        current_line = line_number
+        for lexeme in self.file.lexer():
+            # print(lexeme.text())
+            if lexeme.line_begin() == line_number:
+                if lexeme.text() == '{':
+                    open_brackets += 1
+                if lexeme.text() == '}':
+                    close_brackets += 1
+            if lexeme.line_begin() >= line_number:
+                if open_brackets == close_brackets:
+                    return current_line
+                if lexeme.line_begin() > current_line:
+                    current_line = lexeme.line_begin()
+                if lexeme.text() == '{':
+                    open_brackets += 1
+                if lexeme.text() == '}':
+                    close_brackets += 1
+        print(current_line)
+        return current_line

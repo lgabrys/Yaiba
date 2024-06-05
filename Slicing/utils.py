@@ -51,16 +51,18 @@ def create_und_databases(project_path):
     print('{}/{}'.format(i, i))
 
 def find_line(path, function):
+    # print(path)
     try:
         with open(path) as imported_file:
             lines = [line.rstrip() for line in imported_file]
+            # print(lines)
             for i in range(len(lines)):
                 line_split = (lines[i].replace('(', ' (')).strip(';').split(' ')
                 if function == '_':
                     if line_split.count('export') > 0 and line_split.count('default') > 0:
                         return i + 1, lines[i]
                 else:
-                    if line_split.count('export') > 0 and line_split.count(function) > 0:
+                    if line_split.count('export') > 0 and line_split.count(function) > 0 or line_split.count('default') > 0:
                         return i + 1, lines[i]
     except FileNotFoundError:
         print('File not found: {} at {}'.format(function, path))
@@ -114,8 +116,8 @@ def get_imports(statements):
             functions.append(function)
             files.append(file[i].strip(';').strip("'"))
         i += 1
-    print(functions, files)
-    print(len(functions), len(files))
+    # print(functions, files)
+    # print(len(functions), len(files))
     return functions, files
 
 def create_file(project_name, repo_url, commit_hash, filename, buggy_file_path, fixed_file_path, buggy_line_num,
@@ -139,7 +141,7 @@ def get_new_path(old_path, filename):
     split = filename.split('/')
     # print(split)
     i = 0
-    if split[i] != '..' or split[i] != '.':
+    if split[i] != '..' and split[i] != '.':
         print('Error source : {}'.format(filename))
     while split[i] == '..':
         new_path = os.path.split(new_path)[0]
@@ -173,6 +175,18 @@ def check_duplicate(temp_statements, current_lines, statement, lines):
             i += 1
             y += 1
     return statements, final_lines
+
+# with open('/home/eatoss/Documents/GitHub/Yaiba/DataMining/bottomup_stats.csv', 'r') as file:
+#     list_lines = []
+#     i = 0
+#     for line in file:
+#         print(line.strip())
+#         x, y, fault = line.strip().split(', ')
+#         print(i, fault)
+#         if fault == '1':
+#             list_lines.append(i)
+#         i += 1
+#     print(list_lines)
 
 # print(check_duplicate(['Bonjour', 'Luc', 'et'], [1, 3, 5], ['je m\'appelle', 'Luc', 'Gabrys', 'je', 'suis', 'à Keio'],
 #                       [2, 3, 4, 6, 7, 9]))

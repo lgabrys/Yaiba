@@ -31,7 +31,7 @@ def slice_file(file, project_path, statements=None, dual=False):
             db_file = db.lookup(file_path, 'File')
             if db_file:
                 slicing = BackwardSlicing(db, db_file[0], int(int(file.get('buggy_line_num'))))
-                print('Doing backward slice on fixed file {}......'.format(file.get('filename')))
+                print('Doing backward slice on fixed file {} at {}......'.format(file.get('filename'), file.get('buggy_file_path')))
                 try:
                     statements, lines = slicing.run(root_path=relative_path, js_file_type='fixed_file')
                     db.close()
@@ -186,62 +186,81 @@ def test_backward_slice():
                 print('ACTUAL --- ', actual_statements)
 
 def bottom_up_slicing(project_path, dual=False, depth=99999):
+    # faulty = [8, 10, 12, 15, 17, 33, 47, 64, 69, 70, 72, 74, 76, 78, 79, 86, 88, 89, 91, 96, 122, 125, 127, 128, 129, 132, 134, 136, 142, 143, 152, 172, 173, 179, 195, 197, 206, 207, 209, 211, 227, 232, 236, 256, 257, 260, 266, 270, 272, 273, 274, 275, 282, 291, 294, 296, 299, 300, 302, 305, 306, 307, 315, 323, 329, 330, 337, 340, 344, 409, 414, 416, 419, 421, 422, 424, 425, 426, 427, 428, 429, 430, 431, 432, 436, 438, 442, 443, 447, 451, 452, 453, 458, 492, 496, 498, 499, 500, 507, 522, 526, 529, 530, 543, 545, 546, 579, 580, 581, 582, 583, 592, 593, 594, 595, 596, 597, 603, 608, 611, 614, 615, 616, 622, 623, 624, 625, 630, 637, 641, 642, 655, 664, 666, 667, 668, 672, 675, 687, 688, 691, 699, 700, 706, 713, 714, 715, 716, 717, 726, 729, 737, 740, 741, 747, 757, 758, 759, 762, 766, 784, 786, 790, 808, 810, 821, 833, 839, 847, 855]
     files = get_files(project_path)
+    # files_2 = []
+    # for i in faulty:
+    #     files_2.append(files[i])
+    # files = files_2[0:10]
     # files = files[2:20]
     for file in files:
         version = 'new' if dual else 'old'
         errors = 0
         sliced_num = 0
+        d = 1
         statement, _ = slice_file(file, project_path)
         sliced_num += 1
         if statement == 'No lines':
-            statement = ['No lines']
+            statement = [['No lines']]
             errors += 1
-        statements = [statement]
-        i = 0
-        while i < depth and i < len(statements):
-            print(i, statements[i])
-            for statement in statements[i]:
+        statements = [[statement]]
+        while d < depth and d <= len(statements):
+            # print(statements)
+            for statement in statements[d-1]:
+                # print(statement)
                 if check_imports(statement):
-                    # print('Imports !')
-                    # relative_path = str(os.path.join(project_path, file.get('project_name'), file.get('commit_hash'), version))
-                    # db = understand.open(str(os.path.join(relative_path, 'exp.und')))
-                    # db_file = db.lookup(file.get('filename'), 'File')
+                    # print(statement)
                     functions, files = get_imports(statement)
+                    # print(functions, files)
                     for i in range(len(functions)):
+                        print(i, functions[i])
                         funcs = functions[i]
+                        # print(funcs)
                         path = get_new_path(file.get('buggy_file_path'), files[i])
+                        # print(path)
                         # print(path, file.get('buggy_file_path'), files[i], funcs)
                         fixed_path = get_new_path(file.get('fixed_file_path'), files[i])
                         temp_statements = []
                         current_lines = []
                         for func in funcs:
                             num, content = find_line(path, func)
+                            # print(num, content)
                             if num != -1:
-                                statement, lines = slice_file(
+                                sliced, lines = slice_file(
                                     create_file(file.get('project_name'), file.get('repo_url'), file.get('commit_hash'),
                                                 os.path.split(path)[1], path, fixed_path, num, content, content), project_path)
-                                if statement == 'No lines':
+                                if sliced == 'No lines':
                                     errors += 1
                                 sliced_num += 1
                                 if len(funcs) > 1 and func != funcs[0]:
-                                    temp_statements, current_lines = check_duplicate(temp_statements, current_lines, statement,
+                                    temp_statements, current_lines = check_duplicate(temp_statements, current_lines, sliced,
                                                                                      lines)
                                 else:
-                                    temp_statements.append(statement)
+                                    temp_statements = sliced
+                                    # print(temp_statements)
                                     current_lines = lines
-                        statements.append(temp_statements)
-            i += 1
-        with open(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv'), 'a+') as f:
-            f.write("{}, {}, {}\n".format(i, sliced_num, errors))
+                        # print(statements, temp_statements)
+                        if len(statements) <= d:
+                            statements.append([])
+                        # print(temp_statements)
+                        if temp_statements != []:
+                            statements[d].append(temp_statements)
+                        # print('append')
+            # print('added to d')
+            d += 1
+            # print(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'))
+        print(statements)
+        with open(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'), 'a+') as f:
+            f.write("{}, {}, {}\n".format(d-2, sliced_num, errors))
             f.close()
         filename = file.get('project_name') + '_' + file.get('commit_hash') + '_' + 'line' + str(file.get('buggy_line_num')) + '_' + file.get('filename')[:-3] + '_' + version + '.js'
         # print(filename)
         with open(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up') + '/' + filename, 'w') as f:
             for i in range(len(statements)):
-                statement = statements[len(statements) - 1 - i]
-                for line in statement:
-                    f.write(line + '\n')
+                epoch = statements[len(statements) - 1 - i]
+                for statement in epoch:
+                    for line in statement:
+                        f.write(line + '\n')
             f.close()
 
 if __name__ == '__main__':
@@ -252,9 +271,11 @@ if __name__ == '__main__':
         if os.path.exists(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up')):
             shutil.rmtree(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up'))
         os.mkdir(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up'))
-        if os.path.exists(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv')):
-            shutil.rmtree(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv'))
-        os.mkdir(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats.csv'))
+        if os.path.exists(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv')):
+            shutil.rmtree(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'))
+        # os.mkdir(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'))
+        # with open(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'), 'w') as f:
+        #     f.close()
         bottom_up_slicing(project_path[0])
 
     elif project_type == 'topdown':
