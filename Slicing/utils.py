@@ -64,6 +64,7 @@ def find_line(path, function):
                 else:
                     if line_split.count('export') > 0 and line_split.count(function) > 0 or line_split.count('default') > 0:
                         return i + 1, lines[i]
+            return -1, ''
     except FileNotFoundError:
         print('File not found: {} at {}'.format(function, path))
         return -1, ''
