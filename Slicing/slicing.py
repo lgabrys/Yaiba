@@ -170,7 +170,7 @@ def topdown(project_path):
 
 def test_backward_slice():
     db = understand.open('./test-slice-js/test-slice-js.und')
-    with (open('./test-slice-js/file_line_map.json') as f):
+    with open('./test-slice-js/file_line_map.json') as f:
         file_line_map = json.load(f)
         for item in file_line_map:
             file = db.lookup(item['file'])[0]
