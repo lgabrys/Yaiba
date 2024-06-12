@@ -66,7 +66,7 @@ def find_line(path, function):
                         return i + 1, lines[i]
             return -1, ''
     except FileNotFoundError:
-        print('File not found: {} at {}'.format(function, path))
+        # print('File not found: {} at {}'.format(function, path))
         return -1, ''
 def get_files(project_path):
     files = []
@@ -103,19 +103,24 @@ def get_imports(statements):
     # print(statements)
     functions = []
     files = []
+    # print(statements)
     file = ' '.join([s.strip() for s in statements]).split(' ')
+    # print(file)
     i = 0
     while i < len(file):
         # print(file[i])
         if 'import' in file[i]:  # or 'require' in file[i]:
             i += 1
             function = []
-            while i < len(file) and file[i] != 'from':
+            while i < len(file) and file[i] != 'from' and file[i] != 'import':
                 function.append(file[i].strip('{').strip('}'))
                 i += 1
-            i += 1
-            functions.append(function)
-            files.append(file[i].strip(';').strip("'"))
+            if i < len(file) and file[i] != 'import':
+                i += 1
+                functions.append(function)
+                files.append(file[i].strip(';').strip("'"))
+            elif i < len(file) and file[i] == 'import':
+                i -= 1
         i += 1
     # print(functions, files)
     # print(len(functions), len(files))
@@ -142,8 +147,8 @@ def get_new_path(old_path, filename):
     split = filename.split('/')
     # print(split)
     i = 0
-    if split[i] != '..' and split[i] != '.':
-        print('Error source : {}'.format(filename))
+    # if split[i] != '..' and split[i] != '.':
+        # print('Error source : {}'.format(filename))
     while split[i] == '..':
         new_path = os.path.split(new_path)[0]
         # print(new_path)
@@ -155,6 +160,7 @@ def get_new_path(old_path, filename):
     return new_path
 
 def check_duplicate(temp_statements, current_lines, statement, lines):
+    # print(current_lines)
     i = 0
     y = 0
     statements = []
@@ -197,3 +203,5 @@ def check_duplicate(temp_statements, current_lines, statement, lines):
 # with open(
 #         '/home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/Facebook-Messenger-Desktop/9dd830f0495be3c32422a401e800e5ad9fe2b4c6/old/src/scripts/browser/application.js') as f:
 #     get_imports(f.readlines())
+
+# get_imports('/home/eatoss/Documents/GitHub/Yaiba/DataMining/unsliced_repositories/PowderPlayer/81bcfcc5d4dc360c21b84cadccc478f4824fb5b1/old/src/components/Player/components/Controls.react.js')

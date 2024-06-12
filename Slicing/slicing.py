@@ -188,7 +188,7 @@ def test_backward_slice():
 
 def bottom_up_slicing(project_path, dual=False, depth=99999):
     # faulty = [8, 10, 12, 15, 17, 33, 47, 64, 69, 70, 72, 74, 76, 78, 79, 86, 88, 89, 91, 96, 122, 125, 127, 128, 129, 132, 134, 136, 142, 143, 152, 172, 173, 179, 195, 197, 206, 207, 209, 211, 227, 232, 236, 256, 257, 260, 266, 270, 272, 273, 274, 275, 282, 291, 294, 296, 299, 300, 302, 305, 306, 307, 315, 323, 329, 330, 337, 340, 344, 409, 414, 416, 419, 421, 422, 424, 425, 426, 427, 428, 429, 430, 431, 432, 436, 438, 442, 443, 447, 451, 452, 453, 458, 492, 496, 498, 499, 500, 507, 522, 526, 529, 530, 543, 545, 546, 579, 580, 581, 582, 583, 592, 593, 594, 595, 596, 597, 603, 608, 611, 614, 615, 616, 622, 623, 624, 625, 630, 637, 641, 642, 655, 664, 666, 667, 668, 672, 675, 687, 688, 691, 699, 700, 706, 713, 714, 715, 716, 717, 726, 729, 737, 740, 741, 747, 757, 758, 759, 762, 766, 784, 786, 790, 808, 810, 821, 833, 839, 847, 855]
-    files = get_files(project_path)
+    files = get_files(project_path)#[90:91]
     fileNum = 0
     # files_2 = []
     # for i in faulty:
@@ -196,6 +196,8 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
     # files = files_2[0:10]
     # files = files[2:20]
     for file in files:
+        sliced_files = [[file.get('buggy_file_path')]]
+        sf = [file.get('buggy_file_path')]
         print(fileNum)
         version = 'new' if dual else 'old'
         errors = 0
@@ -211,24 +213,29 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
         # print(statements)
         while d < depth and d <= len(statements):
             # print(statements)
-            for statement in statements[d - 1]:
+            sliced_files.append([])
+            # print(len(sliced_files[d - 1]), sliced_files[d-1])
+            for j in range(len(statements[d - 1])):
+                statement = statements[d - 1][j]
                 # print(statement)
                 if check_imports(statement):
                     # print(statement)
                     functions, files = get_imports(statement)
-                    # print(functions, files)
+                    print(functions, files)
                     for i in range(len(functions)):
                         # print(i, functions[i])
                         funcs = functions[i]
                         # print(funcs)
-                        path = get_new_path(file.get('buggy_file_path'), files[i])
+                        path = get_new_path(sliced_files[d-1][j], files[i])
                         # print(path)
                         # print(path, file.get('buggy_file_path'), files[i], funcs)
                         fixed_path = get_new_path(file.get('fixed_file_path'), files[i])
                         temp_statements = []
+
                         current_lines = []
                         for func in funcs:
                             # print(path, func)
+                            # print(os.path.split(path)[1], path)
                             num, content = find_line(path, func)
                             # print(num, content)
                             if num != -1:
@@ -236,6 +243,15 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                                     create_file(file.get('project_name'), file.get('repo_url'), file.get('commit_hash'),
                                                 os.path.split(path)[1], path, fixed_path, num, content, content),
                                     project_path)
+                                # print(sliced)
+                                # print("--------------------------\n", path, "\n--------------------------\n")
+                                if path in sf:
+                                    sliced = ''
+                                    lines = []
+                                    path = ''
+                                # else:
+                                sliced_files[d].append(path)
+                                sf.append(path)
                                 if sliced == 'No lines':
                                     errors += 1
                                 sliced_num += 1
@@ -247,6 +263,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                                     temp_statements = sliced
                                     # print(temp_statements)
                                     current_lines = lines
+
                         # print(statements, temp_statements)
                         if len(statements) <= d:
                             statements.append([])
@@ -254,10 +271,11 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                         if temp_statements != []:
                             statements[d].append(temp_statements)
                         # print('append')
-            # print('added to d')
+            print('added to d')
             d += 1
             # print(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'))
         # print(statements)
+        print(sliced_files)
         with open(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'),
                   'a+') as f:
             f.write("{}, {}, {}\n".format(d - 2, sliced_num, errors))
