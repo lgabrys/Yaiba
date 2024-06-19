@@ -9,6 +9,7 @@ import csv
 import json
 import sys
 import os
+import psutil
 from difflib import get_close_matches, ndiff
 import concurrent.futures
 from backward_slicing import BackwardSlicing
@@ -17,6 +18,7 @@ from utils import *
 csv.field_size_limit(sys.maxsize)
 
 def slice_file(file, project_path, statements=None, dual=False):
+
     version = 'new' if dual else 'old'
     relative_path = str(os.path.join(project_path, file.get('project_name'), file.get('commit_hash'), version))
     db_path = str(os.path.join(relative_path, 'exp.und'))
@@ -36,6 +38,7 @@ def slice_file(file, project_path, statements=None, dual=False):
                 try:
                     statements, lines = slicing.run(root_path=relative_path, js_file_type='fixed_file')
                     db.close()
+
                     return statements, lines
                 except Exception as err:
                     db.close()
@@ -44,6 +47,7 @@ def slice_file(file, project_path, statements=None, dual=False):
             else:
                 print('db_file not found: ' + file.get('filename'))
                 db.close()
+
                 return 'No lines', []
                 # raise FileNotFoundError
         except SystemError as err:
@@ -196,14 +200,17 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
     # files = files_2[0:10]
     # files = files[2:20]
     for file in files:
+        print(fileNum, 100-psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         sliced_files = [[file.get('buggy_file_path')]]
         sf = [file.get('buggy_file_path')]
-        print(fileNum)
+        # print(fileNum)
         version = 'new' if dual else 'old'
         errors = 0
         sliced_num = 0
         d = 1
+        print('before slice', 100-psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         statement, _ = slice_file(file, project_path)
+        print('after slice', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         # print(statement)
         sliced_num += 1
         if statement == 'No lines':
@@ -211,6 +218,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
             errors += 1
         statements = [[statement]]
         # print(statements)
+        print('before lookup', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         while d < depth and d <= len(statements):
             # print(statements)
             sliced_files.append([])
@@ -276,6 +284,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
             # print(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'))
         # print(statements)
         print(sliced_files)
+        print('after lookup', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         with open(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'),
                   'a+') as f:
             f.write("{}, {}, {}\n".format(d - 2, sliced_num, errors))
@@ -291,6 +300,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                     for line in statement:
                         f.write(line + '\n')
             f.close()
+        print('after save', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         fileNum += 1
 
 if __name__ == '__main__':

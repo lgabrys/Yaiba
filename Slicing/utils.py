@@ -183,7 +183,7 @@ def check_duplicate(temp_statements, current_lines, statement, lines):
             y += 1
     return statements, final_lines
 
-# with open('/home/eatoss/Documents/GitHub/Yaiba/DataMining/bottomup_stats.csv', 'r') as file:
+# with open('/home/eatoss/Documents/GitHub/Yaiba/DataMining/bottomup_stats2.csv', 'r') as file:
 #     list_lines = []
 #     i = 0
 #     for line in file:
