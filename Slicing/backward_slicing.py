@@ -1,5 +1,7 @@
 from difflib import get_close_matches
 
+import psutil
+
 REL_KIND = ['web Javascript Definein', 'web Javascript Setby', 'web Javascript Modifyby']
 
 class BackwardSlicing(object):
@@ -60,6 +62,7 @@ class BackwardSlicing(object):
                         # Find all variables in the line
 
     def get_variable_entities(self, line_number):
+        # print('before get_variable_entities', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         variables = []
         endline_number = self.get_endline_number(line_number)
         for lexeme in self.file.lexer():
@@ -69,7 +72,7 @@ class BackwardSlicing(object):
                     variables.append(lexeme.ent())
                 if lexeme.ent() and lexeme.ent().kindname() == 'Property':
                     variables.append(lexeme.ent().parent())
-
+        # print('after lookup', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         return variables
 
     def is_within_loop(self, line_num):
@@ -154,10 +157,12 @@ class BackwardSlicing(object):
             return _on_add(line_numbers)
 
     def get_statements(self, lines):
+        # print('Begin get_statement', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         statements = []
         line_to_col_map = {}  # stores the lines where some parts of the line needs to be included (not the whole line)
         updated_lines = lines.copy()
 
+        # print('before loop', 100 -. psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         for line_num in lines:
             key = str(line_num)
 
@@ -215,12 +220,13 @@ class BackwardSlicing(object):
                     for s in statement_continuations:
                         updated_lines.add(s)
                         updated_lines = self.on_add_line(s).union(updated_lines)
-
+        # print('after loop', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         updated_lines = set(sorted([i for i in updated_lines if i]))
         if int(self.method_start_line_num) in updated_lines:
             updated_lines.add(self.method_lines[-1])
             updated_lines = self.on_add_line(self.method_lines[-1]).union(updated_lines)
 
+        # print('before loop 2', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         # this takes care of object start
         start_of_line = None
         for line_num in list(updated_lines.copy()):
@@ -234,6 +240,7 @@ class BackwardSlicing(object):
                             updated_lines = self.on_add_line(start_of_line).union(updated_lines)
                             start_of_line = None
 
+        # print('after loop 2', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         parent_line = self._get_outermost_parent(min(updated_lines))
         if parent_line and self.scope.get(str(parent_line)):
             updated_lines.add(parent_line)
@@ -248,6 +255,7 @@ class BackwardSlicing(object):
         final_lines = self.find_conditional_by_else(unified_lines)
         updated_lines = sorted([i for i in final_lines if i])
 
+        # print('before loop 3', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         for line_num in updated_lines:
             statement = ''
             for lexeme in self.file.lexer():
@@ -262,7 +270,7 @@ class BackwardSlicing(object):
                             statement += lexeme.text()
 
             statements.append(statement.rstrip())
-
+        # print('after loop 3', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         return statements
 
     def analyze_closure(self):
@@ -578,6 +586,7 @@ class BackwardSlicing(object):
         line_stack = set()
         analyzed_lines = set()
         variables = self.get_variable_entities(self.buggy_line_num)
+        # print('after variable', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         # print(self.buggy_line_num)
         # print(variables)
         for var in variables:
@@ -595,15 +604,15 @@ class BackwardSlicing(object):
                     line_stack.add(current_line)
 
         analyzed_lines.add(self.buggy_line_num)
-
+        # print('after variable lookup', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         if not len(line_stack):
             return 'No lines', []
 
         analyzed_lines = self.get_related_var_lines(line_stack, analyzed_lines)
-
+        # print('after analyzed_lines', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         self.analyze_closure()
         statements = self.get_statements(set([a for a in analyzed_lines if a is not None]))
-
+        # print('before writing files', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         if file_obj and file_obj['buggy_line'] and len(statements):
             if not dual_slice:
                 if self.verbose:
@@ -623,6 +632,8 @@ class BackwardSlicing(object):
 
                         buggy_file.close()
                         fixed_file.close()
+                        # print('after writing files',
+                        #       100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                         return statements, analyzed_lines
             else:
                 if self.verbose:
@@ -631,12 +642,14 @@ class BackwardSlicing(object):
                 for s in statements:
                     js_file.write(s + '\n')
                 js_file.close()
+                # print('before return', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                 return statements, analyzed_lines
         else:
             if self.verbose:
                 print('********* Sliced Statements **********')
                 [print(s) for s in statements]
                 print('********* End **********')
+            # print('before return print', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
             return statements, analyzed_lines
 
     def extract_control_flow(self, entity):
@@ -645,6 +658,7 @@ class BackwardSlicing(object):
         pass
 
     def get_endline_number(self, line_number):
+        # print('before get_endline_number', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         open_brackets = 0
         close_brackets = 0
         current_line = line_number
@@ -657,6 +671,8 @@ class BackwardSlicing(object):
                     close_brackets += 1
             if lexeme.line_begin() >= line_number:
                 if open_brackets == close_brackets:
+                    # print('after get_endline_number',
+                    #       100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                     return current_line
                 if lexeme.line_begin() > current_line:
                     current_line = lexeme.line_begin()
@@ -664,5 +680,6 @@ class BackwardSlicing(object):
                     open_brackets += 1
                 if lexeme.text() == '}':
                     close_brackets += 1
-        print(current_line)
+        # print(current_line)
+        # print('after get_endline_number', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         return current_line

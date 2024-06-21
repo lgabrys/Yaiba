@@ -18,14 +18,16 @@ from utils import *
 csv.field_size_limit(sys.maxsize)
 
 def slice_file(file, project_path, statements=None, dual=False):
-
+    # print('Slicing begin', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
     version = 'new' if dual else 'old'
     relative_path = str(os.path.join(project_path, file.get('project_name'), file.get('commit_hash'), version))
     db_path = str(os.path.join(relative_path, 'exp.und'))
     file_path = file.get('buggy_file_path')[len(relative_path) + 1:]
     if statements is None:
         statements = []
+    # print('before open db', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
     db = understand.open(db_path)
+    # print('after open db', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
     folderpath_db_map = {db_path: relative_path}
     if os.path.exists(os.path.join(folderpath_db_map[db_path], file_path)):
         print('Processing buggy file -----', file.get('filename'), int(file.get('buggy_line_num')))
@@ -35,19 +37,30 @@ def slice_file(file, project_path, statements=None, dual=False):
                 slicing = BackwardSlicing(db, db_file[0], int(int(file.get('buggy_line_num'))))
                 print('Doing backward slice on fixed file {} at {}......'.format(file.get('filename'),
                                                                                  file.get('buggy_file_path')))
+                # print('after creating BS object', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                 try:
+                    # print('before run',
+                    #       100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                     statements, lines = slicing.run(root_path=relative_path, js_file_type='fixed_file')
+                    # print('after run',
+                    #       100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                     db.close()
-
+                    # print('after close db',
+                          # 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                     return statements, lines
                 except Exception as err:
+                    # print('before close db',
+                    #       100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                     db.close()
+                    # print('after close db',
+                    #       100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                     print('Error in file', file.get('filename'), err)
                     traceback.print_exc()
             else:
                 print('db_file not found: ' + file.get('filename'))
+                # print('before close db', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                 db.close()
-
+                # print('after close db'/, 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
                 return 'No lines', []
                 # raise FileNotFoundError
         except SystemError as err:
@@ -192,8 +205,9 @@ def test_backward_slice():
 
 def bottom_up_slicing(project_path, dual=False, depth=99999):
     # faulty = [8, 10, 12, 15, 17, 33, 47, 64, 69, 70, 72, 74, 76, 78, 79, 86, 88, 89, 91, 96, 122, 125, 127, 128, 129, 132, 134, 136, 142, 143, 152, 172, 173, 179, 195, 197, 206, 207, 209, 211, 227, 232, 236, 256, 257, 260, 266, 270, 272, 273, 274, 275, 282, 291, 294, 296, 299, 300, 302, 305, 306, 307, 315, 323, 329, 330, 337, 340, 344, 409, 414, 416, 419, 421, 422, 424, 425, 426, 427, 428, 429, 430, 431, 432, 436, 438, 442, 443, 447, 451, 452, 453, 458, 492, 496, 498, 499, 500, 507, 522, 526, 529, 530, 543, 545, 546, 579, 580, 581, 582, 583, 592, 593, 594, 595, 596, 597, 603, 608, 611, 614, 615, 616, 622, 623, 624, 625, 630, 637, 641, 642, 655, 664, 666, 667, 668, 672, 675, 687, 688, 691, 699, 700, 706, 713, 714, 715, 716, 717, 726, 729, 737, 740, 741, 747, 757, 758, 759, 762, 766, 784, 786, 790, 808, 810, 821, 833, 839, 847, 855]
-    files = get_files(project_path)#[90:91]
     fileNum = 0
+    files = get_files(project_path)[fileNum:fileNum + 100]
+    print(len(get_files(project_path)))
     # files_2 = []
     # for i in faulty:
     #     files_2.append(files[i])
@@ -208,9 +222,9 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
         errors = 0
         sliced_num = 0
         d = 1
-        print('before slice', 100-psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
+        # print('before slice', 100-psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         statement, _ = slice_file(file, project_path)
-        print('after slice', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
+        # print('after slice', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         # print(statement)
         sliced_num += 1
         if statement == 'No lines':
@@ -218,7 +232,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
             errors += 1
         statements = [[statement]]
         # print(statements)
-        print('before lookup', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
+        # print('before lookup', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         while d < depth and d <= len(statements):
             # print(statements)
             sliced_files.append([])
@@ -229,7 +243,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                 if check_imports(statement):
                     # print(statement)
                     functions, files = get_imports(statement)
-                    print(functions, files)
+                    # print(functions, files)
                     for i in range(len(functions)):
                         # print(i, functions[i])
                         funcs = functions[i]
@@ -284,7 +298,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
             # print(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'))
         # print(statements)
         print(sliced_files)
-        print('after lookup', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
+        # print('after lookup', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         with open(os.path.join(os.path.split(project_path)[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'),
                   'a+') as f:
             f.write("{}, {}, {}\n".format(d - 2, sliced_num, errors))
@@ -300,7 +314,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                     for line in statement:
                         f.write(line + '\n')
             f.close()
-        print('after save', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
+        # print('after save', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         fileNum += 1
 
 if __name__ == '__main__':
@@ -308,13 +322,13 @@ if __name__ == '__main__':
     dual_slice = False if sys.argv[2] == 'False' else True
     project_path = sys.argv[3:]
     if project_type == 'bottomup':
-        if os.path.exists(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up')):
-            shutil.rmtree(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up'))
-        os.mkdir(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up'))
-        if os.path.exists(
-                os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv')):
-            shutil.rmtree(
-                os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'))
+        if not os.path.exists(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up')):
+            # shutil.rmtree(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up'))
+            os.mkdir(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up'))
+        # if os.path.exists(
+        #         os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv')):
+        #     shutil.rmtree(
+        #         os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'))
         # os.mkdir(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'))
         # with open(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'), 'w') as f:
         #     f.close()
