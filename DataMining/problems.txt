@@ -1,0 +1,5 @@
+sputnik/, /home/eas/Documents/Github/Yaiba/DataMining/repositories/sputnik
+strider/, [Errno 2] No such file or directory: '1530dbd2baffa635de8b357bbdc40b93954858f0.zip'
+minimist/, /home/eas/Documents/Github/Yaiba/DataMining/repositories/minimist
+node-mkdirp/, /home/eas/Documents/Github/Yaiba/DataMining/repositories/node-mkdirp
+node-optimist/, /home/eas/Documents/Github/Yaiba/DataMining/repositories/node-optimist

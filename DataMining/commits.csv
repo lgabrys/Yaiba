@@ -4074,6 +4074,2522 @@ Co-authored-by: Paul Melnikow <github@paulmelnikow.com>",2020-02-29 11:06:36-06:
        throw new NotFound({ prettyMessage: 'no builds found' })
      return renderBuildStatusBadge({ status: json[0].result })
 ",57,if (json[0] == undefined),if (json[0] === undefined)
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/3ba05cb1844dcc574221268c21b35c6234d92321,3ba05cb1844dcc574221268c21b35c6234d92321,"📦 version 3 (#4756)
+
+* Validate input to BadgeFactory.create() (#3875)
+
+* validate input to create()
+
+* remove deprecated properties (#3881)
+
+* remove BadgeFactory class (#3884)
+
+* Template literal templates (#4459)
+
+- Remove use of the doT template library and move to generating SVG output using javascript template literals.
+- Drop SVGO and mostly manually implement the optimisations.
+- Add a bunch more tests
+
+Co-authored-by: Paul Melnikow <github@paulmelnikow.com>
+
+* drop raster support in package CLI (#4523)
+
+* drop raster support in package CLI
+* update docs
+
+* rename gh-badges package to badge-maker
+
+* rename gh-badges dir to badge-maker
+
+* update relative imports and other refs to in parent dir
+
+'gh-badges' --> 'badge-maker'
+
+* update snyk service tests
+
+This change is only tangentially related
+
+We've used the shields repo as an example for these tests so
+moving files around in our repo has a knock-on effect on them
+
+* add missing type hints to dev style page
+
+* write the changelog/migration guide for v3
+
+* use extension in README CLI example
+
+* update CLI help
+
+whoops - missed this in #4523
+
+* bump version
+
+* update for self-hosting users
+
+* README updates
+
+* drop .format param from CLI, always output SVG
+
+* Change text[] to label and message, Remove JSON output
+
+- Change text[] to label and message
+- Fix message only badge
+- Remove JSON output format
+- Update the docs
+
+* update package-lock
+
+* rename 'template' to 'style'
+
+* handle invalid styles in coalesceBadge
+
+* ensure makeBadge is passed a string for template in coalesceBadge()
+
+issue #4925
+
+* fix (logo/no label text/label color specified) case
+
+issue #4926
+
+* add example of (logo/no label text/label color specified) to style debug page
+
+* update type defs
+
+* padding fix for FTB style
+
+Co-authored-by: Paul Melnikow <github@paulmelnikow.com>",2020-04-23 20:05:48+01:00,base.spec.js,https://github.com/badges/shields/raw/b64987d2dd4c4fa21c41d72bbef72b51fb36bd8b/core/base-service/base.spec.js,https://github.com/badges/shields/raw/3ba05cb1844dcc574221268c21b35c6234d92321/core/base-service/base.spec.js,"@@ -392,7 +392,7 @@ describe('BaseService', function() {
+       expect(mockSendBadge).to.have.been.calledWith(expectedFormat, {
+         text: ['cat', 'Hello namedParamA: bar with queryParamA: ?'],
+         color: 'lightgrey',
+-        template: undefined,
++        template: 'flat',
+         namedLogo: undefined,
+         logo: undefined,
+         logoWidth: undefined,
+",395,"template: undefined,","template: 'flat',"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c03a73b573822268e90dcdff3c5cd3444737f7db,c03a73b573822268e90dcdff3c5cd3444737f7db,"v3 stable (#5037)
+
+* fix outdated docblock
+* 3.0.0",2020-05-06 19:51:21+01:00,index.js,https://github.com/badges/shields/raw/9ac2b41206a7f5894bbe2f5a2bd6fcff496f41e4/badge-maker/lib/index.js,https://github.com/badges/shields/raw/c03a73b573822268e90dcdff3c5cd3444737f7db/badge-maker/lib/index.js,"@@ -72,7 +72,7 @@ function _clean(format) {
+  * @param {string} format.labelColor (Optional) Label color
+  * @param {string} format.color (Optional) Message color
+  * @param {string} format.style (Optional) Visual style e.g: 'flat'
+- * @returns {string} Badge in SVG or JSON format
++ * @returns {string} Badge in SVG format
+  * @see https://github.com/badges/shields/tree/master/badge-maker/README.md
+  */
+ function makeBadge(format) {
+",75,* @returns {string} Badge in SVG or JSON format,* @returns {string} Badge in SVG format
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/1639417a5529f755191307bac989cee208cc599f,1639417a5529f755191307bac989cee208cc599f,Fix [Twitch] Client-ID header (#5217),2020-06-17 19:18:25+02:00,twitch-base.js,https://github.com/badges/shields/raw/778b146d8e7373725cae73abfa7e1873e0d09a4b/services/twitch/twitch-base.js,https://github.com/badges/shields/raw/1639417a5529f755191307bac989cee208cc599f/services/twitch/twitch-base.js,"@@ -81,7 +81,7 @@ module.exports = class TwitchBase extends BaseJsonService {
+       options: {
+         ...request.options,
+         headers: {
+-          'Client-ID': this.authHelper.user,
++          'Client-ID': this.authHelper._user,
+           Authorization: `Bearer ${await this._twitchToken()}`,
+           ...(request.options && request.options.headers),
+         },
+",84,"'Client-ID': this.authHelper.user,","'Client-ID': this.authHelper._user,"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/ad867ddc90a00119714f9048e88d52db1b63e6ba,ad867ddc90a00119714f9048e88d52db1b63e6ba,"Fix [Spiget] rating display issue (#5972)
+
+* Round rating to at most 2 decimal places
+
+* use toFixed method
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2020-12-23 19:42:46+00:00,spiget-rating.service.js,https://github.com/badges/shields/raw/b748e62e0aab5d0acec16d1ee189b9a9dde9d1fe/services/spiget/spiget-rating.service.js,https://github.com/badges/shields/raw/ad867ddc90a00119714f9048e88d52db1b63e6ba/services/spiget/spiget-rating.service.js,"@@ -58,7 +58,7 @@ module.exports = class SpigetRatings extends BaseSpigetService {
+     return this.constructor.render({
+       format,
+       total: rating.count,
+-      average: rating.average,
++      average: rating.average.toFixed(2),
+     })
+   }
+ }
+",61,"average: rating.average,","average: rating.average.toFixed(2),"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/d0b93b410304cec83b4ddd9f50489eb7ae972095,d0b93b410304cec83b4ddd9f50489eb7ae972095,"Build(deps): bump path-to-regexp from 5.0.0 to 6.2.0, run [Appveyor Bitbucket Circle GitHub GitLab ScrutinizerBuild] (#5684)
+
+* Build(deps): bump path-to-regexp from 5.0.0 to 6.2.0
+
+Bumps [path-to-regexp](https://github.com/pillarjs/path-to-regexp) from 5.0.0 to 6.2.0.
+- [Release notes](https://github.com/pillarjs/path-to-regexp/releases)
+- [Changelog](https://github.com/pillarjs/path-to-regexp/blob/master/History.md)
+- [Commits](https://github.com/pillarjs/path-to-regexp/compare/v5.0.0...v6.2.0)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+* deps: apply path-to-regexp breaking changes
+
+* fix: path-to-regexp types in frontend
+
+Co-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Co-authored-by: Caleb Cartwright <caleb.cartwright@outlook.com>
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2020-12-23 22:59:31+00:00,base.spec.js,https://github.com/badges/shields/raw/ad867ddc90a00119714f9048e88d52db1b63e6ba/core/base-service/base.spec.js,https://github.com/badges/shields/raw/d0b93b410304cec83b4ddd9f50489eb7ae972095/core/base-service/base.spec.js,"@@ -329,7 +329,7 @@ describe('BaseService', function () {
+   describe('ScoutCamp integration', function () {
+     // TODO Strangly, without the useless escape the regexes do not match in Node 12.
+     // eslint-disable-next-line no-useless-escape
+-    const expectedRouteRegex = /^\/foo\/([^\/]+?)(|\.svg|\.json)$/
++    const expectedRouteRegex = /^\/foo(?:\/([^\/#\?]+?))(|\.svg|\.json)$/
+ 
+     let mockCamp
+     let mockHandleRequest
+",332,const expectedRouteRegex = /^\/foo\/([^\/]+?)(|\.svg|\.json)$/,const expectedRouteRegex = /^\/foo(?:\/([^\/#\?]+?))(|\.svg|\.json)$/
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/2359eb278beb4612ea8e579b062648463dc79813,2359eb278beb4612ea8e579b062648463dc79813,"Migrate request to got (part 1 of many) (#6160)
+
+* install new packages
+
+* migrate request to got
+
+* update dynamic json test
+
+This is a behavioural difference between request and got
+
+request will send the request, then we'll get a
+`400 Bad Request` back and re-throw at as invalid
+
+got will pick up that the URL is invalid and throw
+`RequestError: URI malformed` before attempting to send it
+which we'll re-throw as inaccessible
+
+* fix OPM service
+
+* fix wordpress querystring
+
+Got doesn't natively support assmebling a querystring
+from nested objects because it uses node's URLSearchParams
+internally. Use qs and pass qs a string.
+
+Wordpress is the only service that needs this,
+so we could build the string manually in this case
+if we don't want to take qs as a prod dependency.
+It is mostly hard-coded values anyway.
+
+* fix wercker
+
+got overwrites any ?foo=bar in the URL string if
+searchParams is also passed whereas request appends
+see https://github.com/sindresorhus/got#url
+
+* fix keybase
+
+* add tests for got wrapper
+
+* bootstrap global agent in server start",2021-03-09 20:03:52+00:00,keybase-btc.service.js,https://github.com/badges/shields/raw/b2f224c3a50f9417579307a328bfaba6d79cb31a/services/keybase/keybase-btc.service.js,https://github.com/badges/shields/raw/2359eb278beb4612ea8e579b062648463dc79813/services/keybase/keybase-btc.service.js,"@@ -60,7 +60,7 @@ module.exports = class KeybaseBTC extends KeybaseProfile {
+ 
+   async handle({ username }) {
+     const options = {
+-      form: {
++      qs: {
+         usernames: username,
+         fields: 'cryptocurrency_addresses',
+       },
+",63,form: {,qs: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/2359eb278beb4612ea8e579b062648463dc79813,2359eb278beb4612ea8e579b062648463dc79813,"Migrate request to got (part 1 of many) (#6160)
+
+* install new packages
+
+* migrate request to got
+
+* update dynamic json test
+
+This is a behavioural difference between request and got
+
+request will send the request, then we'll get a
+`400 Bad Request` back and re-throw at as invalid
+
+got will pick up that the URL is invalid and throw
+`RequestError: URI malformed` before attempting to send it
+which we'll re-throw as inaccessible
+
+* fix OPM service
+
+* fix wordpress querystring
+
+Got doesn't natively support assmebling a querystring
+from nested objects because it uses node's URLSearchParams
+internally. Use qs and pass qs a string.
+
+Wordpress is the only service that needs this,
+so we could build the string manually in this case
+if we don't want to take qs as a prod dependency.
+It is mostly hard-coded values anyway.
+
+* fix wercker
+
+got overwrites any ?foo=bar in the URL string if
+searchParams is also passed whereas request appends
+see https://github.com/sindresorhus/got#url
+
+* fix keybase
+
+* add tests for got wrapper
+
+* bootstrap global agent in server start",2021-03-09 20:03:52+00:00,keybase-pgp.service.js,https://github.com/badges/shields/raw/b2f224c3a50f9417579307a328bfaba6d79cb31a/services/keybase/keybase-pgp.service.js,https://github.com/badges/shields/raw/2359eb278beb4612ea8e579b062648463dc79813/services/keybase/keybase-pgp.service.js,"@@ -53,7 +53,7 @@ module.exports = class KeybasePGP extends KeybaseProfile {
+ 
+   async handle({ username }) {
+     const options = {
+-      form: {
++      qs: {
+         usernames: username,
+         fields: 'public_keys',
+       },
+",56,form: {,qs: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/2359eb278beb4612ea8e579b062648463dc79813,2359eb278beb4612ea8e579b062648463dc79813,"Migrate request to got (part 1 of many) (#6160)
+
+* install new packages
+
+* migrate request to got
+
+* update dynamic json test
+
+This is a behavioural difference between request and got
+
+request will send the request, then we'll get a
+`400 Bad Request` back and re-throw at as invalid
+
+got will pick up that the URL is invalid and throw
+`RequestError: URI malformed` before attempting to send it
+which we'll re-throw as inaccessible
+
+* fix OPM service
+
+* fix wordpress querystring
+
+Got doesn't natively support assmebling a querystring
+from nested objects because it uses node's URLSearchParams
+internally. Use qs and pass qs a string.
+
+Wordpress is the only service that needs this,
+so we could build the string manually in this case
+if we don't want to take qs as a prod dependency.
+It is mostly hard-coded values anyway.
+
+* fix wercker
+
+got overwrites any ?foo=bar in the URL string if
+searchParams is also passed whereas request appends
+see https://github.com/sindresorhus/got#url
+
+* fix keybase
+
+* add tests for got wrapper
+
+* bootstrap global agent in server start",2021-03-09 20:03:52+00:00,keybase-xlm.service.js,https://github.com/badges/shields/raw/b2f224c3a50f9417579307a328bfaba6d79cb31a/services/keybase/keybase-xlm.service.js,https://github.com/badges/shields/raw/2359eb278beb4612ea8e579b062648463dc79813/services/keybase/keybase-xlm.service.js,"@@ -58,7 +58,7 @@ module.exports = class KeybaseXLM extends KeybaseProfile {
+ 
+   async handle({ username }) {
+     const options = {
+-      form: {
++      qs: {
+         usernames: username,
+         fields: 'stellar',
+       },
+",61,form: {,qs: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/2359eb278beb4612ea8e579b062648463dc79813,2359eb278beb4612ea8e579b062648463dc79813,"Migrate request to got (part 1 of many) (#6160)
+
+* install new packages
+
+* migrate request to got
+
+* update dynamic json test
+
+This is a behavioural difference between request and got
+
+request will send the request, then we'll get a
+`400 Bad Request` back and re-throw at as invalid
+
+got will pick up that the URL is invalid and throw
+`RequestError: URI malformed` before attempting to send it
+which we'll re-throw as inaccessible
+
+* fix OPM service
+
+* fix wordpress querystring
+
+Got doesn't natively support assmebling a querystring
+from nested objects because it uses node's URLSearchParams
+internally. Use qs and pass qs a string.
+
+Wordpress is the only service that needs this,
+so we could build the string manually in this case
+if we don't want to take qs as a prod dependency.
+It is mostly hard-coded values anyway.
+
+* fix wercker
+
+got overwrites any ?foo=bar in the URL string if
+searchParams is also passed whereas request appends
+see https://github.com/sindresorhus/got#url
+
+* fix keybase
+
+* add tests for got wrapper
+
+* bootstrap global agent in server start",2021-03-09 20:03:52+00:00,keybase-zec.service.js,https://github.com/badges/shields/raw/b2f224c3a50f9417579307a328bfaba6d79cb31a/services/keybase/keybase-zec.service.js,https://github.com/badges/shields/raw/2359eb278beb4612ea8e579b062648463dc79813/services/keybase/keybase-zec.service.js,"@@ -60,7 +60,7 @@ module.exports = class KeybaseZEC extends KeybaseProfile {
+ 
+   async handle({ username }) {
+     const options = {
+-      form: {
++      qs: {
+         usernames: username,
+         fields: 'cryptocurrency_addresses',
+       },
+",63,form: {,qs: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/3d2b3e548269e3580ed63c97b0974366a1d88426,3d2b3e548269e3580ed63c97b0974366a1d88426,Fix [Symfony] tests (#6305),2021-03-20 15:23:13+00:00,symfony-insight-violations.tester.js,https://github.com/badges/shields/raw/0db77ba029b62f0810250039419ca17e3ea951a2/services/symfony/symfony-insight-violations.tester.js,https://github.com/badges/shields/raw/3d2b3e548269e3580ed63c97b0974366a1d88426/services/symfony/symfony-insight-violations.tester.js,"@@ -11,6 +11,6 @@ t.create('valid project violations')
+   .expectBadge({
+     label: 'violations',
+     message: withRegex(
+-      /\d* critical|\d* critical, \d* major|\d* critical, \d* major, \d* minor|\d* critical, \d* major, \d* minor, \d* info|\d* critical, \d* minor|\d* critical, \d* info|\d* major|\d* major, \d* minor|\d* major, \d* minor, \d* info|\d* major, \d* info|\d* minor|\d* minor, \d* info/
++      /0|\d* critical|\d* critical, \d* major|\d* critical, \d* major, \d* minor|\d* critical, \d* major, \d* minor, \d* info|\d* critical, \d* minor|\d* critical, \d* info|\d* major|\d* major, \d* minor|\d* major, \d* minor, \d* info|\d* major, \d* info|\d* minor|\d* minor, \d* info/
+     ),
+   })
+",14,"/\d* critical|\d* critical, \d* major|\d* critical, \d* major, \d* minor|\d* critical, \d* major, \d* minor, \d* info|\d* critical, \d* minor|\d* critical, \d* info|\d* major|\d* major, \d* minor|\d* major, \d* minor, \d* info|\d* major, \d* info|\d* minor|\d* minor, \d* info/","/0|\d* critical|\d* critical, \d* major|\d* critical, \d* major, \d* minor|\d* critical, \d* major, \d* minor, \d* info|\d* critical, \d* minor|\d* critical, \d* info|\d* major|\d* major, \d* minor|\d* major, \d* minor, \d* info|\d* major, \d* info|\d* minor|\d* minor, \d* info/"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/ee83590942d1875ecb35418ac20288c965b96b0a,ee83590942d1875ecb35418ac20288c965b96b0a,"Build(deps-dev): bump @typescript-eslint/eslint-plugin from 2.34.0 to 4.19.0, run [GitHub GitlabCoverage F-Droid Wordpress VisualStudioAppCenter Ore Packagist] (#6319)
+
+* Build(deps-dev): bump @typescript-eslint/eslint-plugin
+
+Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 2.34.0 to 4.19.0.
+- [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+- [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/CHANGELOG.md)
+- [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v4.19.0/packages/eslint-plugin)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+* chore: update eslint camelcase rule
+
+* chore: eslint camelcase updates for wordpress
+
+* chore: fix eslint camelcase for misc other services
+
+* chore: fix eslint camelcase issue in github and gitlab
+
+* chore: run prettier
+
+* chore: account for JSX globals
+
+* deps: bump typescript-eslint-parser to v4
+
+* chore: frontend lint changes
+
+* chore: update eslint config to only run @typescript-eslint/explicit-module-boundary-types on ts files
+
+Co-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Co-authored-by: Caleb Cartwright <caleb.cartwright@outlook.com>",2021-03-28 08:26:01-05:00,github-common-release.js,https://github.com/badges/shields/raw/4347a1ade09dc48ee60710952e831a919f872243/services/github/github-common-release.js,https://github.com/badges/shields/raw/ee83590942d1875ecb35418ac20288c965b96b0a/services/github/github-common-release.js,"@@ -53,7 +53,7 @@ function getLatestRelease({ releases, sort, includePrereleases }) {
+       releases.map(release => release.tag_name),
+       { pre: includePrereleases }
+     )
+-    return releases.find(({ tag_name }) => tag_name === latestTagName)
++    return releases.find(({ tag_name: tagName }) => tagName === latestTagName)
+   }
+ 
+   if (!includePrereleases) {
+",56,return releases.find(({ tag_name }) => tag_name === latestTagName),return releases.find(({ tag_name: tagName }) => tagName === latestTagName)
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/ee83590942d1875ecb35418ac20288c965b96b0a,ee83590942d1875ecb35418ac20288c965b96b0a,"Build(deps-dev): bump @typescript-eslint/eslint-plugin from 2.34.0 to 4.19.0, run [GitHub GitlabCoverage F-Droid Wordpress VisualStudioAppCenter Ore Packagist] (#6319)
+
+* Build(deps-dev): bump @typescript-eslint/eslint-plugin
+
+Bumps [@typescript-eslint/eslint-plugin](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/eslint-plugin) from 2.34.0 to 4.19.0.
+- [Release notes](https://github.com/typescript-eslint/typescript-eslint/releases)
+- [Changelog](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/CHANGELOG.md)
+- [Commits](https://github.com/typescript-eslint/typescript-eslint/commits/v4.19.0/packages/eslint-plugin)
+
+Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+
+* chore: update eslint camelcase rule
+
+* chore: eslint camelcase updates for wordpress
+
+* chore: fix eslint camelcase for misc other services
+
+* chore: fix eslint camelcase issue in github and gitlab
+
+* chore: run prettier
+
+* chore: account for JSX globals
+
+* deps: bump typescript-eslint-parser to v4
+
+* chore: frontend lint changes
+
+* chore: update eslint config to only run @typescript-eslint/explicit-module-boundary-types on ts files
+
+Co-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>
+Co-authored-by: Caleb Cartwright <caleb.cartwright@outlook.com>",2021-03-28 08:26:01-05:00,ore-sponge-versions.service.js,https://github.com/badges/shields/raw/4347a1ade09dc48ee60710952e831a919f872243/services/ore/ore-sponge-versions.service.js,https://github.com/badges/shields/raw/ee83590942d1875ecb35418ac20288c965b96b0a/services/ore/ore-sponge-versions.service.js,"@@ -39,7 +39,7 @@ module.exports = class OreSpongeVersions extends BaseOreService {
+       versions: promoted_versions
+         .reduce((acc, { tags }) => acc.concat(tags), [])
+         .filter(({ name }) => name.toLowerCase() === 'sponge')
+-        .map(({ display_data }) => display_data)
++        .map(({ display_data: displayData }) => displayData)
+         // display_data is not mandatory in the schema, filter null values
+         .filter(x => !!x),
+     }
+",42,.map(({ display_data }) => display_data),.map(({ display_data: displayData }) => displayData)
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/f11cabd64714293ef1354cc89d468e3a154a9f5b,f11cabd64714293ef1354cc89d468e3a154a9f5b,Fix [Symfony] tests again (#6424),2021-04-24 18:15:23+01:00,symfony-insight-violations.tester.js,https://github.com/badges/shields/raw/9c7baa26abd007f9daaf5087d196da482c8a65db/services/symfony/symfony-insight-violations.tester.js,https://github.com/badges/shields/raw/f11cabd64714293ef1354cc89d468e3a154a9f5b/services/symfony/symfony-insight-violations.tester.js,"@@ -11,6 +11,6 @@ t.create('valid project violations')
+   .expectBadge({
+     label: 'violations',
+     message: withRegex(
+-      /0|\d* critical|\d* critical, \d* major|\d* critical, \d* major, \d* minor|\d* critical, \d* major, \d* minor, \d* info|\d* critical, \d* minor|\d* critical, \d* info|\d* major|\d* major, \d* minor|\d* major, \d* minor, \d* info|\d* major, \d* info|\d* minor|\d* minor, \d* info/
++      /0|\d* critical|\d* critical, \d* major|\d* critical, \d* major, \d* minor|\d* critical, \d* major, \d* minor, \d* info|\d* critical, \d* minor|\d* critical, \d* info|\d* major|\d* major, \d* minor|\d* major, \d* minor, \d* info|\d* major, \d* info|\d* minor|\d* minor, \d* info|\d* info/
+     ),
+   })
+",14,"/0|\d* critical|\d* critical, \d* major|\d* critical, \d* major, \d* minor|\d* critical, \d* major, \d* minor, \d* info|\d* critical, \d* minor|\d* critical, \d* info|\d* major|\d* major, \d* minor|\d* major, \d* minor, \d* info|\d* major, \d* info|\d* minor|\d* minor, \d* info/","/0|\d* critical|\d* critical, \d* major|\d* critical, \d* major, \d* minor|\d* critical, \d* major, \d* minor, \d* info|\d* critical, \d* minor|\d* critical, \d* info|\d* major|\d* major, \d* minor|\d* major, \d* minor, \d* info|\d* major, \d* info|\d* minor|\d* minor, \d* info|\d* info/"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/779c1ffaadfcd53ac20b5c55b1ee87ad8a30860f,779c1ffaadfcd53ac20b5c55b1ee87ad8a30860f,"fix incorrect colorsForBackground detection (#6939)
+
+* pass an actual color to colorsForBackground (closes #6936)
+
+* improve test coverage for non-default font color",2021-08-22 16:59:25+01:00,badge-renderers.js,https://github.com/badges/shields/raw/e8c78d55b3ffb767e7b6ff056cac77c149a979c9/badge-maker/lib/badge-renderers.js,https://github.com/badges/shields/raw/779c1ffaadfcd53ac20b5c55b1ee87ad8a30860f/badge-maker/lib/badge-renderers.js,"@@ -266,7 +266,7 @@ class Badge {
+       leftMargin: this.messageMargin,
+       content: this.message,
+       link: rightLink,
+-      color: this.messageColor,
++      color: this.color,
+       textWidth: this.messageWidth,
+       linkWidth: this.rightWidth,
+     })
+",269,"color: this.messageColor,","color: this.color,"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/694b07d6369c3c68863b152df4e1753c6011b6a3,694b07d6369c3c68863b152df4e1753c6011b6a3,"Support nested groups on [GitLabTag] badge (#7158)
+
+* refactor: support groups on gitlab tag badge
+
+* fix mocked test
+
+* add nested subgroup test
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-10-16 18:47:03+00:00,gitlab-tag.spec.js,https://github.com/badges/shields/raw/d7316f98b78fb71c83b413f41267e32fbf2f80b5/services/gitlab/gitlab-tag.spec.js,https://github.com/badges/shields/raw/694b07d6369c3c68863b152df4e1753c6011b6a3/services/gitlab/gitlab-tag.spec.js,"@@ -33,7 +33,7 @@ describe('GitLabTag', function () {
+         await GitLabTag.invoke(
+           defaultContext,
+           config,
+-          { user: 'foo', repo: 'bar' },
++          { project: 'foo/bar' },
+           {}
+         )
+       ).to.deep.equal({
+",36,"{ user: 'foo', repo: 'bar' },","{ project: 'foo/bar' },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/a8214b74cf31bc22d634f85cb474372d6cfbbcde,a8214b74cf31bc22d634f85cb474372d6cfbbcde,"fix [github] release/tag/download schema (#7170)
+
+closes #7169",2021-10-18 19:20:25-05:00,github-common-release.js,https://github.com/badges/shields/raw/bab818b1c6dc5d67ed85e17c017646cc97c2edf7/services/github/github-common-release.js,https://github.com/badges/shields/raw/a8214b74cf31bc22d634f85cb474372d6cfbbcde/services/github/github-common-release.js,"@@ -12,7 +12,7 @@ const releaseInfoSchema = Joi.object({
+     })
+     .required(),
+   tag_name: Joi.string().required(),
+-  name: Joi.string().allow(null),
++  name: Joi.string().allow(null).allow(''),
+   prerelease: Joi.boolean().required(),
+ }).required()
+ 
+",15,"name: Joi.string().allow(null),","name: Joi.string().allow(null).allow(''),"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/32dd99c540aca9ed277be5ffdf8a8f7862a23250,32dd99c540aca9ed277be5ffdf8a8f7862a23250,"Two minor docstring fixes (#7216)
+
+* fix XmlElement ref in docstring
+
+* make sure jsdoc picks up renderDownloadsBadge() docstring",2021-11-03 18:49:10+00:00,xml.js,https://github.com/badges/shields/raw/eb07b60cf09676af840b274b4d6ff5260dc1fc3f/badge-maker/lib/xml.js,https://github.com/badges/shields/raw/32dd99c540aca9ed277be5ffdf8a8f7862a23250/badge-maker/lib/xml.js,"@@ -33,7 +33,7 @@ class XmlElement {
+    * @param {object} attrs Refer to individual attrs
+    * @param {string} attrs.name
+    *    Name of the XML tag
+-   * @param {Array.<string|module:badge-maker/lib/xml-element~XmlElement>} [attrs.content=[]]
++   * @param {Array.<string|module:badge-maker/lib/xml~XmlElement>} [attrs.content=[]]
+    *    Array of objects to render inside the tag. content may contain a mix of
+    *    string and XmlElement objects. If content is `[]` or ommitted the
+    *    element will be rendered as a self-closing element.
+",36,* @param {Array.<string|module:badge-maker/lib/xml-element~XmlElement>} [attrs.content=[]],* @param {Array.<string|module:badge-maker/lib/xml~XmlElement>} [attrs.content=[]]
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,aur.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/aur/aur.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/aur/aur.service.js,"@@ -43,7 +43,7 @@ class BaseAurService extends BaseJsonService {
+     return this._requestJson({
+       schema: aurSchema,
+       url: 'https://aur.archlinux.org/rpc.php',
+-      options: { qs: { v: 5, type: 'info', arg: packageName } },
++      options: { searchParams: { v: 5, type: 'info', arg: packageName } },
+     })
+   }
+ }
+",46,"options: { qs: { v: 5, type: 'info', arg: packageName } },","options: { searchParams: { v: 5, type: 'info', arg: packageName } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,azure-devops-build.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/azure-devops/azure-devops-build.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/azure-devops/azure-devops-build.service.js,"@@ -104,7 +104,7 @@ export default class AzureDevOpsBuild extends BaseSvgScrapingService {
+     // Microsoft documentation: https://docs.microsoft.com/en-us/rest/api/vsts/build/status/get
+     const { status } = await fetch(this, {
+       url: `https://dev.azure.com/${organization}/${projectId}/_apis/build/status/${definitionId}`,
+-      qs: {
++      searchParams: {
+         branchName: branch,
+         stageName: stage,
+         jobName: job,
+",107,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,azure-devops-coverage.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/azure-devops/azure-devops-coverage.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/azure-devops/azure-devops-coverage.service.js,"@@ -101,7 +101,7 @@ export default class AzureDevOpsCoverage extends AzureDevOpsBase {
+     // Microsoft documentation: https://docs.microsoft.com/en-us/rest/api/azure/devops/test/code%20coverage/get%20build%20code%20coverage?view=azure-devops-rest-5.0
+     const url = `https://dev.azure.com/${organization}/${project}/_apis/test/codecoverage`
+     const options = {
+-      qs: {
++      searchParams: {
+         buildId,
+         'api-version': '5.0-preview.1',
+       },
+",104,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,azure-devops-tests.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/azure-devops/azure-devops-tests.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/azure-devops/azure-devops-tests.service.js,"@@ -160,7 +160,7 @@ export default class AzureDevOpsTests extends AzureDevOpsBase {
+     return await this.fetch({
+       url: `https://dev.azure.com/${organization}/${project}/_apis/test/ResultSummaryByBuild`,
+       options: {
+-        qs: { buildId },
++        searchParams: { buildId },
+       },
+       schema: buildTestResultSummarySchema,
+       errorMessages,
+",163,"qs: { buildId },","searchParams: { buildId },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,bitbucket-issues.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/bitbucket/bitbucket-issues.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/bitbucket/bitbucket-issues.service.js,"@@ -44,7 +44,7 @@ function issueClassGenerator(raw) {
+         schema: bitbucketIssuesSchema,
+         // https://developer.atlassian.com/bitbucket/api/2/reference/meta/filtering#query-issues
+         options: {
+-          qs: { limit: 0, q: '(state = ""new"" OR state = ""open"")' },
++          searchParams: { limit: 0, q: '(state = ""new"" OR state = ""open"")' },
+         },
+         errorMessages: { 403: 'private repo' },
+       })
+",47,"qs: { limit: 0, q: '(state = ""new"" OR state = ""open"")' },","searchParams: { limit: 0, q: '(state = ""new"" OR state = ""open"")' },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,bitbucket-pipelines.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/bitbucket/bitbucket-pipelines.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/bitbucket/bitbucket-pipelines.service.js,"@@ -54,7 +54,7 @@ class BitbucketPipelines extends BaseJsonService {
+       url,
+       schema: bitbucketPipelinesSchema,
+       options: {
+-        qs: {
++        searchParams: {
+           fields: 'values.state',
+           page: 1,
+           pagelen: 2,
+",57,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,bitrise.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/bitrise/bitrise.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/bitrise/bitrise.service.js,"@@ -53,7 +53,7 @@ export default class Bitrise extends BaseJsonService {
+       url: `https://app.bitrise.io/app/${encodeURIComponent(
+         appId
+       )}/status.json`,
+-      options: { qs: { token, branch } },
++      options: { searchParams: { token, branch } },
+       schema,
+       errorMessages: {
+         403: 'app not found or invalid token',
+",56,"options: { qs: { token, branch } },","options: { searchParams: { token, branch } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,bstats-players.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/bstats/bstats-players.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/bstats/bstats-players.service.js,"@@ -34,7 +34,7 @@ export default class BStatsPlayers extends BaseJsonService {
+     return this._requestJson({
+       schema,
+       options: {
+-        qs: {
++        searchParams: {
+           maxElements: 1,
+         },
+       },
+",37,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,bstats-servers.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/bstats/bstats-servers.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/bstats/bstats-servers.service.js,"@@ -34,7 +34,7 @@ export default class BStatsServers extends BaseJsonService {
+     return this._requestJson({
+       schema,
+       options: {
+-        qs: {
++        searchParams: {
+           maxElements: 1,
+         },
+       },
+",37,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,buildkite.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/buildkite/buildkite.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/buildkite/buildkite.service.js,"@@ -35,7 +35,7 @@ export default class Buildkite extends BaseJsonService {
+ 
+   async fetch({ identifier, branch }) {
+     const url = `https://badge.buildkite.com/${identifier}.json`
+-    const options = { qs: { branch } }
++    const options = { searchParams: { branch } }
+     return this._requestJson({
+       schema,
+       url,
+",38,const options = { qs: { branch } },const options = { searchParams: { branch } }
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,bundlephobia.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/bundlephobia/bundlephobia.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/bundlephobia/bundlephobia.service.js,"@@ -79,7 +79,7 @@ export default class Bundlephobia extends BaseJsonService {
+     const packageQuery = `${scope ? `${scope}/` : ''}${packageName}${
+       version ? `@${version}` : ''
+     }`
+-    const options = { qs: { package: packageQuery } }
++    const options = { searchParams: { package: packageQuery } }
+     return this._requestJson({
+       schema,
+       url: 'https://bundlephobia.com/api/size',
+",82,const options = { qs: { package: packageQuery } },const options = { searchParams: { package: packageQuery } }
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,circleci.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/circleci/circleci.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/circleci/circleci.service.js,"@@ -56,7 +56,7 @@ class CircleCi extends BaseSvgScrapingService {
+       url: `https://circleci.com/${vcs}/${user}/${repo}${branchClause}.svg`,
+       // Note that the unusual 'circle-token' query param name is required.
+       // https://circleci.com/docs/api/#get-authenticated
+-      options: { qs: { style: 'shield', 'circle-token': token } },
++      options: { searchParams: { style: 'shield', 'circle-token': token } },
+       errorMessages: { 404: 'project not found' },
+     })
+     return this.constructor.render({ status: message })
+",59,"options: { qs: { style: 'shield', 'circle-token': token } },","options: { searchParams: { style: 'shield', 'circle-token': token } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,cirrus.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/cirrus/cirrus.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/cirrus/cirrus.service.js,"@@ -65,7 +65,7 @@ export default class Cirrus extends BaseJsonService {
+     const json = await this._requestJson({
+       schema,
+       url: `https://api.cirrus-ci.com/github/${user}/${repo}.json`,
+-      options: { qs: { branch, script, task } },
++      options: { searchParams: { branch, script, task } },
+     })
+ 
+     return this.constructor.render(json)
+",68,"options: { qs: { branch, script, task } },","options: { searchParams: { branch, script, task } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,codacy-coverage.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/codacy/codacy-coverage.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/codacy/codacy-coverage.service.js,"@@ -51,7 +51,7 @@ export default class CodacyCoverage extends BaseSvgScrapingService {
+       url: `https://api.codacy.com/project/badge/coverage/${encodeURIComponent(
+         projectId
+       )}`,
+-      options: { qs: { branch } },
++      options: { searchParams: { branch } },
+       valueMatcher: /text-anchor=""middle"">([^<>]+)<\/text>/,
+       errorMessages: {
+         404: 'project not found',
+",54,"options: { qs: { branch } },","options: { searchParams: { branch } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,codacy-grade.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/codacy/codacy-grade.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/codacy/codacy-grade.service.js,"@@ -50,7 +50,7 @@ export default class CodacyGrade extends BaseSvgScrapingService {
+       url: `https://api.codacy.com/project/badge/grade/${encodeURIComponent(
+         projectId
+       )}`,
+-      options: { qs: { branch } },
++      options: { searchParams: { branch } },
+       errorMessages: { 404: 'project or branch not found' },
+       valueMatcher: /visibility=""hidden"">([^<>]+)<\/text>/,
+     })
+",53,"options: { qs: { branch } },","options: { searchParams: { branch } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,codeclimate-common.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/codeclimate/codeclimate-common.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/codeclimate/codeclimate-common.js,"@@ -34,7 +34,7 @@ async function fetchRepo(serviceInstance, { user, repo }) {
+   } = await serviceInstance._requestJson({
+     schema: repoSchema,
+     url: 'https://api.codeclimate.com/v1/repos',
+-    options: { qs: { github_slug: `${user}/${repo}` } },
++    options: { searchParams: { github_slug: `${user}/${repo}` } },
+   })
+   if (repoInfo === undefined) {
+     throw new NotFound({ prettyMessage: 'repo not found' })
+",37,"options: { qs: { github_slug: `${user}/${repo}` } },","options: { searchParams: { github_slug: `${user}/${repo}` } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,codecov.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/codecov/codecov.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/codecov/codecov.service.js,"@@ -151,7 +151,7 @@ export default class Codecov extends BaseSvgScrapingService {
+       valueMatcher: svgValueMatcher,
+       url,
+       options: {
+-        qs: { token, flag },
++        searchParams: { token, flag },
+       },
+       errorMessages: token ? { 400: 'invalid token pattern' } : {},
+     })
+",154,"qs: { token, flag },","searchParams: { token, flag },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,codeship.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/codeship/codeship.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/codeship/codeship.service.js,"@@ -60,7 +60,7 @@ export default class Codeship extends BaseSvgScrapingService {
+     return this._requestSvg({
+       schema,
+       url,
+-      options: { qs: { branch } },
++      options: { searchParams: { branch } },
+       valueMatcher: /<g id=""status_2"">(?:[.\s\S]*)\/><\/g><g id=""([\w\s]*)""/,
+     })
+   }
+",63,"options: { qs: { branch } },","options: { searchParams: { branch } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,coveralls.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/coveralls/coveralls.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/coveralls/coveralls.service.js,"@@ -48,7 +48,7 @@ export default class Coveralls extends BaseJsonService {
+       vcsType || 'github'
+     }/${user}/${repo}.json`
+     const options = {
+-      qs: {
++      searchParams: {
+         // The API returns the latest result (across any branch) if no branch is explicitly specified,
+         // whereas the Coveralls native badge (and the Shields.io badges for Coveralls) show
+         // the coverage for the default branch if no branch is explicitly specified. If the user
+",51,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,debian.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/debian/debian.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/debian/debian.service.js,"@@ -38,7 +38,7 @@ export default class Debian extends BaseJsonService {
+       schema,
+       url: 'https://api.ftp-master.debian.org/madison',
+       options: {
+-        qs: {
++        searchParams: {
+           f: 'json',
+           s: distribution,
+           package: packageName,
+",41,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,docker-cloud-common-fetch.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/docker/docker-cloud-common-fetch.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/docker/docker-cloud-common-fetch.js,"@@ -15,7 +15,7 @@ async function fetchBuild(serviceInstance, { user, repo }) {
+   return serviceInstance._requestJson({
+     schema: cloudBuildSchema,
+     url: `https://cloud.docker.com/api/build/v1/source`,
+-    options: { qs: { image: `${user}/${repo}` } },
++    options: { searchParams: { image: `${user}/${repo}` } },
+     errorMessages: { 404: 'repo not found' },
+   })
+ }
+",18,"options: { qs: { image: `${user}/${repo}` } },","options: { searchParams: { image: `${user}/${repo}` } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,drone-build.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/drone/drone-build.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/drone/drone-build.service.js,"@@ -73,7 +73,7 @@ export default class DroneBuild extends BaseJsonService {
+         schema,
+         url: `${server}/api/repos/${user}/${repo}/builds/latest`,
+         options: {
+-          qs: { ref: branch ? `refs/heads/${branch}` : undefined },
++          searchParams: { ref: branch ? `refs/heads/${branch}` : undefined },
+         },
+         errorMessages: {
+           401: 'repo not found or not authorized',
+",76,"qs: { ref: branch ? `refs/heads/${branch}` : undefined },","searchParams: { ref: branch ? `refs/heads/${branch}` : undefined },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,endpoint-common.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/endpoint-common.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/endpoint-common.js,"@@ -64,7 +64,7 @@ async function fetchEndpointData(
+     schema: anySchema,
+     url,
+     errorMessages,
+-    options: { gzip: true },
++    options: { decompress: true },
+   })
+   return validateEndpointData(json, {
+     prettyErrorMessage: validationPrettyErrorMessage,
+",67,"options: { gzip: true },","options: { decompress: true },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,freecodecamp-points.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/freecodecamp/freecodecamp-points.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/freecodecamp/freecodecamp-points.service.js,"@@ -48,7 +48,7 @@ export default class FreeCodeCampPoints extends BaseJsonService {
+       schema,
+       url: `https://api.freecodecamp.org/api/users/get-public-profile`,
+       options: {
+-        qs: {
++        searchParams: {
+           username,
+         },
+       },
+",51,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,github-common-fetch.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/github/github-common-fetch.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/github/github-common-fetch.js,"@@ -33,7 +33,7 @@ async function fetchRepoContent(
+     const { content } = await serviceInstance._requestJson({
+       schema: contentSchema,
+       url: `/repos/${user}/${repo}/contents/${filename}`,
+-      options: { qs: { ref: branch } },
++      options: { searchParams: { ref: branch } },
+       errorMessages,
+     })
+ 
+",36,"options: { qs: { ref: branch } },","options: { searchParams: { ref: branch } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,github-contributors.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/github/github-contributors.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/github/github-contributors.service.js,"@@ -38,7 +38,7 @@ export default class GithubContributors extends GithubAuthV3Service {
+ 
+     const { res, buffer } = await this._request({
+       url: `/repos/${user}/${repo}/contributors`,
+-      options: { qs: { page: '1', per_page: '1', anon: isAnon } },
++      options: { searchParams: { page: '1', per_page: '1', anon: isAnon } },
+       errorMessages: errorMessagesFor('repo not found'),
+     })
+ 
+",41,"options: { qs: { page: '1', per_page: '1', anon: isAnon } },","options: { searchParams: { page: '1', per_page: '1', anon: isAnon } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,github-downloads.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/github/github-downloads.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/github/github-downloads.service.js,"@@ -240,7 +240,7 @@ export default class GithubDownloads extends GithubAuthV3Service {
+       const allReleases = await this._requestJson({
+         schema: releaseArraySchema,
+         url: `/repos/${user}/${repo}/releases`,
+-        options: { qs: { per_page: 500 } },
++        options: { searchParams: { per_page: 500 } },
+         errorMessages: errorMessagesFor('repo not found'),
+       })
+       releases = allReleases
+",243,"options: { qs: { per_page: 500 } },","options: { searchParams: { per_page: 500 } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,github-last-commit.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/github/github-last-commit.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/github/github-last-commit.service.js,"@@ -59,7 +59,7 @@ export default class GithubLastCommit extends GithubAuthV3Service {
+   async fetch({ user, repo, branch }) {
+     return this._requestJson({
+       url: `/repos/${user}/${repo}/commits`,
+-      options: { qs: { sha: branch } },
++      options: { searchParams: { sha: branch } },
+       schema,
+       errorMessages: errorMessagesFor(),
+     })
+",62,"options: { qs: { sha: branch } },","options: { searchParams: { sha: branch } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,github-search.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/github/github-search.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/github/github-search.service.js,"@@ -44,7 +44,7 @@ export default class GithubSearch extends GithubAuthV3Service {
+     const { total_count: totalCount } = await this._requestJson({
+       url: '/search/code',
+       options: {
+-        qs: {
++        searchParams: {
+           q: `${query} repo:${user}/${repo}`,
+         },
+       },
+",47,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,github-workflow-status.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/github/github-workflow-status.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/github/github-workflow-status.service.js,"@@ -83,7 +83,7 @@ export default class GithubWorkflowStatus extends BaseSvgScrapingService {
+       url: `https://github.com/${user}/${repo}/workflows/${encodeURIComponent(
+         workflow
+       )}/badge.svg`,
+-      options: { qs: { branch, event } },
++      options: { searchParams: { branch, event } },
+       valueMatcher: />([^<>]+)<\/tspan><\/text><\/g><path/,
+       errorMessages: {
+         404: 'repo, branch, or workflow not found',
+",86,"options: { qs: { branch, event } },","options: { searchParams: { branch, event } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,gitlab-release.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/gitlab/gitlab-release.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/gitlab/gitlab-release.service.js,"@@ -106,7 +106,7 @@ export default class GitLabRelease extends GitLabBase {
+         404: 'project not found',
+       },
+       options: {
+-        qs: { order_by: orderBy },
++        searchParams: { order_by: orderBy },
+       },
+       firstPageOnly: !isSemver,
+     })
+",109,"qs: { order_by: orderBy },","searchParams: { order_by: orderBy },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,gitlab-tag.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/gitlab/gitlab-tag.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/gitlab/gitlab-tag.service.js,"@@ -95,7 +95,7 @@ export default class GitlabTag extends GitLabBase {
+       url: `${baseUrl}/api/v4/projects/${encodeURIComponent(
+         project
+       )}/repository/tags`,
+-      options: { qs: { order_by: 'updated' } },
++      options: { searchParams: { order_by: 'updated' } },
+       errorMessages: {
+         404: 'repo not found',
+       },
+",98,"options: { qs: { order_by: 'updated' } },","options: { searchParams: { order_by: 'updated' } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,hsts.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/hsts/hsts.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/hsts/hsts.service.js,"@@ -56,7 +56,7 @@ export default class HSTS extends BaseJsonService {
+     return this._requestJson({
+       schema,
+       url: `https://hstspreload.org/api/v2/status`,
+-      options: { qs: { domain } },
++      options: { searchParams: { domain } },
+     })
+   }
+ 
+",59,"options: { qs: { domain } },","options: { searchParams: { domain } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,jenkins-build.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/jenkins/jenkins-build.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/jenkins/jenkins-build.service.js,"@@ -72,7 +72,7 @@ export default class JenkinsBuild extends JenkinsBase {
+     const json = await this.fetch({
+       url: buildUrl({ jobUrl, lastCompletedBuild: false }),
+       schema,
+-      qs: buildTreeParamQueryString('color'),
++      searchParams: buildTreeParamQueryString('color'),
+     })
+     const { status } = this.transform({ json })
+     return this.constructor.render({ status })
+",75,"qs: buildTreeParamQueryString('color'),","searchParams: buildTreeParamQueryString('color'),"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,jenkins-coverage.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/jenkins/jenkins-coverage.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/jenkins/jenkins-coverage.service.js,"@@ -118,7 +118,7 @@ export default class JenkinsCoverage extends JenkinsBase {
+     const json = await this.fetch({
+       url: buildUrl({ jobUrl, plugin: pluginSpecificPath }),
+       schema,
+-      qs: buildTreeParamQueryString(treeQueryParam),
++      searchParams: buildTreeParamQueryString(treeQueryParam),
+       errorMessages: {
+         404: 'job or coverage not found',
+       },
+",121,"qs: buildTreeParamQueryString(treeQueryParam),","searchParams: buildTreeParamQueryString(treeQueryParam),"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,jira-sprint.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/jira/jira-sprint.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/jira/jira-sprint.service.js,"@@ -86,7 +86,7 @@ export default class JiraSprint extends BaseJsonService {
+         url: `${baseUrl}/rest/api/2/search`,
+         schema,
+         options: {
+-          qs: {
++          searchParams: {
+             jql: `sprint=${sprintId} AND type IN (Bug,Improvement,Story,""Technical task"")`,
+             fields: 'resolution',
+             maxResults: 500,
+",89,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,keybase-btc.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/keybase/keybase-btc.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/keybase/keybase-btc.service.js,"@@ -58,7 +58,7 @@ export default class KeybaseBTC extends KeybaseProfile {
+ 
+   async handle({ username }) {
+     const options = {
+-      qs: {
++      searchParams: {
+         usernames: username,
+         fields: 'cryptocurrency_addresses',
+       },
+",61,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,keybase-pgp.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/keybase/keybase-pgp.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/keybase/keybase-pgp.service.js,"@@ -51,7 +51,7 @@ export default class KeybasePGP extends KeybaseProfile {
+ 
+   async handle({ username }) {
+     const options = {
+-      qs: {
++      searchParams: {
+         usernames: username,
+         fields: 'public_keys',
+       },
+",54,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,keybase-xlm.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/keybase/keybase-xlm.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/keybase/keybase-xlm.service.js,"@@ -56,7 +56,7 @@ export default class KeybaseXLM extends KeybaseProfile {
+ 
+   async handle({ username }) {
+     const options = {
+-      qs: {
++      searchParams: {
+         usernames: username,
+         fields: 'stellar',
+       },
+",59,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,keybase-zec.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/keybase/keybase-zec.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/keybase/keybase-zec.service.js,"@@ -58,7 +58,7 @@ export default class KeybaseZEC extends KeybaseProfile {
+ 
+   async handle({ username }) {
+     const options = {
+-      qs: {
++      searchParams: {
+         usernames: username,
+         fields: 'cryptocurrency_addresses',
+       },
+",61,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,localizely.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/localizely/localizely.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/localizely/localizely.service.js,"@@ -108,7 +108,7 @@ export default class Localizely extends BaseJsonService {
+       schema,
+       url: `https://api.localizely.com/v1/projects/${projectId}/status`,
+       options: {
+-        qs: { branch },
++        searchParams: { branch },
+         headers: { 'X-Api-Token': apiToken },
+       },
+       errorMessages: {
+",111,"qs: { branch },","searchParams: { branch },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,mozilla-observatory.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/mozilla-observatory/mozilla-observatory.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/mozilla-observatory/mozilla-observatory.service.js,"@@ -102,7 +102,7 @@ export default class MozillaObservatory extends BaseJsonService {
+       url: `https://http-observatory.security.mozilla.org/api/v1/analyze`,
+       options: {
+         method: 'POST',
+-        qs: { host },
++        searchParams: { host },
+         form: { hidden: !publish },
+       },
+     })
+",105,"qs: { host },","searchParams: { host },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,nodeping-status.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/nodeping/nodeping-status.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/nodeping/nodeping-status.service.js,"@@ -40,7 +40,7 @@ export default class NodePingStatus extends BaseJsonService {
+       schema,
+       url: `https://nodeping.com/reports/results/${checkUuid}/1`,
+       options: {
+-        qs: { format: 'json' },
++        searchParams: { format: 'json' },
+         headers: {
+           'cache-control': 'no-cache',
+         },
+",43,"qs: { format: 'json' },","searchParams: { format: 'json' },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,nuget-v3-service-family.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/nuget/nuget-v3-service-family.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/nuget/nuget-v3-service-family.js,"@@ -78,7 +78,7 @@ async function fetch(
+     schema,
+     url: await searchServiceUrl(baseUrl, 'SearchQueryService'),
+     options: {
+-      qs: {
++      searchParams: {
+         q: `packageid:${encodeURIComponent(packageName.toLowerCase())}`,
+         // Include prerelease versions.
+         prerelease: 'true',
+",81,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,opm-version.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/opm/opm-version.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/opm/opm-version.service.js,"@@ -29,7 +29,7 @@ export default class OpmVersion extends BaseService {
+       url: `https://opm.openresty.org/api/pkg/fetch`,
+       options: {
+         method: 'HEAD',
+-        qs: {
++        searchParams: {
+           account: user,
+           name: moduleName,
+         },
+",32,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,requires.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/requires/requires.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/requires/requires.service.js,"@@ -54,7 +54,7 @@ export default class RequiresIo extends BaseJsonService {
+     return this._requestJson({
+       url,
+       schema: statusSchema,
+-      options: { qs: { branch } },
++      options: { searchParams: { branch } },
+     })
+   }
+ 
+",57,"options: { qs: { branch } },","options: { searchParams: { branch } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,security-headers.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/security-headers/security-headers.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/security-headers/security-headers.service.js,"@@ -75,7 +75,7 @@ export default class SecurityHeaders extends BaseService {
+       url: `https://securityheaders.com`,
+       options: {
+         method: 'HEAD',
+-        qs: {
++        searchParams: {
+           q: url,
+           hide: 'on',
+           followRedirects: ignoreRedirects !== undefined ? null : 'on',
+",78,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,sourceforge.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/sourceforge/sourceforge.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/sourceforge/sourceforge.service.js,"@@ -81,7 +81,7 @@ export default class Sourceforge extends BaseJsonService {
+     const endDate = moment().subtract(24, 'hours')
+     const startDate = intervalMap[interval].startDate(endDate)
+     const options = {
+-      qs: {
++      searchParams: {
+         start_date: startDate.format('YYYY-MM-DD'),
+         end_date: endDate.format('YYYY-MM-DD'),
+       },
+",84,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,stackexchange-reputation.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/stackexchange/stackexchange-reputation.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/stackexchange/stackexchange-reputation.service.js,"@@ -53,7 +53,7 @@ export default class StackExchangeReputation extends BaseJsonService {
+ 
+     const parsedData = await this._requestJson({
+       schema: reputationSchema,
+-      options: { gzip: true, qs: { site: stackexchangesite } },
++      options: { decompress: true, searchParams: { site: stackexchangesite } },
+       url: `https://api.stackexchange.com/2.2/${path}`,
+       errorMessages: {
+         400: 'invalid parameters',
+",56,"options: { gzip: true, qs: { site: stackexchangesite } },","options: { decompress: true, searchParams: { site: stackexchangesite } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,stackexchange-taginfo.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/stackexchange/stackexchange-taginfo.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/stackexchange/stackexchange-taginfo.service.js,"@@ -50,7 +50,7 @@ export default class StackExchangeQuestions extends BaseJsonService {
+ 
+     const parsedData = await this._requestJson({
+       schema: tagSchema,
+-      options: { gzip: true, qs: { site: stackexchangesite } },
++      options: { decompress: true, searchParams: { site: stackexchangesite } },
+       url: `https://api.stackexchange.com/2.2/${path}`,
+     })
+ 
+",53,"options: { gzip: true, qs: { site: stackexchangesite } },","options: { decompress: true, searchParams: { site: stackexchangesite } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,swagger.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/swagger/swagger.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/swagger/swagger.service.js,"@@ -55,7 +55,7 @@ export default class SwaggerValidatorService extends BaseJsonService {
+       url: 'http://validator.swagger.io/validator/debug',
+       schema,
+       options: {
+-        qs: {
++        searchParams: {
+           url: specUrl,
+         },
+       },
+",58,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,travis-build.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/travis/travis-build.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/travis/travis-build.service.js,"@@ -78,7 +78,7 @@ export default class TravisBuild extends BaseSvgScrapingService {
+     const { message: status } = await this._requestSvg({
+       schema,
+       url: `https://api.travis-ci.${domain}/${userRepo}.svg`,
+-      options: { qs: { branch } },
++      options: { searchParams: { branch } },
+       valueMatcher: />([^<>]+)<\/text><\/g>/,
+     })
+ 
+",81,"options: { qs: { branch } },","options: { searchParams: { branch } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,treeware-trees.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/treeware/treeware-trees.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/treeware/treeware-trees.service.js,"@@ -38,7 +38,7 @@ export default class TreewareTrees extends BaseJsonService {
+       url,
+       schema: apiSchema,
+       options: {
+-        qs: { ref: reference },
++        searchParams: { ref: reference },
+       },
+     })
+   }
+",41,"qs: { ref: reference },","searchParams: { ref: reference },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,twitch-base.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/twitch/twitch-base.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/twitch/twitch-base.js,"@@ -42,7 +42,7 @@ export default class TwitchBase extends BaseJsonService {
+           url: `https://id.twitch.tv/oauth2/token`,
+           options: {
+             method: 'POST',
+-            qs: {
++            searchParams: {
+               grant_type: 'client_credentials',
+             },
+           },
+",45,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,twitch-extension-version.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/twitch/twitch-extension-version.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/twitch/twitch-extension-version.service.js,"@@ -36,7 +36,7 @@ export default class TwitchExtensionVersion extends TwitchBase {
+       schema: helixSchema,
+       url: `https://api.twitch.tv/helix/extensions/released`,
+       options: {
+-        qs: { extension_id: extensionId },
++        searchParams: { extension_id: extensionId },
+       },
+     })
+ 
+",39,"qs: { extension_id: extensionId },","searchParams: { extension_id: extensionId },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,twitch.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/twitch/twitch.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/twitch/twitch.service.js,"@@ -53,7 +53,7 @@ export default class TwitchStatus extends TwitchBase {
+       schema: helixSchema,
+       url: `https://api.twitch.tv/helix/streams`,
+       options: {
+-        qs: { user_login: user },
++        searchParams: { user_login: user },
+       },
+     })
+ 
+",56,"qs: { user_login: user },","searchParams: { user_login: user },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,twitter.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/twitter/twitter.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/twitter/twitter.service.js,"@@ -100,7 +100,7 @@ class TwitterFollow extends BaseJsonService {
+     return this._requestJson({
+       schema,
+       url: `http://cdn.syndication.twimg.com/widgets/followbutton/info.json`,
+-      options: { qs: { screen_names: user } },
++      options: { searchParams: { screen_names: user } },
+     })
+   }
+ 
+",103,"options: { qs: { screen_names: user } },","options: { searchParams: { screen_names: user } },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,ubuntu.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/ubuntu/ubuntu.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/ubuntu/ubuntu.service.js,"@@ -44,7 +44,7 @@ export default class Ubuntu extends BaseJsonService {
+       schema,
+       url: 'https://api.launchpad.net/1.0/ubuntu/+archive/primary',
+       options: {
+-        qs: {
++        searchParams: {
+           'ws.op': 'getPublishedSources',
+           exact_match: 'true',
+           order_by_date: 'true',
+",47,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,vaadin-directory-base.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/vaadin-directory/vaadin-directory-base.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/vaadin-directory/vaadin-directory-base.js,"@@ -18,7 +18,7 @@ class BaseVaadinDirectoryService extends BaseJsonService {
+       schema,
+       url: `https://vaadin.com/vaadincom/directory-service/components/search/findByUrlIdentifier`,
+       options: {
+-        qs: {
++        searchParams: {
+           projection: 'summary',
+           urlIdentifier: packageName,
+         },
+",21,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,w3c-validation.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/w3c/w3c-validation.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/w3c/w3c-validation.service.js,"@@ -67,7 +67,7 @@ export default class W3cValidation extends BaseJsonService {
+       url: 'https://validator.nu/',
+       schema,
+       options: {
+-        qs: {
++        searchParams: {
+           schema: getSchema(preset),
+           parser: parser === 'default' ? undefined : parser,
+           doc: encodeURI(targetUrl),
+",70,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,wikiapiary-installs.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/wikiapiary/wikiapiary-installs.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/wikiapiary/wikiapiary-installs.service.js,"@@ -77,7 +77,7 @@ export default class WikiapiaryInstalls extends BaseJsonService {
+       schema,
+       url: `https://wikiapiary.com/w/api.php`,
+       options: {
+-        qs: {
++        searchParams: {
+           action: 'ask',
+           query: `[[${variant}:${name}]]|?Has_website_count`,
+           format: 'json',
+",80,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,wordpress-base.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/wordpress/wordpress-base.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/wordpress/wordpress-base.js,"@@ -75,7 +75,7 @@ export default class BaseWordpress extends BaseJsonService {
+       url,
+       schema: schemas,
+       options: {
+-        qs: queryString,
++        searchParams: queryString,
+       },
+     })
+     if ('error' in json) {
+",78,"qs: queryString,","searchParams: queryString,"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,wordpress-downloads.service.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/wordpress/wordpress-downloads.service.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/wordpress/wordpress-downloads.service.js,"@@ -85,7 +85,7 @@ function DownloadsForExtensionType(extensionType) {
+           schema: dateSchema,
+           url: `https://api.wordpress.org/stats/${extType}/1.0/downloads.php`,
+           options: {
+-            qs: {
++            searchParams: {
+               slug,
+               limit,
+             },
+",88,qs: {,searchParams: {
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c73072deed8eb6a5b9f51a06377f5f396ef21842,c73072deed8eb6a5b9f51a06377f5f396ef21842,"Remove requestOptions2GotOptions compatibility layer (#7270)
+
+* gzip --> decompress
+
+* strictSSL --> https.rejectUnauthorized
+
+* auth --> username/password
+
+* qs --> searchParams
+
+* fix base service auth docs
+
+* completely remove requestOptions2GotOptions layer
+
+* update the docs
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-11-15 19:56:08+00:00,youtube-base.js,https://github.com/badges/shields/raw/42b0033bc82da5202eb5f259d84aa6cc55b67379/services/youtube/youtube-base.js,https://github.com/badges/shields/raw/c73072deed8eb6a5b9f51a06377f5f396ef21842/services/youtube/youtube-base.js,"@@ -62,7 +62,7 @@ class YouTubeBase extends BaseJsonService {
+           schema,
+           url: `https://www.googleapis.com/youtube/v3/${this.constructor.type}s`,
+           options: {
+-            qs: { id, part: 'statistics' },
++            searchParams: { id, part: 'statistics' },
+           },
+         }
+       )
+",65,"qs: { id, part: 'statistics' },","searchParams: { id, part: 'statistics' },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/015c39336b3d873dfbba6e612563098ee2f6c385,015c39336b3d873dfbba6e612563098ee2f6c385,"throw on unexpected keys in `expectBadge()` (#7354)
+
+* throw on unexpected object keys
+
+* fix docs.rs tests
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2021-12-10 21:26:41+00:00,docsrs.tester.js,https://github.com/badges/shields/raw/380a6e3b9f6a2a090b4378b5ef7d5498737058b3/services/docsrs/docsrs.tester.js,https://github.com/badges/shields/raw/015c39336b3d873dfbba6e612563098ee2f6c385/services/docsrs/docsrs.tester.js,"@@ -14,5 +14,5 @@ t.create('Getting latest version works')
+   .get('/rand/latest.json')
+   .expectBadge({
+     label: 'docs',
+-    messsage: Joi.allow('passing', 'failing'),
++    message: Joi.allow('passing', 'failing'),
+   })
+",17,"messsage: Joi.allow('passing', 'failing'),","message: Joi.allow('passing', 'failing'),"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/0f288a42fc0d770958f89b84ba40e39ff9aeadeb,0f288a42fc0d770958f89b84ba40e39ff9aeadeb,"chore(deps): bump got from 11.8.3 to 12.0.1 (#7370)
+
+* chore(deps): bump got from 11.8.3 to 12.0.1
+* update limit syntax
+* update CancelError import
+* update timeout syntax
+* set missing user/pass to empty string for basic auth
+* fix opm badge
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: chris48s <chris.shaw480@gmail.com>
+Co-authored-by: chris48s <chris48s@users.noreply.github.com>",2022-01-29 20:04:11+00:00,influx-metrics.js,https://github.com/badges/shields/raw/a682ff400af69d75cebb90284f1f6ecf9435f1d4/core/server/influx-metrics.js,https://github.com/badges/shields/raw/0f288a42fc0d770958f89b84ba40e39ff9aeadeb/core/server/influx-metrics.js,"@@ -16,7 +16,7 @@ export default class InfluxMetrics {
+       url: this._config.url,
+       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+       body: await this.metrics(),
+-      timeout: this._config.timeoutMillseconds,
++      timeout: { request: this._config.timeoutMillseconds },
+       username: this._config.username,
+       password: this._config.password,
+       throwHttpErrors: false,
+",19,"timeout: this._config.timeoutMillseconds,","timeout: { request: this._config.timeoutMillseconds },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/f2d88e76fb8e576cdc0134b6032c9a25227bd903,f2d88e76fb8e576cdc0134b6032c9a25227bd903,"chore(deps): bump fast-xml-parser from 3.21.1 to 4.0.1
+
+* chore(deps): bump fast-xml-parser from 3.21.1 to 4.0.1
+* update for fast-xml-parser v4
+* fix maven and jetbrains badges
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: chris48s <chris.shaw480@gmail.com>
+Co-authored-by: chris48s <chris48s@users.noreply.github.com>",2022-01-29 20:10:07+00:00,jetbrains-base.js,https://github.com/badges/shields/raw/0f288a42fc0d770958f89b84ba40e39ff9aeadeb/services/jetbrains/jetbrains-base.js,https://github.com/badges/shields/raw/f2d88e76fb8e576cdc0134b6032c9a25227bd903/services/jetbrains/jetbrains-base.js,"@@ -35,7 +35,7 @@ export default class JetbrainsBase extends BaseXmlService {
+ 
+   async fetchIntelliJPluginData({ pluginId, schema }) {
+     const parserOptions = {
+-      parseNodeValue: false,
++      parseTagValue: false,
+       ignoreAttributes: false,
+     }
+     return this._requestXml({
+",38,"parseNodeValue: false,","parseTagValue: false,"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/f2d88e76fb8e576cdc0134b6032c9a25227bd903,f2d88e76fb8e576cdc0134b6032c9a25227bd903,"chore(deps): bump fast-xml-parser from 3.21.1 to 4.0.1
+
+* chore(deps): bump fast-xml-parser from 3.21.1 to 4.0.1
+* update for fast-xml-parser v4
+* fix maven and jetbrains badges
+
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: chris48s <chris.shaw480@gmail.com>
+Co-authored-by: chris48s <chris48s@users.noreply.github.com>",2022-01-29 20:10:07+00:00,maven-metadata.service.js,https://github.com/badges/shields/raw/0f288a42fc0d770958f89b84ba40e39ff9aeadeb/services/maven-metadata/maven-metadata.service.js,https://github.com/badges/shields/raw/f2d88e76fb8e576cdc0134b6032c9a25227bd903/services/maven-metadata/maven-metadata.service.js,"@@ -52,7 +52,7 @@ export default class MavenMetadata extends BaseXmlService {
+     return this._requestXml({
+       schema,
+       url: metadataUrl,
+-      parserOptions: { parseNodeValue: false },
++      parserOptions: { parseTagValue: false },
+     })
+   }
+ 
+",55,"parserOptions: { parseNodeValue: false },","parserOptions: { parseTagValue: false },"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/ec1ff376a5261f66a137d28967d0becb96ce502f,ec1ff376a5261f66a137d28967d0becb96ce502f,fix: display greasy fork dd correctly (#8088),2022-06-16 19:09:31+00:00,greasyfork-downloads.service.js,https://github.com/badges/shields/raw/8f7164f96bcdb097c310797974541b45d33ed58c/services/greasyfork/greasyfork-downloads.service.js,https://github.com/badges/shields/raw/ec1ff376a5261f66a137d28967d0becb96ce502f/services/greasyfork/greasyfork-downloads.service.js,"@@ -10,7 +10,7 @@ export default class GreasyForkInstalls extends BaseGreasyForkService {
+       title: 'Greasy Fork',
+       pattern: 'dd/:scriptId',
+       namedParams: { scriptId: '407466' },
+-      staticPreview: renderDownloadsBadge({ downloads: 17 }),
++      staticPreview: renderDownloadsBadge({ downloads: 17, interval: 'day' }),
+     },
+     {
+       title: 'Greasy Fork',
+",13,"staticPreview: renderDownloadsBadge({ downloads: 17 }),","staticPreview: renderDownloadsBadge({ downloads: 17, interval: 'day' }),"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/3c6ca5d59cd731bf664ab5abe22505048bb2b620,3c6ca5d59cd731bf664ab5abe22505048bb2b620,"fix [gitlab] auth (#8145)
+
+* fix(gitlab): use oauth header, add private repo test
+
+* tests(gitlab): fix nock header match on unit test",2022-07-01 16:42:09-05:00,gitlab-base.js,https://github.com/badges/shields/raw/0ceb558bb4262b22f9e089d5935c3f926a4f28c8/services/gitlab/gitlab-base.js,https://github.com/badges/shields/raw/3c6ca5d59cd731bf664ab5abe22505048bb2b620/services/gitlab/gitlab-base.js,"@@ -8,7 +8,7 @@ export default class GitLabBase extends BaseJsonService {
+ 
+   async fetch({ url, options, schema, errorMessages }) {
+     return this._requestJson(
+-      this.authHelper.withBasicAuth({
++      this.authHelper.withBearerAuthHeader({
+         schema,
+         url,
+         options,
+",11,this.authHelper.withBasicAuth({,this.authHelper.withBearerAuthHeader({
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/3c6ca5d59cd731bf664ab5abe22505048bb2b620,3c6ca5d59cd731bf664ab5abe22505048bb2b620,"fix [gitlab] auth (#8145)
+
+* fix(gitlab): use oauth header, add private repo test
+
+* tests(gitlab): fix nock header match on unit test",2022-07-01 16:42:09-05:00,gitlab-tag.spec.js,https://github.com/badges/shields/raw/0ceb558bb4262b22f9e089d5935c3f926a4f28c8/services/gitlab/gitlab-tag.spec.js,https://github.com/badges/shields/raw/3c6ca5d59cd731bf664ab5abe22505048bb2b620/services/gitlab/gitlab-tag.spec.js,"@@ -26,7 +26,7 @@ describe('GitLabTag', function () {
+         .get('/api/v4/projects/foo%2Fbar/repository/tags?order_by=updated')
+         // This ensures that the expected credentials are actually being sent with the HTTP request.
+         // Without this the request wouldn't match and the test would fail.
+-        .basicAuth({ user: '', pass: fakeToken })
++        .matchHeader('Authorization', `Bearer ${fakeToken}`)
+         .reply(200, [{ name: '1.9' }])
+ 
+       expect(
+",29,".basicAuth({ user: '', pass: fakeToken })",".matchHeader('Authorization', `Bearer ${fakeToken}`)"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/93fa955dde5bc2f8d50139c519816043a7bd7a79,93fa955dde5bc2f8d50139c519816043a7bd7a79,"[Packagist] dependency version (#8371)
+
+* happy path is done: packagist depenency version is returned for dependencyVendor and dependencyRepo
+
+* changes in error handling in packagist dependency version service
+
+* Move to packagist-base common parts of packagist-php and packagist-dep-ver
+
+* the label now shows the name of the dependency
+
+* add comments,slightly modify if statement
+
+* fix unit tests in  services/packagist/packagist-php-version.spec.js
+
+* add unit tests for services/packagist/packagist-dependency-version.js
+
+* service tests for packagist-dependency-version.service.js are in progress
+
+* Add additional service tests for packagist-dependency-version.tester.js
+
+* remove toLowerCase()
+
+* resolve from lgtm: 1 for Wrong use of 'this' for static method
+
+* DRY determining the name of the dependency (depVen/depRepo)
+
+* url change in strategy is in progress
+
+* basic examples of packagist/dependency-v work with new url; packagist/php-v redirects to the new url
+
+* service tests should be green
+
+* unit tests for packagist should be fixed
+
+* add toLowerCase()
+
+* part of suggestions from the PR is implemented
+
+* updated tests for packagist dependency version
+
+* fix packagist dependency version spec
+
+* add missing unit tests
+
+* Update services/packagist/packagist-dependency-version.spec.js
+
+Co-authored-by: chris48s <chris48s@users.noreply.github.com>
+
+* Update services/packagist/packagist-dependency-version.spec.js
+
+Co-authored-by: chris48s <chris48s@users.noreply.github.com>
+
+Co-authored-by: chris48s <chris48s@users.noreply.github.com>",2022-09-14 21:12:09+01:00,test-validators.js,https://github.com/badges/shields/raw/e3c938b4d7b5fac0d468d4e463410c904a0b1db9/services/test-validators.js,https://github.com/badges/shields/raw/93fa955dde5bc2f8d50139c519816043a7bd7a79/services/test-validators.js,"@@ -43,7 +43,7 @@ const isVPlusDottedVersionNClausesWithOptionalSuffixAndEpoch = withRegex(
+ // https://getcomposer.org/doc/04-schema.md#package-links
+ // https://getcomposer.org/doc/04-schema.md#minimum-stability
+ const isComposerVersion = withRegex(
+-  /^\s*(>=|>|<|<=|!=|\^|~)?\d+(\.(\*|(\d+(\.(\d+|\*))?)))?((\s*\|\|)?\s*(>=|>|<|<=|!=|\^|~)?\d+(\.(\*|(\d+(\.(\d+|\*))?)))?)*\s*$/
++  /^\*|(\s*(>=|>|<|<=|!=|\^|~)?\d+(\.(\*|(\d+(\.(\d+|\*))?)))?((\s*\|*)?\s*(>=|>|<|<=|!=|\^|~)?\d+(\.(\*|(\d+(\.(\d+|\*))?)))?)*\s*)$/
+ )
+ 
+ // Regex for validate php-version.versionReduction()
+",46,/^\s*(>=|>|<|<=|!=|\^|~)?\d+(\.(\*|(\d+(\.(\d+|\*))?)))?((\s*\|\|)?\s*(>=|>|<|<=|!=|\^|~)?\d+(\.(\*|(\d+(\.(\d+|\*))?)))?)*\s*$/,/^\*|(\s*(>=|>|<|<=|!=|\^|~)?\d+(\.(\*|(\d+(\.(\d+|\*))?)))?((\s*\|*)?\s*(>=|>|<|<=|!=|\^|~)?\d+(\.(\*|(\d+(\.(\d+|\*))?)))?)*\s*)$/
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/cf6be05221c0bb0eecc7dab3106c6efca63641b7,cf6be05221c0bb0eecc7dab3106c6efca63641b7,"fix display/search of CII badge examples (#8473)
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2022-10-03 20:14:03+00:00,cii-best-practices.service.js,https://github.com/badges/shields/raw/17288eaee2f0833c0bfc9dcefdd9658f78df1180/services/cii-best-practices/cii-best-practices.service.js,https://github.com/badges/shields/raw/cf6be05221c0bb0eecc7dab3106c6efca63641b7/services/cii-best-practices/cii-best-practices.service.js,"@@ -35,7 +35,7 @@ export default class CIIBestPracticesService extends BaseJsonService {
+     pattern: ':metric(level|percentage|summary)/:projectId',
+   }
+ 
+-  static exampless = [
++  static examples = [
+     {
+       title: 'CII Best Practices Level',
+       pattern: 'level/:projectId',
+",38,static exampless = [,static examples = [
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/bd6a04ba03a53e1f74d252ab775507c466d62df6,bd6a04ba03a53e1f74d252ab775507c466d62df6,"fix: Support WAITING status for GitHub deployments (#8521)
+
+Fix ""invalid response data"" badge label for GitHub deployments pending approval.",2022-10-15 20:29:38+01:00,github-deployments.service.js,https://github.com/badges/shields/raw/cab87aa19d8989a4ab266e706d3c7f9be260e390/services/github/github-deployments.service.js,https://github.com/badges/shields/raw/bd6a04ba03a53e1f74d252ab775507c466d62df6/services/github/github-deployments.service.js,"@@ -7,7 +7,7 @@ import { documentation, transformErrors } from './github-helpers.js'
+ const greenStates = ['SUCCESS']
+ const redStates = ['ERROR', 'FAILURE']
+ const blueStates = ['INACTIVE']
+-const otherStates = ['IN_PROGRESS', 'QUEUED', 'PENDING', 'NO_STATUS']
++const otherStates = ['IN_PROGRESS', 'QUEUED', 'PENDING', 'NO_STATUS', 'WAITING']
+ 
+ const stateToMessageMappings = {
+   IN_PROGRESS: 'in progress',
+",10,"const otherStates = ['IN_PROGRESS', 'QUEUED', 'PENDING', 'NO_STATUS']","const otherStates = ['IN_PROGRESS', 'QUEUED', 'PENDING', 'NO_STATUS', 'WAITING']"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/c2fe2ffa2ecb0de020d53275f8635250e8acb3aa,c2fe2ffa2ecb0de020d53275f8635250e8acb3aa,"documentation html fixes (#8887)
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2023-02-12 18:47:16+00:00,steam-workshop.service.js,https://github.com/badges/shields/raw/e5be1d6a1ca00d923485d7714d9a05a7b67f4caf/services/steam/steam-workshop.service.js,https://github.com/badges/shields/raw/c2fe2ffa2ecb0de020d53275f8635250e8acb3aa/services/steam/steam-workshop.service.js,"@@ -18,7 +18,7 @@ const documentation = `
+ </p>
+ <img
+   src=""https://user-images.githubusercontent.com/7288322/46567027-27c83400-c987-11e8-9850-ab67d987202f.png""
+-  alt=""Right-Click and 'Copy Page URL'"">
++  alt=""Right-Click and 'Copy Page URL'"" />
+ `
+ 
+ const steamCollectionSchema = Joi.object({
+",21,"alt=""Right-Click and 'Copy Page URL'"">","alt=""Right-Click and 'Copy Page URL'"" />"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/6bb495ce533de700d538402a1cc4b3d9cbf43583,6bb495ce533de700d538402a1cc4b3d9cbf43583,fix TypeError: console.warning is not a function (#8930),2023-02-23 18:18:37+00:00,server.js,https://github.com/badges/shields/raw/091ccfdbcd28a4829ba80fe3a2d760f743f10e6f/server.js,https://github.com/badges/shields/raw/6bb495ce533de700d538402a1cc4b3d9cbf43583/server.js,"@@ -43,7 +43,7 @@ if (fs.existsSync('.env')) {
+ }
+ 
+ if (config.private.redis_url != null) {
+-  console.warning(
++  console.warn(
+     'RedisTokenPersistence is deprecated for token pooling and will be removed in a future release. Migrate to SqlTokenPersistence'
+   )
+ }
+",46,console.warning(,console.warn(
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/26bf69cfe741c5800fb6c634563150275448f22d,26bf69cfe741c5800fb6c634563150275448f22d,"misc minor fixes to [githubsize node pypi] (#8946)
+
+* fix some params incorrectly marked as optional
+
+all of these are really required
+
+* make '@' part of the param (not route) for scoped packages
+
+* minor HTML tweaks to sonar help
+
+---------
+
+Co-authored-by: repo-ranger[bot] <39074581+repo-ranger[bot]@users.noreply.github.com>",2023-03-01 20:24:41+00:00,pypi-framework-versions.service.js,https://github.com/badges/shields/raw/8a0af349b54016fe41428ba40eff1ce48f237661/services/pypi/pypi-framework-versions.service.js,https://github.com/badges/shields/raw/26bf69cfe741c5800fb6c634563150275448f22d/services/pypi/pypi-framework-versions.service.js,"@@ -50,7 +50,7 @@ export default class PypiFrameworkVersion extends PypiBase {
+     base: 'pypi/frameworkversions',
+     pattern: `:frameworkName(${Object.keys(frameworkNameMap).join(
+       '|'
+-    )})/:packageName*`,
++    )})/:packageName+`,
+   }
+ 
+   static examples = [
+",53,")})/:packageName*`,",")})/:packageName+`,"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/35dfd75ef5db5d8d4f53af6c922c8f7fd3e528fa,35dfd75ef5db5d8d4f53af6c922c8f7fd3e528fa,"Fix: [GithubCommitActivity] invalid branch error handling (#9258)
+
+* Fix error handling of bad branch in [GithubCommitActivity]
+
+When GraphQL response with a bad repo it returns an error indicating the bad repo.
+When GraphQL has the currect repo with a bad branch it will null inside the repo object without an error object.
+The privouse commits seems to try and use that but due not allowing null in schema it did not work and an error due to bad schema would show insted.
+
+This commit fixes this issue
+
+* Add test for invalid branch in [GithubCommitActivity]
+
+---------
+
+Co-authored-by: jNullj <jNullj@users.noreply.github.com>",2023-06-14 20:53:48+01:00,github-commit-activity.service.js,https://github.com/badges/shields/raw/14892e3943a4677332618d8b9f584766f7940ee7/services/github/github-commit-activity.service.js,https://github.com/badges/shields/raw/35dfd75ef5db5d8d4f53af6c922c8f7fd3e528fa/services/github/github-commit-activity.service.js,"@@ -13,7 +13,7 @@ const schema = Joi.object({
+         history: Joi.object({
+           totalCount: nonNegativeInteger,
+         }).required(),
+-      }),
++      }).allow(null),
+     }).required(),
+   }).required(),
+ }).required()
+",16,"}),","}).allow(null),"
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/ef2649bd4b2c24f2ce6c611708b2f8a70c22524b,ef2649bd4b2c24f2ce6c611708b2f8a70c22524b,"chore(deps-dev): bump eslint-plugin-react from 7.32.2 to 7.33.0 (#9395)
+
+* chore(deps-dev): bump eslint-plugin-react from 7.32.2 to 7.33.0
+
+Bumps [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) from 7.32.2 to 7.33.0.
+- [Release notes](https://github.com/jsx-eslint/eslint-plugin-react/releases)
+- [Changelog](https://github.com/jsx-eslint/eslint-plugin-react/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/jsx-eslint/eslint-plugin-react/compare/v7.32.2...v7.33.0)
+
+---
+updated-dependencies:
+- dependency-name: eslint-plugin-react
+  dependency-type: direct:development
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+* fix for new lint rules
+
+---------
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Co-authored-by: chris48s <git@chris-shaw.dev>",2023-07-23 09:34:54+00:00,index.js,https://github.com/badges/shields/raw/d5c1bdc8ec7c5f59d4bb742f5df90757328f5a35/frontend/src/pages/index.js,https://github.com/badges/shields/raw/ef2649bd4b2c24f2ce6c611708b2f8a70c22524b/frontend/src/pages/index.js,"@@ -28,7 +28,7 @@ export default function Home() {
+   return (
+     <Layout
+       description=""Concise, consistent, and legible badges""
+-      title={`${siteConfig.title}`}
++      title={siteConfig.title}
+     >
+       <HomepageHeader />
+       <main>
+",31,title={`${siteConfig.title}`},title={siteConfig.title}
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/9874db78410764958cc5263ef21cbe94fcc8883c,9874db78410764958cc5263ef21cbe94fcc8883c,Fix several typos (#9658),2023-10-13 15:40:57+00:00,xml.js,https://github.com/badges/shields/raw/164209a4b1d6078161a3ead01a93d231cd0c38b2/badge-maker/lib/xml.js,https://github.com/badges/shields/raw/9874db78410764958cc5263ef21cbe94fcc8883c/badge-maker/lib/xml.js,"@@ -35,7 +35,7 @@ class XmlElement {
+    *    Name of the XML tag
+    * @param {Array.<string|module:badge-maker/lib/xml~XmlElement>} [attrs.content=[]]
+    *    Array of objects to render inside the tag. content may contain a mix of
+-   *    string and XmlElement objects. If content is `[]` or ommitted the
++   *    string and XmlElement objects. If content is `[]` or omitted the
+    *    element will be rendered as a self-closing element.
+    * @param {object} [attrs.attrs={}]
+    *    Object representing the tag's attributes as name/value pairs
+",38,*    string and XmlElement objects. If content is `[]` or ommitted the,*    string and XmlElement objects. If content is `[]` or omitted the
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/9874db78410764958cc5263ef21cbe94fcc8883c,9874db78410764958cc5263ef21cbe94fcc8883c,Fix several typos (#9658),2023-10-13 15:40:57+00:00,base-json.js,https://github.com/badges/shields/raw/164209a4b1d6078161a3ead01a93d231cd0c38b2/core/base-service/base-json.js,https://github.com/badges/shields/raw/9874db78410764958cc5263ef21cbe94fcc8883c/core/base-service/base-json.js,"@@ -14,7 +14,7 @@ class BaseJsonService extends BaseService {
+   /**
+    * Parse data from JSON endpoint
+    *
+-   * @param {string} buffer JSON repsonse from upstream API
++   * @param {string} buffer JSON response from upstream API
+    * @returns {object} Parsed response
+    */
+   _parseJson(buffer) {
+",17,* @param {string} buffer JSON repsonse from upstream API,* @param {string} buffer JSON response from upstream API
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/9874db78410764958cc5263ef21cbe94fcc8883c,9874db78410764958cc5263ef21cbe94fcc8883c,Fix several typos (#9658),2023-10-13 15:40:57+00:00,website-status.js,https://github.com/badges/shields/raw/164209a4b1d6078161a3ead01a93d231cd0c38b2/services/website-status.js,https://github.com/badges/shields/raw/9874db78410764958cc5263ef21cbe94fcc8883c/services/website-status.js,"@@ -8,7 +8,7 @@ import Joi from 'joi'
+ 
+ /**
+  * Joi schema for validating query params.
+- * Checks if the query params obect has valid up_message, down_message, up_color and down_color properties.
++ * Checks if the query params object has valid up_message, down_message, up_color and down_color properties.
+  *
+  * @type {Joi}
+  */
+",11,"* Checks if the query params obect has valid up_message, down_message, up_color and down_color properties.","* Checks if the query params object has valid up_message, down_message, up_color and down_color properties."
+shields,https://github.com/badges/shields,https://github.com/badges/shields/commit/5676ec5b815e292b48947d202caa1ed78d088ce5,5676ec5b815e292b48947d202caa1ed78d088ce5,Fix typo in queryParams documentation (#9840),2023-12-24 20:28:25+00:00,openapi.js,https://github.com/badges/shields/raw/86581e6dddb52241bf336e0e4495acdb2708c7b2/core/base-service/openapi.js,https://github.com/badges/shields/raw/5676ec5b815e292b48947d202caa1ed78d088ce5/core/base-service/openapi.js,"@@ -413,7 +413,7 @@ function queryParam({
+  * ```
+  * const params = [
+  *   queryParam({ name: 'name1', example: 'example1' }),
+- *   queryParams({ name: 'name2', example: 'example2' }),
++ *   queryParam({ name: 'name2', example: 'example2' }),
+  * ]
+  * ```
+  *
+",416,"*   queryParams({ name: 'name2', example: 'example2' }),","*   queryParam({ name: 'name2', example: 'example2' }),"
 mediacenterjs,https://github.com/jansmolders86/mediacenterjs,https://github.com/jansmolders86/mediacenterjs/commit/b8ca477e05d317e9c7ab994395276c5741e8acaf,b8ca477e05d317e9c7ab994395276c5741e8acaf,Cleaned up modules + bugfixes,2013-04-15 08:57:31+02:00,movieindex.js,https://github.com/jansmolders86/mediacenterjs/raw/17f86f92881fef1b3f40a85ed91382c5f187076c/public/movies/data/movieindex.js,https://github.com/jansmolders86/mediacenterjs/raw/b8ca477e05d317e9c7ab994395276c5741e8acaf/public/movies/data/movieindex.js,"@@ -1,3 +1,3 @@
  [
 -	""buried cd2.avi""
@@ -4641,493 +7157,6 @@ strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/stri
    })
  }
 ",152,"req.setHeader('Content-type', 'application/json')","res.setHeader('Content-type', 'application/json')"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/1530dbd2baffa635de8b357bbdc40b93954858f0,1530dbd2baffa635de8b357bbdc40b93954858f0,fixes #274,2013-11-21 08:20:55-07:00,users.js,https://github.com/Strider-CD/strider/raw/7478da6553c021f77bdceea2fd8954e3e21920c3/lib/users.js,https://github.com/Strider-CD/strider/raw/1530dbd2baffa635de8b357bbdc40b93954858f0/lib/users.js,"@@ -12,7 +12,7 @@ module.exports = {
- 
- function makeAdmin(user, done) {
-   if ('string' !== typeof user && user.email) user = user.email
--  User.update({email: user}, {account_level: 2}, {}, function (err, num) {
-+  User.update({email: user}, {account_level: 1}, {}, function (err, num) {
-     if (err) return done(err)
-     if (!num) return done()
-     console.log(""Admin status granted to: "" + user)
-",15,"User.update({email: user}, {account_level: 2}, {}, function (err, num) {","User.update({email: user}, {account_level: 1}, {}, function (err, num) {"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/1530dbd2baffa635de8b357bbdc40b93954858f0,1530dbd2baffa635de8b357bbdc40b93954858f0,fixes #274,2013-11-21 08:20:55-07:00,index.js,https://github.com/Strider-CD/strider/raw/7478da6553c021f77bdceea2fd8954e3e21920c3/routes/admin/index.js,https://github.com/Strider-CD/strider/raw/1530dbd2baffa635de8b357bbdc40b93954858f0/routes/admin/index.js,"@@ -67,7 +67,7 @@ exports.make_admin = function(req,res) {
-   if (!req.query.user) {
-     return res.redirect('/admin/users')
-   }
--  users.makeAdmin(res.query.user, function(err) {
-+  users.makeAdmin(req.query.user, function(err) {
-     if (err) {
-       console.error(err)
-       return res.send(500, 'Error making admin user')
-",70,"users.makeAdmin(res.query.user, function(err) {","users.makeAdmin(req.query.user, function(err) {"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/3f95e65e2c12726a68139a16f5e5db3ee3aa4470,3f95e65e2c12726a68139a16f5e5db3ee3aa4470,"adding tests to the build page, fixing a build page navigation bug",2013-11-26 23:07:20-07:00,setup-fixtures.js,https://github.com/Strider-CD/strider/raw/775986895b462d3336a1c6e8c1949d72e184ecb4/test/setup-fixtures.js,https://github.com/Strider-CD/strider/raw/3f95e65e2c12726a68139a16f5e5db3ee3aa4470/test/setup-fixtures.js,"@@ -29,7 +29,7 @@ var importUsers = function(cb){
-       user.email = u.email
-       user.set('password', u.password)
-       if (u === TEST_USERS[0]) {
--        return done()
-+        return user.save(done)
-       }
-       models.Project.find({}, function (err, projects) {
-         if (err) return done(err)
-",32,return done(),return user.save(done)
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/c72a838029637604f6e2b6e0f9100d9fe14b38d7,c72a838029637604f6e2b6e0f9100d9fe14b38d7,fix issue w/ getting branches for non-hosted providers,2013-12-18 09:17:54-07:00,index.js,https://github.com/Strider-CD/strider/raw/7ef1dbb6d27ec231bbc27426c5a84ac999f29b58/routes/index.js,https://github.com/Strider-CD/strider/raw/c72a838029637604f6e2b6e0f9100d9fe14b38d7/routes/index.js,"@@ -259,7 +259,7 @@ exports.config = function(req, res) {
-       console.warn('Provider plugin not installed!', req.project.provider.id)
-       return respond(data)
-     }
--    if (typeof provider.getBranches === 'function' && creator_creds) {
-+    if (typeof provider.getBranches === 'function' && (!plugin.hosted || creator_creds)) {
-       provider.getBranches(creator_creds,
-         req.project.provider.config, req.project, function(err, branches) {
-           if (err) {
-",262,if (typeof provider.getBranches === 'function' && creator_creds) {,if (typeof provider.getBranches === 'function' && (!plugin.hosted || creator_creds)) {
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/ebba56c37f38d965eae84cf7c5e583291ae7b152,ebba56c37f38d965eae84cf7c5e583291ae7b152,"add sinon dev dep, reorder dev deps
-
-stub and assert about warnings in config unit test
-
-stub backchannel test to get it showing in cov
-
-add bluebird and sinon-as-promised to dev deps
-
-add fixture and promise stubbing to backchannel
-chasing #477
-
-drop bluebird and sinon-as-promised
-
-add realworld project fixture
-
-stub our way through Project.findOne...populate
-
-add and use a realworld job fixture
-
-add and use a common.extensions.provider fixture
-
-next fixtures under issues_477 folder
-
-add mjob fixture
-
-use mjob fixture, cleanup existing fixtures
-
-replace String#toJSON() call with JSON.stringify()
-
-put back the toJSON method
-
-setup creator, branch, job, in backchannel test
-
-give us a place to assert about the new job
-
-organize test file and add a couple asserts",2014-07-28 01:45:33-05:00,backchannel.js,https://github.com/Strider-CD/strider/raw/e55a3443d0b257ec665c943374ef51672245fd7e/lib/backchannel.js,https://github.com/Strider-CD/strider/raw/ebba56c37f38d965eae84cf7c5e583291ae7b152/lib/backchannel.js,"@@ -56,7 +56,7 @@ function prepareJob(emitter, job) {
-     }
-     Job.create(job, function (err, mjob) {
-       if (err) return console.error('job.prepare - failed to save job', job, err)
--      var jjob = mjob.toJSON()
-+      var jjob = mjob.toJSON();
-       jjob.project = project
-       jjob.providerConfig = project.provider.config
-       striderJson(provider, project, job.ref, function (config) {
-",59,var jjob = mjob.toJSON(),var jjob = mjob.toJSON();
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/2858f97d2a2854ea83a57aa2fa54452d7b04839b,2858f97d2a2854ea83a57aa2fa54452d7b04839b,fix forgot password success page test,2014-10-09 21:23:10-07:00,login_test.js,https://github.com/Strider-CD/strider/raw/0ffbdff78d55d55ba68055b5e5cad90c14d35f59/test/integration/login_test.js,https://github.com/Strider-CD/strider/raw/2858f97d2a2854ea83a57aa2fa54452d7b04839b/test/integration/login_test.js,"@@ -33,7 +33,7 @@ module.exports = function (browser, callback) {
- 
-     it('should show forgotten password success page', function () {
-       return browser.rel('/forgot')
--        .elementByName('email')
-+        .elementByCss('form[action=""/forgot""] [name=email]')
-         .type('test1@example.com')
-         .elementByClassName('primary')
-         .click()
-",36,.elementByName('email'),".elementByCss('form[action=""/forgot""] [name=email]')"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/bff65ebe0cc9d60a77bb14994f2a54d49943722c,bff65ebe0cc9d60a77bb14994f2a54d49943722c,Fixed incorrect request parameters access,2015-01-30 14:14:18-05:00,index.js,https://github.com/Strider-CD/strider/raw/25a70d28c7c79eb4fe6a46d2070e8bc7ad1242fa/lib/routes/api/collaborators/index.js,https://github.com/Strider-CD/strider/raw/bff65ebe0cc9d60a77bb14994f2a54d49943722c/lib/routes/api/collaborators/index.js,"@@ -58,7 +58,7 @@ function get(req, res) {
- function post(req, res) {
-   var project = req.params.org + '/' + req.params.repo
-     , accessLevel = req.params.access || 0
--    , email = req.param.email
-+    , email = req.params.email
-   api.add(project, email, accessLevel, req.user, function (err, existed, already_invited) {
-     if (err) return res.send(500, 'Failed to add collaborator: ' + err.message)
-     if (existed) return res.send({created: true, message: 'Collaborator added'})
-",61,", email = req.param.email",", email = req.params.email"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/bff65ebe0cc9d60a77bb14994f2a54d49943722c,bff65ebe0cc9d60a77bb14994f2a54d49943722c,Fixed incorrect request parameters access,2015-01-30 14:14:18-05:00,jobs.js,https://github.com/Strider-CD/strider/raw/25a70d28c7c79eb4fe6a46d2070e8bc7ad1242fa/lib/routes/api/jobs.js,https://github.com/Strider-CD/strider/raw/bff65ebe0cc9d60a77bb14994f2a54d49943722c/lib/routes/api/jobs.js,"@@ -42,7 +42,7 @@ exports.jobs_start = function(req, res) {
-                 image: utils.gravatar(req.user.email)
-             },
-             timestamp: now,
--            source: {type: 'UI', page: req.param.page || 'unknown'}
-+            source: {type: 'UI', page: req.params.page || 'unknown'}
-         }
- 
- 
-",45,"source: {type: 'UI', page: req.param.page || 'unknown'}","source: {type: 'UI', page: req.params.page || 'unknown'}"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/bff65ebe0cc9d60a77bb14994f2a54d49943722c,bff65ebe0cc9d60a77bb14994f2a54d49943722c,Fixed incorrect request parameters access,2015-01-30 14:14:18-05:00,index.js,https://github.com/Strider-CD/strider/raw/25a70d28c7c79eb4fe6a46d2070e8bc7ad1242fa/lib/routes/index.js,https://github.com/Strider-CD/strider/raw/bff65ebe0cc9d60a77bb14994f2a54d49943722c/lib/routes/index.js,"@@ -39,7 +39,7 @@ exports.index = function(req, res){
-   var code = '';
- 
-   if (req.params.code !== undefined) {
--    code = req.param.code
-+    code = req.params.code
- 
-     return res.render('register.html', {
-       invite_code:code,
-",42,code = req.param.code,code = req.params.code
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/4cefd0cf6f19e38972cac87f19da2d6c7bd4f3bc,4cefd0cf6f19e38972cac87f19da2d6c7bd4f3bc,Fixed another incorrect param access,2015-01-30 14:17:04-05:00,account.js,https://github.com/Strider-CD/strider/raw/bff65ebe0cc9d60a77bb14994f2a54d49943722c/lib/routes/api/account.js,https://github.com/Strider-CD/strider/raw/4cefd0cf6f19e38972cac87f19da2d6c7bd4f3bc/lib/routes/api/account.js,"@@ -63,7 +63,7 @@ exports.account_password = function(req, res)
-   if (req.user !== undefined) {
-     console.log(""password change by "" + req.user.email);
-   }
--  var password = req.param.password;
-+  var password = req.params.password;
- 
-   if (password.length < 6) {
-     res.statusCode = 400;
-",66,var password = req.param.password;,var password = req.params.password;
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/cef5e7d7e84b75d9c857817c48f507da28236e5d,cef5e7d7e84b75d9c857817c48f507da28236e5d,Fix/quarantine broken integration tests,2015-02-09 11:21:25-08:00,github_test.js,https://github.com/Strider-CD/strider/raw/fc547039206faeeda540cf43afcf256effe0589a/test/integration/github_test.js,https://github.com/Strider-CD/strider/raw/cef5e7d7e84b75d9c857817c48f507da28236e5d/test/integration/github_test.js,"@@ -26,7 +26,7 @@ module.exports = function (browser, callback) {
-         .type('test1@example.com')
-         .elementByName('password')
-         .type('open-sesame')
--        .elementById(""navbar-signin-form"")
-+        .elementByClassName('login-form')
-         .submit()
-         .elementByClassName('provider-github')
-         .click()
-",29,".elementById(""navbar-signin-form"")",.elementByClassName('login-form')
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/6124a38ea75fc45fd1c8ff6a27d2a706ac023f4a,6124a38ea75fc45fd1c8ff6a27d2a706ac023f4a,"Fix typo, error instead of err",2015-04-16 16:03:51-04:00,backchannel.js,https://github.com/Strider-CD/strider/raw/343961aea534978904f0f5bcf91754ec7e3d9076/lib/backchannel.js,https://github.com/Strider-CD/strider/raw/6124a38ea75fc45fd1c8ff6a27d2a706ac023f4a/lib/backchannel.js,"@@ -73,7 +73,7 @@ function prepareJob(emitter, job) {
-       
-       striderJson(provider, project, job.ref, function (err, config) {
-         if (err) {
--          if (error.status === 404) {
-+          if (err.status === 404) {
-             console.log('job.prepare - strider.json not found, skipping config merge');
-             config = {};
-           } else {
-",76,if (error.status === 404) {,if (err.status === 404) {
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/1936f146f1a983c5a9a5872a01c7c94f3cbe11b0,1936f146f1a983c5a9a5872a01c7c94f3cbe11b0,fix mongoose db connection for local user without authentication,2015-05-13 12:32:42+02:00,app.js,https://github.com/Strider-CD/strider/raw/95b4cc9242a69b13765c8970770a5a0a44d1d4fa/lib/app.js,https://github.com/Strider-CD/strider/raw/1936f146f1a983c5a9a5872a01c7c94f3cbe11b0/lib/app.js,"@@ -66,7 +66,7 @@ var init = exports.init = function (config) {
-     console.error('MongoDB connection error: %s', error);
-   });
- 
--  session_store = new mongoStore({ db: mongoose.connection.db });
-+  session_store = new mongoStore({ mongooseConnection: mongoose.connection });
- 
-   swig.init({
-       root: config.viewpath,
-",69,session_store = new mongoStore({ db: mongoose.connection.db });,session_store = new mongoStore({ mongooseConnection: mongoose.connection });
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/e578696039b96c55428864bc011985bf63b9385b,e578696039b96c55428864bc011985bf63b9385b,Fix access to undefined req,2015-06-04 14:24:50+02:00,index.js,https://github.com/Strider-CD/strider/raw/4f33e22eb92db49a948d8d5609a8cea9812fe653/lib/routes/index.js,https://github.com/Strider-CD/strider/raw/e578696039b96c55428864bc011985bf63b9385b/lib/routes/index.js,"@@ -368,7 +368,7 @@ exports.status = function(req, res) {
- 
- function applyAttrs(obj, attrs, source) {
-   attrs.forEach(function (attr) {
--    if (typeof req.body[attr] !== 'undefined') {
-+    if (typeof source[attr] !== 'undefined') {
-       obj[attr] = source[attr];
-     }
-   });
-",371,if (typeof req.body[attr] !== 'undefined') {,if (typeof source[attr] !== 'undefined') {
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/00645d8f6b3376770997519465c09a882e273373,00645d8f6b3376770997519465c09a882e273373,Fix POST project collaborator access level,2015-07-14 18:58:48+02:00,index.js,https://github.com/Strider-CD/strider/raw/fd598f09a96c04b842a92922c1aea663757cc1ae/lib/routes/api/collaborators/index.js,https://github.com/Strider-CD/strider/raw/00645d8f6b3376770997519465c09a882e273373/lib/routes/api/collaborators/index.js,"@@ -57,7 +57,7 @@ function get(req, res) {
-  */
- function post(req, res) {
-   var project = req.params.org + '/' + req.params.repo
--    , accessLevel = req.params.access || 0
-+    , accessLevel = req.body.access || 0
-     , email = req.body.email
-   api.add(project, email, accessLevel, req.user, function (err, existed, already_invited) {
-     if (err) return res.send(500, 'Failed to add collaborator: ' + err.message)
-",60,", accessLevel = req.params.access || 0",", accessLevel = req.body.access || 0"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/c684415a91ddcb2c19221a8f1e3a04dedf7ecf8c,c684415a91ddcb2c19221a8f1e3a04dedf7ecf8c,Fix plugin templates,2015-08-03 14:59:06-05:00,load-extensions.js,https://github.com/Strider-CD/strider/raw/32b9fa52e26fd1d958ad6dd1a076cf7cc6c354ae/lib/utils/load-extensions.js,https://github.com/Strider-CD/strider/raw/c684415a91ddcb2c19221a8f1e3a04dedf7ecf8c/lib/utils/load-extensions.js,"@@ -35,7 +35,7 @@ function loadExtensions(loader, extdir, context, appInstance, cb) {
-           if (err) return next(err);
- 
-           for (var name in templates) {
--            pluginTemplates.register(name, templates[name]);
-+            pluginTemplates.registerTemplate(name, templates[name]);
-           }
- 
-           console.log('loaded templates');
-",38,"pluginTemplates.register(name, templates[name]);","pluginTemplates.registerTemplate(name, templates[name]);"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/6cd1268695fb4a4cfab03d6ed217638e440de13b,6cd1268695fb4a4cfab03d6ed217638e440de13b,Fix lint,2015-08-05 07:13:52-05:00,account.js,https://github.com/Strider-CD/strider/raw/420b8809ae592004da385e0312bfd524a9e1791e/client/account/controllers/account.js,https://github.com/Strider-CD/strider/raw/6cd1268695fb4a4cfab03d6ed217638e440de13b/client/account/controllers/account.js,"@@ -18,7 +18,7 @@ function AccountController($scope, $sce) {
-       $scope.success('Account removed');
-       return;
-     }
--    $.ajax(`/api/account/${account.provider}/${account.id}`, {
-+    $.ajax('/api/account/' + account.provider + '/' + account.id, {
-       type: 'DELETE',
-       success: function () {
-         var idx = $scope.accounts[account.provider].indexOf(account);
-",21,"$.ajax(`/api/account/${account.provider}/${account.id}`, {","$.ajax('/api/account/' + account.provider + '/' + account.id, {"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/e29f0f0466ec1dcbde60460e3d4159096ca61a5c,e29f0f0466ec1dcbde60460e3d4159096ca61a5c,"Fix config nav plugin order
-
-Previously the plugins in the config left nav were ordered
-randomly and did not line up to the order in the plugins page.
-
-This change makes the rendering happen in angular instead of swig,
-this fixing the order.",2015-09-24 14:32:49-04:00,config.js,https://github.com/Strider-CD/strider/raw/632cc995d17d125b8d1df35fa9c0ad323b25c66f/lib/routes/api/config.js,https://github.com/Strider-CD/strider/raw/e29f0f0466ec1dcbde60460e3d4159096ca61a5c/lib/routes/api/config.js,"@@ -76,7 +76,7 @@ function server(name, which) {
-     res.set('Content-type', 'text/' + (which === 'css' ? 'css' : 'javascript'))
- 
-     if (!cache['config']) {
--      return res.send(500, 'looks like config was not compiled correctly')
-+      return res.status(500).send('looks like config was not compiled correctly')
-     }
- 
-     res.send(cache[name][which])
-",79,"return res.send(500, 'looks like config was not compiled correctly')",return res.status(500).send('looks like config was not compiled correctly')
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/741f32764e3aa1cb0e9fa2f7750dde8a8cd6c43c,741f32764e3aa1cb0e9fa2f7750dde8a8cd6c43c,Fix fetching strider.json over a Github repository.,2016-02-12 12:27:47+01:00,backchannel.js,https://github.com/Strider-CD/strider/raw/ae0d16801321f476b43488ee7fac40a07ba2fa52/lib/backchannel.js,https://github.com/Strider-CD/strider/raw/741f32764e3aa1cb0e9fa2f7750dde8a8cd6c43c/lib/backchannel.js,"@@ -39,7 +39,7 @@ function striderJson(provider, project, ref, done) {
- 
-   var account = project.creator.account(project.provider.id, project.provider.account);
- 
--  provider.getFile('strider.json', ref, account, project.provider.config, project, finished);
-+  provider.getFile('strider.json', ref, account.config, project.provider.config, project, finished);
- }
- 
- // Prepare the job for execution, save to database, and fire off a `job.new` event.
-",42,"provider.getFile('strider.json', ref, account, project.provider.config, project, finished);","provider.getFile('strider.json', ref, account.config, project.provider.config, project, finished);"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/417dd17cafb5141977f70b89de23008bf4993dc1,417dd17cafb5141977f70b89de23008bf4993dc1,Fix lint,2016-07-20 15:35:44+02:00,main.js,https://github.com/Strider-CD/strider/raw/b211c45bb003afbaee2c7cc082362b9678896365/main.js,https://github.com/Strider-CD/strider/raw/417dd17cafb5141977f70b89de23008bf4993dc1/main.js,"@@ -126,7 +126,7 @@ module.exports = function (extdir, c, callback) {
-           if (err) return cb(err);
- 
-           var ids = [].concat.apply([], zombies).map(function (job) {
--            return job._id
-+            return job._id;
-           });
-           var now = new Date();
- 
-",129,return job._id,return job._id;
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/8bf650c85f11edd58f3239e820bd8b040588f96f,8bf650c85f11edd58f3239e820bd8b040588f96f,Fix lint,2016-07-20 15:44:21+02:00,index.js,https://github.com/Strider-CD/strider/raw/417dd17cafb5141977f70b89de23008bf4993dc1/lib/models/index.js,https://github.com/Strider-CD/strider/raw/8bf650c85f11edd58f3239e820bd8b040588f96f/lib/models/index.js,"@@ -5,4 +5,4 @@ module.exports = {
-   User: require('./user'),
-   Project: require('./project'),
-   Config: require('./config')
--}
-+};
-",8,},};
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/8bf650c85f11edd58f3239e820bd8b040588f96f,8bf650c85f11edd58f3239e820bd8b040588f96f,Fix lint,2016-07-20 15:44:21+02:00,session.js,https://github.com/Strider-CD/strider/raw/417dd17cafb5141977f70b89de23008bf4993dc1/lib/routes/api/session.js,https://github.com/Strider-CD/strider/raw/8bf650c85f11edd58f3239e820bd8b040588f96f/lib/routes/api/session.js,"@@ -1,7 +1,7 @@
- var BASE_PATH = '../../';
- 
- var models = require(BASE_PATH + 'models')
--  , User   = models.User
-+  , User   = models.User;
- 
- 
- /**
-",4,", User   = models.User",", User   = models.User;"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/8bf650c85f11edd58f3239e820bd8b040588f96f,8bf650c85f11edd58f3239e820bd8b040588f96f,Fix lint,2016-07-20 15:44:21+02:00,index.js,https://github.com/Strider-CD/strider/raw/417dd17cafb5141977f70b89de23008bf4993dc1/lib/routes/index.js,https://github.com/Strider-CD/strider/raw/8bf650c85f11edd58f3239e820bd8b040588f96f/lib/routes/index.js,"@@ -39,7 +39,7 @@ exports.index = function (req, res) {
- 
-   jobs.latestJobs(req.user, true, function (err, jobs) {
-     var availableProviders = Object.keys(common.userConfigs.provider).map(function (k) {
--      return common.userConfigs.provider[k]
-+      return common.userConfigs.provider[k];
-     });
- 
-     res.render('index.html', {
-",42,return common.userConfigs.provider[k],return common.userConfigs.provider[k];
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/e8a00b5113d504148be5dcacf6d33b0ef169bbf1,e8a00b5113d504148be5dcacf6d33b0ef169bbf1,Fix lint,2016-07-20 16:59:32+02:00,post.js,https://github.com/Strider-CD/strider/raw/c73f0f8b6ae1dcd6889249997aff832068845fc3/client/utils/post.js,https://github.com/Strider-CD/strider/raw/e8a00b5113d504148be5dcacf6d33b0ef169bbf1/client/utils/post.js,"@@ -8,7 +8,7 @@ function post(url, data, done) {
-     type: 'POST',
-     data: data,
-     dataType: 'json',
--    success: function (data, ts, xhr) {
-+    success: function () {
-       done(null);
-     },
-     error: function (xhr, ts, e) {
-",11,"success: function (data, ts, xhr) {",success: function () {
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/3cf4a11b56d201b18a604c019b6c6f8cfe8677e2,3cf4a11b56d201b18a604c019b6c6f8cfe8677e2,Let debug handle the formatting,2016-07-25 15:19:18+02:00,libconfig.js,https://github.com/Strider-CD/strider/raw/d8f8d0f1fdccfa79e0d64dbe77f9dff26e6c1043/lib/libconfig.js,https://github.com/Strider-CD/strider/raw/3cf4a11b56d201b18a604c019b6c6f8cfe8677e2/lib/libconfig.js,"@@ -76,7 +76,7 @@ function getConfig() {
-     rc.plugins.github.hostname = rc.server_name;
-   }
- 
--  debug(`::: getConfig ::: \n${JSON.stringify(rc, false, 2)}\n::: end getConfig :::`);
-+  debug(rc);
- 
-   return rc;
- }
-",79,"debug(`::: getConfig ::: \n${JSON.stringify(rc, false, 2)}\n::: end getConfig :::`);",debug(rc);
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/9379563deec74c72330888accb0d953e2638ad2d,9379563deec74c72330888accb0d953e2638ad2d,Update deps and fix tests,2016-07-27 11:58:19-04:00,config.js,https://github.com/Strider-CD/strider/raw/25f41007defd4cc49bc7c53f11374216d6acfb46/client/config/controllers/config.js,https://github.com/Strider-CD/strider/raw/9379563deec74c72330888accb0d953e2638ad2d/client/config/controllers/config.js,"@@ -106,7 +106,7 @@ function ConfigController($scope) {
-   }
- 
-   function switchToBranch(name) {
--    var branch = _.findWhere($scope.branches, {name: name});
-+    var branch = _.find($scope.branches, {name: name});
- 
-     if (branch) {
-       $scope.branch = branch;
-",109,"var branch = _.findWhere($scope.branches, {name: name});","var branch = _.find($scope.branches, {name: name});"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/9379563deec74c72330888accb0d953e2638ad2d,9379563deec74c72330888accb0d953e2638ad2d,Update deps and fix tests,2016-07-27 11:58:19-04:00,index.js,https://github.com/Strider-CD/strider/raw/25f41007defd4cc49bc7c53f11374216d6acfb46/lib/utils/index.js,https://github.com/Strider-CD/strider/raw/9379563deec74c72330888accb0d953e2638ad2d/lib/utils/index.js,"@@ -33,7 +33,7 @@ function findBranch(branches, name) {
-     //console.log('findBranch('+name+') wants to return '+branch.name);
-     if (branch.name !== name) {
-       //console.warn('Possibly returning unintended branch (expected '+name+' but got '+branch.name+'). attempting to locate discretely named branch '+name+' if it exists.');
--      var discreteBranch = _.findWhere(branches, {name: name});
-+      var discreteBranch = _.find(branches, {name: name});
-       if (discreteBranch) {
-         branch = discreteBranch;
-         //console.info(""Located discrete branch, instead returning ""+branch.name)
-",36,"var discreteBranch = _.findWhere(branches, {name: name});","var discreteBranch = _.find(branches, {name: name});"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/d94b7897b3e3aa2d0376c5d7e34088b70cd89d57,d94b7897b3e3aa2d0376c5d7e34088b70cd89d57,Fix collaborators middleware usage,2016-07-31 16:47:10-04:00,index.js,https://github.com/Strider-CD/strider/raw/198ad349310fecd1276cd430f62d7b60b68bf6be/lib/routes/collaborators/index.js,https://github.com/Strider-CD/strider/raw/d94b7897b3e3aa2d0376c5d7e34088b70cd89d57/lib/routes/collaborators/index.js,"@@ -11,7 +11,7 @@ var router = new express.Router();
- var rootRoute = router.route('/');
- var User = models.User;
- 
--rootRoute.use(
-+router.use(
-   auth.requireUserOr401,
-   middleware.project,
-   auth.requireProjectAdmin
-",14,rootRoute.use(,router.use(
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/aafd35a46e49f40d393141d201ac5fc653e981c1,aafd35a46e49f40d393141d201ac5fc653e981c1,Fix argument order,2016-08-01 14:42:30+02:00,user-socket.js,https://github.com/Strider-CD/strider/raw/d94b7897b3e3aa2d0376c5d7e34088b70cd89d57/lib/utils/user-socket.js,https://github.com/Strider-CD/strider/raw/aafd35a46e49f40d393141d201ac5fc653e981c1/lib/utils/user-socket.js,"@@ -209,7 +209,7 @@ function kickoffJob(user, project, type, branch) {
-   common.emitter.emit('job.prepare', job);
- }
- 
--function startJob(user, projectName, branch, jobType) {
-+function startJob(projectName, user, branch, jobType) {
-   Project.findOne({name: projectName}).lean().exec(function (err, project) {
-     if (User.projectAccessLevel(user, project) > 0) {
-       kickoffJob(user, project.name, jobType, branch);
-",212,"function startJob(user, projectName, branch, jobType) {","function startJob(projectName, user, branch, jobType) {"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/86f0fb7f658ab44c8333598bda56f354aa658e4e,86f0fb7f658ab44c8333598bda56f354aa658e4e,Fix middleware on some routers,2016-08-01 09:06:47-04:00,index.js,https://github.com/Strider-CD/strider/raw/f5f7eafe5e4fce8ef9b889560f6fdd48cfe42230/lib/routes/collaborators/index.js,https://github.com/Strider-CD/strider/raw/86f0fb7f658ab44c8333598bda56f354aa658e4e/lib/routes/collaborators/index.js,"@@ -11,7 +11,7 @@ var router = new express.Router();
- var rootRoute = router.route('/');
- var User = models.User;
- 
--router.use(
-+rootRoute.all(
-   auth.requireUserOr401,
-   middleware.project,
-   auth.requireProjectAdmin
-",14,router.use(,rootRoute.all(
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/86f0fb7f658ab44c8333598bda56f354aa658e4e,86f0fb7f658ab44c8333598bda56f354aa658e4e,Fix middleware on some routers,2016-08-01 09:06:47-04:00,provider.js,https://github.com/Strider-CD/strider/raw/f5f7eafe5e4fce8ef9b889560f6fdd48cfe42230/lib/routes/provider.js,https://github.com/Strider-CD/strider/raw/86f0fb7f658ab44c8333598bda56f354aa658e4e/lib/routes/provider.js,"@@ -10,7 +10,7 @@ var utils = require('../utils');
- var router = new express.Router();
- var rootRoute = router.route('/:org/:repo/provider');
- 
--router.use(
-+rootRoute.all(
-   auth.requireUserOr401,
-   middleware.project,
-   auth.requireProjectAdmin
-",13,router.use(,rootRoute.all(
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/fa327420790b816f235f81d37e75441f833dadf7,fa327420790b816f235f81d37e75441f833dadf7,Actually fix collaborators router,2016-09-09 09:44:09-04:00,app.js,https://github.com/Strider-CD/strider/raw/ed75a90b7c6c8e1b4cebf1dc5c9c24a5d5e48125/lib/app.js,https://github.com/Strider-CD/strider/raw/fa327420790b816f235f81d37e75441f833dadf7/lib/app.js,"@@ -197,7 +197,7 @@ exports.init = function (config) {
-   app.use(providerRouter);
- 
-   // collaborators
--  app.use('/:org/:repo/collaborators', collaboratorsRouter);
-+  app.use(collaboratorsRouter);
- 
-   // branches
-   app.use('/:org/:repo/branches/',
-",200,"app.use('/:org/:repo/collaborators', collaboratorsRouter);",app.use(collaboratorsRouter);
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/f37bbe6fb831df736897e2157b0542fc9198ce67,f37bbe6fb831df736897e2157b0542fc9198ce67,Fix generate new keypair button bug (#1003),2016-10-31 07:32:27-04:00,config.js,https://github.com/Strider-CD/strider/raw/87ade53e782e92cbbe66e151289610acac42b180/lib/routes/api/config.js,https://github.com/Strider-CD/strider/raw/f37bbe6fb831df736897e2157b0542fc9198ce67/lib/routes/api/config.js,"@@ -17,7 +17,7 @@ function keygen(req, res) {
- 
-   if (!branch) return res.status(404).send('Branch not found');
- 
--  ssh.generateKeypair(`${req.project.name} - stridercd`, function (err, priv, pub) {
-+  ssh.generateKeyPair(`${req.project.name} - stridercd`, function (err, priv, pub) {
-     if (err) return res.status(500).send('Failed to generate keypair');
- 
-     branch.privkey = priv;
-",20,"ssh.generateKeypair(`${req.project.name} - stridercd`, function (err, priv, pub) {","ssh.generateKeyPair(`${req.project.name} - stridercd`, function (err, priv, pub) {"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/8e5cb5c96c58bbca79acdc904730ecdaeb8f060a,8e5cb5c96c58bbca79acdc904730ecdaeb8f060a,fix: context server name was undefined,2017-02-20 12:04:05-05:00,main.js,https://github.com/Strider-CD/strider/raw/a76bb0b1f738a60d61fa61a5d8dce80738ff664f/main.js,https://github.com/Strider-CD/strider/raw/8e5cb5c96c58bbca79acdc904730ecdaeb8f060a/main.js,"@@ -61,7 +61,7 @@ module.exports = function (extdir, c, callback) {
-   // Context can also be accessed as a singleton within Strider as
-   // common.context.
-   var context = {
--    serverName: appConfig.strider_server_name,
-+    serverName: appConfig.server_name,
-     config: appConfig,
-     enablePty: config.enablePty,
-     emitter: common.emitter,
-",64,"serverName: appConfig.strider_server_name,","serverName: appConfig.server_name,"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/04cdefbcfff6d1ba28024cf3ac44e6a34051cca0,04cdefbcfff6d1ba28024cf3ac44e6a34051cca0,"fix: log error if bad mongo connection, resolves #997
-
-Small tweaks",2017-02-20 14:31:12-05:00,app.js,https://github.com/Strider-CD/strider/raw/9948980541efdea98e1d8efa82bfe9691877fb84/lib/app.js,https://github.com/Strider-CD/strider/raw/04cdefbcfff6d1ba28024cf3ac44e6a34051cca0/lib/app.js,"@@ -59,7 +59,7 @@ exports.init = function (config) {
- 
-   mongoose.connect(mongodbUrl, function (error) {
-     if (error) {
--      debug('Could not connect to DB: %s', error);
-+      console.log('Could not connect to DB: %s', error);
-       process.exit(1);
-     }
-   });
-",62,"debug('Could not connect to DB: %s', error);","console.log('Could not connect to DB: %s', error);"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/58d78406f08f01ee7e10cd22a556a200ea803e53,58d78406f08f01ee7e10cd22a556a200ea803e53,fix: mongoose deprecations,2020-01-10 10:16:47-05:00,from1to2.js,https://github.com/Strider-CD/strider/raw/d3fececb3f9f3405bb483ed5606de46cbc544244/lib/models/upgrade/from1to2.js,https://github.com/Strider-CD/strider/raw/58d78406f08f01ee7e10cd22a556a200ea803e53/lib/models/upgrade/from1to2.js,"@@ -12,5 +12,5 @@ module.exports = function (done) {
-   var update = {$push: {branches: newBranch}};
-   var options = {multi: true};
- 
--  Project.update({}, update, options, done);
-+  Project.updateMany({}, update, options, done);
- };
-",15,"Project.update({}, update, options, done);","Project.updateMany({}, update, options, done);"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/58d78406f08f01ee7e10cd22a556a200ea803e53,58d78406f08f01ee7e10cd22a556a200ea803e53,fix: mongoose deprecations,2020-01-10 10:16:47-05:00,user.js,https://github.com/Strider-CD/strider/raw/d3fececb3f9f3405bb483ed5606de46cbc544244/lib/models/user.js,https://github.com/Strider-CD/strider/raw/58d78406f08f01ee7e10cd22a556a200ea803e53/lib/models/user.js,"@@ -300,7 +300,7 @@ UserSchema.static('registerWithInvite', function (inviteCode, email, password, c
-         return cb(err);
-       }
-       // Mark Invite Code as used.
--      InviteCode.update({
-+      InviteCode.updateOne({
-         code: inviteCode
-       }, {
-         '$set': {
-",303,InviteCode.update({,InviteCode.updateOne({
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/58d78406f08f01ee7e10cd22a556a200ea803e53,58d78406f08f01ee7e10cd22a556a200ea803e53,fix: mongoose deprecations,2020-01-10 10:16:47-05:00,projects.js,https://github.com/Strider-CD/strider/raw/d3fececb3f9f3405bb483ed5606de46cbc544244/lib/routes/projects.js,https://github.com/Strider-CD/strider/raw/58d78406f08f01ee7e10cd22a556a200ea803e53/lib/routes/projects.js,"@@ -106,7 +106,7 @@ function renderProjects(refresh, req, res) {
-         debug(err);
-       }
-       // cache the fetched repos
--      User.update({_id: req.user._id}, {$set: {accounts: req.user.toJSON().accounts}}, function (err, num) {
-+      User.updateOne({_id: req.user._id}, {$set: {accounts: req.user.toJSON().accounts}}, function (err, num) {
-         if (err) debug('error saving repo cache');
-         if (!num) debug('Didn\'t effect any users');
-         debug('Saved repo cache');
-",109,"User.update({_id: req.user._id}, {$set: {accounts: req.user.toJSON().accounts}}, function (err, num) {","User.updateOne({_id: req.user._id}, {$set: {accounts: req.user.toJSON().accounts}}, function (err, num) {"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/58d78406f08f01ee7e10cd22a556a200ea803e53,58d78406f08f01ee7e10cd22a556a200ea803e53,fix: mongoose deprecations,2020-01-10 10:16:47-05:00,users.js,https://github.com/Strider-CD/strider/raw/d3fececb3f9f3405bb483ed5606de46cbc544244/lib/users.js,https://github.com/Strider-CD/strider/raw/58d78406f08f01ee7e10cd22a556a200ea803e53/lib/users.js,"@@ -13,7 +13,7 @@ function makeAdmin(user, done) {
-     user = user.email;
-   }
- 
--  User.update({ email: user }, { account_level: 1 }, {}, function (err, num) {
-+  User.updateOne({ email: user }, { account_level: 1 }, {}, function (err, num) {
-     if (err) return done(err);
-     if (!num) return done();
- 
-",16,"User.update({ email: user }, { account_level: 1 }, {}, function (err, num) {","User.updateOne({ email: user }, { account_level: 1 }, {}, function (err, num) {"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/58d78406f08f01ee7e10cd22a556a200ea803e53,58d78406f08f01ee7e10cd22a556a200ea803e53,fix: mongoose deprecations,2020-01-10 10:16:47-05:00,kill-zombies.js,https://github.com/Strider-CD/strider/raw/d3fececb3f9f3405bb483ed5606de46cbc544244/lib/utils/kill-zombies.js,https://github.com/Strider-CD/strider/raw/58d78406f08f01ee7e10cd22a556a200ea803e53/lib/utils/kill-zombies.js,"@@ -6,7 +6,7 @@ var Job = require('../models/job');
- module.exports = function killZombies(done) {
-   debug('Marking zombie jobs as finished...');
- 
--  Job.update({
-+  Job.updateMany({
-     archived: null,
-     finished: null
-   }, {
-",9,Job.update({,Job.updateMany({
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/58d78406f08f01ee7e10cd22a556a200ea803e53,58d78406f08f01ee7e10cd22a556a200ea803e53,fix: mongoose deprecations,2020-01-10 10:16:47-05:00,setup-fixtures.js,https://github.com/Strider-CD/strider/raw/d3fececb3f9f3405bb483ed5606de46cbc544244/test/setup-fixtures.js,https://github.com/Strider-CD/strider/raw/58d78406f08f01ee7e10cd22a556a200ea803e53/test/setup-fixtures.js,"@@ -42,7 +42,7 @@ var importUsers = function (cb){
-           if (u !== testUsers[1]) {
-             return done();
-           }
--          models.Project.update({}, {$set: {creator: user._id}}, done);
-+          models.Project.updateMany({}, {$set: {creator: user._id}}, done);
-         });
-       });
-     }, function (err){
-",45,"models.Project.update({}, {$set: {creator: user._id}}, done);","models.Project.updateMany({}, {$set: {creator: user._id}}, done);"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/2f909ddec47a703ec79582a9e7d01a26f9f5457e,2f909ddec47a703ec79582a9e7d01a26f9f5457e,"chore: update linting, and fix",2020-05-09 09:57:56-04:00,require-body.js,https://github.com/Strider-CD/strider/raw/eb215bfb9abe50db1ea0b24b3d07a2623486532d/lib/utils/require-body.js,https://github.com/Strider-CD/strider/raw/2f909ddec47a703ec79582a9e7d01a26f9f5457e/lib/utils/require-body.js,"@@ -2,7 +2,7 @@
-  * Require a request parameter is present or return a 400 response.
-  */
- function requireBody(key, req, res) {
--  var val = req.body[key];
-+  const val = req.body[key];
- 
-   if (val === undefined) {
-     return res.status(400).json({
-",5,var val = req.body[key];,const val = req.body[key];
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/f9faeb05dbe293223055f590fe3a972cdab97e94,f9faeb05dbe293223055f590fe3a972cdab97e94,chore: auto fix cli,2020-05-13 23:34:54-04:00,index.js,https://github.com/Strider-CD/strider/raw/eca2d4166988fa878e2a195b7478d9acae316b68/cli/commands/index.js,https://github.com/Strider-CD/strider/raw/f9faeb05dbe293223055f590fe3a972cdab97e94/cli/commands/index.js,"@@ -1,6 +1,6 @@
- 'use strict';
- 
--var order = [
-+const order = [
-   require('./add-user'),
-   require('./restart'),
-   require('./list'),
-",3,var order = [,const order = [
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/7eb81b7e3328cd827ae70b9fd4f4112b3ae3d301,7eb81b7e3328cd827ae70b9fd4f4112b3ae3d301,fix(cli): deps and invalid lodash method,2020-05-14 08:16:35-04:00,local_plugins.js,https://github.com/Strider-CD/strider/raw/f9faeb05dbe293223055f590fe3a972cdab97e94/cli/lib/plugin_manager/local_plugins.js,https://github.com/Strider-CD/strider/raw/7eb81b7e3328cd827ae70b9fd4f4112b3ae3d301/cli/lib/plugin_manager/local_plugins.js,"@@ -12,7 +12,7 @@ module.exports = function (pluginsPath) {
-   };
- 
-   function zip(plugins) {
--    const ids = _.pluck(plugins, 'name');
-+    const ids = _.map(plugins, 'name');
-     return _.zipObject(ids, plugins);
-   }
- 
-",15,"const ids = _.pluck(plugins, 'name');","const ids = _.map(plugins, 'name');"
-strider,https://github.com/Strider-CD/strider,https://github.com/Strider-CD/strider/commit/5751946c1669aa285af0a11586c514a57abd5dc2,5751946c1669aa285af0a11586c514a57abd5dc2,fix: lint spread instead of apply,2020-07-06 14:55:10-04:00,backchannel.js,https://github.com/Strider-CD/strider/raw/826a06c26d1379213c69f9cefb5cbaa7256c7656/lib/backchannel.js,https://github.com/Strider-CD/strider/raw/5751946c1669aa285af0a11586c514a57abd5dc2/lib/backchannel.js,"@@ -264,7 +264,7 @@ BackChannel.prototype = {
-         const waiting = this.waiting[name];
-         if (Array.isArray(waiting)) {
-           waiting.forEach((item) => {
--            this.send.apply(this, [name].concat(item));
-+            this.send(...[name].concat(item));
-           });
-         }
-         delete this.waiting[name];
-",267,"this.send.apply(this, [name].concat(item));",this.send(...[name].concat(item));
 KiwiIRC,https://github.com/prawnsalad/KiwiIRC,https://github.com/prawnsalad/KiwiIRC/commit/02a9f7e886999da17ebcadd0c94ffc5b6c6ed3b5,02a9f7e886999da17ebcadd0c94ffc5b6c6ed3b5,Fixed bug where default quit message wouldn't display,2011-07-17 17:17:23+01:00,kiwi.js,https://github.com/prawnsalad/KiwiIRC/raw/b9c9cceba029186dd59183a9ff9163c2d5726b0e/node/kiwi.js,https://github.com/prawnsalad/KiwiIRC/raw/02a9f7e886999da17ebcadd0c94ffc5b6c6ed3b5/node/kiwi.js,"@@ -348,7 +348,7 @@ io.sockets.on('connection', function (websocket) {
      });
      websocket.on('disconnect', function () {

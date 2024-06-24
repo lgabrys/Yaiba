@@ -66,7 +66,7 @@ class BackwardSlicing(object):
         variables = []
         endline_number = self.get_endline_number(line_number)
         for lexeme in self.file.lexer():
-            if lexeme.line_begin() <= line_number and lexeme.line_begin() <= endline_number:
+            if lexeme.line_begin() >= line_number and lexeme.line_begin() <= endline_number:
                 # print(lexeme.text())
                 if lexeme.token() == 'Identifier' and lexeme.ent():
                     variables.append(lexeme.ent())
@@ -589,7 +589,11 @@ class BackwardSlicing(object):
         # print('after variable', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         # print(self.buggy_line_num)
         # print(variables)
+        # i = 0
         for var in variables:
+            # i += 1
+            # if i % 1000 == 0 or i == len(variables) - 1:
+            #     print(i, '/', len(variables))
             if var.kindname() == 'Function':
                 self.has_function_call = True
             # If it's a function within a class, record the parent scope

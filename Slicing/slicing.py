@@ -205,8 +205,11 @@ def test_backward_slice():
 
 def bottom_up_slicing(project_path, dual=False, depth=99999):
     # faulty = [8, 10, 12, 15, 17, 33, 47, 64, 69, 70, 72, 74, 76, 78, 79, 86, 88, 89, 91, 96, 122, 125, 127, 128, 129, 132, 134, 136, 142, 143, 152, 172, 173, 179, 195, 197, 206, 207, 209, 211, 227, 232, 236, 256, 257, 260, 266, 270, 272, 273, 274, 275, 282, 291, 294, 296, 299, 300, 302, 305, 306, 307, 315, 323, 329, 330, 337, 340, 344, 409, 414, 416, 419, 421, 422, 424, 425, 426, 427, 428, 429, 430, 431, 432, 436, 438, 442, 443, 447, 451, 452, 453, 458, 492, 496, 498, 499, 500, 507, 522, 526, 529, 530, 543, 545, 546, 579, 580, 581, 582, 583, 592, 593, 594, 595, 596, 597, 603, 608, 611, 614, 615, 616, 622, 623, 624, 625, 630, 637, 641, 642, 655, 664, 666, 667, 668, 672, 675, 687, 688, 691, 699, 700, 706, 713, 714, 715, 716, 717, 726, 729, 737, 740, 741, 747, 757, 758, 759, 762, 766, 784, 786, 790, 808, 810, 821, 833, 839, 847, 855]
-    fileNum = 0
-    files = get_files(project_path)[fileNum:fileNum + 100]
+    fileNum = 1540 # error 210, 584 # 1540 no end
+    max = len(get_files(project_path))
+    if fileNum + 500 < len(get_files(project_path)):
+        max = fileNum + 500
+    files = get_files(project_path)[fileNum:1541]
     print(len(get_files(project_path)))
     # files_2 = []
     # for i in faulty:
@@ -317,6 +320,20 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
         # print('after save', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         fileNum += 1
 
+
+def cleanup(project_path):
+    for root, dirs, files in os.walk(project_path):
+        for file in files:
+            ok = True
+            with open(os.path.join(root, file), 'r') as f:
+                if f.read().count('No lines') > 0:
+                    ok = False
+            f.close()
+            if not ok:
+                os.remove(os.path.join(root, file))
+
+
+
 if __name__ == '__main__':
     project_type = sys.argv[1]  # choices = ['single', 'dual', 'test']
     dual_slice = False if sys.argv[2] == 'False' else True
@@ -348,6 +365,8 @@ if __name__ == '__main__':
     #     process_single_file(project_path[0])
     elif project_type == 'merge':
         pass  # TODO
+    elif project_type == 'clean':
+        cleanup(project_path[0])
     elif project_type == 'createdb':
         create_und_databases(project_path[0])
     elif project_type == 'test':
