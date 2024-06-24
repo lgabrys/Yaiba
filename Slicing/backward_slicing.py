@@ -66,7 +66,7 @@ class BackwardSlicing(object):
         variables = []
         endline_number = self.get_endline_number(line_number)
         for lexeme in self.file.lexer():
-            if lexeme.line_begin() >= line_number and lexeme.line_begin() <= endline_number:
+            if line_number <= lexeme.line_begin() <= endline_number:
                 # print(lexeme.text())
                 if lexeme.token() == 'Identifier' and lexeme.ent():
                     variables.append(lexeme.ent())
