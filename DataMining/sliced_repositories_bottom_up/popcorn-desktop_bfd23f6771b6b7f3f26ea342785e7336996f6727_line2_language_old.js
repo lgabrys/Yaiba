@@ -1,0 +1,2 @@
+setLanguage = function (preferredLanguage) {
+};
