@@ -1,0 +1,2 @@
+var setLanguage = function (preferredLanguage) {
+};

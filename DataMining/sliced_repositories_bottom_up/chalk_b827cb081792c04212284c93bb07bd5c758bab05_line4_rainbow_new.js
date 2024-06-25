@@ -1,0 +1,1 @@
+const ignoreChars = /[^!-~]/g;

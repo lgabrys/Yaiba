@@ -68,7 +68,7 @@ def find_line(path, function):
     except FileNotFoundError:
         # print('File not found: {} at {}'.format(function, path))
         return -1, ''
-def get_files(project_path):
+def get_files(project_path, dual):
     files = []
     path_split = project_path.split('/')
     path_split = path_split[0:-1]
@@ -85,8 +85,8 @@ def get_files(project_path):
                     'repoUrl': row[1],
                     'commit_hash': row[3],
                     'filename': row[6],
-                    'buggy_file_path': get_path_from_url(project_path, row[0], row[3], row[7], 'old'),
-                    'fixed_file_path': get_path_from_url(project_path, row[0], row[3], row[8], 'new'),
+                    'buggy_file_path': get_path_from_url(project_path, row[0], row[3], row[7], 'old') if not dual else get_path_from_url(project_path, row[0], row[3], row[8], 'new'),
+                    'fixed_file_path': get_path_from_url(project_path, row[0], row[3], row[8], 'new') if not dual else get_path_from_url(project_path, row[0], row[3], row[7], 'old'),
                     'buggy_line_num': int(row[10]),
                     'buggy_line': row[11],
                     'fixed_line': row[12]

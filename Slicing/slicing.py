@@ -205,12 +205,14 @@ def test_backward_slice():
 
 def bottom_up_slicing(project_path, dual=False, depth=99999):
     # faulty = [8, 10, 12, 15, 17, 33, 47, 64, 69, 70, 72, 74, 76, 78, 79, 86, 88, 89, 91, 96, 122, 125, 127, 128, 129, 132, 134, 136, 142, 143, 152, 172, 173, 179, 195, 197, 206, 207, 209, 211, 227, 232, 236, 256, 257, 260, 266, 270, 272, 273, 274, 275, 282, 291, 294, 296, 299, 300, 302, 305, 306, 307, 315, 323, 329, 330, 337, 340, 344, 409, 414, 416, 419, 421, 422, 424, 425, 426, 427, 428, 429, 430, 431, 432, 436, 438, 442, 443, 447, 451, 452, 453, 458, 492, 496, 498, 499, 500, 507, 522, 526, 529, 530, 543, 545, 546, 579, 580, 581, 582, 583, 592, 593, 594, 595, 596, 597, 603, 608, 611, 614, 615, 616, 622, 623, 624, 625, 630, 637, 641, 642, 655, 664, 666, 667, 668, 672, 675, 687, 688, 691, 699, 700, 706, 713, 714, 715, 716, 717, 726, 729, 737, 740, 741, 747, 757, 758, 759, 762, 766, 784, 786, 790, 808, 810, 821, 833, 839, 847, 855]
-    fileNum = 1540 # error 210, 584 # 1540 no end
-    max = len(get_files(project_path))
-    if fileNum + 500 < len(get_files(project_path)):
+    fileNum = 1554 # error 210, 584 # 1540 no end, 1532, 1540 no end
+    max = len(get_files(project_path, dual))
+    # print(project_path)
+    print(dual)
+    if fileNum + 500 < len(get_files(project_path, dual)):
         max = fileNum + 500
-    files = get_files(project_path)[fileNum:1541]
-    print(len(get_files(project_path)))
+    files = get_files(project_path, dual)[fileNum:max]
+    # print(len(get_files(project_path)))
     # files_2 = []
     # for i in faulty:
     #     files_2.append(files[i])
@@ -218,15 +220,15 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
     # files = files[2:20]
     for file in files:
         print(fileNum, 100-psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
-        sliced_files = [[file.get('buggy_file_path')]]
-        sf = [file.get('buggy_file_path')]
+        sliced_files = [[file.get('buggy_file_path') if not dual else file.get('fixed_file_path')]]
+        sf = [file.get('buggy_file_path') if not dual else file.get('fixed_file_path')]
         # print(fileNum)
         version = 'new' if dual else 'old'
         errors = 0
         sliced_num = 0
         d = 1
         # print('before slice', 100-psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
-        statement, _ = slice_file(file, project_path)
+        statement, _ = slice_file(file, project_path, dual=dual)
         # print('after slice', 100 - psutil.virtual_memory().available * 100 / psutil.virtual_memory().total)
         # print(statement)
         sliced_num += 1
@@ -254,7 +256,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                         path = get_new_path(sliced_files[d-1][j], files[i])
                         # print(path)
                         # print(path, file.get('buggy_file_path'), files[i], funcs)
-                        fixed_path = get_new_path(file.get('fixed_file_path'), files[i])
+                        fixed_path = get_new_path(sliced_files[d-1][j], files[i])
                         temp_statements = []
 
                         current_lines = []
@@ -267,7 +269,7 @@ def bottom_up_slicing(project_path, dual=False, depth=99999):
                                 sliced, lines = slice_file(
                                     create_file(file.get('project_name'), file.get('repo_url'), file.get('commit_hash'),
                                                 os.path.split(path)[1], path, fixed_path, num, content, content),
-                                    project_path)
+                                    project_path, dual=dual)
                                 # print(sliced)
                                 # print("--------------------------\n", path, "\n--------------------------\n")
                                 if path in sf:
@@ -349,7 +351,9 @@ if __name__ == '__main__':
         # os.mkdir(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'))
         # with open(os.path.join(os.path.split(project_path[0])[0], 'sliced_repositories_bottom_up/bottomup_stats2.csv'), 'w') as f:
         #     f.close()
-        bottom_up_slicing(project_path[0])
+        # bottom_up_slicing(project_path[0])
+        if dual_slice:
+            bottom_up_slicing(project_path[0], True)
 
     elif project_type == 'topdown':
         # if os.path.exists(project_path[0] + '/ExperienceRoom'):
