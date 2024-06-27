@@ -285,6 +285,8 @@ def traverseCommits(repos):
                                     csvFile.write(m.source_code_before)
                                     csvFile.close()
                                     writer.writerow(data)
+                                    csvFile = open('all_files.csv', "a+")
+                                    csvFile.write("{}, {}, {}\n".format(m.old_path, m.new_path, m.diff))
                 # print(i, repos[i].address)
             except Exception as e:
                 print("\n\n\n")
